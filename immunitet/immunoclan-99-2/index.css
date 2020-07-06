@@ -1,0 +1,758 @@
+
+html, body { overflow-x: hidden; margin: 0px; padding: 0px; font-family: Merriweather,serif; font-size: 22px; color: rgb(0, 0, 0); background-color: rgb(244, 247, 250); }
+#title_block { height: 504px; width: 100%; }
+.title_block_wrapper { width: 100%; height: 100%; }
+.title_block_content { position: relative; width: 100%; height: 100%; }
+.title_block_img .title_img { margin: 0px ! important; padding: 0px ! important; height: 100% ! important; width: 100% ! important; display: inline ! important; object-fit: cover; }
+.title_block_img { height: 100%; position: absolute; top: 0px; left: 0px; }
+.title_block_shadow { width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; z-index: 5; background: rgb(0, 0, 0) none repeat scroll 0% 0% ! important; opacity: 0.7; }
+.title_block_texts { position: relative; z-index: 9; background: transparent none repeat scroll 0% 0% ! important; padding: 21px; }
+.title_block_bread span { color: rgb(255, 255, 255); font: bold 10px/16px "IBM Plex Sans",sans-serif; text-transform: uppercase; letter-spacing: 1px; opacity: 0.88; }
+.title_h1 { font: 600 40px/48px "IBM Plex Sans",sans-serif; color: rgb(255, 255, 255); }
+.title_bq { border-left: 4px solid rgb(52, 157, 238); padding-left: 16px; color: rgb(255, 255, 255); opacity: 0.88; font: 24px/40px Merriweather,serif; }
+.title_block_author { margin-top: 26px; }
+.tauthor { font: 600 19px/24px "IBM Plex Sans",sans-serif; color: rgb(52, 157, 238); }
+.tdate { margin-top: 2px; color: rgb(255, 255, 255); font: 500 10px/16px "IBM Plex Sans",sans-serif; letter-spacing: 1px; text-transform: uppercase; }
+.title_block_texts div { background: transparent none repeat scroll 0% 0% ! important; }
+#top_xs { padding-top: 5px; display: none; background-image: url('jornal.jpg'); height: 80px; background-repeat: no-repeat; background-position: right top; }
+.lead_text { color: rgb(86, 93, 109); }
+#top { height: 120px; background: transparent url('jornal.jpg') no-repeat scroll right top; width: 100%; }
+#topwrap { height: 80px; max-width: 1000px; margin: 0px auto; background: transparent none repeat scroll 0% 0%; }
+.topleft { height: 80px; width: 740px; float: left; position: relative; margin-left: 10px; }
+#head_title::before { display: block; content: ""; top: 0px; left: 0px; position: absolute; width: 100%; height: 100%; z-index: 1400; background: transparent linear-gradient(to bottom, transparent 0%, rgb(0, 0, 0) 100%) repeat scroll 0% 0%; }
+.toplogo { position: absolute; width: 40px; height: 40px; top: 10px; }
+.topdate { position: absolute; top: 25px; left: 500px; font-size: 12px; line-height: 20px; color: rgb(150, 160, 168); }
+#bodyWrapper { max-width: 1000px; margin: 0px auto; background: rgb(255, 255, 255) none repeat scroll 0% 0%; box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.5); }
+#mainWrapper { width: 100%; height: 100%; }
+#mainWrapper div { background-color: rgb(255, 255, 255); }
+#wrapper { max-width: 1000px; margin: 0px auto; }
+#content { padding: 0px; text-align: left; width: 100%; }
+#content .padWrap { padding: 15px; }
+#content img { max-width: 100%; display: block; margin: 20px 0px; }
+.pg { font-size: 22px ! important; line-height: 36px ! important; margin-bottom: 33px; }
+#content .date { display: inline-block; color: rgb(163, 176, 185); font-size: 13px; }
+#content .date::before { display: inline-block; content: ""; margin-right: 10px; width: 10px; height: 10px; background-image: url('clock.svg'); }
+#content h1 { font-size: 36px; line-height: 50px; font-weight: bold; }
+#content h2 { font-family: "IBM Plex Sans",sans-serif; font-size: 28px; margin-bottom: 33px; line-height: 32px; }
+#content h3 { font-size: 22px; line-height: 36px; margin-bottom: 33px; }
+#content ul li span { display: block; font-size: 16px; color: gray; font-weight: normal; line-height: 20px; }
+.glava { list-style-image: url('qtick.png'); }
+.glava li { margin-bottom: 20px; line-height: 32px; font-weight: bold; font-family: "IBM Plex Sans",sans-serif; }
+.subtitle { display: block; margin-bottom: 33px; font-size: 22px; }
+.note { float: right; max-width: 200px; font-weight: 500 ! important; font-size: 18px ! important; }
+.note_left { float: left; max-width: 200px; font-weight: 500 ! important; font-size: 18px ! important; }
+#content ul { font-size: 22px; line-height: 28px; font-weight: 500; }
+#content ul li { margin-bottom: 20px; }
+#content blockquote { border-left: 5px solid rgb(57, 180, 255); border-color: rgb(57, 180, 255); padding: 10px 25px; margin: 35px; color: rgb(57, 180, 255); font-weight: bold; font-size: 20px; line-height: 32px; }
+#comments { margin-top: 120px; }
+#comments .pg { font-size: 16px ! important; line-height: 28px ! important; }
+#comments h2 { background: transparent url('comentsm.jpg') no-repeat scroll 0% 0%; padding-left: 40px; color: rgb(0, 0, 0); border-bottom: 0px solid rgb(0, 0, 0); border-color: rgb(0, 0, 0); text-transform: uppercase; padding-bottom: 10px; }
+#comments .item { text-align: left; padding: 10px; margin: 10px 0px; min-height: 80px; border-bottom: 1px dashed rgb(5, 81, 157); }
+#comments .item :last-child { border-bottom: medium none; }
+#comments .item .info {  }
+#comments .item .name { font-size: 16px; font-weight: bold; color: rgb(5, 81, 157); }
+#comments .coment_ava { float: left; margin-right: 15px; }
+#comments .coment_ava img { margin: 0px; width: 50px; height: 50px; border-radius: 5px; }
+#comments .date { font-weight: normal; background: transparent none repeat scroll 0% 0%; display: none; }
+#comments .date::before { background-image: none; margin-right: 0px; }
+@media screen and (max-width: 1020px) {
+	#content { width: 100%; }
+}
+@media screen and (max-width: 999px) {
+}
+@media screen and (max-width: 840px) {
+	.topdate { display: none; }
+}
+@media screen and (max-width: 780px) {
+	.topleft { width: 100%; }
+	.note, .note_left { float: none; max-width: 100%; }
+}
+@media screen and (max-width: 690px) {
+	.topleft { width: 100%; }
+}
+@media screen and (max-width: 660px) {
+	#content h1 { font-size: 28px; line-height: 36px; }
+	.mainLogo { width: 400px; }
+}
+@media screen and (max-width: 590px) {
+	.mainLogo { width: 300px; margin-top: 10px; }
+}
+@media screen and (max-width: 560px) {
+	.pg { margin-left: 0px; margin-right: 0px; }
+	#content .padWrap { padding: 8px; }
+}
+@media screen and (max-width: 520px) {
+}
+@media screen and (max-width: 420px) {
+	.title_bq { font-size: 18px ! important; line-height: 28px ! important; }
+	.tauthor { font-size: 14px; }
+}
+@media screen and (max-width: 470px) {
+	.mainLogo { width: 200px; }
+	#top { height: 80px; }
+}
+@media screen and (max-width: 380px) {
+	.mainLogo { width: 180px; }
+}
+@media screen and (max-width: 345px) {
+	.mainLogo { width: 150px; }
+}
+@media screen and (max-width: 310px) {
+	.mainLogo { display: none; }
+	#top { background-position: center top; }
+}
+@media screen and (max-width: 358px) {
+}
+@media screen and (min-width: 1300px) {
+	#wrapper { max-width: 1000px; }
+	#content { width: 100%; }
+	#topwrap { max-width: 1000px; }
+}
+@media screen and (min-width: 1600px) {
+	#wrapper { max-width: 1000px; }
+	#content { width: 100%; }
+	#topwrap { max-width: 1000px; }
+}
+/* ::::: https://fonts.googleapis.com/css?family=IBM+Plex+Sans%3A400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i&subset=cyrillic&ver=5.2.3 ::::: */
+/* @font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url('zyx-kvelmyyaje8bplhncwdkhdtugqzjsdy.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url('zyx-kvelmyyaje8bplhncwdkhdtue6zjsdy.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url('zyx-kvelmyyaje8bplhncwdkhdtufkzjsdy.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url('zyx-kvelmyyaje8bplhncwdkhdtugkzjsdy.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url('zyx-kvelmyyaje8bplhncwdkhdtugazjsdy.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 400;
+	src: local("IBM Plex Sans Italic"), local("IBMPlexSans-Italic"), url('zyx-kvelmyyaje8bplhncwdkhdtuf6zj.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium Italic"), local("IBMPlexSans-MediumItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtm5ivce_funmo.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium Italic"), local("IBMPlexSans-MediumItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtm5ivccvfunmo.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium Italic"), local("IBMPlexSans-MediumItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtm5ivcdffunmo.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium Italic"), local("IBMPlexSans-MediumItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtm5ivceffunmo.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium Italic"), local("IBMPlexSans-MediumItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtm5ivcepfunmo.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium Italic"), local("IBMPlexSans-MediumItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtm5ivcdvfu.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold Italic"), local("IBMPlexSans-SemiBoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmyijce_funmo.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold Italic"), local("IBMPlexSans-SemiBoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmyijccvfunmo.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold Italic"), local("IBMPlexSans-SemiBoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmyijcdffunmo.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold Italic"), local("IBMPlexSans-SemiBoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmyijceffunmo.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold Italic"), local("IBMPlexSans-SemiBoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmyijcepfunmo.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold Italic"), local("IBMPlexSans-SemiBoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmyijcdvfu.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold Italic"), local("IBMPlexSans-BoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmrince_funmo.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold Italic"), local("IBMPlexSans-BoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmrinccvfunmo.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold Italic"), local("IBMPlexSans-BoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmrincdffunmo.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold Italic"), local("IBMPlexSans-BoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmrinceffunmo.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold Italic"), local("IBMPlexSans-BoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmrincepfunmo.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: italic;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold Italic"), local("IBMPlexSans-BoldItalic"), url('zyx7kvelmyyaje8bplhncwdkhdtmrincdvfu.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("IBM Plex Sans"), local("IBMPlexSans"), url('zyxgkvelmyyaje8bplhncwdkhdzefb5n.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("IBM Plex Sans"), local("IBMPlexSans"), url('zyxgkvelmyyaje8bplhncwdkhdxefb5n.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("IBM Plex Sans"), local("IBMPlexSans"), url('zyxgkvelmyyaje8bplhncwdkhdlefb5n.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("IBM Plex Sans"), local("IBMPlexSans"), url('zyxgkvelmyyaje8bplhncwdkhd7efb5n.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("IBM Plex Sans"), local("IBMPlexSans"), url('zyxgkvelmyyaje8bplhncwdkhd_efb5n.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("IBM Plex Sans"), local("IBMPlexSans"), url('zyxgkvelmyyaje8bplhncwdkhdhefq.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url('zyx9kvelmyyaje8bplhncwdkjsl9aixsdo_q.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url('zyx9kvelmyyaje8bplhncwdkjsl9aivsdo_q.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url('zyx9kvelmyyaje8bplhncwdkjsl9aijsdo_q.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url('zyx9kvelmyyaje8bplhncwdkjsl9ai5sdo_q.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url('zyx9kvelmyyaje8bplhncwdkjsl9ai9sdo_q.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 500;
+	src: local("IBM Plex Sans Medium"), local("IBMPlexSans-Medium"), url('zyx9kvelmyyaje8bplhncwdkjsl9aifsda.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold"), local("IBMPlexSans-SemiBold"), url('zyx9kvelmyyaje8bplhncwdkjq76aixsdo_q.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold"), local("IBMPlexSans-SemiBold"), url('zyx9kvelmyyaje8bplhncwdkjq76aivsdo_q.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold"), local("IBMPlexSans-SemiBold"), url('zyx9kvelmyyaje8bplhncwdkjq76aijsdo_q.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold"), local("IBMPlexSans-SemiBold"), url('zyx9kvelmyyaje8bplhncwdkjq76ai5sdo_q.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold"), local("IBMPlexSans-SemiBold"), url('zyx9kvelmyyaje8bplhncwdkjq76ai9sdo_q.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("IBM Plex Sans SemiBold"), local("IBMPlexSans-SemiBold"), url('zyx9kvelmyyaje8bplhncwdkjq76aifsda.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold"), local("IBMPlexSans-Bold"), url('zyx9kvelmyyaje8bplhncwdkjwr7aixsdo_q.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold"), local("IBMPlexSans-Bold"), url('zyx9kvelmyyaje8bplhncwdkjwr7aivsdo_q.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold"), local("IBMPlexSans-Bold"), url('zyx9kvelmyyaje8bplhncwdkjwr7aijsdo_q.woff2') format("woff2");
+	unicode-range: U+370-3FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold"), local("IBMPlexSans-Bold"), url('zyx9kvelmyyaje8bplhncwdkjwr7ai5sdo_q.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold"), local("IBMPlexSans-Bold"), url('zyx9kvelmyyaje8bplhncwdkjwr7ai9sdo_q.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "IBM Plex Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("IBM Plex Sans Bold"), local("IBMPlexSans-Bold"), url('zyx9kvelmyyaje8bplhncwdkjwr7aifsda.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+::::: https://fonts.googleapis.com/css?family=Merriweather%3A400%2C400i%2C700%2C700i%2C900%2C900i&subset=cyrillic&ver=5.2.3 :::::
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Merriweather Italic"), local("Merriweather-Italic"), url('u-4m0qyriqwlorhsvowk_l5-erzdf-lhrw.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Merriweather Italic"), local("Merriweather-Italic"), url('u-4m0qyriqwlorhsvowk_l5-erzkf-lhrw.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Merriweather Italic"), local("Merriweather-Italic"), url('u-4m0qyriqwlorhsvowk_l5-erzbf-lhrw.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Merriweather Italic"), local("Merriweather-Italic"), url('u-4m0qyriqwlorhsvowk_l5-erzaf-lhrw.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 400;
+	src: local("Merriweather Italic"), local("Merriweather-Italic"), url('u-4m0qyriqwlorhsvowk_l5-erzof-i.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 700;
+	src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url('u-4l0qyriqwlorhsvowk_l5-er71wvf1jvzrpa.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 700;
+	src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url('u-4l0qyriqwlorhsvowk_l5-er71wvf8jvzrpa.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 700;
+	src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url('u-4l0qyriqwlorhsvowk_l5-er71wvf3jvzrpa.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 700;
+	src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url('u-4l0qyriqwlorhsvowk_l5-er71wvf2jvzrpa.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 700;
+	src: local("Merriweather Bold Italic"), local("Merriweather-BoldItalic"), url('u-4l0qyriqwlorhsvowk_l5-er71wvf4jvw.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 900;
+	src: local("Merriweather Black Italic"), local("Merriweather-BlackItalic"), url('u-4l0qyriqwlorhsvowk_l5-er7nwpf1jvzrpa.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 900;
+	src: local("Merriweather Black Italic"), local("Merriweather-BlackItalic"), url('u-4l0qyriqwlorhsvowk_l5-er7nwpf8jvzrpa.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 900;
+	src: local("Merriweather Black Italic"), local("Merriweather-BlackItalic"), url('u-4l0qyriqwlorhsvowk_l5-er7nwpf3jvzrpa.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 900;
+	src: local("Merriweather Black Italic"), local("Merriweather-BlackItalic"), url('u-4l0qyriqwlorhsvowk_l5-er7nwpf2jvzrpa.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: italic;
+	font-weight: 900;
+	src: local("Merriweather Black Italic"), local("Merriweather-BlackItalic"), url('u-4l0qyriqwlorhsvowk_l5-er7nwpf4jvw.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Merriweather Regular"), local("Merriweather-Regular"), url('u-440qyriqwlorhsvowk_l5-cszmz-y.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Merriweather Regular"), local("Merriweather-Regular"), url('u-440qyriqwlorhsvowk_l5-eczmz-y.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Merriweather Regular"), local("Merriweather-Regular"), url('u-440qyriqwlorhsvowk_l5-cyzmz-y.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Merriweather Regular"), local("Merriweather-Regular"), url('u-440qyriqwlorhsvowk_l5-cizmz-y.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Merriweather Regular"), local("Merriweather-Regular"), url('u-440qyriqwlorhsvowk_l5-fczm.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Merriweather Bold"), local("Merriweather-Bold"), url('u-4n0qyriqwlorhsvowk_l52xwnzvcf6lvg.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Merriweather Bold"), local("Merriweather-Bold"), url('u-4n0qyriqwlorhsvowk_l52xwnzxmf6lvg.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Merriweather Bold"), local("Merriweather-Bold"), url('u-4n0qyriqwlorhsvowk_l52xwnzv8f6lvg.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Merriweather Bold"), local("Merriweather-Bold"), url('u-4n0qyriqwlorhsvowk_l52xwnzvsf6lvg.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Merriweather Bold"), local("Merriweather-Bold"), url('u-4n0qyriqwlorhsvowk_l52xwnzwmf6.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Merriweather Black"), local("Merriweather-Black"), url('u-4n0qyriqwlorhsvowk_l52_wfzvcf6lvg.woff2') format("woff2");
+	unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Merriweather Black"), local("Merriweather-Black"), url('u-4n0qyriqwlorhsvowk_l52_wfzxmf6lvg.woff2') format("woff2");
+	unicode-range: U+400-45F, U+490-491, U+4B0-4B1, U+2116;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Merriweather Black"), local("Merriweather-Black"), url('u-4n0qyriqwlorhsvowk_l52_wfzv8f6lvg.woff2') format("woff2");
+	unicode-range: U+102-103, U+110-111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Merriweather Black"), local("Merriweather-Black"), url('u-4n0qyriqwlorhsvowk_l52_wfzvsf6lvg.woff2') format("woff2");
+	unicode-range: U+100-24F, U+259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Merriweather";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Merriweather Black"), local("Merriweather-Black"), url('u-4n0qyriqwlorhsvowk_l52_wfzwmf6.woff2') format("woff2");
+	unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} */
+#order_form { background: white url('formbg.jpg') no-repeat scroll 0% 0% / cover ; padding: 20px; max-width: 600px; font-family: Arial; margin: 20px; }
+#order_form div { background: transparent none repeat scroll 0% 0% ! important; }
+#order_form h2 { margin: 25px 0px 0px; padding: 0px; line-height: 32px; border: medium none; }
+#order_form label { width: 230px; display: block; padding: 5px 0px; font-weight: bold; font-size: 16px; }
+#order_form .order_form_pole { padding: 10px; margin: 10px; }
+#order_form input { font-size: 21px; padding: 15px; border-radius: 3px; border: 2px solid rgb(233, 215, 220); max-width: 300px; width: 100%; }
+#order_form span { font-size: 12px; }
+#order_form button, .obutton { display: inline-block; padding: 20px; color: rgb(255, 255, 255); font-weight: 700; text-decoration: none; box-shadow: 0px 4px 15px 0px rgba(129, 150, 160, 0.45); border-radius: 5px; background-color: rgb(2, 153, 255); background-position: 1.35em 0.94em; background-size: 1em auto; background-repeat: no-repeat; transition: all 0.15s ease-in-out 0s; border: medium none; cursor: pointer; font-size: 20px; margin-top: 20px; }
+#order_form button:hover, .obutton:hover { background-color: rgb(1, 122, 204); }
+#order_form button:active { position: relative; top: 1px; }
+.order_info h2 { border: medium none ! important; color: red ! important; }
+.left_count { background: red none repeat scroll 0% 0%; padding: 23px; margin: 12px 0px; width: 178px; color: rgb(255, 255, 255); text-shadow: 0px -1px 0px rgb(0, 0, 0), 0px -1px 0px rgb(0, 0, 0), 0px 1px 0px rgb(0, 0, 0), 0px 1px 0px rgb(0, 0, 0), -1px 0px 0px rgb(0, 0, 0), 1px 0px 0px rgb(0, 0, 0), -1px 0px 0px rgb(0, 0, 0), 1px 0px 0px rgb(0, 0, 0), -1px -1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px 1px 0px rgb(0, 0, 0), -1px -1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px 1px 0px rgb(0, 0, 0); font-size: 32px ! important; border-radius: 5px; }
+.left_count .prod_left_val { font-size: 52px ! important; }
+#order_form_success { position: relative; }
+@media screen and (max-width: 480px) {
+	#order_form input {  }
+	#order_form label { font-size: 14px; }
+	#order_form button { font-size: 16px; }
+	#order_form { padding: 10px; }
+	#order_form .order_form_pole { padding: 0px; margin: 2px; }
+}
+@media screen and (max-width: 459px) {
+	#order_form input { width: 80%; }
+	#order_form { margin-left: -20px; margin-right: -20px; }
+}
+@media screen and (max-width: 349px) {
+	#order_form input { font-size: 17px; }
+	#order_form button { margin-left: 0px; }
+}
+.t4527 { background-color: rgba(0, 0, 0, 0.7); display: none; width: 100%; height: 100%; z-index: 333; position: fixed; top: 0px; left: 0px; }
+.p5213 { position: fixed; top: 15%; left: 50%; margin-left: -425px; padding: 20px 20px 90px; width: 850px; z-index: 3333; background: transparent linear-gradient(135deg, rgb(60, 114, 181) 0%, rgb(123, 159, 204) 100%) repeat scroll 0% 0%; border: 5px solid rgb(221, 221, 221); box-sizing: border-box; height: auto; }
+.y3498 { margin: 0px 0px 25px; color: rgb(255, 255, 255); text-align: center; font-size: 28px; line-height: 25px; font-weight: bold; display: block; }
+.r6934 { position: absolute; width: 30px; height: 40px; right: 10px; top: 10px; line-height: 40px; color: rgb(222, 69, 92); font-size: 40px; cursor: pointer; text-shadow: 1px 1px 2px black, 0px 0px 1.5rem rgb(255, 255, 255); opacity: 0.7; transition: all 0.2s ease 0s; }
+.r6934:hover { opacity: 1; }
+.i9983 { width: 35%; float: left; }
+.i9983 img { width: 100%; height: auto; }
+.n1543 { width: 60%; float: right; color: rgb(255, 255, 255); font-size: 24px; margin-top: 40px; margin-left: 5%; overflow-wrap: break-word; line-height: 1.4; }
+.p5213 a { position: absolute; margin: 0px 0px 0px -200px; left: 50%; bottom: 20px; background: transparent linear-gradient(to bottom, rgb(222, 69, 92) 0%, rgb(222, 69, 92) 13%, rgb(192, 31, 55) 76%, rgb(192, 31, 55) 100%) repeat scroll 0% 0%; color: rgb(224, 226, 230); text-transform: uppercase; line-height: 60px; display: block; text-indent: 0px; font-style: normal; font-family: Arial,Helvetica,sans-serif; width: 400px; height: 60px; opacity: 1; text-align: center; font-size: 26px; font-weight: 900; border-radius: 10px; transition: all 0.8s ease 0s; text-decoration: none; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8); box-sizing: border-box; }
+.p5213 a:hover { font-size: 28px; color: rgb(255, 255, 255) !important; text-shadow: 1px 1px 2px black, 0px 0px 1.5rem rgb(252, 248, 75) !important; text-decoration: none !important; }
+@media only screen and (max-width: 866px) {
+	.p5213 { width: 100%; left: 0px; margin-left: 0px; }
+}
+@media only screen and (max-width: 759px) {
+	.y3498 { font-size: 26px; }
+	.n1543 { font-size: 18px; }
+}
+@media only screen and (max-width: 605px) {
+	.i9983 { float: none; margin: auto; }
+	.n1543 { float: none; width: 100%; margin: 20px 0px 0px; }
+	.b4571 { width: 250px; margin-left: -135px; font-size: 18px; }
+	.y3498 { font-size: 24px; }
+	.r6934 { right: 0px; }
+}
+@media only screen and (max-width: 450px) {
+	.b4571 { width: 95% !important; left: 0px !important; display: block !important; margin-left: 2.5% !important; font-size: 22px !important; }
+	.n1543 span, .n1543 b, .n1543 p { font-size: 18px !important; }
+}
+.y3498 p { padding: 0px; color: rgb(255, 255, 255); text-align: center; font-size: 28px; line-height: 25px; font-weight: bold; overflow-wrap: break-word; width: 90%; display: block; margin: auto; }
+.n1543 p { margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-size: 24px; }
+.minute::after { position: absolute; content: "ìèíóò"; bottom: -10px; font-size: 12px; display: block; width: 100%; color: white; }
+.second::after { position: absolute; content: "ñåêóíä"; bottom: -10px; font-size: 12px; display: block; width: 100%; color: white; }
+td, th { border: 0px; padding-left: 10px; font-weight: 500; }
+.t4527 { background-color: rgba(0, 0, 0, 0.7); display: none; width: 100%; height: 100%; z-index: 333; position: fixed; top: 0px; left: 0px; }
+.p5213 { position: fixed; top: 5%; left: 50%; margin-left: -425px; padding: 20px 20px 90px; width: 850px; z-index: 3333; background: transparent linear-gradient(135deg, rgb(60, 114, 181) 0%, rgb(123, 159, 204) 100%) repeat scroll 0% 0%; border: 5px solid rgb(221, 221, 221); box-sizing: border-box; height: auto; }
+.y3498 { margin: 0px 0px 25px; color: rgb(255, 255, 255); text-align: center; font-size: 28px; line-height: 25px; font-weight: bold; display: block; }
+.r6934 { position: absolute; width: 30px; height: 40px; right: 10px; top: 10px; line-height: 40px; color: rgb(222, 69, 92); font-size: 40px; cursor: pointer; text-shadow: 1px 1px 2px black, 0px 0px 1.5rem rgb(255, 255, 255); opacity: 0.7; transition: all 0.2s ease 0s; }
+.r6934:hover { opacity: 1; }
+.i9983 { width: 35%; float: left; }
+.i9983 img { width: 100%; height: auto; }
+.n1543 { width: 60%; float: right; color: rgb(255, 255, 255); font-size: 24px; margin-top: 40px; margin-left: 5%; overflow-wrap: break-word; line-height: 1.4; }
+.p5213 a { position: absolute; margin: 0px 0px 0px -200px; left: 50%; bottom: 20px; background: transparent linear-gradient(to bottom, rgb(222, 69, 92) 0%, rgb(222, 69, 92) 13%, rgb(192, 31, 55) 76%, rgb(192, 31, 55) 100%) repeat scroll 0% 0%; color: rgb(224, 226, 230); text-transform: uppercase; line-height: 60px; display: block; text-indent: 0px; font-style: normal; font-family: Arial,Helvetica,sans-serif; width: 400px; height: 60px; opacity: 1; text-align: center; font-size: 26px; font-weight: 900; border-radius: 10px; transition: all 0.8s ease 0s; text-decoration: none; box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.8); box-sizing: border-box; }
+.p5213 a:hover { font-size: 28px; color: rgb(255, 255, 255) !important; text-shadow: 1px 1px 2px black, 0px 0px 1.5rem rgb(252, 248, 75) !important; text-decoration: none !important; }
+@media only screen and (max-width: 866px) {
+	.p5213 { width: 100%; left: 0px; margin-left: 0px; }
+}
+@media only screen and (max-width: 759px) {
+	.y3498 { font-size: 26px; }
+	.n1543 { font-size: 18px; }
+}
+@media only screen and (max-width: 605px) {
+	.i9983 { float: none; margin: auto; }
+	.n1543 { float: none; width: 100%; margin: 20px 0px 0px; }
+	.b4571 { width: 250px; margin-left: -135px; font-size: 18px; }
+	.y3498 { font-size: 24px; }
+	.r6934 { right: 0px; }
+}
+@media only screen and (max-width: 450px) {
+	.b4571 { width: 95% !important; left: 0px !important; display: block !important; margin-left: 2.5% !important; font-size: 22px !important; }
+	.n1543 span, .n1543 b, .n1543 p { font-size: 18px !important; }
+}
+.y3498 p { padding: 0px; color: rgb(255, 255, 255); text-align: center; font-size: 28px; line-height: 25px; font-weight: bold; overflow-wrap: break-word; width: 90%; display: block; margin: auto; }
+.n1543 p { margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-size: 24px; }
+.minute::after { position: absolute; content: "ìèíóò"; bottom: -10px; font-size: 12px; display: block; width: 100%; color: white; }
+.second::after { position: absolute; content: "ñåêóíä"; bottom: -10px; font-size: 12px; display: block; width: 100%; color: white; }
+.p5213 { font-family: "Helvetica Neue",Roboto,Arial,"Droid Sans",sans-serif; line-height: 1.471; }

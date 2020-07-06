@@ -1,0 +1,25 @@
+.a4_block {
+    max-width: 930px;
+    margin: auto;
+    border: 5px solid #eee;
+    padding: 30px;
+    background: white;
+}
+
+.a4_block form {
+    margin: 0 auto;
+    width:330px;
+}
+
+.a4_block h3 {
+    text-align: center;
+}
+
+.a4_block form table td {
+    padding: 5px;
+}
+
+body {
+    background: #efefef;
+}
+

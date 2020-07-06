@@ -1,0 +1,1132 @@
+#form .form h1,
+#form .time,
+#header .dark .item,
+#header .logo,
+#header .sale,
+#header h2,
+.button,
+.errField {
+    text-align: center
+}
+
+#bottom a:hover,
+.button {
+    text-decoration: none
+}
+
+@font-face {
+    font-family: geometriabold;
+    src: url(../fonts/geometriabold.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: geometrialight;
+    src: url(../fonts/geometrialight.ttf) format("truetype")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0
+}
+
+h1,
+h2,
+h3 {
+    font-size: 100%;
+    font-weight: 400
+}
+
+li {
+    list-style: none
+}
+
+body,
+input {
+    font-family: Scada, arial, sans-serif;
+    font-size: 18px
+}
+
+#header h2 span,
+.button {
+    font-family: geometrialight, arial, sans-serif
+}
+
+.width {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto
+}
+
+.clear {
+    clear: both
+}
+
+input[type=text] {
+    background: url(../img/input.png) no-repeat;
+    width: 240px;
+    height: 60px;
+    padding: 0 20px;
+    color: #fff;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 5px
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 80px;
+    font-size: 36px;
+    color: #fff;
+    line-height: 75px;
+    cursor: pointer
+}
+
+.button.red {
+    background: url(../img/button.png) no-repeat
+}
+
+.button.yellow {
+    background: url(../img/button2.png) no-repeat;
+    color: #282828
+}
+
+.button.long {
+    background: url(../img/button3.png) no-repeat;
+    color: #282828;
+    width: 360px
+}
+
+select {
+    background: 0 0;
+    width: 279px;
+    height: 60px;
+    padding: 0 20px;
+    color: #fff;
+    margin: 0 auto 10px;
+    display: block;
+    border: 2px solid rgba(111, 111, 111, .49);
+    font-size: 22px;
+    border-radius: 5px
+}
+
+option {
+    color: #000
+}
+
+.landing__countdown>span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 9px;
+    font-size: 35px
+}
+
+#components .item img,
+#header .dark .item img,
+#header .logo img,
+#reviews .item img {
+    vertical-align: bottom
+}
+
+.landing__countdown>span.minutes {
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.errField {
+    display: none;
+    font-size: 11px;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 260px;
+    margin: 0 auto 10px
+}
+
+#header {
+    background: url(../img/header.jpg) center 0 no-repeat #dadada;
+    height: 960px
+}
+
+#header h2 {
+    padding: 40px 0 25px
+}
+
+#header h2 span {
+    display: inline-block;
+    background: #ffd200;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 13px
+}
+
+#header h2 span.first {
+    padding-top: 5px
+}
+
+#header h2 span.second {
+    padding-bottom: 10px
+}
+
+#header .logo {
+    padding: 0 10px 22px;
+    font-size: 56px;
+    font-weight: 700;
+    color: #fff
+}
+
+#header .logo span {
+    display: block;
+    font-size: 18px;
+    font-weight: 500
+}
+
+#header .logo img {
+    width: 100%;
+    max-width: 532px
+}
+
+#header .dark {
+    background: url(../img/overlay.png);
+    margin: 0 30px;
+    color: #fff
+}
+
+#header .dark .item {
+    padding: 30px 0 60px;
+    width: 50%;
+    float: left
+}
+
+#header .dark .item p {
+    padding: 10px 0 0
+}
+
+#header .dark ul {
+    width: 43%;
+    padding: 0 3.5% 10px;
+    float: left;
+    line-height: 24px
+}
+
+#header .dark ul li {
+    background: url(../img/check.png) 0 5px no-repeat;
+    width: 200px;
+    padding: 0 0 35px 50px
+}
+
+#header .sale {
+    font-family: geometriabold, arial, sans-serif;
+    font-size: 36px;
+    color: #fff;
+    line-height: 24px;
+    padding: 40px 0 0
+}
+
+#header .button {
+    margin-top: 35px
+}
+
+#form {
+    background: url(../img/form.jpg) center 0 no-repeat;
+    background-size: cover
+}
+
+#form .dark,
+#form .dark .form {
+    background: url(../img/overlay.png);
+    padding-bottom: 20px
+}
+
+#form .dark {
+    margin: 0 130px
+}
+
+#form .dark .time {
+    height: 211px
+}
+
+#form .form h1 {
+    font-family: geometrialight, arial, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 13px 0 15px
+}
+
+#form .time {
+    color: #fff
+}
+
+#form .time h2 {
+    padding: 40px 0 0
+}
+
+#form .time div p {
+    font-family: geometriabold, arial, sans-serif;
+    color: #ffd200;
+    font-size: 72px;
+    line-height: 55px;
+    padding: 5px 0 14px
+}
+
+#about h1,
+#doctor,
+#reviews,
+#steps .text,
+#steps h1,
+#why-you {
+    color: #282828
+}
+
+#form .time div span {
+    font-family: geometrialight, arial, sans-serif;
+    font-size: 30px;
+    line-height: 12px;
+    display: inline-block
+}
+
+#about h1,
+#components h1 {
+    font-family: geometriabold, arial, sans-serif;
+    font-size: 36px
+}
+
+#about h1,
+#components h3 {
+    line-height: 36px;
+    text-align: center
+}
+
+#about {
+    background: url(../img/about.jpg) center 0 no-repeat #590C02;
+    min-height: 380px
+}
+
+#about h1 {
+    min-height: 80px;
+    padding: 40px 0
+}
+
+#about p {
+    background: #fff;
+    min-height: 190px;
+    padding: 15px 20px;
+    line-height: 30px
+}
+
+#components {
+    background: url(../img/components.jpg) center 0 no-repeat #590C02;
+    height: auto;
+    color: #fff
+}
+
+#components .items {
+    height: 1360px
+}
+
+#components h1 {
+    text-align: center;
+    padding: 70px 0 45px
+}
+
+#components .item h2,
+#components h3 {
+    font-family: geometrialight, arial, sans-serif
+}
+
+#components .item {
+    text-align: center;
+    padding: 0 0 30px
+}
+
+#components .item h2 {
+    font-size: 30px;
+    color: #ffd200;
+    padding: 15px 0
+}
+
+#components .item ul li {
+    background: url(../img/check2.png) 0 4px no-repeat;
+    display: inline;
+    padding: 0 0 10px 25px
+}
+
+#form2 h2 span,
+#form5 h2 span {
+    display: inline-block;
+    background: #ffd200
+}
+
+#components h3 {
+    font-size: 36px;
+    padding: 56px 0 25px
+}
+
+#components h3 b {
+    font-family: geometriabold, arial, sans-serif;
+    font-weight: 400
+}
+
+#form2 h1,
+#form2 h2 span {
+    font-family: geometrialight, arial, sans-serif
+}
+
+#components .text {
+    line-height: 24px;
+    text-align: center
+}
+
+#form2 {
+    background: url(../img/form2.jpg) center 0 no-repeat;
+    height: 420px
+}
+
+#form2 h2 {
+    text-align: center;
+    padding: 70px 0 0
+}
+
+#form2 h2 span {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 13px
+}
+
+#form2 h1,
+#form3 h1,
+#steps h1 {
+    font-size: 36px;
+    text-align: center
+}
+
+#form2 h2 span.first {
+    padding-top: 5px
+}
+
+#form2 h2 span.second {
+    padding-bottom: 10px
+}
+
+#form2 h1 {
+    line-height: 36px;
+    color: #fff;
+    padding: 33px 0 20px
+}
+
+#form2 h1 p {
+    font-family: geometriabold, arial, sans-serif
+}
+
+#steps {
+    background: url(../img/steps.jpg) center 0 no-repeat;
+    height: 1040px
+}
+
+#steps h1 {
+    padding: 75px 0 55px;
+    font-family: geometrialight, arial, sans-serif;
+    line-height: 36px
+}
+
+#steps h1 b {
+    font-weight: 400;
+    font-family: geometriabold, arial, sans-serif
+}
+
+#steps .text {
+    line-height: 24px;
+    margin: 0 80px;
+    border: 4px solid #dc4646;
+    padding: 17px;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff
+}
+
+#form3 {
+    background: url(../img/form3.jpg) center 0 no-repeat;
+    height: 400px;
+    color: #fff
+}
+
+#form3 h1 {
+    font-family: geometrialight, arial, sans-serif;
+    line-height: 36px;
+    padding: 90px 0 35px
+}
+
+#doctor h1 span,
+#form3 h1 span,
+#form4 h1 span,
+#why-you h1 span {
+    font-family: geometriabold, arial, sans-serif
+}
+
+#doctor h1,
+#form4 h1,
+#why-you h1 {
+    font-family: geometrialight, arial, sans-serif;
+    font-size: 36px;
+    line-height: 36px
+}
+
+#why-you {
+    background: url(../img/why-you.jpg) center 0 no-repeat;
+    min-height: 641px
+}
+
+#why-you h1 {
+    text-align: center;
+    padding: 50px 0
+}
+
+#why-you ul {
+    padding: 0 80px;
+    line-height: 24px
+}
+
+#why-you ul li {
+    background: url(../img/check3.png) 0 5px no-repeat;
+    padding: 0 0 35px 50px
+}
+
+#form4 {
+    background: url(../img/form4.jpg) center 0 no-repeat;
+    height: 380px;
+    color: #fff
+}
+
+#form4 h1 {
+    text-align: center;
+    padding: 95px 0 50px
+}
+
+#doctor {
+    background: url(../img/doctor.jpg) center bottom no-repeat;
+    height: 1000px
+}
+
+#doctor h1 {
+    padding: 55px 0 30px 20px
+}
+
+#doctor p {
+    padding: 0 42% 37px 20px;
+    line-height: 24px
+}
+
+#doctor .name div {
+    font-family: geometriabold, arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px
+}
+
+#form5 h1,
+#form5 h2 span {
+    font-family: geometrialight, arial, sans-serif
+}
+
+#form5 {
+    background: url(../img/form5.jpg) center 0 no-repeat;
+    height: 480px
+}
+
+#form5 h2 {
+    text-align: center;
+    padding: 70px 0 0
+}
+
+#form5 h2 span {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 13px
+}
+
+#form5 h1,
+#pressa h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff
+}
+
+#form5 h2 span.first {
+    padding-top: 5px
+}
+
+#form5 h2 span.second {
+    padding-bottom: 10px
+}
+
+#form5 h1 {
+    line-height: 36px;
+    padding: 35px 0 50px
+}
+
+#form5 h1 p {
+    font-family: geometriabold, arial, sans-serif
+}
+
+#pressa {
+    background: url(../img/pressa.jpg) center 0 no-repeat;
+    max-height: 1640px;
+    text-align: center;
+    color: #fff
+}
+
+#pressa .item {
+    padding: 0 30px 45px;
+    line-height: 24px
+}
+
+#pressa h1 {
+    font-family: geometrialight, arial, sans-serif;
+    line-height: 36px;
+    padding: 57px 0
+}
+
+#pressa h1 span {
+    font-family: geometriabold, arial, sans-serif
+}
+
+#form6 h1,
+#reviews h1 {
+    font-family: geometrialight, arial, sans-serif;
+    font-size: 36px;
+    text-align: center
+}
+
+#reviews h1 {
+    line-height: 36px;
+    padding: 35px 0
+}
+
+#reviews .item {
+    text-align: center;
+    line-height: 24px;
+    padding: 0 0 40px
+}
+
+#reviews .item p {
+    padding: 10px 0 0
+}
+
+#reviews .item p span {
+    display: block;
+    color: #82b4f0;
+    padding: 10px 0 0
+}
+
+#form6 {
+    background: url(../img/form6.jpg) center 0 no-repeat;
+    height: 380px;
+    padding: 100px 0 0;
+    background-color: rgba(134, 33, 47, .6)
+}
+
+#form6 .form-box {
+    position: relative;
+    border: 8px solid #fff;
+    padding: 47px 0 63px 200px
+}
+
+#form6 .form-box img {
+    position: absolute;
+    top: 12px;
+    left: 30px;
+    display: block;
+    width: 190px;
+}
+
+.conf-info,
+.conf-overlay {
+    z-index: 9999;
+    position: fixed
+}
+
+.count-div,
+.count-div2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px
+}
+
+#form6 h1 {
+    line-height: 36px;
+    color: #fff;
+    padding: 0 0 25px
+}
+
+#form6 h1 span {
+    font-family: geometriabold, arial, sans-serif
+}
+
+#bottom {
+    text-align: center;
+    padding: 20px
+}
+
+#bottom a {
+    color: #82b4f0
+}
+
+.count-div {
+    height: 50px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 9px;
+    font-size: 35px
+}
+
+.endtext,
+.priceblock,
+.variant_text1 {
+    font-family: geometrialight, arial, sans-serif;
+    color: #fff;
+    line-height: 36px;
+    text-align: center
+}
+
+.count-div2 {
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    margin-top: -5px;
+    text-align: center
+}
+
+.variant_text1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 30px
+}
+
+.priceblock {
+    font-size: 24px;
+    margin-top: 10px
+}
+
+.priceblock .price_main .price_main_value {
+    height: 22px
+}
+
+.endtext {
+    font-size: 16px;
+    margin-top: -10px
+}
+
+.confident-link {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: underline;
+    margin: 10px 0 0
+}
+
+#footer a,
+#footer a:hover,
+.confident-link:hover {
+    text-decoration: none
+}
+
+.hidden-conf {
+    display: none
+}
+
+.conf-overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    cursor: pointer;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+    filter: alpha(opacity=90);
+    -khtml-opacity: .9;
+    opacity: .9
+}
+
+.conf-info {
+    cursor: default;
+    max-width: 800px;
+    padding: 30px;
+    color: #000;
+    text-align: left;
+    background: #fff;
+    border-radius: 6px;
+    top: 8%;
+    left: 50%;
+    margin: 0 0 0 -420px
+}
+
+#footer,
+#footer p {
+    text-align: center
+}
+
+.conf-info .conf-head {
+    font: 30px/30px arial, sans-serif;
+    margin: 0 0 16px
+}
+
+.conf-info h5 {
+    font: 700 18px/18px arial, sans-serif !important;
+    margin: 16px 0 6px !important;
+    color: #000 !important
+}
+
+.conf-info p {
+    font: 13px/15px arial, sans-serif;
+    margin: 0 0 8px
+}
+
+.closeconf-but {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 29px;
+    width: 29px;
+    cursor: pointer
+}
+
+@media only screen and (max-width:1002px) {
+    .conf-info {
+        padding: 20px;
+        max-width: 600px;
+        margin: 0 0 0 -300px
+    }
+
+    .conf-info h5 {
+        font: 700 16px/16px arial, sans-serif !important;
+        margin: 16px 0 6px !important
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .conf-info {
+        max-width: 500px;
+        margin: 0 0 0 -250px
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .conf-info {
+        max-width: 400px;
+        margin: 0 0 0 -200px
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .conf-info {
+        max-width: 280px;
+        margin: 0 0 0 -140px
+    }
+}
+
+.mobile_form .submit_class {
+    background: url(../img/button.png) no-repeat;
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    font-family: geometrialight, arial, sans-serif;
+    line-height: 75px;
+    cursor: pointer
+}
+
+#footer {
+    font-size: 14px;
+    padding: 20px 0;
+    color: #6C6E6F
+}
+
+#footer p {
+    width: 100%;
+    padding: 0;
+    margin: 0
+}
+
+#footer br {
+    display: none
+}
+
+#footer img {
+    margin: 10px auto !important
+}
+
+#footer a {
+    color: #6C6E6F
+}
+
+#footer a:hover {
+    color: #FF0069
+}
+
+@media screen and (max-width:609px) and (min-width:320px) {
+
+    #form2 h2 br,
+    #form4 h2 br,
+    #header h2 br {
+        display: none
+    }
+
+    #pressa h1,
+    .button {
+        font-family: geometrialight, arial, sans-serif
+    }
+
+    .button {
+        width: 175px;
+        height: 50px;
+        line-height: 45px;
+        font-size: 27px
+    }
+
+    .button.red {
+        background: url(../img/button.png) no-repeat
+    }
+
+    .button.yellow {
+        background: url(../img/button2.png) no-repeat
+    }
+
+    .button.long {
+        width: 225px;
+        background: url(../img/button3.png) no-repeat
+    }
+
+    #header h2 p {
+        background: #ffd200;
+        padding: 5px 5px 10px
+    }
+
+    #header h2 span {
+        font-size: 18px;
+        line-height: 24px;
+        display: inline;
+        padding: 0 !important
+    }
+
+    #header .dark {
+        margin: 0
+    }
+
+    #header .dark ul {
+        width: auto;
+        padding: 0 20px 10px;
+        float: none;
+        line-height: 24px
+    }
+
+    #header .dark ul li {
+        width: auto;
+        background: url(../img/check.png) no-repeat;
+        padding: 4px 0 15px 40px
+    }
+
+    #header .sale {
+        padding: 20px 0 0;
+        font-size: 24px
+    }
+
+    #form .dark {
+        background: url(../img/overlay.png);
+        height: 540px;
+        margin: 0
+    }
+
+    #form2 h2 p,
+    #form4 h2 p {
+        background: #ffd200;
+        padding: 5px 5px 10px
+    }
+
+    #form2 h2 span,
+    #form4 h2 span {
+        font-size: 18px;
+        line-height: 24px;
+        display: inline;
+        padding: 0 !important
+    }
+
+    #pressa .item {
+        padding: 0 15px 20px;
+        font-size: 16px
+    }
+
+    #pressa h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        color: #fff;
+        padding: 25px 0
+    }
+
+    #form6 .form-box {
+        padding: 47px 0 63px 150px
+    }
+
+    #form6 .form-box img {
+			width: 33%;
+			top: 20%;
+			left: 1%;
+    }
+}
+
+@media screen and (max-width:550px) and (min-width:320px) {
+    #components h1 {
+        font-size: 24px;
+        text-align: center;
+        padding: 40px 0 35px
+    }
+
+    #components .item ul {
+        padding: 0 10px
+    }
+
+    #components .item ul li {
+        font-size: 16px
+    }
+
+    #components h3 {
+        font-family: geometrialight, arial, sans-serif;
+        font-size: 26px;
+        line-height: 26px;
+        text-align: center;
+        padding: 20px 0
+    }
+
+    #components .text {
+        font-size: 15px;
+        padding: 0 10px 10px;
+        line-height: 20px
+    }
+
+    #steps {
+        background: url(../img/steps.jpg) center bottom no-repeat;
+        height: auto;
+        padding: 0 0 400px
+    }
+
+    #steps h1 {
+        font-size: 29px
+    }
+
+    #steps .text {
+        margin: 0
+    }
+
+    #why-you ul {
+        padding: 0 10px
+    }
+
+    #doctor {
+        background: 0 0;
+        height: auto;
+        padding: 0 0 20px
+    }
+
+    #doctor h1 {
+        text-align: center;
+        padding: 30px 0
+    }
+
+    #doctor h1 span {
+        font-family: geometriabold, arial, sans-serif
+    }
+
+    #doctor p {
+        padding: 0 20px
+    }
+
+    #doctor .name {
+        text-align: center;
+        padding: 30px 0 0
+    }
+}
+
+@media screen and (max-width:480px) and (min-width:320px) {
+    #form6 {
+        height: 480px;
+        padding: 0
+    }
+
+    #form6 .form-box {
+        border: 0;
+        padding: 37px 20px 63px
+    }
+
+    #form6 .form-box img {
+        width: 125px;
+        position: relative;
+        margin: 0 auto;
+        top: auto;
+        left: auto;
+        display: block
+    }
+
+    #form6 h1 {
+        font-family: geometrialight, arial, sans-serif;
+        text-align: center;
+        font-size: 26px;
+        line-height: 26px;
+        color: #fff;
+        padding: 30px 0 25px
+    }
+
+    #form6 h1 span {
+        font-family: geometriabold, arial, sans-serif
+    }
+}
+
+#about,
+#form2,
+#form3,
+#form4,
+#form5,
+#header,
+#pressa {
+    background-size: cover
+}
+
+.errorMessage{
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 100000;
+    font-size: 13px;
+    background: #DC3434;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 13px;
+    padding: 8px 12px;
+}
+.copyright { font-size: 14px;text-align: center; padding:20px 0;color: #6C6E6F;}
+.copyright p { width: 100%; text-align: center; padding: 0; margin: 0; }
+.copyright br { display: none; }
+.copyright img { margin: 10px auto!important; }
+.copyright img:first-child { display: block!important; }
+.copyright a {color: #6C6E6F; text-decoration: none;}
+.copyright a:hover { color:#FF0069; text-decoration: none; }
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    outline: none;
+}

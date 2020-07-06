@@ -1,0 +1,8 @@
+﻿@font-face {
+    font-family: RobotoRegular;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"),
+    url("../fonts/RobotoRegular.woff") format("woff"),
+    url("../fonts/RobotoRegular.ttf") format("truetype")
+}

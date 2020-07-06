@@ -1,0 +1,777 @@
+﻿<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>OSTEOMAX - средство для восстановления суставов и связок!</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   
+    <link rel="shortcut icon" href="41\img\favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,378" rel="stylesheet">
+    <link rel="stylesheet" href="41\css\main.min.css">
+    <link rel="stylesheet" href="41\css\init.css">
+	<link href="41\css\pop2.css" rel="stylesheet">
+	<link href="41\css\comeback.css" rel="stylesheet">
+  </head>
+  <body>
+  <div id="order-mod" class="screenLock screenLock2" style="display: none;">
+	  <div class="msg">
+	  <div class="close">X</div>
+	   <h1>Для оформления заказа введите<br> пожалуйста ваше имя и телефон</h1>
+	   <form action="/success.php" method="post" class="reset-styles-form x_order_form x-modal-form" >
+			<input required="" type="hidden" name="action" value="add_order">
+			<div class="blockInputForm grassGo mob-hide" style="z-index:99999; position:relative;">
+				<input required="" style="z-index:99999999; position:relative;" class="input-form phone-form" type="text" name="name" placeholder="Ваше имя">
+			</div>
+			<div class="blockInputForm grassGo" style="z-index:99999; position:relative;">
+				<input required="" style="z-index:99999999; position:relative;" class="input-form phone-form" type="text" name="phone" placeholder="Телефон">
+			</div>
+			
+			<div style="text-align:center;"><button type="submit" style="display:inline-block !important; width:275px !important;"  class="footer__btn js_submit btn">Заказать</button></div>
+      <input type="hidden" name="productName" value="OSTEOMAX">
+                        <input type="hidden" name="price" value="Бесплатно">
+                        <input type="hidden" name="trackerPrice" value="16.12">
+		</form>
+	</div>
+</div>
+<div id="comebacker" class="comeback-overlay">
+	<div class="comeback-wrapper">
+		<div class="comeback-close"></div>
+		<div class="title-text">
+			<strong>Вам ПОДАРОК!</strong>
+			<p>Почему же вы покидаете наш сайт?</p>
+		</div>
+		<form name="comeback" method="post" action="/success.php" >
+			<input required="" type="hidden" name="action" value="add_order">
+			
+			<div class="comeback-field">
+				<input required="" type="text" name="phone" placeholder="Введите ваш телефон">
+			</div>
+			<div class="comeback-field comeback-field-enter">
+				<input required="" type="submit" value="Отправить ответ">
+			</div>
+      <input type="hidden" name="productName" value="OSTEOMAX">
+                        <input type="hidden" name="price" value="Бесплатно">
+                        <input type="hidden" name="trackerPrice" value="16.12">
+		</form>
+	</div>
+</div>
+
+    <section id="top-sec">
+      <div class="content">
+        <div class="top-line">
+          <ul>
+            <li>
+              <p>BIO</p>
+            </li>
+            <li>
+              <p>Рекомендовано</p>
+              <p>Украинской ассоциацией</p>
+              <p>ревматологов</p>
+            </li>
+            <li>
+              <p>гарантия</p>
+              <p>результата</p>
+            </li>
+            <li>
+              <div class="img-country"><img draggable="false" src="41\img\ua-flag.png" alt=""></div>
+              <div class="txt">
+                <p>Стартовали продажи</p>
+                <p class="country_sell"> в Украине</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-wrap">
+          <div class="center">
+            <h1><span>Избавьтесь </span><span>от боли и </span><span>восстановите </span><span>суставы </span><span>за <span class="mark-green"><span>28</span></span> дней!</span></h1>
+            <div class="clarify">
+              <p><span class="mark-blue">OSTEOMAX </span>воздействует </p>
+              <p>на главную причину </p>
+              <p>заболевания изнутри!</p>
+            </div>
+            <div class="notion label">
+              <p>Оформите заказ сегодня и Вы заметите</p>
+              <p>результат уже через 7 дней!</p>
+              
+            </div>
+            <div class="notion">
+            <p>скидка <span class="offer-date"></span> 50%</p>
+          </div>
+          </div>
+          <div class="right-side">
+            <div class="pack-img"><img draggable="false" src="41\img\insta-pack.png" alt=""></div>
+            <div class="order-box">
+              <div class="prices">
+                <div class="old-price">
+					<div class="akcia-block"></div>
+                  <p><span class="old-amount">378</span> <span class="init_price-txt">грн*</span></p>
+                </div>
+                <div class="new-price">
+                  <p><span class="tot-amount">Бесплатно*</span> <span class="init_price-txt"></span></p>
+                </div>
+                <div class="skidka">
+                  <p>-50%</p>
+                </div>
+              </div>
+				<div class="label-fair2">
+					<div class="label-text">
+						<p>Честная цена</p>
+					</div>
+					<div class="explanation">
+						Стоимость одной единицы товара действительно составляет Бесплатно* без всяких условий!
+					</div>
+				</div>
+				<form action="/success.php" method="post" class="orderformcdn" >         
+                    <input required="" type="hidden" name="action" value="add_order">
+					<input required="" type="text" class="mob-hide" name="name" placeholder="Ваше имя">
+                    <input required="" type="tel" name="phone" placeholder="Номер телефона">
+					
+					<div class="btn-wrap"><button type="submit" class="btn">Заказать</button></div>
+          <input type="hidden" name="productName" value="OSTEOMAX">
+                        <input type="hidden" name="price" value="Бесплатно">
+                        <input type="hidden" name="trackerPrice" value="16.12">
+                </form>
+            </div>
+            <div class="notion">
+              <p>Количество акционных товаров</p>
+              <p>ограничено: <b class="remaining">38</b> упаковок</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec-2">
+      <div class="content">
+        <div class="top-line">
+          <div class="logo"><img draggable="false" src="41\img\insta-logo.png" alt=""></div>
+          <div class="bullets">
+            <ul>
+              <li>
+                <p><b>Снимает </b>воспаление,</p>
+                <p>опухоль и покраснение</p>
+              </li>
+              <li>
+                <p><b>Устраняет </b>боль,</p>
+                <p>мышечный спазм</p>
+              </li>
+              <li>
+                <p><b>Возвращает </b>подвижность</p>
+                <p>суставов за 5-7 дней</p>
+              </li>
+              <li>
+                <p><b>Восстанавливает </b>истощенную</p>
+                <p>хрящевую ткань </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h2><span>Хруст или боль в суставах?</span><span>Начните лечение, пока не поздно!</span></h2>
+        <div class="wrap">
+          <div class="caption">
+            <p>Артрит, артроз</p>
+            <p>и остеохондроз</p>
+          </div>
+          <div class="clarify">
+            <p>Это опасные заболевания, которые без лечения приводят к <b>необратимой деформации суставов</b>, хроническим сильным болям и полной потере подвижности.</p>
+            <p class="mark-p">Главная причина всех болезней суставов — <b>истощение и отмирание хрящевой ткани</b>. Предотвратите это опасное состояние, начните лечение прямо сейчас!</p>
+            <p>Почти все известные препараты для суставов оказывают лишь <b>местное обезболивающее действие</b>, но не восстанавливают структуру хрящевой ткани, а значит, и не лечат сустав. То есть, <b>маскируют болезнь, которая продолжает прогрессировать.</b></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec-3">
+      <div class="content">
+        <h2><span>OSTEOMAX — комплексное средство, </span><span>которое восстанавливает и защищает</span><span>хрящевую ткань</span></h2>
+        <div class="clarify">
+          <p>Активные действующие вещества OSTEOMAX проникают в суставную сумку и изнутри воздействуют непосредственно на причину заболевания, восстанавливая поврежденный сустав.</p>
+          <p>OSTEOMAX не скрывает симптомы, а регенерирует разрушенную хрящевую ткань и гарантирует не только избавление от боли, но и полное устранение заболевания. </p>
+        </div>
+        <div class="img-pack"><img draggable="false" src="41\img\insta-pack.png" alt="Intsa Flex"></div>
+        <div class="btn-wrap"><a class="to-form btn" href="#">Начать профилактику</a></div>
+      </div>
+    </section>
+    <section id="sec-4">
+      <div class="content">
+        <div class="clarify">
+          <p>Разработка прошла многоступенчатое</p>
+          <p>тестирование в <b>Украине, Германии и Израиле,</b></p>
+          <p>получила лицензии и сертификаты качества.</p>
+        </div>
+        <div class="list">
+          <ul>
+            <li>
+              <div class="img-sert"><img draggable="false" src="41\img\sert-1.jpg" alt=""></div>
+              <p>Германия</p>
+            </li>
+            <li>
+              <div class="img-sert"><img draggable="false" src="41\img\sert-2.jpg" alt=""></div>
+              <p>Израиль</p>
+            </li>
+            <li>
+              <div class="img-sert"><img draggable="false" src="41\img\sert-3.jpg" alt=""></div>
+              <p>Украина</p>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-line">
+          <div class="w-h-o">
+            <p>World Health</p>
+            <p>Organization</p>
+          </div>
+          <div class="stamp"><img draggable="false" src="41\img\stamp.svg" alt=""></div>
+          <div class="label">
+            <p>Все этапы тестирования</p>
+            <p>подтверждены специалистами</p>
+            <p class="mark-blue">всемирной организации</p>
+            <p class="mark-blue">здравоохранения</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec-5">
+      <div class="content">
+        <h2><span>Секрет эффективности OSTEOMAX — в уникальном сочетании активных</span><span>природных компонентов, усиливающих действие друг друга:</span></h2>
+        <div class="list">
+          <ul>
+            <li>
+              <div class="ingred-img"><img draggable="false" src="41\img\ingred-1.png" alt=""></div>
+              <div class="ingred-txt">
+                <div class="caption">
+                  <p>Гиалуроновая</p>
+                  <p>кислота</p>
+                </div>
+                <div class="clarify">
+                  <p>наиболее важный компонент внутрисуставной жидкости, выполняет роль смазки. Если ее выработка нарушается, то происходит ограничение движения в суставах, начинают разрастаться края костей и образуются шипы, при ходьбе возникает боль и хруст. OSTEOMAX на 100% восполняет необходимый запас этого ценного вещества в хрящах</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="ingred-img"><img draggable="false" src="41\img\ingred-2.png" alt=""></div>
+              <div class="ingred-txt">
+                <div class="caption">
+                  <p>Натуральный</p>
+                  <p>очищенный</p>
+                  <p>коллаген </p>
+                </div>
+                <div class="clarify">
+                  <p>проникает сквозь поры клеточных стенок, восстанавливая межклеточное вещество хряща и омолаживая клетки соединительной ткани. Кроме этого, коллаген принимает участие в образовании белков хряща, а также способствует восстановлению его структуры и свойств</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="ingred-img"><img draggable="false" src="41\img\ingred-3.png" alt=""></div>
+              <div class="ingred-txt">
+                <div class="caption">
+                  <p>Экстракт</p>
+                  <p>окопника</p>
+                </div>
+                <div class="clarify">
+                  <p>ценное вещество, которое быстро усваивается, активизирует обменные процессы в хрящевой ткани, восстанавливает её и защищает от износа, способствует активному заживлению тканей, восстанавливает и укрепляет хрящи, при этом происходит уменьшение скованности и боли </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="ingred-img"><img draggable="false" src="41\img\ingred-4.png" alt=""></div>
+              <div class="ingred-txt">
+                <div class="caption">
+                  <p>Пчелиный</p>
+                  <p>яд</p>
+                </div>
+                <div class="clarify">
+                  <p>снимает отёки и покраснения, оказывает активное противовоспалительное действие и устраняет боль при обострениях болезней суставов, хрящей и связок; выводит из соединительных тканей соли и предотвращает их повторное отложение</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="order-label">
+          <div class="flex-wrap">
+            <div class="img-pack"><img draggable="false" src="41\img\insta-pack.png" alt=""></div>
+            <div class="right-side">
+              <div class="logo"><img draggable="false" src="41\img\insta-logo.png" alt=""></div>
+              <div class="caption">
+                <p><span class="big">100% </span>безопасен, не содержит</p>
+                <p>глюкозамин и хондроитин!</p>
+              </div>
+            </div>
+          </div>
+          <div class="notion">
+            <p>Оформите заказ сегодня и Вы заметите</p>
+            <p>результат уже через 7 дней!</p>
+            <p><b>скидка <span class="offer-date"></span> 50%</b></p>
+          </div>
+          
+        </div>
+        <div class="remain">
+          <p>Количество акционных товаров</p>
+          <p>ограничено: <b class="remaining">38</b> упаковок</p>
+        </div>
+      </div>
+    </section>
+    <section id="sec-6">
+      <div class="content">
+        <h2><span>Что произойдет, </span><span>когда вы начнете принимать </span><span>OSTEOMAX?</span></h2>
+        <div class="steps">
+          <div class="img-pack"><img draggable="false" src="41\img\insta-pack.png" alt="OSTEOMAX"></div>
+          <ul>
+            <li>
+              <div class="clarify">
+                <p>Исчезает боль</p>
+              </div>
+              <div class="day">
+                <p>1 день</p>
+              </div>
+            </li>
+            <li>
+              <div class="clarify">
+                <p>Уходят отеки</p>
+                <p>и покраснение</p>
+              </div>
+              <div class="day">
+                <p>3 день</p>
+              </div>
+            </li>
+            <li>
+              <div class="clarify">
+                <p>Возвращается</p>
+                <p>подвижность</p>
+                <p>суставов</p>
+              </div>
+              <div class="day">
+                <p>7 день</p>
+              </div>
+            </li>
+            <li>
+              <div class="clarify">
+                <p>Выводятся соли,</p>
+                <p>исчезает хруст</p>
+              </div>
+              <div class="day">
+                <p>14 день</p>
+              </div>
+            </li>
+            <li>
+              <div class="clarify">
+                <p>100% выздоровление</p>
+                <p>и активная жизнь!</p>
+              </div>
+              <div class="day">
+                <p>28 день</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="sec-7">
+      <div class="content">
+        <div class="flex-wrap">
+          <div class="left-side">
+            <h2><span>Рекомендации</span><span>врача-ревматолога</span></h2>
+            <div class="clarify">
+              <p>“Каждому специалисту известно, что без лечения артриты и артрозы приводят к <b>инвалидности в течение нескольких лет</b>. А начинаются эти заболевания безобидно: с хруста в спине, периодических болей в запястьях или коленях.</p>
+              <p>До недавнего времени в качестве терапии мы использовали обезболивающие наружные средства и глюкозамин/хондроитин внутрь. Однако <b>такое лечение было малоэффективным</b>: болевые ощущения элиминировались лишь временно, а побочные эффекты от таблеток наносили серьезный удар по всем системам организма.</p>
+              <p>После проведения клинических испытаний и регистрации в нашей стране препарата OSTEOMAX, у всех без исключения пациентов появился <b>шанс на 100% выздоровление</b>. Это средство <b>эффективно как для лечения, так и для профилактики</b> заболеваний суставов. В отличие от всех, известных ранее, не имеет опасных побочных эффектов.</p>
+              <p>Препарат применяетсятся снаружи, и все его компоненты проникают <b>непосредственно в полость суставной сумки</b> и изнутри регенерируют поврежденную хрящевую ткань. В результате проходят болевые ощущения, возвращается естественная подвижность, исчезают отеки и боли в суставах.”</p>
+            </div>
+            <div class="rec-name">
+              <p>Сорокин Николай Федорович</p>
+              <p>Врач-ревматолог, доктор медицинских наук</p>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="caption">
+              <p>OSTEOMAX – шанс на 100% выздоровление</p>
+            </div>
+            <div class="img-rec"><img draggable="false" src="41\img\rec-photo.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sec-8">
+      <div class="content">
+        <h2>Как применять OSTEOMAX?</h2>
+        <div class="flex-wrap">
+          <div class="list">
+            <ul>
+              <li>
+                <div class="num">
+                  <p>1</p>
+                </div>
+                <div class="txt">
+                  <p>Наносить утром и вечером</p>
+                </div>
+              </li>
+              <li>
+                <div class="num">
+                  <p>2</p>
+                </div>
+                <div class="txt">
+                  <p>Втирать до полного впитывания</p>
+                </div>
+              </li>
+              <li>
+                <div class="num">
+                  <p>3</p>
+                </div>
+                <div class="txt">
+                  <p>Не смывать водой в течении 60 минут</p>
+                </div>
+              </li>
+              <li>
+                <div class="num">
+                  <p>4</p>
+                </div>
+                <div class="txt">
+                  <p>Минимальный курс — 28 дней</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="right-side">
+            <div class="img-pack"><img draggable="false" src="41\img\insta-pack.png" alt=""></div>
+          </div>
+        </div>
+            <p class="thesis">Наслаждайтесь подвижной жизнью без боли!</p>
+      </div>
+    </section>
+    <section id="sec-9">
+      <div class="content">
+        <h2><span>Результаты</span><span>клинических испытаний</span></h2>
+        <div class="label">
+          <div class="img-pack"><img draggable="false" src="41\img\insta-pack.png" alt=""></div>
+          <div class="number-people">
+            <p>1570</p>
+            <p>человек</p>
+          </div>
+          <div class="txt">
+            <p>В исследовании приняли участие</p>
+            <p>1570 человек от 18 до 80 лет</p>
+            <p>с остеохондрозом, артритами</p>
+            <p>и артрозами разной степени тяжести.</p>
+          </div>
+        </div>
+        <div class="list">
+          <ul>
+            <li>
+              <div class="bar"></div>
+              <div class="txt">
+                <p>Исчезновение</p>
+                <p>болевых ощущений</p>
+                <p>в течение 3-5 дней</p>
+              </div>
+            </li>
+            <li>
+              <div class="bar"></div>
+              <div class="txt">
+                <p>Восстановление</p>
+                <p>подвижности</p>
+                <p>суставов</p>
+                <p>в течение</p>
+                <p>7-10 дней </p>
+              </div>
+            </li>
+            <li>
+              <div class="bar"></div>
+              <div class="txt">
+                <p>Исчезновение отеков</p>
+                <p>и покраснений</p>
+              </div>
+            </li>
+            <li>
+              <div class="bar"></div>
+              <div class="txt">
+                <p>Регенерация</p>
+                <p>хрящевой</p>
+                <p>ткани при артритах</p>
+                <p>и артрозах</p>
+              </div>
+            </li>
+            <li>
+              <div class="bar"></div>
+              <div class="txt">
+                <p>Исчезновение</p>
+                <p>хруста в суставах</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="sec-10">
+      <div class="content">
+        <h2>Эти люди забыли о боли в суставах!</h2>
+        <div class="clarify">
+          <p>Некоторые из 2930 отзывов пациентов о креме OSTEOMAX</p>
+        </div>
+		<div class="audio-rewiews">
+			<div class="audio-rewiews-item">
+				<div class="audio-rewiews-item-name">Ольга, 43 года,<br> использовала 8 недель</div>
+				<div class="audio-rewiews-item-source">
+					<audio controls="">
+						<source src="41\audio\osteo1.mp3">
+						<source src="41\audio\osteo1.ogg">
+						<source src="41\audio\osteo1.wav">
+					</source></source></source></audio>
+				</div>
+			</div>
+			<div class="audio-rewiews-item">
+				<div class="audio-rewiews-item-name">Татьяна, 52 года,<br> использует 3 недели</div>
+				<div class="audio-rewiews-item-source">
+					<audio controls="">
+						<source src="41\audio\osteo2.mp3">
+						<source src="41\audio\osteo2.ogg">
+						<source src="41\audio\osteo2.wav">
+					</source></source></source></audio>
+				</div>
+			</div>
+			<div class="audio-rewiews-item">
+				<div class="audio-rewiews-item-name">Елена, 34 года,<br> использует 2 недели</div>
+				<div class="audio-rewiews-item-source">
+					<audio controls="">
+						<source src="41\audio\osteo3.mp3">
+						<source src="41\audio\osteo3.ogg">
+						<source src="41\audio\osteo3.wav">
+					</source></source></source></audio>
+				</div>
+			</div>
+			<div class="audio-rewiews-item">
+				<div class="audio-rewiews-item-name">Яна, 68 лет,<br> использует 4 недели</div>
+				<div class="audio-rewiews-item-source">
+					<audio controls="">
+						<source src="41\audio\osteo4.mp3">
+						<source src="41\audio\osteo4.ogg">
+						<source src="41\audio\osteo4.wav">
+					</source></source></source></audio>
+				</div>
+			</div>
+			<div class="audio-rewiews-item">
+				<div class="audio-rewiews-item-name">Дмитрий, 28 лет,<br> использовал 6 недель</div>
+				<div class="audio-rewiews-item-source">
+					<audio controls="">
+						<source src="41\audio\osteo5.mp3">
+						<source src="41\audio\osteo5.ogg">
+						<source src="41\audio\osteo5.wav">
+					</source></source></source></audio>
+				</div>
+			</div>
+		</div>
+        <div class="slider">
+          <div class="dots"></div>
+          <div class="nav"></div>
+          <div class="review-photo">
+            <div class="item"><img draggable="false" src="41\img\rev-photo-2.jpg" alt=""></div>
+            <div class="item"><img draggable="false" src="41\img\rev-photo-1.png" alt=""></div>
+            <div class="item"><img draggable="false" src="41\img\rev-photo-3.jpg" alt=""></div>
+            <div class="item"><img draggable="false" src="41\img\rev-photo-4.jpg" alt=""></div>
+            <div class="item"><img draggable="false" src="41\img\rev-photo-5.jpg" alt=""></div>
+          </div>
+          <div class="review-txt">
+            <div class="item">
+              <div class="quote">
+                <p>“После трех недель приема я легко пробегаю 10 км”</p>
+              </div>
+              <div class="txt">
+                <p>Я никогда не писал никаких отзывов, но сейчас не могу молчать! Надеюсь, что мой отзыв поможет улучшить жизнь многим людям. Поскольку лет мне уже немало, я, как и большинство людей, столкнулся с проблемой больных суставов. Врачи, как один, разводили руками, говорили: Чего вы хотели, возраст. Но я не планировал становиться лежачим калекой в 50, поэтому продолжал искать спасение. И нашел! Крем OSTEOMAX. Я купил его в интернете, как и множество других «волшебных» средств, особо ни на что не рассчитывая. Каково же было мое удивление, когда уже буквально на следующий день я почувствовал, что у меня нигде и ничего не болит!! После недели применения крема я решил попробовать утреннюю пробежку – как в старые добрые времена. После трех недель применения я легко пробегаю 10 км. Закончу курс, наверное, пойду с парашютом прыгать, или еще чего покруче. Всем настоятельно рекомендую. Потрясающее средство! Просто спасение.</p>
+              </div>
+              <div class="review-person">
+                <p>Вадим Викторович, 54, </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="quote">
+                <p>“Даже не вспоминаю про колени!”</p>
+              </div>
+              <div class="txt">
+                <p>У меня недавно родился второй малыш. Насколько легко я перенесла первую беременность, настолько тяжело мне далась вторая. Был полный набор «радостей», про которые пишут в интернете – токсикозы, изжога, выпадающие волосы и зубы и так далее. Одной из бед стала безумная боль в коленных суставах. Врачи говорили, что это все нормально, что так бывает – все же нагрузка на колени увеличивалась вместе с моим животом. Но вот я стала дважды мамой, радости нет предела. Только суставы почему-то болеть не переставали. Я целый год ходила по врачам, я пила таблетки – ничего не помогало. От «коллеги» на детской площадке услышала про средство OSTEOMAX для суставов. Решила попробовать – там ничего химического, не должно навредить ни мне, ни малышу. Уже на третий день применения крема я заметила, что даже не вспоминаю про колени! Применяю уже 2 недели и еще столько же буду применять. Но уже сейчас я катаюсь на самокате со старшим сыном и бегаю по парку, как газель, за младшей.</p>
+              </div>
+              <div class="review-person">
+                <p>Ангелина, 27 лет, Житомир</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="quote">
+                <p>“Чувствую себя лет на 30”</p>
+              </div>
+              <div class="txt">
+                <p>Крем OSTEOMAX купила жена, потому что я не мог полноценно впахивать на даче из-за сильных болей в суставах. Применял 4 недели. Сейчас уже и неловко как-то от работы отлынивать – чувствую себя лет на 30. Она и себе заказала, они растительные и подходят не только для лечения артрита, как у меня, но и для профилактики, когда спина, да и все суставы хрустят. Как пройдет курс, наверное, в поход отправимся. Пеший с палатками.</p>
+              </div>
+              <div class="review-person">
+                <p>Сергей, 43, Ровно</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="quote">
+                <p>“Прошли отеки, суставы стали подвижнее”</p>
+              </div>
+              <div class="txt">
+                <p>Суставы были больными еще с молодости. Даже и не припомню, когда все началось. Принимала кучу лекарств, которые в итоге посадили желудок. Да так, что пришлось выбирать, либо язва, либо терпеть боль. Вот так и жила. Но как только я начинала привыкать к боли, она усиливалась, состояние ухудшалось. Пластыри и ванны особо не помогают, могут только облегчить состояние ненадолго. Но недавно я нашла спасение – крем OSTEOMAX. Он полностью натуральный, безопасный для желудка и других внутренних органов. Применять нужно всего 2 раза в день. Производитель рекомендует курс на месяц, я пока мажу чуть больше двух недель, но прекращать не собираюсь. Уже сейчас у меня ничего нигде не болит. Прошли отеки, суставы стали подвижнее. Мне кажется, что я в целом стала чувствовать себя намного лучше – появилась энергия, я перестала просыпаться от боли по 10 раз за ночь, как следствие, прошли головные боли. Может, конечно, это просто совпадение… А может быть и нет.</p>
+              </div>
+              <div class="review-person">
+                <p>Наталья, 48, Смела</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="quote">
+                <p>“Теперь могу работать за двоих”</p>
+              </div>
+              <div class="txt">
+                <p>Я живу на селе, поэтому у меня всегда много физической работы. Когда заболели суставы, поняла, что не смогу справляться со своими ежедневными делами как раньше, и что надо что-то делать. К тому же, боль все усиливалась. Доктора все списывали на возраст, конечно же. Но дочка нашла в интернете крем “OSTEOMAX” и заказала мне его (Компетентные врачи его давно выписывают во многих странах, не то, что наши!). Я применяла крем целый месяц, по 2 раза в день. Все прошло, и боль, и хруст, и отеки. Теперь могу работать за двоих. Подумываю о том, чтобы взять вторую корову. А что мне? Сейчас еще мужа подлечу и вдвоем мы точно горы свернем.</p>
+              </div>
+              <div class="review-person">
+                <p>Жанна, 56, </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bottom-sec">
+      <div class="content">
+        <div class="flex-wrap">
+          <div class="left-side">
+            <div class="img-pack"><img draggable="false" src="41\img\insta-pack.png" alt=""></div>
+            <div class="prices">
+              <div class="old-price">
+				<div class="akcia-block akcia-block-bottom"></div>
+                <p><span class="old-amount">378</span> <span class="init_price-txt">грн*</span></p>
+              </div>
+              <div class="new-price">
+                <p><span class="tot-amount">Бесплатно*</span> <span class="init_price"></span></p>
+              </div>
+            </div>
+			<div class="label-fair2 fair2-bottom">
+				<div class="label-text">
+					<p>Честная цена</p>
+				</div>
+				<div class="explanation">
+					Стоимость одной единицы товара действительно составляет Бесплатно* без всяких условий!
+				</div>
+			</div>
+          </div>
+          <div class="right-side">
+            <h2>Хватит мучиться от боли!</h2>
+            <div class="clarify">
+              <p>Восстановите суставы и возвращайтесь к активной жизни!</p>
+            </div>
+            <div class="bullets">
+              <ul>
+                <li>
+                  <p>Снимает воспаления и боль</p>
+                </li>
+                <li>
+                  <p>Восстанавливает подвижность</p>
+                </li>
+                <li>
+                  <p>Оказывает противовоспалительное действие</p>
+                </li>
+                <li>
+                  <p>Регенерирует хрящевую ткань</p>
+                </li>
+                <li>
+                  <p>Препятствует отложению солей</p>
+                </li>
+                <li>
+                  <p>Защищает суставы от износа</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="form-box">
+          <form action="/success.php" method="post" class="orderformcdn" onsubmit="if(this.name.value !='' && this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+            <input required="" type="hidden" name="action" value="add_order">
+			<div class="skidka">
+              <p> скидка <span class="offer-date"></span></p>
+              <p> 50%</p>
+            </div>
+            <div class="holders">
+              <div class="name mob-hide">
+                <input required="" type="text" name="name" placeholder="Ваше имя">
+              </div>
+              <div class="phone">
+                <input required="" type="tel" name="phone" placeholder="Ваш телефон">
+              </div>
+			
+              <div class="btn-wrap">
+                <button type="submit" class="btn">Оформить заказ</button>
+              </div>
+            </div>
+            <input type="hidden" name="productName" value="OSTEOMAX">
+                        <input type="hidden" name="price" value="Бесплатно">
+                        <input type="hidden" name="trackerPrice" value="16.12">
+          </form>
+          <div class="remain">
+            <p>Количество акционных товаров огранично: <b class="remaining">38</b> упаковок</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  <div class="hidden"></div>
+  <div class="delivery-wrapper"></div>
+  <footer id="common-footer">
+    <div class="visible-box">
+      <div class="content">
+        <div class="work-steps">
+          <div class="caption">
+            <p>Как мы работаем:</p>
+          </div>
+          <ul>
+            <li>
+              <div class="work_step-img"></div>
+              <div class="work_step-txt">
+                <p>Вы оставляете заявку</p>
+                <p>на сайте</p>
+              </div>
+            </li>
+            <li>
+              <div class="work_step-img"></div>
+              <div class="work_step-txt">
+                <p>Мы связываемся</p>
+                <p>с вами</p>
+              </div>
+            </li>
+            <li>
+              <div class="work_step-img"></div>
+              <div class="work_step-txt">
+                <p>Отправляем Вашу</p>
+                <p>посылку</p>
+              </div>
+            </li>
+            <li>
+              <div class="work_step-img"></div>
+              <div class="work_step-txt">
+                <p>Вы оплачиваете при</p>
+                <p>получении</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="caption">
+          <p><span class="bold">Наши операторы онлайн </span>круглосуточно без выходных - заказывайте!</p>
+        </div>
+      </div>
+    </div>
+
+    <center>
+                *Акционная цена действует при заказе полного курса. Подробности и условия акции у менеджеров.<br>
+(044)3501947<br>
+Время работы: Пн.-Вс. 09.00-20.00<br>
+© 2017 ТОВ " ОМАКС Дистрибьюшин" Свидетельство: №48050739 от 21.01.2012 г.<br>
+Адрес: Украина, г. Киев, ул. М. Гречка, д. 3
+            </center>
+  </footer>
+  <div style="text-align:center;padding:15px 0 15px;">
+	<img src="41\img\rekv.png" alt="">
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="41\js\scripts.min.js"></script>
+
+</body>
+</html>

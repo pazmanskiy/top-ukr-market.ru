@@ -1,0 +1,52 @@
+.screenLock{position:fixed;width:100%;background:rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%;top:0px;left:0px;z-index:9999999999;display:none;}
+.screenLock2{z-index:9999999998;}
+.msg{position:absolute;width:600px; padding-bottom:40px; top:100px;left:50%;bottom:auto;margin-left:-300px;background:#ffffff;}
+.msg > h1{ font-size:22px; font-family: "SegoeUI-SemiBold",sans-serif; color:#333333; line-height:1.2;text-align:center;margin-bottom:20px;margin-top:45px;padding:0 10px 0; }
+.close{font-family: Arial, Helvetica, sans-serif; position:absolute;top:0px;right:5px;line-height:1.2;font-size:40px;cursor:pointer;color:#E62500 !important;}
+.submit{margin-top:10px;height:65px;width:400px;background-color:firebrick;color:rgb(255, 255, 255);font-size:28px;border-radius:3px;cursor:pointer;}
+.submit:hover{background-color:firebrick!important;}
+
+@media screen and (max-width: 590px) {
+.msg{ width: 100%; top: 0px; left: 0px;  margin-left: 0px;}
+ }
+ 
+.blockInputForm {
+	margin:0 auto 15px;
+	width:280px;
+}
+ 
+.blockInputForm input {
+	width:280px;
+	padding:0 15px 0;
+	height:50px;
+	border:none;
+	outline:none;
+	font-size:16px;
+	color:#333333;
+	text-align:left;
+	text-indent:0;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	background:#ffffff;
+	font: 20px/25px segoe_uibold;
+	font-family: 'Roboto Condensed',sans-serif;
+	border:2px solid #858585;
+	box-shadow:none;
+}
+
+.footer__btn {
+    border: none;
+	width:280px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #f0231e;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 18px 0;
+    cursor: pointer;
+    font-family: "PTSansBold",sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+	border-bottom:3px solid #870e0b;
+}

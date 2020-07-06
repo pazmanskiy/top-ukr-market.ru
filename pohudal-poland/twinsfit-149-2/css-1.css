@@ -1,0 +1,12 @@
+﻿@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(s/ptsans/v11/jizaRExUiTo99u79D0aEwA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(s/ptsans/v11/jizfRExUiTo99u79B_mh0OqtKA.ttf) format('truetype');
+}

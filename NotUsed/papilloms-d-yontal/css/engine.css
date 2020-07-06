@@ -1,0 +1,70 @@
+/* Code tidied up by ScrapBook */
+html.remodal-is-locked { overflow: hidden; }
+.remodal, [data-remodal-id] { display: none; }
+.remodal-overlay { position: fixed; z-index: 9999; top: -5000px; right: -5000px; bottom: -5000px; left: -5000px; display: none; }
+.remodal-wrapper { position: fixed; z-index: 10000; top: 0px; right: 0px; bottom: 0px; left: 0px; display: none; overflow: auto; text-align: center; }
+.remodal-wrapper::after { display: inline-block; height: 100%; margin-left: -0.05em; content: ""; }
+.remodal-overlay, .remodal-wrapper { backface-visibility: hidden; }
+.remodal { position: relative; outline: medium none; }
+.remodal-is-initialized { display: inline-block; }
+.remodal-buttons { text-align: center; }
+.remodal-bg.remodal-is-opening, .remodal-bg.remodal-is-opened { filter: blur(3px); }
+.remodal-overlay { background: rgba(43, 46, 56, 0.9) none repeat scroll 0% 0%; }
+.remodal-overlay.remodal-is-opening, .remodal-overlay.remodal-is-closing { animation-fill-mode: forwards; }
+.remodal-overlay.remodal-is-opening { animation: 0.3s ease 0s normal none 1 running remodal-overlay-opening-keyframes; }
+.remodal-overlay.remodal-is-closing { animation: 0.3s ease 0s normal none 1 running remodal-overlay-closing-keyframes; }
+.remodal-wrapper { padding: 10px 10px 0px; }
+.remodal { box-sizing: border-box; width: 100%; margin-bottom: 10px; padding: 35px; transform: translate3d(0px, 0px, 0px); color: rgb(43, 46, 56); background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+.remodal.remodal-is-opening, .remodal.remodal-is-closing { animation-fill-mode: forwards; }
+.remodal.remodal-is-opening { animation: 0.3s ease 0s normal none 1 running remodal-opening-keyframes; }
+.remodal.remodal-is-closing { animation: 0.3s ease 0s normal none 1 running remodal-closing-keyframes; }
+.remodal, .remodal-wrapper::after { vertical-align: middle; }
+.remodal-close { position: absolute; top: 0px; left: 0px; display: block; overflow: visible; width: 35px; height: 35px; margin: 0px; padding: 0px; cursor: pointer; transition: color 0.2s ease 0s; text-decoration: none; color: rgb(149, 151, 156); border: 0px none; outline: 0px none; background: transparent none repeat scroll 0% 0%; }
+.remodal-close:hover, .remodal-close:focus { color: rgb(43, 46, 56); }
+.remodal-close::before { font-family: Arial,"Helvetica CY","Nimbus Sans L",sans-serif ! important; font-size: 25px; line-height: 35px; position: absolute; top: 0px; left: 0px; display: block; width: 35px; content: "×"; text-align: center; }
+.remodal-confirm, .remodal-cancel { font: inherit; display: inline-block; overflow: visible; min-width: 110px; margin: 0px; padding: 12px 0px; cursor: pointer; transition: background 0.2s ease 0s; text-align: center; vertical-align: middle; text-decoration: none; border: 0px none; outline: 0px none; }
+.remodal-confirm { color: rgb(255, 255, 255); background: rgb(129, 199, 132) none repeat scroll 0% 0%; }
+.remodal-confirm:hover, .remodal-confirm:focus { background: rgb(102, 187, 106) none repeat scroll 0% 0%; }
+.remodal-cancel { color: rgb(255, 255, 255); background: rgb(229, 115, 115) none repeat scroll 0% 0%; }
+.remodal-cancel:hover, .remodal-cancel:focus { background: rgb(239, 83, 80) none repeat scroll 0% 0%; }
+.remodal-confirm::-moz-focus-inner, .remodal-cancel::-moz-focus-inner, .remodal-close::-moz-focus-inner { padding: 0px; border: 0px none; }
+@keyframes remodal-opening-keyframes {
+0% { transform: scale(1.05); opacity: 0; }
+100% { transform: none; opacity: 1; }
+}
+@keyframes remodal-opening-keyframes {
+0% { transform: scale(1.05); opacity: 0; }
+100% { transform: none; opacity: 1; }
+}
+@keyframes remodal-closing-keyframes {
+0% { transform: scale(1); opacity: 1; }
+100% { transform: scale(0.95); opacity: 0; }
+}
+@keyframes remodal-closing-keyframes {
+0% { transform: scale(1); opacity: 1; }
+100% { transform: scale(0.95); opacity: 0; }
+}
+@keyframes remodal-overlay-opening-keyframes {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes remodal-overlay-opening-keyframes {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes remodal-overlay-closing-keyframes {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@keyframes remodal-overlay-closing-keyframes {
+0% { opacity: 1; }
+100% { opacity: 0; }
+}
+@media only screen and (min-width: 641px) {
+  .remodal { max-width: 700px; }
+}
+.lt-ie9 .remodal-overlay { background: rgb(43, 46, 56) none repeat scroll 0% 0%; }
+.lt-ie9 .remodal { width: 700px; }
+#enSells { right: 10px; top: 10px; width: 300px; height: auto; position: fixed; z-index: 999; line-height: 15px; font-size: 15px; border-radius: 10px; vertical-align: middle; color: rgb(255, 255, 255); background: rgb(0, 0, 0) none repeat scroll 0% 0%; border: 2px solid rgb(255, 255, 255); overflow: hidden; }
+#enSells .inner { margin: 10px; }
+#enSells .text { text-align: left; line-height: 20px; }

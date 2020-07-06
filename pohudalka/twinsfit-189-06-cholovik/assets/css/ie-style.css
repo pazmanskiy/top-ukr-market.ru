@@ -1,0 +1,59 @@
+    .sec1 h1 {
+        max-width: 850px !important;
+    }
+    .sec1 {
+        padding-bottom: 200px;
+    }
+    .btn {
+        font-size: 24px;
+    }
+    .sec1 {
+    background: url(../img/bg-man.png) no-repeat right -200px top 0, url(../img/bg1.jpg) no-repeat center top;
+    padding-bottom: 190px;
+}
+.sec3 h2 {
+    font-size: 30px;
+}
+.sec3 h2 span {
+    font-size: 28px;
+}
+.sec4 .attention p {
+    font-size: 20px;
+}
+.sec_h2, .sec_h2 span, .sec10 h2 {
+    font-size: 32px;
+}
+.sec7 .btn, .sec9 .btn, .sec13 .btn {
+    font-size: 18px;
+}
+.sec10 h2 span {
+    font-size: 24px;
+}
+.sec12 h2 span {
+    font-size: 20px;
+}
+.sec13 h2 {
+    font-size: 30px;
+}
+button.btn {
+    font-size: 20px;
+    padding-left: 20px;
+}
+.sec15 .bg_man_last {
+    right: -230px;
+}
+.sec15 {
+    padding-bottom: 40px;
+}
+.sec15 h2 {
+    padding-top: 72px;
+}
+.sec16 .sec16_block .sec16_block_l .sec16_block_l_inner h2 {
+    font-size: 22px;
+}
+.sec16 .btn {
+    font-size: 18px;
+}
+.sec16 .sec16_block .sec16_block_r .icons .icons_item p {
+    font-size: 18px;
+}

@@ -1,0 +1,622 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Избавьтесь от боли и верните подвижность суставов за 21 день!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/jquery.bxslider.min.css" rel="stylesheet" type="text/css">
+		<link href="css/style.css?v=3" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/pop2.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<script type="text/javascript">
+			function outputDat(m, fullM, isFullyear) {
+				var d = new Date();
+				var p = new Date(d.getTime() - m * 86400000);
+				var monthA = (fullM === false) ? '01,02,03,04,05,06,07,08,09,10,11,12'.split(',') : 'января,февраля,марта,апреля,мая,июня,июля,августа,сентября,октября,ноября,декабря'.split(',');
+				var w = p.getDate();
+				if (w < 10) w = "0"+w;
+				var year = p.getFullYear().toString();
+				var subYear = (isFullyear == true) ? year.substr(2,2) : year;
+				var ret = (fullM === false) ? w + '.' + monthA[p.getMonth()] + '.' + subYear : w + ' ' + monthA[p.getMonth()] + ' ' + subYear;
+				return ret;
+			}
+		</script>
+	</head>
+	<body>
+		<div class="wrap">
+			<header class="header">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="flex flex_header">
+								<div class="imgText imgText_logo">
+									<div class="imgText__left">
+									</div>
+									<div class="imgText__right">
+										крем для борьбы с болью<br> в суставах, артритом и артрозом
+									</div>
+								</div>
+								<div class="flex flex_preim">
+									<div class="imgText imgText_preim">
+										<div class="imgText__left">
+											<img src="img/head1.svg">
+										</div>
+										<div class="imgText__right">100%<br class="visible-lg"> натуральный<br class="visible-lg"> состав</div>
+									</div>
+									<div class="imgText imgText_preim">
+										<div class="imgText__left">
+											<img src="img/head2.svg">
+										</div>
+										<div class="imgText__right">Рекомендовано<br class="visible-lg"> Украинской ассоциацией<br class="visible-lg"> ревматологов</div>
+									</div>
+									<div class="imgText imgText_preim">
+										<div class="imgText__left">
+											<img src="img/head3.svg">
+										</div>
+										<div class="imgText__right">100% гарантия<br class="visible-lg"> результата</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<section class="sec sec_1">
+				<div class="container rel">
+					<div class="row">
+						<div class="col-md-7">
+							<h2 class="h2 h2_1"><span class="c-yellow">Избавьтесь от боли и верните</span><br>подвижность суставов <span class="c-yellow">за 21 день!</span></h2>
+							<p class="fs24 c-white lh1-25">Крем Д-Йонталь с экстрактом живокоста (окопника)<br class="visible-lg"> эффективен при всех видах артрита и артроза!</p>
+							<div class="borderYellow borderYellow_top">
+								<ul class="spis spis_1">
+									<li><span></span>Снимает воспаление, покраснение и отечность</li>
+									<li><span></span>Возвращает подвижность суставов</li>
+									<li><span></span>Предотвращает отложение солей и развитие остеохондроза</li>
+									<li><span></span>Восстанавливает хрящевую ткань при артрите и артрозе</li>
+									<li><span></span>Устраняет хруст в суставах и спине</li>
+								</ul>
+							</div>
+						</div>
+						<div class="osteo-mob-img-two"><img src="img/artraid-m.png" height="200px" alt=""></div>
+						<div class="col-lg-offset-1 col-lg-4 col-md-5">
+							<form class="form form_top rel orderformcdn" action="/success.php" method="post">
+								<input type="hidden" name="productName" value="Д-Йонталь суставы">
+									<input type="hidden" name="price" value="189">
+									<input type="hidden" name="trackerPrice" value="16.12">
+								<input type="hidden" name="action" value="add_order">
+								<div class="sale">-<span class="js_percent_sign">50%</span></div>
+								<div class="price">
+									<div class="price__new">цена: <span class="js_new_price_curs">189 грн*</span></div>
+									<div class="price__old"><b><span class="js_old_price">387</span></b> <b class="js_curs">грн</b></div>
+								</div>
+								<div class="form__fields">
+									<label class="mob-hide">имя
+										<input type="text" name="name">
+									</label>
+									<label>
+										телефон
+										<input type="tel" name="phone" class="only_number" required="">
+										<span>&nbsp;</span>
+										<!--<span>Например: +38 (096) ХХХ ХХ ХХ</span>-->
+									</label>
+								</div>
+								<div class="btn__wrap">
+									<button type="submit" class="btn btn_form js_submit">Оформить заказ</button>
+								</div>
+								<p class="fs12 text-uppercase text-center c-grey"><b>осталось <span class="c-red"><span class="packages-count">18</span> упаковок</span> по акции</b></p>
+							</form>
+						</div>
+					</div>
+					<img class="babushka" src="img/babushka.png" alt="">
+					<img class="cream cream_top" src="img/artraid.png?v=2" alt="">
+				</div>
+			</section>
+			<section class="sec custom-sec">
+				<div class="container">
+					<h2 class="h2">Уникальность Д-Йонталь в том, что он ускоряет регенеративные процессы и препятствует развитию воспаления за 21 день!</h2>
+					<p>Результаты МРТ и УЗИ показывают, что у применяющих крем зафиксирован рост хряща и улучшение многих других показателей, уменьшение проявлений артроза в целом. Благодаря революционной разработке 435 000 людей уже избежали эндопротезирования коленного сустава, то есть замены сустава на искусственный. </p>
+					<p>Новый метод лечения при помощи Д-Йонталь патологий хрящевой ткани должен стать альтернативой традиционным хирургическим вмешательствам!</p>
+					<h3 class="h3">
+					КРЕМ Д-Йонталь ПОМОЖЕТ ПОСТАВИТЬ ВАС НА НОГИ! НЕ ЗАПУСКАЙТЕ БОЛЕЗНЬ! ДАЙТЕ БОЛЕЗНИ ДОСТОЙНЫЙ ОТПОР!
+					</h3>
+				</div>
+			</section>
+			<section class="sec sec_2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<h2 class="h2 h2_2">Артрит и артроз приводят к инвалидности!</h2>
+							<p>Важно распознать заболевания суставов на ранней стадии и срочно начать лечение. Боль и хруст в суставах, отеки и покраснения — это симптомы артрита и артроза. Без своевременного лечения эти болезни становятся причиной полной потери подвижности и необратимой деформации суставов.<br>
+								<span class="c-red">Если запустить болезнь, она приведет вас к ужасным последствиям:</span></p>
+							</div>
+							<div class="col-md-4 rel">
+								<img class="ded" src="img/ded.png" alt="">
+							</div>
+						</div>
+						<div class="row inv">
+							<div class="col-md-4">
+								<img class="img-responsive" src="img/inv1.jpg" alt="">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive" src="img/inv2.jpg" alt="">
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+						<div class="row inv mb4">
+							<div class="col-md-4">
+								<img class="img-responsive" src="img/inv3.jpg" alt="">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive" src="img/inv4.jpg" alt="">
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive" src="img/inv5.jpg" alt="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-9">
+								<h2 class="h2">Врачи-ревматологи рекомендуют<br>только проверенные средства!</h2>
+								<p>“Подавляющее большинство современных препаратов для суставов — просто местные обезболивающие средства, которые не оказывают воздействие собственно на структуру хрящевой ткани, а значит, и не лечат сустав. То есть, маскируют болезнь, которая продолжает прогрессировать.</p>
+								<p>Запатентованная украинскими учеными формула крема Д-Йонталь содержит активные природные действующие вещества. Благодаря свойствам входящего в состав препарата Живокоста(Окопника), все компоненты проникают непосредственно в полость суставной сумки и изнутри регенерируют поврежденную хрящевую ткань. В результате проходят болевые ощущения, возвращается естественная подвижность, исчезают отеки и боли в суставах.</p>
+								<p>Эффективность крема подтверждается историями выздоровления моих многочисленных пациентов и клиническими испытаниями, проведенными на базе нашего института”</p>
+								<div class="row">
+									<div class="col-sm-6">
+										<p><span class="fs24"><b>Никифоров А. В.</b></span><br>врач-ревматолог, доктор медицинских наук</p>
+									</div>
+									<div class="col-sm-6">
+										<img class="podpis" src="img/podpis.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="sec sec_3">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<h2 class="h2">Эффективность крема Д-Йонталь основана на взаимодействии компонентов, дополняющих и усиливающих друг друга:</h2>
+							</div>
+							<div class="col-md-4 rel">
+								<img class="cream_2 osteo-desc-img" src="img/artraid-1.png" alt="">
+								<img class="cream_2 osteo-mob-img" src="img/artraid-m.png" alt="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="sostav__block">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav1.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Масло сои</div>
+										выводит из соединительных тканей соли и токсины и предотвращает их повторное отложение
+									</div>
+								</div>
+								<div class="sostav__block">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav3.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Пчелиный яд</div>
+										активизирует обменные процессы в хрящевых тканях, восстанавливает суставы и защищает их от износа
+									</div>
+								</div>
+								<div class="sostav__block">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav5.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Экстракт окопника</div>
+										является отличным регулятором водно-солевого обмена, поэтому легко справляется с проблемами отложения солей. Оказывает мощное противовоспалительное и обезболивающее действие на больные суставы, улучшая состояние хрящей, тканей и волокон.
+									</div>
+								</div>
+								<div class="sostav__block">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sabelnik.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Масло мяты</div>
+										устраняет болевые симптомы при артрите, ревматизме, остеохондрозе. Многие врачи рекомендуют использовать сабельник для лечения больных суставов, а также для общего укрепления здоровья.
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="sostav__block sostav__block_1">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav2.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Красный перец</div>
+										обеспечивает пролонгированное действие крема, обладает защитными и регенерирующими свойствами и смягчает кожу, способствуя глубокому проникновению крема.
+									</div>
+								</div>
+								<div class="sostav__block sostav__block_2">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav4.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Карбомер</div>
+										снимает воспаления и боль при обострениях болезней суставов, хрящей и связок, повышает местный иммунитет
+									</div>
+								</div>
+								<div class="sostav__block sostav__block_3">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav6.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Ментол</div>
+										лечит радикулит, ишиас, неврит, он хорошо снимает болевые ощущения.
+									</div>
+								</div>
+								<div class="sostav__block">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav7.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Скипидар</div>
+										обладает мощными противовоспалительными свойствами, способствует нормализации кровообращения.
+									</div>
+								</div>
+								<div class="sostav__block">
+									<div class="sostav__img">
+										<img class="img-responsive" src="img/sostav8.png" alt="">
+									</div>
+									<div class="sostav__text">
+										<div class="sostav__title">Медвежья желчь</div>
+										содержит витамины и минералы: витамин С, витамины группы В, кальций, магний, калий. Способен утолить боль, снять воспаление, судороги.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<button class="btn btn_red scrollto" data-scroll=".sec_7">Начать лечение</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="sec sec_4">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-3">
+								<div class="imgText imgText_kak">
+									<div class="imgText__left">
+										<img class="img-responsive" src="img/kak1.png" alt="">
+									</div>
+									<div class="imgText__right">
+										Нанесите крем на больные суставы
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="imgText imgText_kak">
+									<div class="imgText__left">
+										<img class="img-responsive" src="img/kak2.png" alt="">
+									</div>
+									<div class="imgText__right">
+										Растирайте в течение 10 минут
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="imgText imgText_kak">
+									<div class="imgText__left">
+										<img class="img-responsive" src="img/kak3.png" alt="">
+									</div>
+									<div class="imgText__right">
+										Повторяйте процедуру дважды в день
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="imgText imgText_kak">
+									<div class="imgText__left">
+										<img class="img-responsive" src="img/kak4.png" alt="">
+									</div>
+									<div class="imgText__right">
+										Вскоре вы забудете о боли и ограничениях!
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="sec sec_5">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h2 class="h2">Некоторые из 3420 отзывов пациентов о креме Д-Йонталь</h2>
+							</div>
+						</div>
+						<div class="row hidden-xs">
+							<div class="col-md-12">
+								<ul class="bxslider">
+									<li>
+										<div class="slide">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face1.jpg" alt="">
+												<p><span>Алексей,</span> 40 лет, Винница</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Про боль в суставах, тфу-тфу, не вспоминаю”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(1, false, false));</script>
+												</div>
+												Диагноз остеохондроз мне поставили еще в старшей школе. С тех пор всю жизнь маюсь периодическими обострениями. Жуткие боли, невозможность ничего сделать – понять смогут только те, кто сам с этим столкнулся. Пробовал все возможные и невозможные народные средства, скупил пол-аптеки, жил на обезболивающих препаратах. Но все, чего я мог добиться, это недолгие облегчения. Потом все начиналось заново. От знакомых на работе услышал про крем Д-Йонталь. Решил заказать себе, попробовать, тем более там акция была. Вот уже 2 месяца пользуюсь, про боль в суставах, тфу-тфу, не вспоминаю. Не знаю, может, совпало просто. Но я точно прикуплю еще пару упаковок, потому что на такое долгое время мне еще ни одно средство не помогало.
+											</div>
+										</div>
+										<div class="slide">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face2.jpg" alt="">
+												<p><span>Евгения,</span> 24 года, Смела</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Суставы перестали болеть и хрустеть”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(2, false, false));</script>
+												</div>
+												Суставы в локтях и запястьях начали болеть еще во время беременности и не прекратили после рождения малыша. Жить с маленьким ребеночком и больными руками – это невозможно! Любая мамочка вам скажет. Перепробовала разные средства, но ничего не помогало. Моя знакомая врач посоветовала мне попробовать крем Д-Йонталь. Я согласилась, во-первых, потому что она плохого не посоветует, во-вторых, потому что крем полностью натуральный. Не хотелось связываться с химией. Кремом пользуюсь всего 2 недели, но уже чувствую облегчение. Суставы перестали болеть и хрустеть, как у бабки старой! Думаю, что закажу еще пару баночек и для себя, и для родителей, которые тоже болями в суставах давно мучаются. Замечательное средство.
+											</div>
+										</div>
+										<div class="slide">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face3.jpg" alt="">
+												<p><span>Антонина,</span> 72 года, Трускавец</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Не думала, что в своем возрасте буду скакать, как молодая”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>:<script type="text/javascript">document.write(outputDat(3, false, false));</script>
+												</div>
+												Человек я немолодой, что такое больные суставы знаю не понаслышке. За всю свою жизнь пробовала все – и физиопроцедуры, и таблетки, и мази с кремами. Все средства приносят облегчение на какое-то время, но приходится их принимать снова и снова, чтобы хоть как-то существовать. Дочь купила мне крем Д-Йонталь на официальном сайте. Я чувствую, что помолодела лет на 20! Вчера даже в футбол с внуками играла. Никогда не думала, что в своем возрасте буду скакать, как молодая. Вот и деду дала попробовать, завтра, наверное, в поход отправимся, в горы!
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="slide">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face4.jpg" alt="">
+												<p><span>Николай,</span> 54 года, Одесса</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Забыл про то, что колени согнуть не мог”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(4, false, false));</script>
+												</div>
+												Был пацаном – занимался борьбой. Часто были травмы, в том числе и суставов. Как завязал со спортом, запустил себя, набрал лишний вес. В результате – суставы болят почти постоянно. По ступенькам ходить так вообще сплошное мучение. Жена моя где-то услышала про “Д-Йонталь”. Какой-то крем, говорит, натуральный. Короче, купила мне. Я сразу думал, че я, кремиками мазаться буду, не мужик что ли. Обычно колол диклофенак-- помогало, но столько побочек повылазило! А болело сильно, выбора не было, попробовал пчелиный крем этот. Короче, это вещь! Я скачу как сайгак! Вообще забыл про то, что колени согнуть не мог, хоть сейчас снова на татами! Рекомендую, одним словом.
+											</div>
+										</div>
+										<div class="slide">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face5.jpg" alt="">
+												<p><span>Альфред,</span> 35 лет, Харьков</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Боли полностью прошли!”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(5, false, false));</script>
+												</div>
+												Я люблю кататься на велосипеде, очень люблю! В последнее время стал замечать, что у меня начали жутко болеть суставы, в особенности в коленях: боль и покалывания. Испугался, что не смогу заниматься любимым делом, начал искать средства в интернете. Наткнулся на крем Д-Йонталь, сразу заказал – там все натуральное и цена не сильно кусается. Использовал крем пока меньше месяца, но боли полностью прошли! А с ними и отеки и воспаления! Пойду закажу еще пару упаковок, пока не закончился, и вкручу педали!
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row visible-xs">
+							<div class="col-md-12">
+								<ul class="bxslider_xs">
+									<li>
+										<div class="slide slide_xs">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face1.jpg" alt="">
+												<p><span>Алексей,</span> 40 лет, Кременчуг</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Про боль в суставах, тфу-тфу, не вспоминаю”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(6, false, false));</script>
+												</div>
+												Диагноз остеохондроз мне поставили еще в старшей школе. С тех пор всю жизнь маюсь периодическими обострениями. Жуткие боли, невозможность ничего сделать – понять смогут только те, кто сам с этим столкнулся. Пробовал все возможные и невозможные народные средства, скупил пол-аптеки, жил на обезболивающих препаратах. Но все, чего я мог добиться, это недолгие облегчения. Потом все начиналось заново. От знакомых на работе услышал про крем Д-Йонталь. Решил заказать себе, попробовать, тем более там акция была. Вот уже 2 месяца пользуюсь, про боль в суставах, тфу-тфу, не вспоминаю. Не знаю, может, совпало просто. Но я точно прикуплю еще пару упаковок, потому что на такое долгое время мне еще ни одно средство не помогало.
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="slide slide_xs">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face2.jpg" alt="">
+												<p><span>Евгения,</span> 24 года, Полтава</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Суставы перестали болеть и хрустеть”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(7, false, false));</script>
+												</div>
+												Суставы в локтях и запястьях начали болеть еще во время беременности и не прекратили после рождения малыша. Жить с маленьким ребеночком и больными руками – это невозможно! Любая мамочка вам скажет. Перепробовала разные средства, но ничего не помогало. Моя знакомая врач посоветовала мне попробовать крем Д-Йонталь. Я согласилась, во-первых, потому что она плохого не посоветует, во-вторых, потому что крем полностью натуральный. Не хотелось связываться с химией. Кремом пользуюсь всего 2 недели, но уже чувствую облегчение. Суставы перестали болеть и хрустеть, как у бабки старой! Думаю, что закажу еще пару баночек и для себя, и для родителей, которые тоже болями в суставах давно мучаются. Замечательное средство.
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="slide slide_xs">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face3.jpg" alt="">
+												<p><span>Антонина,</span> 72 года, Ужгород</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Не думала, что в своем возрасте буду скакать, как молодая”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(8, false, false));</script>
+												</div>
+												Человек я немолодой, что такое больные суставы знаю не понаслышке. За всю свою жизнь пробовала все – и физиопроцедуры, и таблетки, и мази с кремами. Все средства приносят облегчение на какое-то время, но приходится их принимать снова и снова, чтобы хоть как-то существовать. Дочь купила мне крем Д-Йонталь на официальном сайте. Я чувствую, что помолодела лет на 20! Вчера даже в футбол с внуками играла. Никогда не думала, что в своем возрасте буду скакать, как молодая. Вот и деду дала попробовать, завтра, наверное, в поход отправимся, в горы!
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="slide slide_xs">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face4.jpg" alt="">
+												<p><span>Николай,</span> 54 года, Фастов</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Забыл про то, что колени согнуть не мог”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>: <script type="text/javascript">document.write(outputDat(9, false, false));</script>
+												</div>
+												Был пацаном – занимался борьбой. Часто были травмы, в том числе и суставов. Как завязал со спортом, запустил себя, набрал лишний вес. В результате – суставы болят почти постоянно. По ступенькам ходить так вообще сплошное мучение. Жена моя где-то услышала про “Д-Йонталь”. Какой-то крем, говорит, натуральный. Короче, купила мне. Я сразу думал, че я, кремиками мазаться буду, не мужик что ли. Обычно колол диклофенак-- помогало, но столько побочек повылазило! А болело сильно, выбора не было, попробовал пчелиный крем этот. Короче, это вещь! Я скачу как сайгак! Вообще забыл про то, что колени согнуть не мог, хоть сейчас снова на татами! Рекомендую, одним словом.
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="slide slide_xs">
+											<div class="slide__img">
+												<img class="img-responsive" src="img/face5.jpg" alt="">
+												<p><span>Альфред,</span> 35 лет, Харьков</p>
+											</div>
+											<div class="slide__text">
+												<div class="slide__title">“Боли полностью прошли!”</div>
+												<div class="slide__info">
+													<b>Оценка:</b><img src="img/stars.png" alt=""><b>Дата отзыва</b>:<script type="text/javascript">document.write(outputDat(10, false, false));</script>
+												</div>
+												Я люблю кататься на велосипеде, очень люблю! В последнее время стал замечать, что у меня начали жутко болеть суставы, в особенности в коленях: боль и покалывания. Испугался, что не смогу заниматься любимым делом, начал искать средства в интернете. Наткнулся на крем Д-Йонталь, сразу заказал – там все натуральное и цена не сильно кусается. Использовал крем пока меньше месяца, но боли полностью прошли! А с ними и отеки и воспаления! Пойду закажу еще пару упаковок, пока не закончился, и вкручу педали!
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="sec sec_6">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-7">
+								<h2 class="h2">Результаты клинических испытаний</h2>
+								<p>В исследовании принимали участие 800 добровольцев с артритами и артрозами разной степени тяжести. Все они применяли крем<br class="visible-lg"> Д-Йонталь в течение 20 дней дважды в сутки</p>
+							</div>
+							<div class="col-md-5">
+								<img class="img-responsive res1" src="img/res1.png" alt="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-7">
+								<img class="img-responsive res2" src="img/res2.png" alt="">
+							</div>
+							<div class="col-md-5">
+								<img class="img-responsive res3" src="img/res3.png" alt="">
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="sec sec_7">
+					<div class="container">
+						<div class="row mb2">
+							<div class="col-lg-6 col-md-4">
+							</div>
+							<div class="col-lg-6 col-md-8">
+								<div class="flex flex_preim">
+									<div class="imgText imgText_preim">
+										<div class="imgText__left">
+											<img src="img/head1(1).svg">
+										</div>
+										<div class="imgText__right imgText__right_yellow">100%<br class="visible-lg"> натуральный<br class="visible-lg"> состав</div>
+									</div>
+									<div class="imgText imgText_preim">
+										<div class="imgText__left">
+											<img src="img/head2(1).svg">
+										</div>
+										<div class="imgText__right imgText__right_yellow">Рекомендовано<br class="visible-lg"> Украинской ассоциацией<br class="visible-lg"> ревматологов</div>
+									</div>
+									<div class="imgText imgText_preim">
+										<div class="imgText__left">
+											<img src="img/head3(1).svg">
+										</div>
+										<div class="imgText__right imgText__right_yellow">100% гарантия<br class="visible-lg"> результата</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 text-center">
+								<h2 class="h2 c-yellow mb0">Забудьте о боли в суставах!</h2>
+								<p class="fs24 c-white">Закажите крем Д-Йонталь — и наслаждайтесь подвижной жизнью!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="borderYellow borderYellow_bottom">
+									<ul class="spis spis_2">
+										<li><span>1 день</span>Исчезает боль, покраснение и отеки</li>
+										<li><span>7 день</span>Возвращается подвижность суставов</li>
+										<li><span>14 день</span>Восстанавливается хрящевая ткань</li>
+										<li><span>21 день</span>Предупреждается дальнейшее разрушение костно-хрящевой ткани</li>
+									</ul>
+								</div>
+								<p class="text-center c-yellow fs16 text-uppercase mb05"><b>до конца акции</b></p>
+								<div class="timer-wrap">
+									<div class="timer">
+										<div class="timer-hrs">05</div>
+										<div class="timer-min">12</div>
+										<div class="timer-sec">56</div>
+									</div>
+								</div>
+							</div>
+							<div class="osteo-mob-img-two"><img src="img/artraid-m.png" alt=""></div>
+							<div class="col-md-4">
+								<form class="form form_bottom rel orderformcdn" action="/success.php" method="post">
+									<input type="hidden" name="productName" value="Д-Йонталь суставы">
+									<input type="hidden" name="price" value="189">
+									<input type="hidden" name="trackerPrice" value="16.12">
+									<input type="hidden" name="action" value="add_order">
+									<div class="sale sale_bottom">-<span class="js_percent_sign">50%</span></div>
+									<div class="price">
+										<div class="price__new">цена: <span class="js_new_price_curs">189 грн*</span></div>
+										<div class="price__old"><b><span class="js_old_price">387</span></b> <b class="js_curs">грн</b></div>
+									</div>
+									<div class="form__fields">
+										<label class="mob-hide">
+											имя
+											<input type="text" name="name">
+										</label>
+										<label>
+											телефон
+											<input type="tel" name="phone" class="only_number" required="">
+											<span>&nbsp;</span>
+											<!--<span>Например: +38 (096) ХХХ ХХ ХХ</span>-->
+										</label>
+									</div>
+									<div class="btn__wrap">
+										<button type="submit" class="btn btn_form js_submit">Оформить заказ</button>
+									</div>
+									<p class="fs12 text-uppercase text-center c-grey"><b>осталось <span class="c-red"><span class="packages-count">18</span> упаковок</span> по акции</b></p>
+									<input type="hidden" name="trf_dt" value="c2l0ZV9pZD0zNjUz">
+								</form>
+							</div>
+							<div class="col-md-4 rel">
+								<img class="img-responsive babushka2" src="img/babushka2.png" alt="">
+								<img class="cream cream_bottom" src="img/artraid-m.png?v=2" alt="">
+							</div>
+						</div>
+					</div>
+				</section>
+				<footer class="sec sec_footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								*Акционная цена действует при заказе полного курса. Подробности и условия акции у менеджеров.<br>
+								(044)3501947<br>
+								Время работы: Пн.-Вс. 09.00-20.00<br>
+								© 2017 ТОВ " ОМАКС Дистрибьюшин" Свидетельство: №48050739 от 21.01.2012 г.<br>
+								Адрес: Украина, г. Киев, ул. М. Гречка, д. 3
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js" type="text/javascript"></script>
+			<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+			<script src="js/scripts.js" type="text/javascript"></script>
+		</body>
+	</html>

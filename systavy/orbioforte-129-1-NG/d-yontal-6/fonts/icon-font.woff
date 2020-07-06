@@ -1,0 +1,1721 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+      <title>Сустапрайм</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+      <meta charset="utf-8">
+      <style>
+         .attention {
+         display: none !important;
+         }
+         .ci-header {
+         font-weight: bold
+         }
+         @media all and (max-width: 760px) {
+         body {
+         top:120px !important;
+         }
+         .fixedtop {
+         height:120px!important;
+         }
+         }
+      </style>
+      <link rel="stylesheet" href="css/main.css" type="text/css">
+      <link rel="stylesheet" href="css/fonts.min.css" type="text/css">
+      <link rel="stylesheet" href="css/flipclock.min.css" type="text/css">
+      <link rel="stylesheet" href="css/popup.min.css" type="text/css">
+      <link rel="stylesheet" href="css/magnific-popup.min.css" type="text/css">
+      <link rel="stylesheet" href="css/style.min.css" type="text/css">
+      <link rel="stylesheet" href="css/bun.css" type="text/css">
+      <link href="css/custom-styles.min.css" type="text/css" rel="stylesheet" />
+   </head>
+   <body>
+    <div class="fixedtop">
+   <div class="fixedtop__wrap clearfix">
+      <img src="img/gerb.png" class="fixedtop__img">
+      <p class="fixedtop__cap">В рамках программы «Профилактика болезней <br>опорно-двигательного аппарата и здоровья суставов»</p>
+      <p class="fixedtop__cap fixedtop__cap_sm">В рамках программы «Профилактика болезней <br>опорно-двигательного аппарата и здоровья суставов»</p>
+      <a href="img/prikaz.jpg" class="fixedtop__prikaz" id="prikaz" data-fancybox="images"><img src="img/prikaz_mini.png"></a>
+      <p class="fixedtop__text">в соответствии с приказом <br> Минздрава РФ  до <span class="bunDate">20 апреля</span> <br>установлена цена <span class="new_price_val displayCurrentPriceNoCyr">399</span> <span class="new_price_cur displayCurrentCurrency">Грн.</span>*.</p>
+      <button class="fixedtop__btn" data-id="#form">Купить за <span class="new_price_val displayCurrentPriceNoCyr">399</span> <span class="new_price_cur displayCurrentCurrency">Грн.</span>*!</button>
+   </div>
+</div>
+      <div class="wrapper">
+         <header>
+            <div class="top-line">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="tl-block">
+                           <div class="top-logo">
+                              <img src="img/logo.png">
+                              <span>Сустапрайм<sup>®</sup></span>
+                           </div>
+                           <div class="top-slogan hidden-xs hidden-sm">
+                              <div class="top-slogan__item item01">
+                                 <i class="demo-icon icn-microscope"></i>
+                                 <span>Проверено клиническими<br>испытаниями</span>
+                              </div>
+                              <div class="top-slogan__item item02">
+                                 <i class="demo-icon icn-gardening" data-style="flex-shrink: 0;"></i>
+                                 <span>100% натуральный<br>состав</span>
+                              </div>
+                              <div class="top-slogan__item item03">
+                                 <i class="demo-icon icn-sale-sticker" data-style="flex-shrink: 0;"></i>
+                                 <span>Отличная скидка<br>только сегодня</span>
+                              </div>
+                           </div>
+                           <div class="clock-block hidden-xs hidden-sm">
+                              <div class="clock-header">До конца акции осталось:</div>
+                              <div class="clock-top"></div>
+                           </div>
+                           <div class="top-btn hidden-xs">
+                              <a href="#pu-form" class="btn call-form" data-id="#form">Заказать звонок</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="header-body">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1>Если вас замучила боль в суставах, избавьтесь от нее за 10 дней с Сустапрайм<sup>®</sup>!</h1>
+                        <div class="under-header">Уникальный состав крема вернет Вас к жизни в считанные минуты!</div>
+                     </div>
+                  </div>
+                  <div class="row list-form">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="list-ok">
+                           <ul class="list-ok-items">
+                              <li>
+                                 <img src="img/arrow-right.png" alt="list">
+                                 <span>Быстро избавляет от острой и ноющей боли</span>
+                              </li>
+                              <li>
+                                 <img src="img/arrow-right.png" alt="list">
+                                 <span>Оказывает бактерицидное действие</span>
+                              </li>
+                              <li>
+                                 <img src="img/arrow-right.png" alt="list">
+                                 <span>Двигательные функции и мышечные волокна</span>
+                              </li>
+                              <li>
+                                 <img src="img/arrow-right.png" alt="list">
+                                 <span>Воспаление и блокирует процесс разрушения</span>
+                              </li>
+                           </ul>
+                           <!-- <div style="position:relative;height:0;padding-bottom:56.21%;border-radius: 10px; top: 25px; overflow: hidden;z-index: 1000">
+                              <iframe src="https://www.youtube.com/embed/-7OAu6kQoEE?ecver=2&autoplay=1&mute=1&cc_load_policy=1&modestbranding=1&rel=0" style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" gesture="media" allowfullscreen></iframe>
+                           </div> -->
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="form clearfix">
+                           <img src="img/product2.png" alt="Сустапрайм<sup>®</sup>" class="pack">
+                           <div class="label">
+                              <div class="line1">скидка</div>
+                              <div class="line2"></div>
+                           </div>
+                           <div class="order-form">
+                              <div class="order-form-header yellow hidden-xs">
+                                 *при покупке курса
+                              </div>
+                              <form method="" action="" class="landing__form orderFormWrapper">
+                                 <div class="conditions">
+                                    <div class="conditions-text red">
+                                       <span>Внимание! Акция действует только на территории <span class="city">России и стран СНГ</span></span>
+                                    </div>
+                                    <div class="clock-block hidden-md hidden-lg">
+                                       <div class="clock-header">До конца акции осталось:</div>
+                                       <div class="clock-list01"></div>
+                                    </div>
+                                    <div class="conditions-price">
+                                       <div class="old-price">
+                                          <span class="title">Обычная цена:</span>
+                                          <span class="cost"><span class="price_land_s4"><span
+                                             class="landing___price__old_value old_price_val displayPrevPriceNoCyr">798</span></span> <span
+                                             class="price_land_curr"><span class="landing___price__currency old_price_cur displayCurrentCurrency">Грн.</span></span></span>
+                                       </div>
+                                       <div class="price red">
+                                          <span class="title">Промо-цена:</span>
+                                          <span class="cost"><span class="price_land_s1"><span
+                                             class="landing___price__main_value new_price_val displayCurrentPriceNoCyr">399</span></span> <span class="price_land_curr"><span class="landing___price__currency new_price_cur displayCurrentCurrency">Грн.</span></span>
+                                          </span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="input-block">
+                                    <div class="ib-name c-s">
+                                       <label>Выберите страну</label>
+                                       <select name="country" class="orderFormWrapperCountry"></select>
+                                    </div>
+                                    <div class="ib-name">
+                                       <label for="name01">Введите Ваше имя</label>
+                                       <input id="name01" type="text" name="name" placeholder="Валерий">
+                                    </div>
+                                    <div class="ib-phone">
+                                       <label for="phone01">Введите свой телефон</label>
+                                       <input id="phone01" type="text" name="phone" placeholder="">
+                                    </div>
+                                 </div>
+                                 <div class="btn-block">
+                                    <button type="submit" class="send btn order-btn">Заказать Сустапрайм<sup>®</sup></button>
+                                    <div class="count-bay">Сегодня уже купили: <span class="count-bayer red">158</span> человек
+                                    </div>
+                                    <img src="img/arrow-to-btn.png" alt="Сустапрайм<sup>®</sup>" class="arrow">
+                                 </div>
+                              <input type="hidden" name="is_rub" value="0"/></form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="medal-line">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row pain">
+                     <div class="col-md-12 col-lg-12">
+                        <h2 class="red">Болезни суставов приводят к параличу и инвалидности!</h2>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="pain-item">
+                           <div class="pain-item__img">
+                              <img src="img/pain01.png" alt="Болезни суставов приводят к параличу и инвалидности!">
+                           </div>
+                           <div class="pain-item__text">
+                              Невыносимая боль и деформация костей - это лишь некоторые симптомы заболеваний суставов
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="pain-item">
+                           <div class="pain-item__img">
+                              <img src="img/pain02.png" alt="Болезни суставов приводят к параличу и инвалидности!">
+                           </div>
+                           <div class="pain-item__text">
+                              Запущенный артрит и артроз приводит человека к параличу и инвалидности, превращая его жизнь в ад
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="pain-item">
+                           <div class="pain-item__img">
+                              <img src="img/pain03.png" alt="Болезни суставов приводят к параличу и инвалидности!">
+                           </div>
+                           <div class="pain-item__text">
+                              Полная потеря дееспособности и жизнь без надежды на будущее - вот, что вам грозит, если вы не позаботитесь о своих суставах!
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="hfooter yellow">
+                           Жить полноценной жизнью или провести остаток своих дней в инвалидном кресле - решать вам!
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+         <main>
+            <section class="causes">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>80% людей в мире страдают болезнями суставов</h2>
+                        <div class="s-under-line">А Вы уверены, что не входите в их число?</div>
+                        <p>Все причины болезней суставов не известны даже врачам. Основной из них считается нарушение в работе человеческой иммунной системы. Однако есть несколько факторов, которые повышают риск появления и развития болезней суставов:</p>
+                     </div>
+                  </div>
+                  <div class="row causes-table row-flex">
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="causes-item">
+                           <ul class="causes-item-list">
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Возрастные изменения</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Инфекции, вызванные различными вирусами и бактериями</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Нарушение обмена веществ</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Травмы</span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="causes-item">
+                           <ul class="causes-item-list">
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Недостаток витаминов</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Болезни нервной системы</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Снижение иммунитета</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Неправильное питание</span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="causes-item">
+                           <ul class="causes-item-list">
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Избыточный вес</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Нарушения в работе эндокринной системы</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Генетическая предрасположенность</span>
+                              </li>
+                              <li>
+                                 <img src="img/warning.png" alt="Сустапрайм<sup>®</sup>">
+                                 <span>Переохлаждение</span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="expert">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>«Быстро избавиться от боли в суставах без вреда для здоровья — это реально»</h2>
+                     </div>
+                  </div>
+                  <div class="row expert-video">
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-md-push-8 col-lg-4 col-lg-push-8">
+                        <img src="img/expert.png" style="max-height: 100%; max-width: 100%;" />
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-8 col-md-pull-4 col-lg-8 col-lg-pull-4">
+                        <div class="video-descr">
+                           <p>По данным Всемирной организации по борьбе <b>с болезнями суставов</b>, 80% людей в мире имеют проблемы с суставами. Самое страшное, что заболевания суставов приводят <b>к
+                              параличу и инвалидности</b>. На сегодняшний день есть одно единственное средство, которое отличается от всех существующих до этого средств. Это средство Сустапрайм<sup>®</sup>. 
+                           </p>
+                           <p>Сустапрайм<sup>®</sup> - это новое слово в <b>восстановлении хрящевой ткани и суставов</b> для людей старшего возраста. Крем обладает отличной эффективностью и помогает многим пациентам значительно снизить болезненные симптомы и воспаления суставов, мышц, костей. </p>
+                           <p><span class="video-avtor">Александр Евгеньевич Румянцев - врач-артролог высшей категории, к.м.н., натуропат.</span>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="s-order-form">
+               <h2 class="hidden-xs hidden-sm hidden-md hidden-lg">Форма заявки</h2>
+               <div class="container">
+                  <div class="row order-row">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="or-line-top">
+                           <div class="conditions-text red">
+                              <span>Внимание! Акция действует только на территории <span class="city">России и стран СНГ</span></span>
+                           </div>
+                           <div class="clock-block">
+                              <div class="clock-header">До конца акции осталось:</div>
+                              <div class="clock-form01"></div>
+                           </div>
+                        </div>
+                        <div class="or-line-bottom">
+                           <div class="conditions-price">
+                              <div class="old-price">
+                                 <span class="title">Обычная цена:</span>
+                                 <span class="cost"><span class="price_land_s4"><span
+                                    class="landing___price__old_value old_price_val displayPrevPriceNoCyr">798</span></span> <span
+                                    class="price_land_curr"><span class="landing___price__currency old_price_cur displayCurrentCurrency">Грн.</span></span></span>
+                              </div>
+                              <div class="price red">
+                                 <span class="title">Промо-цена:</span>
+                                 <span class="cost"><span class="price_land_s1"><span
+                                    class="landing___price__main_value new_price_val displayCurrentPriceNoCyr">399</span></span> <span class="price_land_curr"><span class="landing___price__currency new_price_cur displayCurrentCurrency">Грн.</span></span>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <img src="img/product2.png" alt="Сустапрайм<sup>®</sup>" class="pack hidden-xs">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <form method="" action="" class="landing__form orderFormWrapper">
+                           <div class="or-line-top second">
+                              <div class="input-block">
+                                 <div class="order-form-header hidden-xs">*при покупке курса
+                                 </div>
+                                 <div class="ib-name c-s">
+                                    <label>Выберите страну</label>
+                                    <select name="country" class="orderFormWrapperCountry"></select>
+                                 </div>
+                                 <div class="ib-name">
+                                    <label for="name02">Введите Ваше имя</label>
+                                    <input id="name02" type="text" name="name" placeholder="Валерий">
+                                 </div>
+                                 <div class="ib-phone">
+                                    <label for="phone02">Введите свой телефон</label>
+                                    <input id="phone02" type="text" name="phone" placeholder="">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="or-line-bottom">
+                              <div class="btn-block">
+                                 <button type="submit" class="send btn order-btn">Заказать Сустапрайм<sup>®</sup></button>
+                                 <div class="count-bay">Сегодня уже купили: <span class="count-bayer red">158</span> человек
+                                 </div>
+                                 <img src="img/arrow-to-btn-order.png" alt="Сустапрайм<sup>®</sup>" class="arrow hidden-xs hidden-sm hidden-md">
+                                 <img src="img/arrow-to-btn-order-md.png" alt="Сустапрайм<sup>®</sup>" class="arrow hidden-lg">
+                              </div>
+                           </div>
+                        <input type="hidden" name="is_rub" value="0"/></form>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="help">
+               <div class="container">
+                  <div class="row help-block">
+                     <div class="col-xs-12 col-sm-12 col-md-12.col-lg-12">
+                        <h2>Как крем Сустапрайм<sup>®</sup> помог 2500 участникам исследования?</h2>
+                        <p>Всемирная организация по борьбе с болезнями суставов в течение шести месяцев проводила ряд клинических испытаний и фундаментальных исследований крема Сустапрайм<sup>®</sup>. В исследованиях приняли участие 2500 добровольцев.</p>
+                        <p>В результате испытаний выяснилось:</p>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 coll-md-12 col-lg-12">
+                        <div class="percent-block">
+                           <div class="help-item">
+                              <div class="circlestat">
+                                 <img src="img/perc01.png" alt="Сустапрайм<sup>®</sup>">
+                              </div>
+                              <div class="help-item__text">
+                                 Боль исчезла через 8-10 минут у 100% участников исследований
+                              </div>
+                           </div>
+                           <div class="help-item">
+                              <div class="circlestat">
+                                 <img src="img/perc02.png" alt="Сустапрайм<sup>®</sup>">
+                              </div>
+                              <div class="help-item__text">
+                                 Восстановление хрящевой ткани после прохождения курса крема Сустапрайм<sup>®</sup> - у 98% участников исследований
+                              </div>
+                           </div>
+                           <div class="help-item hidden-xs">
+                              <div class="circlestat">
+                                 <img src="img/perc03.png" alt="Сустапрайм<sup>®</sup>">
+                              </div>
+                              <div class="help-item__text">
+                                 Избавление от артрита и артроза после прохождения курса - у 93% участников исследований
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="distinction">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Чем отличается крем Сустапрайм<sup>®</sup> от других средств?</h2>
+                     </div>
+                  </div>
+                  <div class="row distinction-row">
+                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="distinction-img">
+                           <img src="img/distinction01.png" alt="Чем отличается крем Сустапрайм<sup>®</sup> от других средств?">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                        <div class="distinction-text">Крем <span class="bold">Сустапрайм<sup>®</sup></span> отличается от всех остальных средств тем, что не просто временно снимает боль в суставах, а в первую очередь устраняет саму причину заболевания за счет активации природных сил организма и синергического действия натуральных компонентов
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row distinction-row">
+                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="distinction-img">
+                           <img src="img/icon01.png" alt="Чем отличается крем Сустапрайм<sup>®</sup> от других средств?">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                        <div class="distinction-text">Уникальная формула <span class="bold">Сустапрайм<sup>®</sup></span> останавливает дальнейшее разрушение суставов и запускает процесс регенерации поврежденных тканей без побочных эффектов и вреда для здоровья
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row distinction-row">
+                     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <div class="distinction-img">
+                           <img src="img/distinction03.png" alt="Чем отличается крем Сустапрайм<sup>®</sup> от других средств?">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                        <div class="distinction-text">Ученые Всемирной Организации по борьбе с болезнями суставов в течение нескольких месяцев тестировали различные натуральные компоненты, соединяя их и проверяя действие. В итоге им удалось изобрести инновационную суперформулу, аналогов которой нет во всем мире
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row distinction-combination">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="dc-text">
+                           Ученые подобрали уникальное сочетание компонентов, которые в определенной консистенции оказывают сверхмощный эффект. Они работают по принципу синергии, усиливая и дополняя действие друг друга.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="composition">
+                     <div class="row line1">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+                           <div class="composition-item left">
+                              <img src="img/arrow-bottom-right.png" alt="Стрелочка" class="arrow hidden-xs hidden-sm ">
+                              <div class="composition-item__text">
+                                 <div class="ci-header">Панты марала</div>
+                                 <div class="ci-body">Снимают боль и отёк, стимулируют процессы регенерации, восстанавливают хрящевую ткань, улучшают самочувствие и возвращают свободу движени.
+                                 </div>
+                              </div>
+                              <div class="composition-item__img">
+                                 <img src="img/icon05.png" alt="Сабельник болотный">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xs-0ffset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-5">
+                           <div class="composition-item right">
+                              <img src="img/arrow-bottom-left.png" alt="Стрелочка" class="arrow hidden-xs hidden-sm">
+                              <div class="composition-item__img">
+                                 <img src="img/icon06.png" alt="Бобровая струя">
+                              </div>
+                              <div class="composition-item__text">
+                                 <div class="ci-header">Биогенный прополис</div>
+                                 <div class="ci-body">Компоненты, входящие в состав, тонизируют нервную систему, подавляют болевой синдром и позволяют постепенно нормализовать процесс обмена веществ на повреждённых участках.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row line2">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5">
+                           <div class="composition-item left">
+                              <img src="img/arrow-top-right.png" alt="Стрелочка" class="arrow hidden-xs hidden-sm">
+                              <div class="composition-item__text">
+                                 <div class="ci-header">
+                                    Печень акулы
+                                 </div>
+                                 <div class="ci-body">Увеличивает подвижность суставов, борется с инфекциями, убирает застойные образования, улучшает кровоток
+                                 </div>
+                              </div>
+                              <div class="composition-item__img">
+                                 <img src="img/icon07.png" alt="Прополис">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xs-0ffset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-0 col-md-6 col-lg-offset-2 col-lg-5">
+                           <div class="composition-item right">
+                              <img src="img/arrow-top-left.png" alt="Стрелочка" class="arrow hidden-xs hidden-sm">
+                              <div class="composition-item__img">
+                                 <img src="img/icon08.png" alt="Женьшень">
+                              </div>
+                              <div class="composition-item__text">
+                                 <div class="ci-header">Бобровая струя</div>
+                                 <div class="ci-body">Способствует сращению переломов и быстрому восстановлению повреждённых мышц и связок.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="s-order-form">
+               <h2 class="hidden-xs hidden-sm hidden-md hidden-lg">Форма заявки</h2>
+               <div class="container">
+                  <div class="row order-row">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="or-line-top">
+                           <div class="conditions-text red">
+                              <span>Внимание! Акция действует только на территории <span class="city">России и стран СНГ</span></span>
+                           </div>
+                           <div class="clock-block">
+                              <div class="clock-header">До конца акции осталось:</div>
+                              <div class="clock-form02"></div>
+                           </div>
+                        </div>
+                        <div class="or-line-bottom">
+                           <div class="conditions-price">
+                              <div class="old-price">
+                                 <span class="title">Обычная цена:</span>
+                                 <span class="cost"><span class="price_land_s4"><span
+                                    class="landing___price__old_value old_price_val displayPrevPriceNoCyr">798</span></span> <span
+                                    class="price_land_curr"><span class="landing___price__currency old_price_cur displayCurrentCurrency">Грн.</span></span></span>
+                              </div>
+                              <div class="price red">
+                                 <span class="title">Промо-цена:</span>
+                                 <span class="cost"><span class="price_land_s1"><span
+                                    class="landing___price__main_value new_price_val displayCurrentPriceNoCyr">399</span></span> <span class="price_land_curr"><span class="landing___price__currency new_price_cur displayCurrentCurrency">Грн.</span></span>
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <img src="img/product2.png" alt="Сустапрайм<sup>®</sup>" class="pack hidden-xs">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <form method="" action="" class="landing__form orderFormWrapper">
+                           <div class="or-line-top second">
+                              <div class="input-block">
+                                 <div class="order-form-header hidden-xs">*при покупке курса
+                                 </div>
+                                 <div class="ib-name c-s">
+                                    <label>Выберите страну</label>
+                                    <select name="country" class="orderFormWrapperCountry"></select>
+                                 </div>
+                                 <div class="ib-name">
+                                    <label for="name03">Введите Ваше имя</label>
+                                    <input id="name03" type="text" name="name" placeholder="Валерий">
+                                 </div>
+                                 <div class="ib-phone">
+                                    <label for="phone03">Введите свой телефон</label>
+                                    <input id="phone03" type="text" name="phone" placeholder="+7 (910) 123-00-90">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="or-line-bottom">
+                              <div class="btn-block">
+                                 <button type="submit" class="send btn order-btn">Заказать Сустапрайм<sup>®</sup></button>
+                                 <div class="count-bay">Сегодня уже купили: <span class="count-bayer red">158</span> человек
+                                 </div>
+                                 <img src="img/arrow-to-btn-order.png" alt="Сустапрайм<sup>®</sup>" class="arrow hidden-xs hidden-sm hidden-md">
+                                 <img src="img/arrow-to-btn-order-md.png" alt="Сустапрайм<sup>®</sup>" class="arrow hidden-lg">
+                              </div>
+                           </div>
+                        <input type="hidden" name="is_rub" value="0"/></form>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="reviews">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Отзывы людей, которые уже использовали Сустапрайм</h2>
+                     </div>
+                  </div>
+               </div>
+               <div class="text-reviews">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
+                           <div class="text-reviews__items owl-carousel">
+                              <!-- <div class="tr-item">
+                                 <div style="height:0;padding-bottom:56.21%"><iframe src="https://www.youtube.com/embed/TbkIwQcb2qw?ecver=2&enablejsapi=1" class="player_youtube" style="position:absolute;width:100%;height:100%;left:0" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+                              </div>
+                              <div class="tr-item">
+                                 <div style="height:0;padding-bottom:56.21%"><iframe src="https://www.youtube.com/embed/v1ASM1-mHUM?ecver=2&enablejsapi=1" class="player_youtube" style="position:absolute;width:100%;height:100%;left:0" frameborder="0" gesture="media" allowfullscreen></iframe></div>
+                              </div> -->
+                              <div class="tr-item">
+                                 <div class="tr-item__img">
+                                    <img src="img/elena.jpg" alt="Елена Сергеевна">
+                                 </div>
+                                 <div class="tr-item__text">
+                                    <div class="tr-header">Елена Сергеевна, 47 лет, Киров</div>
+                                    <div class="tr-body">Добрый день! Причиной моих проблем с суставами стала травма колена, которую я получила несколько лет назад, когда попала в аварию. Долго лечила, через какое-то время после того, как вылечила колено, у меня, при резкой смене погоды, начала появляться тупая боль в том месте, где раньше была трещина. Колено начало краснеть. Многие лекарства мне пить нельзя, потому что на большинство химических препаратов у меня аллергия. Решили с мужем поискать решение проблемы в интернете. Нашли Сустапрайм. Прочитали все на сайте. Для меня самое главное, что без химии. Еще заинтересовало то, что крем не просто боль снимает, а заставляет организм самовосстанавливаться. Заказала крем с запасом, потому что серия ограниченная. Пользуюсь уже больше месяца. Очень нравится результат, боли больше нет. Буду проходить курс до конца.</div>
+                                 </div>
+                              </div>
+                              <div class="tr-item">
+                                 <div class="tr-item__img">
+                                    <img src="img/vladimir.jpg" alt="Владимир Анатольевич">
+                                 </div>
+                                 <div class="tr-item__text">
+                                    <div class="tr-header">Владимир Анатольевич, 52 года, Москва</div>
+                                    <div class="tr-body">Здравствуйте! У меня был инфекционный артрит из-за перенесенного в свое время туберкулеза. Сначала у меня начало ломить руки, они стали сильно болеть. Я пил обезболивающие таблетки, но эффекта хватало ненадолго. Мне сказали, что надо устранять причину болезни - воспаление суставов, а не просто снимать боль. Дело серьезное, так и инвалидом можно остаться. Никакую химию я не признаю в принципе своем, поэтому решил искать средство на натуральной основе. Нашел в интернете крем Сустапрайм, прочитал все на сайте. Меня все устроило, более того, что крем состоит только из натуральных компонентов. Заказал, доставили быстро. Мажу больные места две недели. Очень доволен. Боль перестала беспокоить, как только начал мазать. Сейчас вообще ничего не болит и почти не ломит. Буду проходить курс до самого конца.</div>
+                                 </div>
+                              </div>
+                              <div class="tr-item">
+                                 <div class="tr-item__img">
+                                    <img src="img/irina.jpg" alt="Ирина Сергеевна">
+                                 </div>
+                                 <div class="tr-item__text">
+                                    <div class="tr-header">Ирина Сергеевна, 60 лет, Обнинск</div>
+                                    <div class="tr-body">Добрый день! У меня артрит уже 7 лет. Из рук все падало, потому что из-за боли было очень тяжело удержать что-то в руках. Сильная боль мучила в ночные часы, даже спать было невозможно. Дочка мне нашла в интернете крем Сустапрайм, сказала, что на натуральной основе и из компонентов, которые обладают особыми целебными свойствами. Мы вместе изучили всю информацию на сайте. Я заинтересовалась. Опять же написано было, что он продается ограниченной серией. Заказала сразу 20 упаковок, чтобы 5 на курсовой прием хватило. Остальные на всякий случай. Прошла курс - 45 дней. Обезболивающий эффект проявился очень быстро. Постепенно стали проходить руки и коленки. Перестала просыпаться от боли по ночам. Очень рекомендую всем с такими же проблемами купить средство, пока оно есть в продаже.</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="faq">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Часто задаваемые вопросы наших клиентов</h2>
+                     </div>
+                  </div>
+                  <div class="row block-faq">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul class="faq-list">
+                           <li>
+                              <div class="question"><span>У меня болит тазобедренный сустав, сможет ли Сустапрайм<sup>®</sup> снять боль без вреда для здоровья?</span>
+                              </div>
+                              <div class="answer">Сустапрайм<sup>®</sup> сможет снять боль без побочных эффектов, так как все компоненты крема были протестированы Всемирной организацией по борьбе с болезнями суставов.
+                              </div>
+                           </li>
+                           <li>
+                              <div class="question"><span>Как Сустапрайм<sup>®</sup> поможет мне при артрозе суставов?</span></div>
+                              <div class="answer">Сустапрайм<sup>®</sup> сначала снимает боль благодаря сочетанию компонентов, которые проникая через сосуды в хрящ, ослабляют боль, уменьшают набухания и повышают подвижность суставов. За курс использования, Сустапрайм<sup>®</sup> запускает процесс самовосстановления суставов и хрящевых тканей с помощью уникальной запатентованной формулы.
+                              </div>
+                           </li>
+                           <li>
+                              <div class="question"><span>У меня на большинство препаратов аллергия. Есть ли у Сустапрайм<sup>®</sup>а противопоказания и побочные эффекты?</span>
+                              </div>
+                              <div class="answer">Крем Сустапрайм<sup>®</sup> состоит исключительно из натуральных и экологически чистых компонентов, которые очень тщательно отбирались учеными. Они прошли все необходимые клинические испытания, в которых приняли участие 2500 человек. Ни у кого из них не было выявлено ни одного побочного эффекта и аллергической реакции.
+                              </div>
+                           </li>
+                           <li>
+                              <div class="question"><span>У моего папы артрит. У него болят и немеют пальцы на руках. Поможет ли ему Сустапрайм<sup>®</sup>?</span>
+                              </div>
+                              <div class="answer">Да, Сустапрайм<sup>®</sup> помогает при различных стадиях артрита, благодаря уникальному сочетанию натуральных компонентов. Так же Сустапрайм<sup>®</sup> помогает при артирите и артрозе локтевого сустава, суставов пальцев рук и ног, плечевого и коленного суставов.
+                              </div>
+                           </li>
+                           <li>
+                              <div class="question"><span>Скажите пожалуйста, чем отличается Сустапрайм<sup>®</sup> от других средств?</span>
+                              </div>
+                              <div class="answer">Ученые Всемирной организации по борьбе с болезнями суставов после долгих опытов добавили в крем Сустапрайм<sup>®</sup> компоненты, благодаря которым в организме запускается процесс регенерации поврежденных тканей без вреда для здоровья: коллаген, глюкозомин, иерусалимский топинамбур, хондроитин, кальций, витамин D.
+                              </div>
+                           </li>
+                           <li>
+                              <div class="question">
+                                 <span>Сколько можно использовать Сустапрайм<sup>®</sup> без вреда для здоровья?</span>
+                              </div>
+                              <div class="answer">Сустапрайм<sup>®</sup> необходимо использовать не реже двух-трех раз в день. Очень важно не пропускать ни дня, что бы добиться максимального эффекта. При соблюдении инструкции по применению крема Сустапрайм<sup>®</sup> от боли и воспаления удастся избавиться в первые 10 дней. Для полного восстановления суставов и хрящевой ткани необходимо пройти полный курс крема Сустапрайм<sup>®</sup> – не менее 35-40 дней.
+                              </div>
+                           </li>
+                           <li>
+                              <div class="question"><span>Сколько хранится крем Сустапрайм<sup>®</sup>?</span></div>
+                              <div class="answer">Срок годности крема Сустапрайм<sup>®</sup> – 2 года. Крем Сустапрайм<sup>®</sup> необходимо хранить при температуре не более 25 ⁰С, избегая попадания прямых солнечных лучей.
+                              </div>
+                           </li>
+                           <li>
+                              <div class="question"><span>Как правильно пользоваться кремом Сустапрайм<sup>®</sup>?</span></div>
+                              <div class="answer">Нужно выдавить небольшое количество крема на руку, нанести его тонким слоем на проблемное место и втирать легкими круговыми движениями, пока он полностью не впитается в кожу. Процедуру необходимо повторять 1 раз в день в течение 30-45 дней.
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="how">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Как применять Сустапрайм<sup>®</sup>?</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="how-item">
+                           <div class="how-img">
+                              <img src="img/how-01.png" alt="Сустапрайм<sup>®</sup>">
+                           </div>
+                           <div class="how-text">
+                              Выдавите небольшое количество крема на руку
+                           </div>
+                           <img src="img/how-arrow.png" alt="Сустапрайм<sup>®</sup>" class="how-arrow">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="how-item">
+                           <div class="how-img">
+                              <img src="img/how-02.png" alt="Сустапрайм<sup>®</sup>">
+                           </div>
+                           <div class="how-text">
+                              Нанесите крем тонким слоем на проблемное место и втирайте круговыми движениями
+                           </div>
+                           <img src="img/how-arrow.png" alt="Сустапрайм<sup>®</sup>" class="how-arrow">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="how-item last">
+                           <div class="how-img">
+                              <img src="img/how-03.png" alt="Сустапрайм<sup>®</sup>">
+                           </div>
+                           <div class="how-text">
+                              Применяйте 1 раз в день в течение 30-45 дней.
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="attention">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Остерегайтесь подделок!</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="attention-body">
+                           <div class="attention-img">
+                              <img src="img/attention-img.png" alt="Сустапрайм<sup>®</sup>" class="hidden-xs hidden-sm">
+                              <img src="img/attention-img-small.png" alt="Сустапрайм<sup>®</sup>" class="hidden-md hidden-lg">
+                           </div>
+                           <div class="attention-text">
+                              <p>С ростом популярности <span class="bold">Сустапрайм<sup>®</sup></span> на российском рынке, участились случаи подделок по бросовой цене. В настоящей упаковке обязательно должна быть инструкция на средство Сустапрайм<sup>®</sup> на бумаге хорошего качества и сертификат соответствия.
+                              </p>
+                              <p class="yellow">Продукт продается в оригинальной упаковке с уникальным регистрационным кодом!
+                              </p>
+                              <p>Найдите код на упаковке и проверьте его подлинность.</p>
+                           </div>
+                           <div class="attention-form">
+                              <div class="att-form">
+                                 <input type="text" placeholder="Введите код" name="code">
+                                 <p class="js-message" style="font-size: 14px; color: lightblue;"></p>
+                                 <button type="submit" class="btn">Проверить код</button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="team">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Наши специалисты работают для вас!</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="team-item">
+                           <div class="team-photo">
+                              <img src="img/ilin.png" alt="Александр Ильин">
+                           </div>
+                           <div class="team-name">
+                              Директор по работе с клиентами
+                              <br>Александр Ильин
+                           </div>
+                           <div class="team-descr">
+                              Отвечает за достоверность информации, предоставляемой клиенту
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="team-item">
+                           <div class="team-photo">
+                              <img src="img/ilichev.png" alt="Леонид Ильичев">
+                           </div>
+                           <div class="team-name">
+                              Директор колл-центра
+                              <br>Леонид Ильичев
+                           </div>
+                           <div class="team-descr">
+                              Отвечает за качество консультации и своевременную связь с клиентом
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="team-item">
+                           <div class="team-photo">
+                              <img src="img/sergeev.png" alt="Алексей Сергеев">
+                           </div>
+                           <div class="team-name">
+                              Директор по логистике
+                              <br>Алексей Сергеев
+                           </div>
+                           <div class="team-descr">
+                              Отвечает за сроки и адрес доставки
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div class="team-item">
+                           <div class="team-photo">
+                              <img src="img/semenova.png" alt="Наталья Семенова">
+                           </div>
+                           <div class="team-name">
+                              Директор по качеству
+                              <br>Наталья Семенова
+                           </div>
+                           <div class="team-descr">
+                              Отвечает за оригинальность и качество крема
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="delivery">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Как оформить заказ и получить крем Сустапрайм<sup>®</sup>?</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="delivery-item first">
+                           <div class="delivery-img">
+                              <i class="demo-icon icn-hand"></i>
+                           </div>
+                           <div class="delivery-text">
+                              Вы оставляете заявку на нашем сайте
+                           </div>
+                           <img src="img/how-arrow.png" alt="Сустапрайм<sup>®</sup>" class="delivery-arrow">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <div class="delivery-item second">
+                           <div class="delivery-img ">
+                              <i class="demo-icon icn-phone-call"></i>
+                           </div>
+                           <div class="delivery-text">
+                              Специалист колл-центра связывается с Вами для подтверждения заказа
+                           </div>
+                           <img src="img/how-arrow.png" alt="Сустапрайм<sup>®</sup>" class="delivery-arrow">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-push-6 col-sm-6 col-md-push-0 col-md-3 col-lg-push-0 col-lg-3">
+                        <div class="delivery-item third">
+                           <div class="delivery-img">
+                              <i class="demo-icon  icn-logistics-delivery-truck-in-movement"></i>
+                           </div>
+                           <div class="delivery-text">
+                              Мы отправляем Ваш заказ
+                           </div>
+                           <img src="img/how-arrow.png" alt="Сустапрайм<sup>®</sup>" class="delivery-arrow">
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-pull-6 col-sm-6 col-md-pull-0 col-md-3 col-lg-pull-0 col-lg-3">
+                        <div class="delivery-item fourth">
+                           <div class="delivery-img">
+                              <i class="demo-icon  icn-shake-hands"></i>
+                           </div>
+                           <div class="delivery-text">
+                              Вы принимаете заказ и оплачиваете его только после получения
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="delivery-map hidden-xs">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Мы доставим Ваш заказ в любую точку России и СНГ!</h2>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="dmap">
+                           <img src="img/map.png" alt="Сустапрайм<sup>®</sup>">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="warning">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Если Вас замучила боль в суставах, избавьтесь от нее за 10 дней с Сустапрайм<sup>®</sup>ом!</h2>
+                        <p>Крем из уникальных компонентов вернет Вас к жизни в считанные минуты!</p>
+                     </div>
+                  </div>
+                  <div class="row warning-border">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p>Пока вы тянете время, шансов на избавление от болезней суставов становится все меньше и меньше! С каждым днем все тяжелее терпеть невыносимую боль! Так стоит ли дожидаться того, пока процесс станет необратимым, если проблему можно решить сегодня?</p>
+                        <p class="red">Крем Сустапрайм<sup>®</sup> произведен ограниченной серией!</p>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="bottom-form">
+               <h2 class="hidden-xs hidden-sm hidden-md hidden-lg">Форма внизу страницы</h2>
+               <div class="container">
+                  <div class="row list-form">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 hidden-xs hidden-sm">
+                        <div class="list-ok">
+                           <ul class="list-ok-items">
+                              <li><img src="img/arrow-right.png" alt="list"><span>Быстро снимает боль и отеки</span></li>
+                              <li><img src="img/arrow-right.png" alt="list"><span>Действует направлено, восстанавливает поврежденные суставы</span>
+                              </li>
+                              <li><img src="img/arrow-right.png" alt="list"><span>Побеждает артроз, ревматизм, остеопороз, артрит, радикулит</span>
+                              </li>
+                              <li><img src="img/arrow-right.png" alt="list"><span>Активирует природные силы организма за счет 100% натурального состава</span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="form bottom clearfix">
+                           <img src="img/product2.png" alt="Сустапрайм<sup>®</sup>" class="pack">
+                           <div class="label ">
+                              <div class="line1">скидка</div>
+                              <div class="line2"></div>
+                           </div>
+                           <div class="order-form">
+                              <div class="order-form-header yellow hidden-xs">
+                                 *при покупке курса
+                              </div>
+                              <form id="form" method="" action="" class="landing__form orderFormWrapper">
+                                 <div class="conditions">
+                                    <div class="conditions-text red">
+                                       <span>Внимание! Акция действует только на территории <span class="city">России и стран СНГ</span></span>
+                                    </div>
+                                    <div class="clock-block hidden-md hidden-lg">
+                                       <div class="clock-header">До конца акции осталось:</div>
+                                       <div class="clock-list02"></div>
+                                    </div>
+                                    <div class="conditions-price">
+                                       <div class="old-price">
+                                          <span class="title">Обычная цена:</span>
+                                          <span class="cost"><span class="price_land_s4"><span
+                                             class="landing___price__old_value old_price_val displayPrevPriceNoCyr">798</span></span> <span
+                                             class="price_land_curr"><span class="landing___price__currency old_price_cur displayCurrentCurrency">Грн.</span></span></span>
+                                       </div>
+                                       <div class="price red">
+                                          <span class="title">Промо-цена:</span>
+                                          <span class="cost"><span class="price_land_s1"><span
+                                             class="landing___price__main_value new_price_val displayCurrentPriceNoCyr">399</span></span> <span class="price_land_curr"><span class="landing___price__currency new_price_cur displayCurrentCurrency">Грн.</span></span>
+                                          </span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="input-block">
+                                    <div class="ib-name c-s">
+                                       <label>Выберите страну</label>
+                                       <select name="country" class="orderFormWrapperCountry"></select>
+                                    </div>
+                                    <div class="ib-name">
+                                       <label for="name04">Введите Ваше имя</label>
+                                       <input id="name04" type="text" name="name" placeholder="Валерий">
+                                    </div>
+                                    <div class="ib-phone">
+                                       <label for="phone04">Введите свой телефон</label>
+                                       <input id="phone04" type="text" name="phone" placeholder="+7 (910) 123-00-90">
+                                    </div>
+                                 </div>
+                                 <div class="btn-block">
+                                    <button type="submit" class="send btn order-btn">Заказать Сустапрайм<sup>®</sup></button>
+                                    <div class="count-bay">Сегодня уже купили: <span class="count-bayer red">158</span> человек
+                                    </div>
+                                    <img src="img/arrow-to-btn.png" alt="Сустапрайм<sup>®</sup>" class="arrow">
+                                 </div>
+                              <input type="hidden" name="is_rub" value="0"/></form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="medal-line">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </main>
+         <footer>
+            <div class="req-line" style="width: 100%; text-align: center;"><noindex><span>ООО "Лебентон", г. Москва<br>ИНН: 7724376642, ОГРН: 1167746741766</span><br><span>+7 (495) 191-96-95</span></noindex></div>
+         </footer>
+      </div>
+      
+      
+      
+      
+   
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script src="http://207.154.218.234/js/jquery.inputmask.bundle.js"></script>
+<script src="http://207.154.218.234/js/phone.js?v=1"></script>
+<script type="text/javascript">
+$(document ).ready(function() {
+    var inputMask = new Inputmask("phone");
+    var masksObj = inputMask.aliases.phone.phoneCodes;
+	var countries = {"RU":{"code":"RU","title":"\u0420\u043e\u0441\u0441\u0438\u044f","cost":"978","delivery":"0","old_price":"1956","currency":"\u20bd","fake_price":"978"},"BY":{"code":"BY","title":"\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c","cost":"39","delivery":"0","old_price":"78","currency":"\u0440\u0443\u0431.","fake_price":"39"},"UA":{"code":"UA","title":"\u0423\u043a\u0440\u0430\u0438\u043d\u0430","cost":"399","delivery":"0","old_price":"798","currency":"\u0413\u0440\u043d.","fake_price":"399","selected":true},"KZ":{"code":"KZ","title":"\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d","cost":"6990","delivery":"0","old_price":"13980","currency":"&#12306;","fake_price":"6990"},"AM":{"code":"AM","title":"\u0410\u0440\u043c\u0435\u043d\u0438\u044f","cost":"11990","delivery":"0","old_price":"23980","currency":"&#1380;&#1408;.","fake_price":"11990"}};
+	var defaultCost = $('input[name="is_rub"]').eq(0).val();
+
+    // construct
+    function mA1Helper(options){
+		this.options = $.extend({
+			countries: {},
+			init: true,
+			leave: '.ma1leaveBlock',
+			callback: '.ma1callbackBlock',
+			buyers: {
+                buy: '{name} заказал(а) {buy} упаковок на сумму {sum}',
+                remaining: 'Осталось упаковок <span class="blink">{count}</span>',
+                gender: null,
+            },
+			online: 'Уже {online} человек сделали заказ',
+		}, options);
+
+		this.x 		= document.getElementsByClassName("orderFormWrapperCountry");
+		this.order 	= {};
+		this.debug	= function()
+		{
+			if(typeof this.options.debug !== "undefined" && this.options.debug === true){
+				return true;
+			}
+			return false;
+		}
+
+		this.currentPrice = null;
+
+		this.getBuyers = function(sex)
+		{
+			var m = ['Валерий Фе****','Владислав Ко****','Владимир Ма****','Валентин Ди****','Валерий Ще******','Иван Ба*****','Вячеслав Ку****','Михаил Ро*****','Сергей Во*****','Дмитрий Де*****','Вячеслав Шу****','Дима Ав*****','Денис Ми***','Евгений Ма*****','Виталий Ми****','Даниил Те*****','Влад Бу*****','Иван Гр*****','Алексей Ре*****','Владимир Су****','Вадим Тр*****','Вадим Га*****','Евгений Го****','Евгений Ба****','Сергей Жу***','Влад Че*****','Владислав Ни****','Виктор Че*****','Олег Як*****','Дмитрий Гл*****','Василий Кр****','Антон За****','Антон Бе****','Илья Со****','Сергей Ми****','Дмитрий Да****','Владислав Ра****','Дмитрий Вл*****','Иван Ма*****','Павел Пр*****','Никита Ки****','Максим Ша*****','Ярослав Ко****','Илья См*****','Андрей Ле****','Андрей Ни*****','Артём Ре****','Анатолий Ти*****','Ярослав За*****','Василий Гу****'];
+			var w = ['Анна Па*****','Алина Ер*****','Александра Ло****','Елена Бы****','Марина Ел****','Анна Мо****','Ксения Кр*****','Алена Бо****','Виктория Ка****','Маргарита Бе****','Анна Ры*****','Дарья Са*****','Алла Кр*****','Евгения Ко****','Антонина Пе****','Ирина Со****','Алена Во****','Валентина Бу****','Вика Др****','Валерия Ло****','Кристина Со****','Наталья Го*****','Марина Ма*****','Катерина Ля****','Анастасия Ле*****','Екатерина Во*****','Наталья Ло****','Валентина Ля****','Вероника Ан****','Викуся Пр*****','Мария Ша****','Василиса Ма****','Ольга Дм****','Виктория Ни****','Дарья Пе****','Татьяна Ко****','Валентина Ко****','Оля Са******','Лилия Ма*****','Ирина Пе*****','Анна Да*******','Анастасия Во****','Полина Гр****','Мария Ко****','Кристина До****','Юлия Пу****','Татьяна Ла****','Валерия Лу****','Анастасия Шп****','Алёна Ши****'];
+
+            switch (sex){
+                case 1:
+                    return m;
+                case 2:
+                    return w;
+                default:
+                    return m.concat(w);
+            }
+		};
+
+		this.updateCosts = function (cc)
+        {
+            var indexMask = masksObj.map((o) => o.cc).indexOf(cc);
+            $('[name="phone"]').attr('placeholder', masksObj[indexMask].mask);
+
+            this.currentPrice = this.options.countries[cc];
+            this.currentPrice.shortCurrency = (cc == 'KZ' || cc == 'AM') ? this.currentPrice.currency : this.currentPrice.currency.charAt(0).toUpperCase() + '.';
+
+            $('select[name="country"]').val(cc);
+
+            if(typeof this.options.countries[cc].replaced !== "undefined") {
+            	if(this.options.countries[cc].cost < 10) {
+            	    $('input[name="is_rub"]').val(1);
+            	}
+            } else {
+            	$('input[name="is_rub"]').val(defaultCost);
+            }
+
+            $('.new_prise .new_prise_number, .displayCurrentPriceNoCyr').text(this.currentPrice.cost);
+            $('.new_prise .new_prise_currency, .displayCurrentCurrency').html(this.currentPrice.currency);
+            $('.realPrice, .displayCurrentPrice').html(this.currentPrice.cost + ' ' + this.currentPrice.currency);
+            $('.old_price, .displayPrevPrice').html(this.currentPrice.old_price + ' ' + this.currentPrice.currency);
+
+            $('.realPrice, .displayCurrentPriceShortCyr').html(this.currentPrice.cost + ' ' + this.currentPrice.shortCurrency);
+            $('.old_price, .displayPrevPriceShortCyr').html(this.currentPrice.old_price + ' ' + this.currentPrice.shortCurrency);
+
+            $('.displayPrevPriceNoCyr').text(this.currentPrice.old_price);
+            $('.displayPrevPriceShortCyr').html(this.currentPrice.shortCurrency);
+        };
+
+		this.getContainer = function(element,attribute,inner)
+		{
+			if(typeof attribute !== 'object' || !attribute.hasOwnProperty('id') && !attribute.hasOwnProperty('class')){
+				if(this.debug()){
+					console.log('Element has not own id or className');
+				}
+				return false;
+			}
+
+			var createElement = function (element,attribute,inner)
+			{
+				if(typeof(element) === "undefined"){
+					return false;
+				}
+
+				var el = document.createElement(element);
+				if(typeof(attribute) === 'object'){
+					for(var key in attribute){
+						el.setAttribute(key,attribute[key]);
+					}
+				}
+				if(typeof inner !== "undefined"){
+					el.innerHTML = inner;
+				}
+
+				return el;
+			}
+
+			var id = (attribute.hasOwnProperty('id')) ? '#' + attribute.id : '.' + attribute.class;
+
+			if(!$(id).length){
+				$('body').append(createElement(element,attribute,inner));
+			}
+
+			return $(id);
+		};
+
+
+		this.formSubmit = function()
+		{
+		    $(document).on('submit', ".orderFormWrapper", function(e)
+		    {
+		        e.stopPropagation();
+
+		        var _self = this;
+		        $(this).attr('action', 'index.php?success').attr('method', 'POST');
+
+		        if(window.errorMessage === undefined){
+		            var errorMessage = function(msg)
+		            {
+		                alert(msg);
+		                return false;
+		            }
+		        }
+
+		        if($(this).find('[name="name"]').length > 0){
+		            var name = $(this).find('[name="name"]').val();
+
+		            var rename = /^[a-zA-Zа-яА-ЯёЁ ]*$/i;
+
+		            if(name.length == 0)
+		            {
+		                return errorMessage('Вы не заполнили поле "Ф.И.О"');
+		            }
+
+		            if(!rename.test(name))
+		            {
+		                return errorMessage('Неверно заполнено поле "Ф.И.О"');
+		            }
+
+		        }
+
+		        var phone = $(this).find('[name="phone"]').val();
+		        var clear_phone = phone.replace(/[^0-9]/g,'');
+
+		        if(phone.length == 0){
+		            return errorMessage('Вы не заполнили поле "Телефон"');
+		        }
+
+		        if(clear_phone.length < 10){
+		            return errorMessage('Введен слишком короткий номер телефона');
+		        }
+
+		        if(clear_phone.length == 10 && (clear_phone.indexOf('7') === 0 || clear_phone.indexOf('8') === 0)){
+		            return errorMessage('Введен слишком короткий номер телефона');
+		        }
+
+		        if(clear_phone.length > 12 && clear_phone.indexOf('7') !== 0 && clear_phone.indexOf('8') !== 0){
+		            return errorMessage('Введен слишком длинный номер телефона');
+		        }
+
+		        if(clear_phone.length > 12 && clear_phone.indexOf('38') !== 0 && clear_phone.indexOf('37') !== 0){
+		            return errorMessage('Введен слишком длинный номер телефона');
+		        }
+
+		        if(clear_phone.length > 12){
+		            return errorMessage('Введен слишком длинный номер телефона');
+		        }
+
+		        return true;
+		    });
+		};
+
+		this.clicker = function(){
+			var elements = $('[data-click="true"]');
+			for (var i = 0; i < elements.length; i++) {
+				$(elements[i]).on("click", function(){
+					$($(this).data('target')).show();
+
+					$($(this).data('target')).children().first().on('click', function(e){
+						e.stopPropagation();
+					});
+
+					$($(this).data('target')).on('click', function(){
+						$(this).hide();
+					});
+				});
+			}
+		}
+
+		this.toggleClick = function(){
+			var elements = $('[data-toggle="true"]');
+			for (var i = 0; i < elements.length; i++) {
+				$(elements[i]).on("click", function(){
+					$($(this).data('target')).slideToggle();
+				});
+			}
+		}
+
+		if(typeof String.prototype.placeholder === "undefined"){
+			String.prototype.placeholder = function(str){
+				return this.replace(/[\{](\w+)[\}]/g, function(all, key) {
+					return this.order[key] || key;
+				});
+			}
+		}
+
+        if(typeof String.prototype.capitalize === "undefined"){
+	        String.prototype.capitalize = function() {
+	    		return this.charAt(0).toUpperCase() + this.slice(1);
+			}
+		}
+
+		 // start app
+    	if(this.options.init === true){
+    		this.init();
+    	}
+    	else if(this.debug()){
+			console.log(this.options);
+    	}
+
+    	this.initCountries();
+    	this.clicker();
+    	this.toggleClick();
+    }
+
+	mA1Helper.prototype = {
+		init: function(){
+			if(this.debug()){
+				console.log(this.options);
+			}
+			this.checkPlugins();
+			this.formSubmit();
+		},
+
+		checkPlugins: function()
+		{
+			var plugins = document.getElementsByTagName('body')[0].className.toLowerCase().split(" ");
+			for (var i = 0; i < plugins.length; i++) {
+				if(plugins[i].indexOf("plugin") > -1){
+
+					plugin = 'plugin' + plugins[i].replace("plugin", "").capitalize();
+
+					if(typeof this[plugin] === "function"){
+						if(this.debug()){
+							console.log('Init plugin: ' + plugins[i].replace("plugin", "").capitalize());
+						}
+						this[plugin]();
+					}
+					else if(this.debug()){
+						console.warn('Plugin not found: ' + plugins[i].replace("plugin", "").capitalize());
+					}
+				}
+			}
+
+		},
+
+		initCountries: function()
+		{
+			var _self = this;
+			
+			if(Object.keys(this.options.countries).length <= 0)
+			{
+            	if(this.debug()){
+            		console.warn('Country object is empty!');
+            	}
+
+            	return false;
+            }
+
+            for (key in this.options.countries){
+                if(typeof this.options.countries[key].selected !== "undefined"){
+                    this.currentPrice = this.options.countries[key];
+                }
+            }
+
+            if(this.currentPrice === null){
+
+            	this.currentPrice = this.options.countries[Object.keys(this.options.countries)[0]];
+            }
+
+            if(this.x.length < 1)
+            {
+            	if(this.debug()){
+            		console.warn('Cant find form select!');
+            	}
+
+                return false;
+            }
+
+            for (var i = 0; i < this.x.length; i++) {
+            	this.x[i].options.length = 0;
+
+                for (key in this.options.countries){
+                    var option = document.createElement("option");
+                    option.text = this.options.countries[key].title;
+                    option.value = key;
+
+                    if(typeof this.options.countries[key].selected !== "undefined"){
+                        option.setAttribute('selected', true);
+
+                        var indexMask = masksObj.map((o) => o.cc).indexOf(key);
+                        $('[name="phone"]').attr('placeholder', masksObj[indexMask].mask);
+
+	                    if(typeof this.options.countries[key].replaced !== "undefined") {
+	                    	if(this.options.countries[key].cost < 10) {
+	                    		this.options.countries[key].cost = 1;
+	                    	}
+	                    	$('input[name="is_rub"]').val(this.options.countries[key].cost);
+	                    }
+                    }
+
+                    this.x[i].add(option);
+                }
+            }
+
+            $(document).on('change', 'select[name="country"]', function(){
+                _self.updateCosts($(this).val());
+            });
+
+            return this;
+		},
+
+        pluginBuyers: function()
+        {
+        	var template 	= '<div class="show-message"><div class="show-message__item show-message_call"><i class="plugins-sprite plugins-sprite-bucket"></i><p class="show-message__info">' + this.options.buyers.buy + '<br /><span class="package_left">' + this.options.buyers.remaining + '</span></p></div></div>',
+        		onlineTemplate = '<div class="show-message"><div class="show-message__item show-message_online"><i class="plugins-sprite plugins-sprite-online_user"></i><p class="show-message__info">' + this.options.online + '</p></div></div>',
+        		all_pack 	= 60,
+        		max_pack 	= 7,
+        		min_pack 	= 3,
+        		online		= (Math.floor(Math.random() * (500 - 50 + 1)) + 50);
+        		_self 		= this,
+        		buyers 		= this.getBuyers(this.options.buyers.gender)
+        		first		= true;
+
+        		generatePrice = function()
+        		{
+        			var percent = (_self.currentPrice.old_price > 0) ? (_self.currentPrice.cost/_self.currentPrice.old_price)*100 : 0;
+        			return Math.ceil((percent >= 10) ? _self.currentPrice.cost : _self.currentPrice.fake_price/2);
+        		}
+
+				getPack = function() 
+				{
+					var pack = Math.floor(Math.random() * (max_pack - min_pack + 1)) + min_pack;
+					all_pack -= pack;
+					return pack;
+				}
+
+				displayMessage = function(template)
+				{
+					var messageContaiter = _self.getContainer('div', {id: 'widgetPopUpMessages'});
+					messageContaiter.on('click', function(e){
+						$(this).hide();
+					}).html(template).fadeIn(500).delay(6000).fadeOut(500);
+				}
+
+				updateRemaining = function()
+				{
+					$(".remainingPack").text(all_pack);
+				}
+
+				updateRemaining();
+				var intervalID = setInterval(function()
+				{
+					if(first || (Math.floor(Math.random() * (5 - 1 + 1)) + 1) == 2){
+						if(!first){
+							online += Math.floor(Math.random() * (100 - 10 + 1)) + 10;
+						}
+						first = false;
+
+						this.order = {
+							online: online
+						}
+						
+						return this.displayMessage(onlineTemplate.placeholder());
+					}
+
+					this.order = {
+						buy: getPack(),
+						name: buyers[Math.floor(Math.random()*buyers.length)],
+						sum: null,
+						count: all_pack 
+					};
+
+					if(all_pack <= min_pack || all_pack <= order.buy){
+
+		            	if(_self.debug()){
+		            		console.log('Sold all packages');
+		            	}
+						clearInterval(intervalID);
+
+						return false;
+					}
+
+					this.order.sum = this.order.buy*this.generatePrice() + ' ' + _self.currentPrice.currency;
+
+					this.displayMessage(template.placeholder());
+					this.updateRemaining();
+
+				}, 15000);
+
+			return this;
+        },
+
+        pluginCallback: function()
+        {
+			var template   = '<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div"><div class="phoneJs"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></div></div>',
+				widget      = this.getContainer('div', {class: 'bluePhone'}, template),
+				_self       = this;
+
+			$(widget).on('click', function(e){
+				console.log(1);
+				var container = $(_self.options.callback);
+				if(container.length){
+					container.show();
+
+					$(container).children().first().on('click', function(e){
+						e.stopPropagation();
+					});
+
+					$(container).on('click', function(){
+						$(this).hide();
+					});
+				}
+			});
+
+
+        	return this;
+        },
+
+        pluginLeave: function()
+        {
+        	var leave = false,
+        		_self = this;
+
+			$(window).mouseout(function(e) {
+				if(!leave && e.clientY < 0){
+			    	var container = $(_self.options.leave);
+					if(container.length){
+						container.show();
+						leave = true;
+
+						$(container).children().first().on('click', function(e){
+							e.stopPropagation();
+						});
+
+						$(container).on('click', function(){
+							$(this).hide();
+						});
+
+						setTimeout(function(){
+							leave = false;
+						}, 50000);
+					}
+				}
+			});
+
+			return this;
+        },
+
+        css: function(element, params)
+        {
+        	if($(element).length > 0){
+        		$(element).css(params);
+        	}
+        	else if(this.debug()){
+        		console.warn('Can\'t find element by selector ' + element);
+        	}
+
+        	return this;
+        }
+	};
+		    (new mA1Helper({countries: countries}));
+	});
+</script>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>	
+<script src="http://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>	
+<script src="js/main.js"></script>	
+
+
+
+<style>
+.ma1-helper-modal{
+	display: none;
+	background-color: rgba(0,0,0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+
+.ma1-helper-modal .ma1-modal-block{
+	background-color: rgb(0,0,0);
+	margin: 10%;
+	padding: 50px;
+	overflow-y: scroll;
+	max-height: 70%;
+	color: #fff;
+}
+
+.ma1-helper-modal .ma1-modal-block .ma1-title{
+	color: #fff;
+	font-weight: 600;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+
+.ma1-helper-modal .ma1-modal-block p
+{
+	margin: 5px 0;
+	line-height: 1.42857;
+}
+
+.ma1-app-footer-links{text-align: center;} 
+.show-message,.show-message__info{font-family:sans-serif}.plugins-sprite,.show-message__info,.show-message__inner{display:inline-block;vertical-align:middle}.mouse_moved{position:fixed}.line_top{width:100%;height:10px;top:0;z-index:11}.show-message>div:after,.show-message>div:before{content:'';position:absolute;right:0;top:-15px;width:15px;height:5px;background:red}.blink{color:red!important;animation-name:blinker;animation-duration:1s;animation-timing-function:linear;animation-iteration-count:infinite;-webkit-animation-name:blinker;-webkit-animation-duration:1s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-name:blinker;-moz-animation-duration:1s;-moz-animation-timing-function:linear;-moz-animation-iteration-count:infinite;text-decoration:line-through}.show-message p{margin:0!important}.show-message>div:before{-webkit-transform:rotate(45deg);transform:rotate(45deg)}.show-message>div:after{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.plugins-sprite{background:url(data:image/png;base64,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) no-repeat;width:50px;height:60px;margin-right:5px}.plugins-sprite-bucket{background-position:-5px -5px}.plugins-sprite-callback{background-position:-65px -5px}.plugins-sprite-online_user{background-position:-5px -65px}.show-message__info{width:248px;line-height:normal;color:#fff;margin-bottom:0;font-size:19px}.show-message__info span{font-size:20px;font-family:sans-serif;color:#fff}.show-message__left{font-size:14px}.show-message__left span{font-size:15px}.show-message_call{background-color:#363636}#ouibounce-modal,.show-message__item{background-color:rgba(0,0,0,.9)}.package_left,.package_left span{font-size:15px!important}.show-message__inner{line-height:90px}.show-message__item{cursor:pointer;position:fixed;right:20px;top:120px;width:318px;color:#fff;padding:5px;font-size:14px;line-height:90px;border-radius:10px;z-index:98}.cbh-ph-circle,.cbh-phone{background-color:transparent}.cbh-ph-circle,.cbh-ph-circle-fill{border-radius:100%;position:absolute}.lost_position{display:none!important;opacity:0!important}.block_position{display:block!important;opacity:1!important}.popup-off{display:none!important;opacity:0!important;visibility:hidden!important}@media screen and (max-width:767px){.show-message__info{width:230px}.show-message__item{top:auto;right:10px;bottom:10px;width:300px}}@media screen and (max-width:319px){.show-message__item{width:225px}.show-message__info{width:155px;font-size:15px}.show-message__info span{font-size:17px}.show-message__icon{width:38px!important}.show-message__info br{display:none}}@-webkit-keyframes blinker{0%,100%{opacity:1}50%{opacity:0}}@keyframes blinker{0%,100%{opacity:1}50%{opacity:0}}.cbh-phone{position:fixed;right:10px;bottom:10px;visibility:hidden;width:200px;height:200px;cursor:pointer;z-index:99;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0);-webkit-transition:visibility .5s;transition:visibility .5s}.cbh-phone.cbh-show{visibility:visible}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}.cbh-phone.cbh-static1{opacity:.6}.cbh-phone.cbh-hover1{opacity:1}.cbh-ph-circle{width:160px;height:160px;top:20px;left:20px;border:2px solid rgba(30,30,30,.4);opacity:.1;-webkit-animation:cbh-circle-anim 1.2s infinite ease-in-out;animation:cbh-circle-anim 1.2s infinite ease-in-out;-webkit-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle1{-webkit-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;animation:cbh-circle-anim 1.1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle{-webkit-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;animation:cbh-circle-anim 2.2s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-circle{border-color:#00aff2;opacity:.5}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle{border-color:#75eb50;opacity:.5}.cbh-phone.cbh-green .cbh-ph-circle{opacity:.5}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle{border-color:#ccc;opacity:.5}.cbh-phone.cbh-gray .cbh-ph-circle{border-color:#75eb50;opacity:.5}.cbh-ph-circle-fill{width:100px;height:100px;top:50px;left:50px;background-color:#000;border:2px solid transparent;opacity:.1;-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-webkit-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;opacity:0!important}.cbh-phone.cbh-hover .cbh-ph-circle-fill{background-color:rgba(0,175,242,.5);opacity:.75!important}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-phone.cbh-green .cbh-ph-circle-fill{opacity:.75!important}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle-fill{background-color:rgba(204,204,204,.5);opacity:.75!important}.cbh-phone.cbh-gray .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-ph-img-circle1{width:60px;height:60px;top:70px;left:70px;position:absolute;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarY6xSsNQFEDPi6LiUCsEcXB4kygotupgxqQtRRCs1SHJ1qShSmkSXl7VfoSjWwcXd7/AyVFwUPwC/0Bx6uAQIYODCJ7p3MPlcsGo2HWnYZRhEGvVbjrS9Xw5+8QMUwDQCbPUbrUOAOIkjvjB5ysC4HnTrjsN/sZ8mCoNTIDtbpSFICpA/0KnGsQYMIN+qkHcAaY6addAPAClXu4vQCnI/Q0oKdfzQXwAZs/1fDDmADPIfQUwdXSpAWpJOlJnvVMtq5ZlSbubBJE8HmU6GmRyPw4TlSaqo6MukP8HwGK+2G46cq1qWXvr/DOu58vc3o8QgFh6LFpBOFTn3yqMnd/n4sZ4GQ5vYXpStN0ruNmAheuirVahvAX34y/Axk/96FpPYgAAACBjSFJNAAB6JQAAgIMAAPn/AACA6AAAUggAARVYAAA6lwAAF2/XWh+QAAAB/ElEQVR42uya7W3CMBCG31QM4A1aNggTlG6QbpBMkHYC1AloJ4BOABuEDcgGtBOETnD9c1ERCH/lwxeaV8oPFGP86Hy+DxMREW5Bd7gRjSDSNGn4/RiAOvm8C0ZCRD5PSkQVXSr1nK/xE3mcWimA1ZV3JYBZCIO4giQANoYxMwYS6+xKY4lT5dJPreWZY+uspqSCKPYN27GJVBDXheVSQe494ksiEWTuMXcu1dld9SARxDX1OAJ4lgjy4zDnFsC076A4adEiRwAZg4hOUSpNoCsBPDGM+HqkNGynYBCuILuWj+dgWysGsNe8nwL4GsrW0m2fxZBq9rW0rNcX5MOQ9eZD8JFahcG5g/iKT671alGAYQggpYWvpEPYWrU/HDTOfeRIX0q2SL3QN4tGhZJukVobQyXYWw7WtLDKDIuM+ZSzscyCE9PCy5IttCvnZNaeiGLNHKuz8ZVh/MXTVu/1xQKmIqLEAuJ0fNo3iG5B51oSkeKnsBi/4bG9gYB/lCytU5G9DryFW+3Gm+JLwU7ehbJrwTjq4DJU8bHcVbEV9dXXqqP6uqO5e2/QZRYJpqu2IUAA4B3tXvx8hgKp05QZW6dJqrLTNkB6vrRURLRwPHqtYgkC3cLWQAcDQGGKH13FER/NATzi786+BPDNjm1dMkfjn2pGkBHkf4D8DgBJDuDHx9BN+gAAAABJRU5ErkJggg==);background-color:rgba(30,30,30,.1);background-position:center center;background-repeat:no-repeat;border-radius:100%;border:2px solid transparent;opacity:.7;-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out;animation:cbh-circle-img-anim 1s infinite ease-in-out}.cbh-phone.cbh-active .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;animation:cbh-circle-img-anim 1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;animation:cbh-circle-img-anim 0s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-img-circle1{background-color:#00aff2}.cbh-phone.cbh-green.cbh-hover .cbh-ph-img-circle1:hover{background-color:#75eb50}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-img-circle1{background-color:#ccc}.cbh-phone.cbh-gray .cbh-ph-img-circle1{background-color:#75eb50}@-webkit-keyframes cbh-circle-anim{0%{-webkit-transform:rotate(0) scale(.5) skew(1deg);-webkit-opacity:.1}30%{-webkit-transform:rotate(0) scale(.7) skew(1deg);-webkit-opacity:.5}100%{-webkit-transform:rotate(0) scale(1) skew(1deg);-webkit-opacity:.1}}@keyframes cbh-circle-anim{0%{-webkit-transform:rotate(0) scale(.5) skew(1deg);transform:rotate(0) scale(.5) skew(1deg);opacity:.1}30%{-webkit-transform:rotate(0) scale(.7) skew(1deg);transform:rotate(0) scale(.7) skew(1deg);opacity:.5}100%{-webkit-transform:rotate(0) scale(1) skew(1deg);transform:rotate(0) scale(1) skew(1deg);opacity:.1}}@-webkit-keyframes cbh-circle-fill-anim{0%,100%{-webkit-transform:rotate(0) scale(.7) skew(1deg);opacity:.2}50%{-webkit-transform:rotate(0) scale(1) skew(1deg);opacity:.2}}@keyframes cbh-circle-fill-anim{0%,100%{-webkit-transform:rotate(0) scale(.7) skew(1deg);transform:rotate(0) scale(.7) skew(1deg);opacity:.2}50%{-webkit-transform:rotate(0) scale(1) skew(1deg);transform:rotate(0) scale(1) skew(1deg);opacity:.2}}@keyframes cbh-circle-img-anim{0%,100%,50%{-webkit-transform:rotate(0) scale(1) skew(1deg);transform:rotate(0) scale(1) skew(1deg)}10%,30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg);transform:rotate(-25deg) scale(1) skew(1deg)}20%,40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg);transform:rotate(25deg) scale(1) skew(1deg)}}@-webkit-keyframes cbh-circle-img-anim{0%,100%,50%{-webkit-transform:rotate(0) scale(1) skew(1deg)}10%,30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}20%,40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}}.cbh-phone.cbh-green .cbh-ph-circle{border-color:#00aff2}.cbh-phone.cbh-green .cbh-ph-circle-fill,.cbh-phone.cbh-green .cbh-ph-img-circle1{background-color:#00aff2}@media screen and (max-width:991px){#clbh_phone_div{display:none!important}}
+</style>
+
+<div id="ma1-privacy-policy" class="ma1-helper-modal">
+    <div class="ma1-modal-block">
+        <div class="ma1-title">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</div>
+        <div class="ma1-content">
+            Наш интернет-магазин уважительно относится к правам клиента. Соблюдается строгая конфиденциальность при оформлении заказа. Сведения надёжно сохраняются и защищены от передачи. Согласием на обработку данных клиента исключительно с целью оказания услуг является размещение заказа на сайте. К персональным данным относится личная информация о клиенте: домашний адрес; имя, фамилия, отчество; сведения о рождении; имущественное, семейное положение; личные контакты (телефон, электронная почта) и прочие сведения, которые перечислены в Законе РФ № 152-ФЗ «О персональных данных» от 27 июля 2006 г. Клиент вправе отказаться от обработки персональных данных. Нами в данном случае гарантируется удаление с сайта всех персональных данных в трёхдневный срок в рабочее время. Подобный отказ клиент может оформить простым электронным письмом на адрес, указанный на странице нашего сайта.
+        </div>
+    </div>
+</div>
+
+<div id="ma1-agreement" class="ma1-helper-modal">
+    <div class="ma1-modal-block">
+        <div class="ma1-title">ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ<br><span class="agreement-clean">интернет-магазина</span></div>
+        <div class="ma1-content">
+            <p>Настоящее пользовательское соглашение заключается между Вами – физическим лицом и администрацией интернет ресурса интернет-магазина</p>
+            <p><b>Пользователь</b> – физическое лицо, достигшее совершеннолетия, способное своими действиями приобретать для себя гражданские права и самостоятельно их осуществлять, а также способность своими действиями создавать для себя гражданские обязанности, самостоятельно их выполнять и нести ответственность в случае их невыполнения, принявшее условия настоящего пользовательского соглашения и пользующееся услугами сайта.</p>
+            <p><b>Производитель</b> – лицо, которое в силу своего вида экономической деятельности, на основе предпринимательской деятельности, занимается производством и обслуживанием продукции.</p>
+            <p><b>Администрация</b> – субъект предпринимательской <span class="additional_fields_organization"></span> (ОГРН: <span class="additional_fields_ogrn"></span>, ИНН: <span class="additional_fields_inn"></span>, место регистрации: <span class="additional_fields_address"></span>), являющийся владельцем сайта на основании права частной собственности и осуществляющий организационную, финансовую, техническую поддержку существования и функционирования сайта.</p>
+            <p><b>Стороны</b> – Администрация, Пользователи и Посетители сайта.</p>
+            <p><b>Сайт</b> – интернет ресурс интернет-магазина, имеющий доменное имя, пребывающий под организационным управлением и принадлежащий администрации, на условиях права частной собственности.</p>
+            <p><b>Продукция</b> – товары и услуги, предлагаемые Пользователю Администрацией, исчерпывающий перечень которых размещен на сайте.</p>
+            <p><b>Публичная оферта</b> – адресованное администрацией неопределенному кругу лиц или нескольким конкретным лицам предложение, которое определенно, конкретно и выражает намерение лица, сделавшего предложение, считать себя заключившим данное пользовательское соглашение с адресатом, которым будет принято предложение.</p>
+            <p><b>Акцепт</b> – полное принятие одной из Сторон условий публичной оферты Администрации на заключение данного пользовательского соглашения. Акцептированием публичной оферты происходит в момент начала пользования сайтом (в том числе в ознакомительных целях) и его сервисами (услугами).</p>
+
+            <p class="no-margin"><b>1. Общие положения</b></p>
+            <p class="no-margin">1.1. Настоящее Пользовательское соглашение (далее по тексту – «Соглашение») определяет общие правила посещения, использования сервисов и нормы общего поведения на Сайте Пользователями и регулирует гражданско-правовые взаимоотношения, которые складываются между Пользователями, а так же Пользователями и Администрацией в процессе их взаимодействия.</p>
+            <p class="no-margin">1.2. Настоящее Соглашение может быть изменено по решению Администрации, в одностороннем порядке. Администрация не несет обязательства личного уведомления Пользователей о таких изменениях. Новая редакция Соглашения вступает в силу, с момента публикации на сайте.</p>
+            <p class="no-margin">1.3. Условия Соглашения распространяются как на всех посетителей сайта, без исключений.</p>
+            <p>1.4. Посетитель/Пользователь, начиная пользоваться сервисом интернет-магазина, подтверждает факт того, что ознакомился с положениями настоящего пользовательского соглашения в здравом уме и при ясной памяти, понимает их в полной мере и принимает условия пользования интернет-магазином в полной мере. При несогласии с положениями настоящего Соглашения (частично или в целом), лицо, выразившее такую волю, не имеет право пользоваться информационным полем Сайта.</p>
+
+            <p class="no-margin"><b>2. Регуляция взаимодействия сторон</b></p>
+            <p class="no-margin">2.1. Администрация предоставляет Пользователям информационное поле деятельности интернет-магазина, которое включает в себя, но не ограничивается информацией о: наименовании, виде, качестве продукции, ее стоимости, а так же о порядке размещения заказа, оплаты и доставки продукции пользователю представителями Администрации. Информация предоставляется на бесплатной основе.</p>
+            <p class="no-margin">2.2. Пользователь самостоятельно размещает заказ на продукцию. Администрация может, но не обязуется предоставить услугу краткой консультации рекомендательного характера по задаваемым вопросам. Предоставление такой консультации осуществляется на бесплатной основе.</p>
+            <p class="no-margin">2.3. Для получения услуги указанной в п. 2.2. Пользовательского соглашения, пользователь самостоятельно размещает свой вопрос. При этом необходимо кратко сформулировать свой вопрос, а так же оставить контактные данные – E-mail, контактный номер телефона.</p>
+            <p class="no-margin">2.4. Администрация вправе не реагировать на размещенный запрос пользователя и не предоставлять ответ, в случае, если данный запрос будет нечетко сформулирован, содержать брутальные, оскорбительные имя пользователя, слова и словообороты в адрес Администрации, третьих лиц, а так же по другим причинам, руководствуясь внутренними убеждениями.</p>
+            <p class="no-margin">2.5. Реализация предоставленных сайтом услуг и (или) возможностей не предоставляет Пользователю каких-либо исключительных прав и привилегий.</p>
+            <p class="no-margin">2.4. Стороны настоящего соглашения достигли согласия о том, что Администрация вправе размещать на сайте рекламные блоки, баннеры, объявления в любых его областях, в том числе там, где размещается информация опубликованная Пользователем, без дополнительного согласия Пользователя.</p>
+            <p class="no-margin">2.5. Информация, размещаемая на сайте Администрацией, является результатом интеллектуальной деятельности Администрации и все имущественные и личные неимущественные права на такую информацию, принадлежат Администрации, до тех пор, пока не будет установлено иное. При этом у Пользователя не возникает, каких-либо исключительных прав на результат интеллектуальной деятельности Администрации, выраженной в графической, текстовой, аудио-видео форме, размещаемой Администрацией на сайте.</p>
+            <p class="no-margin">2.6. Администрация не несет обязательств по защите нарушенных прав Пользователя, в контексте урегулирования возникших на этой почве споров, в том числе, в судебном порядке.</p>
+            <p class="no-margin">2.7. Нарушение Пользователем авторских прав, принадлежащих Администрации и (или) другим лицам, влечет для нарушителя ответственность, предусмотренную положениями действующего законодательства Российской Федерации.</p>
+            <p class="no-margin">2.8. В случае выявления нарушения авторских прав Пользователем, путем незаконного размещения не принадлежащих Пользователю материалов, Администрация изымает из свободного доступа такие материалы, по первому требованию законного правообладателя.</p>
+            <p class="no-margin">2.9. Пользователю запрещается размещать на сайте информацию, которая прямо, или косвенно содержит в себе общепринятые признаки порнографии, оскорбляющую, ущемляющую, наносящую ущерб чьему-либо достоинству, содержащую призывы к насилию, бесчинству и другим действиям, влекущим нарушения норм действующего законодательства, определенной территориальной юрисдикции, содержащую вредоносное программное обеспечение и (или) другую информацию, которая может принести вред третьим лицам.</p>
+            <p class="no-margin">2.10. В случае нарушения условий п. 2.9. настоящего Соглашения и невыполнения требований Администрации, в том числе по изъятию такой информацию из публичного доступа, Пользователи сайта несут ответственность предусмотренную положениями настоящего Соглашения и(или) действующего законодательства Российской Федерации. Администрация в таком случае, имеет право убрать упомянутую в п. 2.9. информацию самостоятельно.</p>
+            <p class="no-margin">2.11. Администрация не несет ответственности за результаты посещения Пользователем сторонних (внешних) ресурсов, ссылки на которые могут быть размещены на сайте. Под результатами понимается любой результат вне зависимости от его характера, а так же тот, от наступления которого Пользователь понес какие-либо материальные убытки, моральный ущерб и другие негативные проявления.</p>
+            <p>2.12. Продукция, предлагаемая Администрацией Пользователям, распространяется дистанционно в рамках требований, установленных действующим законодательством Российской Федерации, сертифицирована и соответствует требованиям, которые определены законодательством в сфере защиты прав потребителей.</p>
+
+            <p class="no-margin"><b>3. Порядок использования услуг Пользователем</b></p>
+            <p class="no-margin">3.1. Пользователь имеет право свободно пользоваться услугами и предложениями, изложенными на сайте в полной мере, кроме тех случаев, когда такое использование является незаконным, нарушает права, свободы и интересы Администрации и (или) других Пользователей сайта.</p>
+            <p class="no-margin"><b>3.2. Порядок размещения заказа</b></p>
+            <p class="no-margin">3.2.1. Пользователь самостоятельно посещает информационное поле сайта, выбирает продукт и размещает заказ.</p>
+            <p class="no-margin">3.2.2. В случае необходимости, Администрация предоставляет Пользователю консультационно – информационное обслуживание по подбору продукции, в порядке, предусмотренном этим Пользовательским соглашением.</p>
+            <p class="no-margin">3.2.3.  Пользователь выбирает ту продукцию, которая размещена на сайте, и Администрация не несет ответственности за последствия, в случае размещения Пользователем заказа на сторонних ресурсах. Данный пункт имеет юридическую силу и в тех случаях, когда сторонние ресурсы копируют, дублируют информацию, размещенную на сайте, включая фирменное наименование, логотип, дизайн, стиль изложения информации на сайте.</p>
+            <p class="no-margin">3.2.4. Оформление заказа происходит путем заполнения формы заявки. Поля, отмеченные символом «*», обязательны к заполнению. В конце формы необходимо нажать кнопку «Заказать».</p>
+            <p class="no-margin">3.2.5. Стороны достигли согласия, что на указанный номер телефона (адрес электронной почты) Пользователя, Администрация отправляет краткое информационное сообщение с деталями заказа и/или другой необходимой информацией. Пользователь, начиная пользоваться сервисом интернет-магазина, принимает это условие в полной мере и гарантирует, что не будет иметь каких-либо претензий относительно изложенного.</p>
+            <p class="no-margin">3.2.6. После осуществления описанных выше операций, заказу Пользователя присваивается индивидуальный номер, и заказ считается размещенным, о чем выдается соответствующее уведомление. В течение некоторого времени, Администрация связывается с Пользователем, указанным в п 3.2.5. способ, для подтверждения заказа.</p>
+            <p class="no-margin"><b>3.3. Порядок оплаты продукции</b></p>
+            <p class="no-margin">3.3.1. Продукция оплачивается в формате 100% предоплаты или на иных условиях, достигнутых Сторонами при размещении Пользователем заказа и (или) на других этапах взаимодействия Сторон.</p>
+            <p class="no-margin">3.3.4. Доставка продукции осуществляется, лишь после достижения условий, изложенных в п. 3.3.1. Пользовательского соглашения.</p>
+            <p class="no-margin"><b>3.4. Порядок доставки продукции</b></p>
+            <p class="no-margin">3.4.1 Доставка продукции Пользователю осуществляется собственными силами и транспортом  Администрации, либо транспортной компанией.</p>
+            <p class="no-margin">3.4.2. Условия доставки продукции индивидуальны для каждого взятого в отдельности случая.</p>
+            <p class="no-margin">3.4.3. Порядок и срок доставки продукции Пользователю определяется в процессе размещения заказа Пользователем.</p>
+            <p class="no-margin">3.4.4. Стороны достигли согласия, что доставка продукции Пользователю осуществляется в порядке, предусмотренном Пользовательским соглашением. Самовывоз продукции Пользователем со склада возможен, при условии дополнительного согласования порядка самовывоза с Администрацией.</p>
+            <p class="no-margin">3.4.5. В случае осуществления поставки продукции на условиях постоплаты, Продукция передается курьером Пользователю, лишь после оплаты Пользователем курьеру полной стоимости продукции.</p>
+            <p class="no-margin"><b>3.5. Порядок возврата продукции</b></p>
+            <p class="no-margin">3.5.1. Пользователь вправе отказаться от продукции в любое время до его передачи, а после передачи товара - в течение 7 дней, кроме тех случаев, когда данное право Пользователя ограничено нормами действующего законодательства Российской Федерации.</p>
+            <p class="no-margin">3.5.2. Возврат продукции надлежащего качества возможен в случае, если сохранены его товарный вид, потребительские свойства, а также документ, подтверждающий факт и условия покупки указанной продукции.</p>
+            <p class="no-margin">3.5.3. Пользователь не вправе отказаться от продукции надлежащего качества, имеющего индивидуально-определенные свойства, если указанная продукция может быть использована исключительно приобретающим его Пользователем.</p>
+            <p>3.5.4. При отказе Пользователя от продукции, производитель продукции должен возвратить ему сумму, уплаченную Пользователем в соответствии с договором, за исключением расходов на доставку от Пользователя возвращенной продукции, не позднее чем через 10 дней с даты предъявления Пользователем соответствующего требования производителю.</p>
+
+            <p class="no-margin"><b>4. Обязанности и ответственность сторон</b></p>
+            <p class="no-margin">4.1. В случае использования результатов интеллектуальной собственности Администрации - материалов сайта, в любых целях, Пользователь обязан предварительно, перед размещением таких материалов, получить на это разрешение администрации. При наличии разрешения Администрации, Пользователь обязан отобразить полное название и доменное имя источника в следующем формате: интернет-магазин. Гиперссылка должна являться активной и прямой, при нажатии на которую осуществляется переход на конкретную страницу сайта, с которой заимствован материал.</p>
+            <p class="no-margin">4.2. По аналогии с инструкциями, изложенными в п. 4.1. настоящего Соглашения, Пользователь обязуется действовать, в случае использования результатов интеллектуальной собственности, что принадлежать третьим лицам. Способ и порядок осуществления уточняется в процессе переговоров с правообладателем материалов.</p>
+            <p class="no-margin">4.3. Администрация не несет ответственности за действия Пользователя, которые повлекли нарушение прав третьих лиц, кроме случаев определенных действующим законодательством Российской Федерации.</p>
+            <p class="no-margin">4.4. Администрация не несет ответственности за содержание информации, размещенной пользователями.</p>
+            <p class="no-margin">4.5. Администрация не несет ответственности за содержание отзывов пользователей сайта. Отзывы пользователей сайта являются субъективными мнениями их авторов, никоим образом не претендующими на объективность. Они могут не совпадать с общественным мнением и не соответствовать действительности.</p>
+            <p class="no-margin">4.6. Решение о выдаче/не выдаче персональных данных, принимается Администрацией, лишь на основании запроса, посланного лицом Администрации, в установленном нормами действующего законодательства порядке.</p>
+            <p class="no-margin">4.7. Администрация вправе не реагировать на запросы, обращения и письма, что не содержат реквизитов обращающегося (ФИО, контактные данные).</p>
+            <p class="no-margin">4.8.  Администрация не несет ответственности за регистрационные данные, что были указаны пользователем при взаимодействии с информационным полем сайта.</p>
+            <p class="no-margin">4.9. Администрация имеет право, без объяснения причин ограничить, блокировать доступ Пользователя (в т.ч. незарегистрированного) на сайт, с частичным, или полным удалением информации, что была размещена Пользователем на сайте.</p>
+            <p>4.10. Администрация обязуется рассмотреть претензию, оформленную в порядке предусмотренном разделом 4 соглашения, в течении 30 (тридцати) календарных дней с даты ее получения.</p>
+
+            <p class="no-margin"><b>5. Порядок урегулирования споров</b></p>
+            <p class="no-margin">5.1. В случае выявления на Сайте размещенной информации, содержащей в себе результаты интеллектуальной собственности, принадлежащие третьим лицам, правообладатель обязан:</p>
+            <p class="no-margin">5.1.1. Составить претензию с указанием фактических и нормативных оснований, которые дают возможность Администрации изъять информацию из публичного доступа.</p>
+            <p class="no-margin">5.1.2. Прикрепить к претензии доказательства оригинальности результата интеллектуальной собственности (оригинальный экземпляр, другие документы, подтверждающие правообладание на объект авторского права).</p>
+            <p class="no-margin">5.1.3. Отправить пакет документов, упомянутых в положениях п.п. 5.1.1., 5.1.2. настоящего Соглашения, на электронный почтовый ящик администрации: poddergka.magazina@gmail.com</p>
+            <p class="no-margin">5.2. Претензии Пользователей по качеству обслуживания, продукции, а так же другие замечания, следует отправлять на электронный почтовый ящик администрации: poddergka.magazina@gmail.com</p>
+            <p class="no-margin">5.3. В случае описанном п. 3.2.3. Пользовательского соглашения, рекламации, претензии, замечания направляются руководству соответствующих ресурсов. Администрация вправе не реагировать на такие обращения.</p>
+            <p>5.4. Администрация не обязана содействовать поиску указанных в п. 3.2.3. лиц, а так же иных третьих лиц, действиями которых были нарушены права, свободы и интересы Пользователей.</p>
+
+            <p class="no-margin"><b>6. Прочие условия</b></p>
+            <p class="no-margin">6.1. Все возможные ситуации, споры, вытекающие из взаимоотношений Пользователей, Пользователей и третьих лиц, Пользователей и администрации, не урегулированные этим соглашением, решаются в порядке, определенном нормами действующего законодательства Российской Федерации.</p>
+            <p class="no-margin">6.2. Стороны по настоящему соглашению осознают объем прав и обязанностей, порожденных взаимоотношениями лиц, упомянутых этим соглашением, и в полной мере отдают отчет своим действиям, понимая юридическую природу последствий таких действий, в полной мере.</p>
+            <p class="no-margin">6.3. Бездействие со стороны Администрации в случае нарушения кем-либо из Пользователей положений Соглашения, не лишает Администрацию права предпринять позднее соответствующие действия в защиту своих интересов и защиту охраняемых законом прав.</p>
+            <p class="no-margin">6.4. По всем вопросам, кроме тех, которые зафиксированы в Разделе 5 Пользовательского соглашения, Пользователи могут обращаться к Администрации, путем направления соответствующих обращений.</p>
+            <p class="no-margin">6.5. Контактные данные администрации:</p>
+            <p class="no-margin">poddergka.magazina@gmail.com  - заказ товаров и связь с менеджерами;</p>
+            <p>poddergka.magazina@gmail.com - вопросы сотрудничества, рекламы, оптовых заказов.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44661928 = new Ya.Metrika({
+                    id:44661928,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/44661928" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+
+
+<!-- vk counter -->
+<!-- //vk counter -->
+
+

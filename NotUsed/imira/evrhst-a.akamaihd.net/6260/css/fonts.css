@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'GilroyMedium';
+    src: url('../fonts/Gilroy-Medium.eot');
+    src: local('☺'), url('../fonts/GilroyMedium.woff') format('woff'), 
+    url('../fonts/GilroyMedium.ttf') format('truetype'), 
+    url('../fonts/GilroyMedium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GilroyRegular';
+    src: url('../fonts/GilroyRegular.eot');
+    src: local('☺'), url('../fonts/GilroyRegular.woff') format('woff'), url('../fonts/GilroyRegular.ttf') format('truetype'), url('../fonts/GilroyRegular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GilroyRegularItalic';
+    src: url('../fonts/GilroyRegularItalic.eot');
+    src: local('☺'), url('../fonts/GilroyRegularItalic.woff') format('woff'), url('../fonts/GilroyRegularItalic.ttf') format('truetype'), url('../fonts/GilroyRegularItalic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MyriadProItalic';
+  src: url('../fonts/MyriadPro-It.eot#iefix') format('embedded-opentype'),  
+  url('../MyriadPro-It.otf')  format('opentype'),
+    url('../fonts/MyriadPro-It.woff') format('woff'), 
+    url('../fonts/MyriadPro-It.ttf')  format('truetype'), 
+    url('../fonts/MyriadPro-It.svg#MyriadPro-It') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

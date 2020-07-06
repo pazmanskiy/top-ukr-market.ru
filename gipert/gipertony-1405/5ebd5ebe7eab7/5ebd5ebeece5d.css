@@ -1,0 +1,38 @@
+/* Code tidied up by ScrapBook */
+html { font-family: sans-serif; }
+body { margin: 0px; }
+header, nav { display: block; }
+a { background-color: transparent; }
+a:active, a:hover { outline: 0px none; }
+img { border: 0px none; }
+button, input { color: inherit; font: inherit; margin: 0px; }
+button { overflow: visible; }
+button { text-transform: none; }
+button { cursor: pointer; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+input { line-height: normal; }
+@media print {
+  *, *::before, *::after { background: transparent none repeat scroll 0% 0% ! important; color: rgb(0, 0, 0) ! important; box-shadow: none ! important; text-shadow: none ! important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; }
+  img { page-break-inside: avoid; }
+  img { max-width: 100% ! important; }
+  p, h2, h3 {  }
+  h2, h3 { page-break-after: avoid; }
+}
+* { box-sizing: border-box; }
+*::before, *::after { box-sizing: border-box; }
+html { font-size: 10px; }
+body { font-family: "Roboto",sans-serif; font-size: 18px; line-height: 1.42857; color: rgb(85, 85, 85); background-color: rgb(255, 255, 255); }
+input, button { font-family: inherit; font-size: inherit; line-height: inherit; }
+a { color: rgb(51, 122, 183); text-decoration: none; }
+a:hover { color: rgb(35, 82, 124); text-decoration: underline; }
+img { vertical-align: middle; }
+h2, h3, h4 { font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; }
+h2, h3 { margin-top: 22px; margin-bottom: 22px; }
+h4 { margin-top: 11px; margin-bottom: 11px; }
+h2 { font-size: 34px; }
+h3 { font-size: 28px; }
+h4 { font-size: 20px; }
+p { margin: 0px 0px 11px; }
+ul { margin-top: 0px; margin-bottom: 11px; }

@@ -1,0 +1,233 @@
+.freezing-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999999;
+    min-height: 198px;
+    width: 330px;
+	height:80px;
+    display: none;
+    padding-bottom: 10px;
+	font-family: 'Roboto Condensed',sans-serif;
+}
+ .freezing-wrap *:after{display:inline-block;}
+
+.freezing-buyer {
+    width: 296px;
+    height: 64px;
+    background: rgba(30, 174, 209, .9);
+    border: 2px solid rgba(30, 174, 209, .25);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #1eaed1;
+    margin: 20px 10px;
+    position: relative;
+    z-index: 3;
+    float: right;
+    opacity: 0;
+    -webkit-transition: all 2s;
+    -ms-transition: all 2s;
+    transition: all 2s;
+}
+
+.freezing-buyer.freezing-buyer--show {
+    opacity: 1;
+    -webkit-transition: all 2s;
+    -ms-transition: all 2s;
+    transition: all 2s;
+}
+
+.freezing-buyer-prod-img {
+    float: left;
+    width: 28px;
+    height: 64px;
+    position: relative;
+}
+
+.freezing-buyer-prod-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.freezing-buyer-info {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.dynamic-info {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 14px 0 0;
+    line-height: 1;
+}
+
+.freezing-buyer--flag {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 16px;
+}
+
+.freezing-buyer--flag.flag_rus {
+    background-position: 0 -80px;
+}
+
+.freezing-buyer--flag.flag_blr {
+    background-position: 0 -64px;
+}
+
+.freezing-buyer--flag.flag_ukr {
+    background-position: 0 -32px;
+}
+
+.freezing-buyer--flag.flag_kaz {
+    background-position: 0 -48px;
+}
+
+.freezing-buyer--flag.flag_kgz {
+    background-position: 0 -16px;
+}
+
+.freezing-buyer--flag.flag_mda {
+    background-position: 0 0;
+}
+
+@keyframes iceShow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes iceShow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes iceHide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes iceHide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes buyShow {
+    0% {
+        -webkit-transform: translate(110%, 0);
+        -ms-transform: translate(110%, 0);
+        transform: translate(110%, 0);
+    }
+    60% {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    65% {
+        -webkit-transform: translate(10px, 0);
+        -ms-transform: translate(10px, 0);
+        transform: translate(10px, 0);
+    }
+    75% {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    85% {
+        -webkit-transform: translate(10px, 0);
+        -ms-transform: translate(10px, 0);
+        transform: translate(10px, 0);
+    }
+    95% {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@-webkit-keyframes buyShow {
+    0% {
+        -webkit-transform: translate(110%, 0);
+        transform: translate(110%, 0);
+    }
+    60% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    65% {
+        -webkit-transform: translate(10px, 0);
+        transform: translate(10px, 0);
+    }
+    75% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    85% {
+        -webkit-transform: translate(10px, 0);
+        transform: translate(10px, 0);
+    }
+    95% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes buyHide {
+    0% {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(110%, 0);
+        -ms-transform: translate(110%, 0);
+        transform: translate(110%, 0);
+    }
+}
+
+@-webkit-keyframes buyHide {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(110%, 0);
+        transform: translate(110%, 0);
+    }
+}
+
+@media all and (max-width: 980px) {
+    .freezing-wrap {
+        display: none !important;
+    }
+}

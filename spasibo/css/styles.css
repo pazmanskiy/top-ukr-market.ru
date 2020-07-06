@@ -1,0 +1,271 @@
+
+ol, ul {
+	list-style: none;
+}
+
+body{
+	background: rgb(250,251,252);
+background: linear-gradient(90deg, rgba(250,251,252,1) 0%, rgba(190,205,208,1) 100%);
+}
+
+h2{
+font-size: 55px;
+padding: 15px;
+font-weight: 200;
+}
+
+/* Info */
+.info__header{
+	display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px;
+  padding-right: 0;
+}
+
+.info__text{
+	width: 50%;
+  background-color: #fff;
+  border-radius: 50px 0 0 50px;
+}
+
+.info__description__block{
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info__description{
+	background-color: #fff;
+  border-radius: 50px 0 0 50px;
+  padding: 15px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__description__text{
+	padding: 15px;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__description__text>p{
+	font-size: 22px;
+	font-weight: 300;
+}
+/* Info End*/
+
+
+/* Steps */
+.steps__header{
+	display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px;
+  padding-right: 0;
+}
+
+.steps__text__header{
+	width: 70%;
+  border-radius: 50px 0 0 50px;
+	background-color: #fff;
+}
+
+.steps__text{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.steps__text__2{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  font-size: 29px;
+  font-weight: 300;
+}
+
+.steps__block{
+	display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.steps__item{
+	background-color: #fff;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	-webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.3);
+}
+
+.steps__item__4{
+	background-color: #fff;
+	border-radius:  220px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	overflow: hidden;
+	-webkit-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 9px -1px rgba(0,0,0,0.3);
+}
+
+.steps__img{
+	width: 150px;
+}
+.steps__img__4{
+	width: 220px;
+}
+.steps__img>img{
+	width: 150px;
+	height: 150px;
+	border-radius:120px;
+}
+.steps__img__4>img{
+	width: 220px;
+	height: 220px;
+	border-radius:220px;
+}
+
+
+/* Steps End*/
+
+/* Complex */
+.complex__header{
+	display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 30px;
+  padding-right: 0;
+}
+
+.complex__text{
+	width: 90%;
+  background-color: #fff;
+  border-radius: 0 50px 50px 0;
+}
+
+.complex__card__row{
+	display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Complex End*/
+
+/* Bottom */
+.bottom{
+	padding: 20px;
+}
+.bottom__container{
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.bottom__text>h3{
+	font-size: 25px;
+}
+.bottom__text>h3>span{
+	font-size: 20px;
+}
+
+/* Bottom End*/
+
+
+/* Card */
+.card-body {
+ flex: none;
+}
+/* Card End */
+
+/* Media */
+
+@media screen and (max-width: 1024px)  {
+ .info__text{
+ 	width: 80%;
+ }
+
+ .steps__text__header{
+ 	width: 80%;
+ }
+
+ .info__description__block {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.info__description{
+	padding-top: 20px;
+	margin-top: 15px;
+}
+
+.info__description__text>p>span {
+    color: gray;
+    font-weight: 300;
+    font-style: italic;
+
+ }
+
+ .steps__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.steps__text{
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8px;
+  font-size: 29px;
+  font-weight: 300;
+}
+
+
+.steps__item{
+	background-color: #fff;
+	border-radius:  220px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	overflow: hidden;
+}
+
+.steps__img{
+	width: 220px;
+}
+
+.steps__img>img{
+	width: 220px;
+	height: 220px;
+	border-radius:220px;
+}
+
+.card{
+ margin-top: 20px;
+}
+
+}
+
+
+
+

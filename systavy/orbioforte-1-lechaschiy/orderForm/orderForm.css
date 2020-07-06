@@ -1,0 +1,303 @@
+#order_form {
+	background: white;
+	padding:0px;
+	font-family:Arial;
+	display:inline-block;
+	background-image:url(bgform.jpg);
+	background-size:cover;
+	border-radius:5px;
+}
+
+#order_form_place {
+	padding:10px;
+	border:0px solid red;
+	border-radius:5px;
+	box-shadow:4px 9px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.order_form_inner {
+	margin:0 auto;
+}
+
+#order_form div {
+	background:transparent!important;
+}
+#order_form h2 {
+	margin:25px 0 0 0;
+	padding:0px;
+	line-height:32px;
+	border:none;
+}
+#order_form label {
+	width:330px;
+	text-align:left;
+	display:block;
+	padding:5px 0 5px 0;
+	font-weight:bold;
+	font-size:16px;
+}
+#order_form label.vertical {
+	border:none!important;
+}
+
+.device_info {
+	font-size: 14px;
+	color:green;
+	display:block;
+	margin:10px 20px;
+}
+
+#order_form .order_form_pole {
+	padding:10px;
+	margin:10px;
+}
+#order_form input {
+	font-size:21px;
+	padding:15px;
+	border-radius:3px;
+	border:2px solid #e9d7dc;
+	max-width:300px;
+	width:100%;
+	box-sizing:border-box;
+}
+#order_form span {
+	font-size:12px;
+}
+
+.orderInfoText {
+	font-size:18px;
+}
+
+#order_form button, .obutton {
+	max-width:336px;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 4px 15px 0 rgba(129, 150, 160, 0.45);
+    border-radius: 5px;
+    background-color: red;
+    background-position: 1.35em .94em;
+    background-size: 1em;
+    background-repeat: no-repeat;
+	border:none;
+	cursor:pointer;
+	font-size:20px;
+	margin-top:20px;
+}
+#order_form button:hover, .obutton:hover {
+	background-color:rgb(200,0,0);
+}
+#order_form button:active {
+	position:relative;
+	top:1px;
+}
+
+.order_info h2 {
+	border:none!important;
+	color:red!important;
+}
+
+.left_count {
+    background: red;
+    padding: 23px;
+    margin: 12px 0px;
+    width: 178px;
+    color: #fff;
+    text-shadow: 0 -1px 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+	font-size:32px!important;
+	border-radius:5px;
+}
+
+.left_count .prod_left_val {
+	font-size:52px!important;
+}
+
+#order_form_success {
+	position:relative;
+}
+
+
+
+.timerHolder {
+	background:red!important;
+	padding:10px 25px;
+	display:inline-block;
+	border-radius:5px;
+}
+
+.timerHolder div {
+	background:transparent!important;
+	display:inline-block!important;
+	border:1px solid green;
+	box-shadow:1px;
+	border-radius:5px;
+	padding:5px;
+}
+
+.timerHolder span {
+	display:block;
+}
+
+.timerHolder .timerVal {
+	font-size:19px;
+	font-weight:bold;
+	color:#fff;
+	margin:0px 10px;
+}
+
+.timerHolder .timerDelim {
+	font-size:36px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.timerHolder .timerSign {
+    font-size: 10px;
+    text-align: center;
+	margin:0px;
+	color:#fff;
+}
+
+.orderType {
+	max-width:395px;
+}
+
+.orderWrapper {
+	background:#F2F3F3!important;
+	padding-bottom:40px;
+}
+
+hr {
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+}
+hr:after {
+content: "⬇";
+display: inline-block;
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+padding: 0 0.25em;
+background: #F2F3F3;
+}
+
+.orderTypeButton {
+	background-color: #e7e7e7!important;
+	display:inline-block;
+	padding:7px;
+	margin-top:15px;
+	border-radius:5px;
+	cursor:pointer;
+	max-width:130px;
+	position:relative;
+	border:2px solid #fff;
+}
+
+.orderTypeButtonActive {
+	background:yellow!important;
+	background-image:url(tick.png)!important;
+	background-repeat:no-repeat!important;
+	background-position:center bottom!important;
+	border:2px solid red;
+}
+
+.otTimerImg {
+	position:absolute;
+	top:-16px;
+	right:-13px;
+	width:40px;
+	padding:0;
+	margin:0;
+	background:transparent!important;
+}
+
+.otTimerImg img {
+	padding:0px!important;
+	margin:0px!important;
+}
+
+.orderTypeButton span {
+	display:block;
+	font-size:12px;
+	margin-top:10px;
+}
+
+.otHead {
+	font-size:16px;
+	display:block;
+}
+
+.otPrice {
+	font-size:22px;
+}
+
+.otCurr {
+	font-size:10px;
+}
+
+.otButton {
+	cursor:pointer;
+	font-size:12px;
+}
+
+.otFirst {
+	margin-right:15px;
+}
+
+@media screen and (max-width: 480px) {
+	#order_form input {
+		
+	}
+	
+	#order_form label {
+		font-size:14px;
+	}
+	
+	#order_form button {
+		font-size:16px;
+	}
+	
+	#order_form {
+		padding:0px;
+	}
+	
+	#order_form .order_form_pole {
+		padding: 0px;
+		margin: 20px 0px;
+	}
+}
+
+@media screen and (max-width: 459px) {
+	#order_form input {
+		
+	}
+	
+	#order_form {
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#order_form input {
+		
+	}
+	
+	#order_form {
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 349px) {
+	#order_form input {
+		font-size:17px;
+	}
+	
+	#order_form button {
+		margin-left:0px;
+		font-size: 15px;
+	}
+}

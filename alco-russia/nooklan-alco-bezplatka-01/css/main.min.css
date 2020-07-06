@@ -1,0 +1,1385 @@
+@charset "UTF-8";
+body {
+    font-family: RobotoCondensed;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 320px;
+    background-color: #10171a;
+    overflow-x: hidden
+}
+
+p {
+    margin: 0
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0
+}
+
+h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    width: 620px;
+    float: right;
+    text-align: center;
+    line-height: 1.1;
+    margin: 0 0 15px
+}
+
+h2 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0
+}
+
+.h2-describe {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #8f0
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.block-2 .bottom-line:after,
+.block-5 .bottom-line:after,
+.block-5 .top-line:after,
+.block-8 .bottom-line:after,
+.block-8 .top-line:after,
+.block-9 .lists:after,
+.clearfix,
+.comments:after,
+.header .bottom-line .right .prices:after,
+.header .bottom-line .right .promo:after,
+.header .bottom-line:after,
+.header .top-line:after,
+.wrapper:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.yellow {
+    color: #ff0
+}
+
+.green {
+    color: #8f0
+}
+
+.header {
+    background: #000 url(../images/header-bg.jpg)/*tpa=http://z1p.antiholic.com/images/header-bg.jpg*/
+    no-repeat center top;
+    background-size: cover;
+    padding-bottom: 50px
+}
+
+.header .top-line {
+    background: url(../images/top-line.png)/*tpa=http://z1p.antiholic.com/images/top-line.png*/
+    no-repeat center bottom;
+    padding-top: 15px
+}
+
+.header .bottom-line {
+    color: #fff
+}
+
+.header .bottom-line .left {
+    width: 350px;
+    float: left;
+    padding-top: 80px;
+    position: relative;
+	text-align: center;
+}
+
+.header .bottom-line .left img {
+    max-width: 100%;
+    position: relative;
+    left: -30px
+}
+
+.header .bottom-line .left p {
+    width: 170px;
+    padding: 15px 0;
+    padding-left: 70px;
+    background: url(../images/gerb.png)/*tpa=http://z1p.antiholic.com/images/gerb.png*/
+    no-repeat left center;
+    background-size: 60px;
+    margin: 120px auto 0
+}
+
+.header .bottom-line .center {
+    width: 320px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px
+}
+
+.header .bottom-line .center ul {
+    margin: 40px 0 0;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 1.3
+}
+
+.header .bottom-line .center ul li {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    background: url(../images/check-1.png)/*tpa=http://z1p.antiholic.com/images/check-1.png*/
+    no-repeat left top
+}
+
+.header .bottom-line .right {
+    width: 290px;
+    float: right
+}
+
+.header .bottom-line .right .head {
+    font-family: Lobster, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1;
+    margin: 40px 0 15px
+}
+
+.header .bottom-line .right .promo .percent {
+    color: #703b02;
+    font-family: PFDinTextCompPro;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    width: 76px;
+    height: 76px;
+    background: url(../images/sale.png)/*tpa=http://z1p.antiholic.com/images/sale.png*/
+    ;
+    background-size: 100% 100%;
+    padding-top: 27px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.header .bottom-line .right .promo p {
+    font-size: 18px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.header .bottom-line .right .promo p b {
+    font-size: 20px;
+    text-transform: uppercase
+}
+
+.header .bottom-line .right .prices {
+    padding: 0 15px;
+    font-family: OpenSans, sans-serif
+}
+
+.header .bottom-line .right .prices .price_main {
+    width: 290px;
+    float: left;
+    font-size: 38px;
+    font-weight: 700;
+    color: #ff0;
+    padding-top: 5px;
+	text-align: center;
+}
+
+.header .bottom-line .right .prices .price_main .price_main_currency {
+    padding-left: 10px
+}
+
+.header .bottom-line .right .prices .price_old {
+    width: 100px;
+    float: right;
+    font-size: 34px;
+    font-weight: 300;
+    text-decoration: line-through;
+    text-align: right
+}
+
+.header .bottom-line .right .prices .price_old .price_main_currency {
+    display: none
+}
+
+.logo-wrapper {
+    width: 300px;
+    float: left
+}
+
+.logo-wrapper img {
+    display: block;
+    margin: 0 auto;
+    width: 280px
+}
+
+.logo-wrapper p {
+    font-family: PFDinTextCompPro;
+    font-weight: 300;
+    font-size: 19px;
+    text-align: center;
+    color: #000;
+    margin: 10px 0 0
+}
+
+.medal {
+    width: 130px;
+    height: 130px;
+    font-family: PFDinTextCompPro;
+    font-size: 18px;
+    color: #703b02;
+    text-align: center;
+    line-height: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 35px 20px;
+    position: absolute
+}
+
+.medal span {
+    font-weight: 500
+}
+
+.medal-4 {
+    width: 135px;
+    background: url(../images/medal-4.png)/*tpa=http://z1p.antiholic.com/images/medal-4.png*/
+    ;
+    background-size: 100% 100%;
+    right: 20px;
+    top: 10px
+}
+
+.medal-3 {
+    background: url(../images/medal-3.png)/*tpa=http://z1p.antiholic.com/images/medal-3.png*/
+    ;
+    background-size: 100% 100%;
+    right: 0;
+    bottom: 105px;
+    font-size: 17px
+}
+
+.medal-2 {
+    background: url(../images/medal-2.png)/*tpa=http://z1p.antiholic.com/images/medal-2.png*/
+    ;
+    background-size: 100% 100%;
+    right: 110px;
+    bottom: 105px;
+    font-size: 17px;
+    padding: 30px 20px
+}
+
+.medal-2 span {
+    font-size: 19px
+}
+
+.medal-1 {
+    background: url(../images/medal-1.png)/*tpa=http://z1p.antiholic.com/images/medal-1.png*/
+    ;
+    background-size: 100% 100%;
+    right: 220px;
+    bottom: 105px;
+    font-size: 17px;
+    padding: 35px 15px
+}
+
+.timer-wrapper .head {
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: center
+}
+
+.landing__countdown {
+    margin: 10px 0 0;
+    text-align: center
+}
+
+.landing__countdown span {
+    border: 2px solid #63af2a;
+    font-family: PFDinTextCompPro;
+    font-size: 40px;
+    margin-right: 18px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 64px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative
+}
+
+.landing__countdown span:after {
+    content: ":";
+    position: absolute;
+    color: #fff;
+    right: -15px;
+    top: 0;
+    font-size: 46px
+}
+
+.landing__countdown span:before {
+    font-size: 20px;
+    position: absolute;
+    bottom: -30px
+}
+
+.landing__countdown span:last-child {
+    margin-right: 0
+}
+
+.landing__countdown span:last-child:after {
+    display: none
+}
+
+.landing__countdown .hours:before {
+    content: "Часов";
+    left: 11px
+}
+
+.landing__countdown .minutes:before {
+    content: "Минут";
+    left: 10px
+}
+
+.landing__countdown .seconds:before {
+    content: "Секунд";
+    left: 7px
+}
+
+.arrow-1 {
+    margin-top: 40px;
+    margin-left: 150px
+}
+
+.order_form {
+    padding: 15px;
+    margin-top: 15px;
+    background-color: #090d0e;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 100%;
+    -webkit-box-shadow: 0 0 1px 0 rgba(255, 255, 255, .3);
+    box-shadow: 0 0 1px 0 rgba(255, 255, 255, .3)
+}
+
+.order_form label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 20px
+}
+
+.order_form .country_select,
+.order_form input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    padding-left: 15px;
+    font-size: 20px;
+    -webkit-box-shadow: inset 0 2px 0 1px #d9d9d9;
+    box-shadow: inset 0 2px 0 1px #d9d9d9
+}
+
+.order_form .btn {
+    background: -webkit-gradient(linear, left top, left bottom, from(#c0ff00), to(#47a501));
+    background: -webkit-linear-gradient(top, #c0ff00, #47a501);
+    background: linear-gradient(to bottom, #c0ff00, #47a501);
+    font-weight: 700;
+    font-size: 26px;
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    height: 55px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px 0 1px #135e02;
+    box-shadow: inset 0 -2px 0 1px #135e02;
+    text-shadow: 0 2px #777;
+    margin-top: 20px
+}
+
+.order_form .btn:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#d7fc67), to(#4eb600));
+    background: -webkit-linear-gradient(top, #d7fc67, #4eb600);
+    background: linear-gradient(to bottom, #d7fc67, #4eb600)
+}
+
+.order_form p {
+    font-size: 17px
+}
+
+.custom-select {
+    position: relative;
+    -webkit-border-radius: 15px;
+    border-radius: 15px
+}
+
+.custom-select:before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 43px;
+    top: 2px;
+    right: 0;
+    background: #fff;
+    -webkit-border-radius: 15px;
+    border-radius: 15px
+}
+
+.custom-select:after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -3px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #eaeaea
+}
+
+.custom-select:hover:after {
+    border-top: 10px solid #cacaca
+}
+
+.block-2 {
+    padding: 50px 0 80px;
+    background: url(../images/b2-bg.jpg)/*tpa=http://z1p.antiholic.com/images/b2-bg.jpg*/
+    no-repeat center bottom;
+    background-size: cover
+}
+
+.block-2 h2 {
+    font-size: 80px;
+    line-height: 1.1
+}
+
+.block-2 .mark {
+    font-family: Georgia;
+    font-style: italic;
+    color: #fff;
+    text-align: right;
+    font-size: 18px;
+    padding-right: 40px;
+    margin-top: 20px
+}
+
+.block-2 .bottom-line .right {
+    width: 650px;
+    float: right;
+    color: #fff
+}
+
+.block-2 .bottom-line .right .head {
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase
+}
+
+.block-2 .bottom-line .right ul {
+    font-size: 26px;
+    margin: 30px 0 0
+}
+
+.block-2 .bottom-line .right ul li {
+    padding: 15px 0;
+    padding-left: 45px;
+    background: url(../images/scull.png)/*tpa=http://z1p.antiholic.com/images/scull.png*/
+    no-repeat left center;
+    background-size: 30px
+}
+
+.block-2 .bottom-line .right ul li b {
+    text-transform: uppercase
+}
+
+.drink-man {
+    position: absolute;
+    left: -350px;
+    bottom: -150px
+}
+
+.block-3 {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 15px solid #ff0;
+    background: url(../images/b3-bg.jpg)/*tpa=http://z1p.antiholic.com/images/b3-bg.jpg*/
+    repeat-x
+}
+
+.block-3 .logo {
+    width: 400px;
+    margin-bottom: 15px
+}
+
+.block-3 p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.block-3 .b3-medal {
+    width: 187px;
+    height: 191px;
+    background: url(../images/sale.png)/*tpa=http://z1p.antiholic.com/images/sale.png*/
+    ;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 30px;
+    bottom: -120px;
+    font-family: PFDinTextCompPro;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: none;
+    padding: 50px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #703b02
+}
+
+.block-3 .b3-medal b {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.block-3 .b3-medal span {
+    font-weight: 500
+}
+
+.block-4 {
+    padding: 80px 0;
+    color: #fff
+}
+
+.block-4 .left {
+    width: 290px;
+    float: left;
+    margin-right: 25px;
+    padding-top: 20px;
+    text-align: right
+}
+
+.block-4 .left p:first-child {
+    height: 160px
+}
+
+.block-4 .center-left {
+    width: 155px;
+    float: left;
+    margin-right: 20px
+}
+
+.block-4 .center-right {
+    width: 155px;
+    float: left
+}
+
+.block-4 .right {
+    width: 290px;
+    float: right;
+    padding-top: 20px
+}
+
+.block-4 .right p:first-child {
+    height: 160px
+}
+
+.block-4 img {
+    display: block;
+    width: 100%
+}
+
+.block-4 img:first-child {
+    margin-bottom: 20px
+}
+
+.block-5 {
+    background-color: #000;
+    padding: 50px 0;
+    font-size: 18px;
+    color: #fff
+}
+
+.block-5 .h2-describe {
+    margin-top: 20px;
+    font-size: 30px
+}
+
+.block-5 .top-line {
+    margin-top: 60px
+}
+
+.block-5 .top-line p {
+    width: 320px;
+    float: left;
+    padding: 0 45px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    height: 65px;
+    position: relative
+}
+
+.block-5 .top-line p:after {
+    position: absolute;
+    content: "1";
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 6px solid #8f0;
+    bottom: -62px;
+    left: 50%;
+    margin-left: -20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff0;
+    padding-top: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.block-5 .top-line p:nth-child(2):after {
+    content: "2"
+}
+
+.block-5 .top-line p:nth-child(3):after {
+    content: "3"
+}
+
+.block-5 .shape {
+    padding-left: 80px;
+    margin: 40px 0
+}
+
+.block-5 .shape img {
+    display: block;
+    width: 100%;
+    margin: 0 auto
+}
+
+.block-5 .bottom-line {
+    padding: 0 80px
+}
+
+.block-5 .bottom-line p {
+    width: 400px;
+    float: left;
+    padding: 0 60px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative
+}
+
+.block-5 .bottom-line p:after {
+    position: absolute;
+    content: "5";
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 6px solid #8f0;
+    top: -62px;
+    left: 50%;
+    margin-left: -20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff0;
+    padding-top: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.block-5 .bottom-line p:nth-child(2):after {
+    content: "4"
+}
+
+.block-6 {
+    padding: 50px 0;
+    color: #fff;
+    font-size: 20px;
+    position: relative
+}
+
+.block-6 .col {
+    width: 320px;
+    height: 320px;
+    float: left;
+    padding: 0 35px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center
+}
+
+.block-6 .b6-1 {
+    position: absolute;
+    left: 0;
+    top: 100px
+}
+
+.block-6 .b6-2 {
+    position: absolute;
+    right: 0;
+    top: 120px
+}
+
+.block-7 {
+    padding: 40px 0;
+    background-color: #000;
+    font-size: 20px
+}
+
+.block-7 .left {
+    width: 440px;
+    padding: 0 45px;
+    float: left;
+    color: #fff;
+    margin-top: 50px
+}
+
+.block-7 .left p {
+    line-height: 1.4;
+    margin: 20px 0
+}
+
+.block-7 .left p.head {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.5;
+    margin: 0
+}
+
+.block-7 .left p.head span {
+    text-transform: uppercase;
+    color: #8f0
+}
+
+.monodose {
+    position: absolute;
+    width: 550px;
+    right: -160px;
+    top: 110px
+}
+
+.block-8 {
+    padding: 50px 0;
+    color: #fff
+}
+
+.block-8 h2 {
+    font-size: 40px;
+    text-align: left;
+    width: 700px;
+    padding-left: 45px
+}
+
+.block-8 .b8-medal {
+    width: 150px;
+    height: 151px;
+    background: url(../images/medal-3.png)/*tpa=http://z1p.antiholic.com/images/medal-3.png*/
+    ;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    font-family: PFDinTextCompPro;
+    font-weight: 300;
+    font-size: 22px;
+    padding: 55px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #703b02;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.block-8 .b8-medal span {
+    font-weight: 500
+}
+
+.block-8 .components-head {
+    font-size: 24px;
+    color: #fff;
+    background: url(../images/natural.png)/*tpa=http://z1p.antiholic.com/images/natural.png*/
+    no-repeat left center;
+    margin: 20px 0;
+    padding: 30px 0;
+    margin-left: 45px;
+    padding-left: 120px
+}
+
+.block-8 .components-head span {
+    text-transform: uppercase
+}
+
+.block-8 ul {
+    background-color: #62b701;
+    padding: 20px 30px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    padding-left: 50px;
+    line-height: 1.3;
+    list-style-type: disc;
+    margin-bottom: 0
+}
+
+.block-8 .top-line {
+    margin-top: 50px;
+    font-size: 18px
+}
+
+.block-8 .top-line .col {
+    width: 300px;
+    margin-right: 30px;
+    float: left;
+    position: relative
+}
+
+.block-8 .top-line .col:last-child {
+    margin-right: 0
+}
+
+.block-8 .top-line .col .head {
+    width: 190px;
+    font-size: 19px;
+    height: 70px
+}
+
+.block-8 .top-line .col .comp {
+    position: absolute;
+    right: 10px;
+    top: 0
+}
+
+.block-8 .top-line .col .comp-1 {
+    width: 130px;
+    top: -40px
+}
+
+.block-8 .top-line .col .comp-2 {
+    width: 100px
+}
+
+.block-8 .top-line .col .comp-3 {
+    width: 130px;
+    right: -10px
+}
+
+.block-8 .bottom-line {
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 0 165px
+}
+
+.block-8 .bottom-line .col {
+    width: 300px;
+    margin-right: 30px;
+    float: left;
+    position: relative
+}
+
+.block-8 .bottom-line .col:last-child {
+    margin-right: 0
+}
+
+.block-8 .bottom-line .col .head {
+    width: 190px;
+    font-size: 19px;
+    height: 70px
+}
+
+.block-8 .bottom-line .col .comp {
+    position: absolute;
+    right: -10px;
+    top: 0
+}
+
+.block-8 .bottom-line .col .comp-4 {
+    width: 130px;
+    top: 20px
+}
+
+.block-8 .bottom-line .col .comp-5 {
+    width: 110px;
+    right: -20px
+}
+
+.block-9 {
+    padding: 50px 0 60px;
+    background-color: #000;
+    color: #fff
+}
+
+.block-9 h2 {
+    font-size: 50px
+}
+
+.block-9 p {
+    text-align: center;
+    padding: 0 120px;
+    margin: 30px 0;
+    line-height: 1.5
+}
+
+.block-9 .lists ul {
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 21px;
+    line-height: 1.3;
+    margin: 0
+}
+
+.block-9 .lists ul li {
+    padding: 30px 0;
+    min-height: 110px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 120px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../images/chart-1.png)/*tpa=http://z1p.antiholic.com/images/chart-1.png*/
+    no-repeat left center;
+    background-size: 110px
+}
+
+.block-9 .lists ul li:first-child {
+    margin-bottom: 15px
+}
+
+.block-9 .lists ul li:nth-child(2) {
+    background: url(../images/chart-2.png)/*tpa=http://z1p.antiholic.com/images/chart-2.png*/
+    no-repeat left center;
+    background-size: 110px
+}
+
+.block-9 .lists ul li:nth-child(3) {
+    background: url(../images/chart-3.png)/*tpa=http://z1p.antiholic.com/images/chart-3.png*/
+    no-repeat left center;
+    background-size: 110px
+}
+
+.block-9 .lists ul:first-child {
+    padding-right: 30px;
+    font-size: 20px
+}
+
+.block-9 .lists ul:first-child li {
+    padding: 8px 0;
+    min-height: auto;
+    padding-left: 60px;
+    height: auto;
+    background: url(../images/check-2.png)/*tpa=http://z1p.antiholic.com/images/check-2.png*/
+    no-repeat left center;
+    background-size: 35px
+}
+
+.block-9 .lists ul:first-child li:first-child {
+    margin-bottom: 0
+}
+
+.block-9 .lists ul:first-child li:last-child {
+    font-weight: 700
+}
+
+.block-9 .effect {
+    margin: 50px 50px 0;
+    padding: 10px 40px;
+    background: url(../images/border.png)/*tpa=http://z1p.antiholic.com/images/border.png*/
+    ;
+    background-size: 100% 100%;
+    font-family: Georgia;
+    font-style: italic
+}
+
+.block-9 .effect img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90px
+}
+
+.block-9 .effect span {
+    width: 680px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.block-10 {
+    background: #2f3d42 url(../images/b10-bg.jpg)/*tpa=http://z1p.antiholic.com/images/b10-bg.jpg*/
+    no-repeat center top;
+    background-size: cover;
+    padding: 40px 0 50px;
+    color: #fff
+}
+
+.block-10 .wrapper {
+    padding-left: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.block-10 h2 {
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 25px
+}
+
+.block-10 .content {
+    width: 510px;
+    line-height: 1.4;
+    font-size: 21px;
+    position: relative
+}
+
+.block-10 .content span {
+    text-transform: uppercase
+}
+
+.block-10 .content ul {
+    margin: 5px 0;
+    font-weight: 300;
+    font-style: italic
+}
+
+.block-10 .content p:last-of-type {
+    margin-top: 25px;
+    text-align: right;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 18px
+}
+
+.block-10 .content .podpis {
+    position: absolute;
+    display: block;
+    width: 110px;
+    bottom: -35px;
+    right: -120px
+}
+
+.block-10 .doctor {
+    position: absolute;
+    right: -60px;
+    bottom: -50px
+}
+
+.block-10 .b10-medal {
+    width: 210px;
+    height: 200px;
+    background: url(../images/medal-4.png)/*tpa=http://z1p.antiholic.com/images/medal-4.png*/
+    ;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    bottom: -150px;
+    font-family: PFDinTextCompPro;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 55px 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #703b02;
+    text-align: center
+}
+
+.block-10 .b10-medal span {
+    font-weight: 500
+}
+
+.block-11 {
+    padding: 50px 0 60px;
+    color: #fff
+}
+
+.block-11 h2 {
+    margin-bottom: 30px
+}
+
+.block-11 .left {
+    width: 440px;
+    padding-right: 40px;
+    float: left;
+    /*position: relative*/
+}
+
+.block-11 .left p {
+    padding-left: 50px;
+    margin-bottom: 10px
+}
+
+.block-11 .left p b {
+    font-size: 30px
+}
+
+.block-11 .left img {
+    /*width: 440px;*/
+    /*position: absolute;*/
+    /*left: -50px;*/
+    top: 4px;
+}
+
+.block-11 .right {
+    width: 360px;
+    float: left
+}
+
+.block-11 .right ul {
+    margin: 0;
+    font-size: 25px
+}
+
+.block-11 .right ul li {
+    margin-bottom: 20px
+}
+
+.block-11 .right ul li img {
+    display: inline-block;
+    width: 44px;
+    vertical-align: middle;
+    margin-right: 20px
+}
+
+.block-11 .right ul li span {
+    display: inline-block;
+    width: 290px;
+    vertical-align: middle
+}
+
+.block-11 .right .quality {
+    margin-top: 60px
+}
+
+.block-11 .right .quality img {
+    margin-right: 30px
+}
+
+.block-11 .right .quality img:last-child {
+    margin-right: 0
+}
+
+.block-12 {
+    padding: 80px 0 60px;
+    background-color: #000
+}
+
+.comments {
+    margin-top: 60px;
+    color: #fff
+}
+
+.comments .col {
+    width: 320px;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 1.4
+}
+
+.comments .col:first-of-type {
+    border-right: 2px dashed #171c1e
+}
+
+.comments .col:last-of-type {
+    border-left: 2px dashed #171c1e
+}
+
+.comments .col p.head {
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center
+}
+
+.comments .col p.head b {
+    display: block
+}
+
+.comments .col p {
+    text-align: left
+}
+
+.comments .col img {
+    display: block;
+    margin: 0 auto
+}
+
+.block-13 .wrapper {
+    padding: 50px 0 60px
+}
+
+.block-13 .left {
+    width: 480px;
+    padding-right: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    position: relative
+}
+
+.block-13 .right {
+    width: 480px;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    font-size: 21px;
+    color: #fff
+}
+
+.block-13 .right h2 {
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 30px;
+    padding-left: 20px
+}
+
+.block-13 .right h2 .green {
+    display: block;
+    font-size: 50px
+}
+
+.block-13 .right p {
+    line-height: 1.5;
+    padding-left: 20px
+}
+
+.block-13 .right .quality100 {
+    padding: 0 20px;
+    background: url(../images/border.png)/*tpa=http://z1p.antiholic.com/images/border.png*/
+    ;
+    background-size: 100% 100%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px
+}
+
+.block-13 .right .quality100 img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px
+}
+
+.block-13 .right .quality100 span {
+    width: 290px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.block-13 .pack {
+    position: absolute;
+    /*width: 460px;*/
+    left: 180px;
+    top: -70px
+}
+
+.block-13 .cert {
+    position: absolute;
+    right: -10px;
+    top: 110px
+}
+
+.block-14 {
+    padding: 50px 0;
+    color: #fff;
+    background-color: #000
+}
+
+.block-14 h2 {
+    font-size: 50px;
+    margin-bottom: 20px
+}
+
+.block-14 .col {
+    width: 320px;
+    float: left;
+    text-align: center;
+    position: relative
+}
+
+.block-14 .col p {
+    font-size: 21px;
+    width: 200px;
+    margin: 0 auto;
+    line-height: 1.4
+}
+
+.block-14 .col img {
+    max-width: 100%
+}
+
+
+.arrow-2 {
+    position: absolute;
+    right: -50px;
+    top: 120px
+}
+
+.arrow-3 {
+    position: absolute;
+    right: -40px;
+    top: 120px
+}
+
+.arrow-4 {
+    position: absolute;
+    right: -40px;
+    bottom: -120px
+}
+
+.header .top-line-2 {
+    padding-bottom: 20px;
+    padding-top: 25px
+}
+
+.header .top-line-2 .logo-wrapper {
+    padding-top: 10px
+}
+
+.footer {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #000;
+    color: #4d5a60;
+    font-size: 18px;
+    text-transform: uppercase
+}

@@ -1,0 +1,818 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+	.problem_item span{
+		font-size: 14px;
+	}
+
+
+	.zakaz_btn, .zakaz_btn:focus{
+		font-size: 15px;
+	}
+
+	.problem_item{
+		margin-bottom: 20px;
+	}
+
+	.problem_item span{
+		margin-top: 10px;
+	}
+
+	.formula_text{
+		font-size: 14px;
+	}
+
+	.prod_prod{
+		text-align: center;
+	}
+
+	.how_text{
+		font-size: 16px;
+	}
+
+	.how_play .section_head{
+		margin-bottom: 0;
+	}
+
+	.how_play, .product_text{
+		font-size: 21px;
+	}
+
+	.reviews{
+		padding-top: 60px;
+	}
+
+	.section_head span{
+		font-size: 25px;
+	}
+
+	.product {
+		margin-top: 192px;
+	}
+
+	.reviews_item p{
+		font-size: 14px;
+	}
+
+	.doctor p{
+		font-size: 14px;
+	}
+
+	.vrac_img i{
+		font-size: 13px;
+	}
+
+	.doctor .col-lg-8 .doctor_text:nth-child(2){
+		margin-top: 80px;
+	}
+
+	.steps .col-lg-3:first-child .step_item:after, .steps .col-lg-3:nth-child(3) .step_item:after{
+		width: 96px;
+		right: -62px;
+		height: 22px;
+		background-size: 100%;
+	}
+
+	.steps .col-lg-3:nth-child(2) .step_item:after{
+		width: 96px;
+		height: 25px;
+		background-size: 100%;
+		bottom: 99px;
+		right: -62px;
+	}
+
+	.step_text p {
+		font-size: 14px;
+	}
+
+	footer {
+		padding-top: 70px;
+	}
+
+	.countdown__item{
+		font-size: 30px;
+		padding: 5px 10px;
+	}
+
+	.countdown_text{
+		font-size: 15px;
+	}
+
+	.form__btn{
+		height: 60px;
+		font-size: 16px;
+	}
+
+	.links a{
+		margin-right: 26px;
+	}
+
+	.links{
+		font-size: 13px;
+	}
+
+	.formula .row:last-child .formula_text{
+		font-size: 19px;
+	}
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.countdown__item{
+		font-size: 24px;
+		margin: 0 7px;
+		padding: 5px 10px;
+	}
+
+	.links{
+		text-align: center;
+	}
+
+	.links span{
+		display: block;
+		margin-top: 5px;
+	}
+
+
+	.form__btn{
+		height: 44px;
+		bottom: 0;
+		font-size: 12px;
+	}
+
+	.form__input{
+		height: 40px;
+		font-size: 11px;
+	}
+
+	footer .section_head{
+		margin-top: 85px;
+	}
+
+	.countdown_text{
+		font-size: 11px;
+		margin-top: 18px;
+	}
+	.steps .section_head span{
+		font-size: 26px;
+	}
+
+	.steps .step_text span{
+		font-size: 15px;
+	}
+
+	.steps .step_text p{
+		font-size: 14px;
+	}
+
+	.countdown__item:after{
+		top: -3px;
+		font-size: 30px;
+		right: -11px;
+	}
+
+
+	.steps .col-lg-3:first-child .step_item:after, .steps .col-lg-3:nth-child(3) .step_item:after{
+		background-size: 100%;
+		right: -48px;
+		width: 63px;
+		height: 19px;
+	}
+
+	.steps .col-lg-3:nth-child(2) .step_item:after{
+		background-size: 100%;
+		width: 63px;
+		right: -46px;
+		bottom: 113px;
+		height: 19px;
+	}
+	.step_img img{
+		width: 100%;
+	}
+	.doctor_text {
+		margin-bottom: 98px;
+	}
+	.doctor .section_head{
+		margin-top: 0;
+		padding-top: 27px;
+	}
+	.reviews_item p{
+		font-size: 14px;
+	}
+	.reviews{
+		padding-top: 60px;
+	}
+	.how_text{
+		font-size: 12px;
+	}
+
+	.how_play .section_head{
+		margin-bottom: 0;
+	}
+
+	.header_list li{
+		font-size: 14px;
+		padding: 5px 0 5px 50px;
+	}
+
+	.zakaz_btn, .zakaz_btn:focus{
+		font-size: 12px;
+	}
+
+	.new_price_val {
+		font-size: 50px;
+	}
+
+	.product_img{
+		left: 60px;
+	}
+
+	.problem_item span{
+		font-size: 17px;
+	}
+
+	.section_head{
+		padding-top: 30px;
+	}
+
+	.formula_text{
+		font-size: 17px;
+	}
+
+	.section_head span{
+		font-size: 29px;
+	}
+
+	.product_text{
+		font-size: 24px;
+	}
+
+	.product_text span {
+		font-size: 24px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.steps .col-lg-3:first-child .step_item:after, .steps .col-lg-3:nth-child(3) .step_item:after,
+	.steps .col-lg-3:nth-child(2) .step_item:after{
+		display: none;
+	}
+
+	.header_middle span{
+		font-size: 55px;
+	}
+
+	.header_middle{
+		font-size: 37px;
+	}
+
+	.zakaz_btn, .zakaz_btn:focus{
+		width: 240px;
+		margin: 0 auto;
+		padding: 12px 0;
+	}
+
+	.header_list{
+		width: 385px;
+		margin: 0 auto;
+	}
+
+	.header_list li{
+		margin-bottom: 13px;
+	}
+
+	.price_new{
+		text-align: center;
+		margin: 5px 0;
+	}
+
+	.snoska{
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	header,
+	footer,
+	.revews_head{
+		color: #243B56;
+	}
+
+	.desktop{
+		background-image: none;
+	}
+
+	.product_img{
+		position: static;
+	}
+
+	.section_head{
+		text-align: center;
+		font-size: 17px;
+	}
+
+	.section_head span{
+		font-size: 18px;
+	}
+
+	.problem_item img{
+		width: auto;
+	}
+
+	.formula_img img{
+		width: 350px;
+	}
+
+	.problem_item{
+		margin-bottom: 15px;
+	}
+
+	.formula_img {
+		text-align: center;
+	}
+
+	.formula,
+	.product,
+	.how_play,
+	.reviews,
+	.doctor,
+	footer{
+		margin: 0 auto;
+		width: 360px;
+	}
+
+	.product_text{
+		font-size: 21px;
+	}
+
+	.product .zakaz_btn{
+		margin-right: 0;
+		margin: 0 auto;
+	}
+
+	.formula_text{
+		font-size: 15px;
+	}
+
+	.how_img img{
+		width: auto;
+	}
+
+	.doctor_text {
+		margin-bottom: 40px;
+	}
+
+	.countdown_text,
+	.countdown{
+		text-align: center;
+		display: block;
+	}
+
+	.form__btn{
+		margin-top: 10px;
+	}
+
+	.links{
+		text-align: center;
+	}
+
+	.links span{
+		margin-left: 0;
+	}
+
+	.links a{
+		display: block;
+		margin-right: 0;
+	}
+
+	.form__item{
+		margin-bottom: 10px;
+	}
+
+	.countdown__item{
+		margin: 0;
+	}
+
+	.countdown__item:after{
+		right: -2px;
+	}
+
+	.reviews .reviews_item .col-lg-2 img{
+		width: auto;
+	}
+
+	.reviews .reviews_item .col-lg-2{
+		text-align: center;
+	}
+
+	.vrac_img{
+		text-align: center;
+	}
+
+	.how_img{
+		text-align: center;
+	}
+
+	.prod_prod{
+		text-align: center;
+	}
+	.price_old{
+		text-align: center; color: #000;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+	.mobile{
+		display: block;
+		width: 320px;
+		margin: 0 auto;
+		background: url("bg_mob.png") center top no-repeat;
+		height: 10249px;
+	}
+
+	.desktop{
+		display: none;
+	}
+
+	.header_middle span{
+		font-size: 40px;
+	}
+
+	.header_middle{
+		font-size: 27px;
+	}
+
+	.header_list{
+		padding: 0 15px;
+	}
+
+	.header_list li{
+		font-size: 22px;
+		line-height: 1.2;
+	}
+
+	.header_middle{
+		margin-bottom: 30px;
+	}
+
+	.product_img{
+		position: relative;
+		text-align: left;
+		padding-left: 15px;
+		margin-bottom: 5px;
+	}
+
+	.price_new{
+		position: absolute;
+		right: 15px;
+		padding: 10px 20px;
+		border-radius: 50px;
+		bottom: 7px;
+		background-color: #EA0202;
+		color: #fff;
+		text-align: center;
+	}
+	.price_old{
+		text-align: center; color: #000;
+	}
+	.new_price_val{
+		display: block;
+	}
+
+	header .zakaz_btn, .zakaz_btn:focus{
+		padding: 20px 0;
+		margin: 0 20px;
+	}
+
+	.snoska{
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.section_head span{
+		font-size: 24px;
+	}
+
+	.section_head{
+		font-size: 20px;
+	}
+
+	.problems .row{
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	.problem_item span{
+		margin-top: 10px;
+	}
+
+	.problem_item{
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+
+	.formula_img, .formula_text{
+		padding: 0 15px;
+	}
+
+	.formula_text{
+		font-size: 16px;
+	}
+
+	.formula .child2 span{
+		font-size: 23px;
+	}
+
+	.img_child2{
+		padding: 0;
+	}
+
+	.problems .section_head{
+		margin: 0 20px;
+		font-size: 19px;
+		font-weight: bold;
+	}
+
+	.problems .section_head span{
+		font-size: 23px;
+	}
+
+	.problems .col-xs-6:first-child{
+		padding-right: 5px;
+	}
+
+	.problems .col-xs-6:last-child{
+		padding-left: 5px;
+	}
+
+	.formula .section_head{
+		margin: 0 15px;
+	}
+
+	.section_head{
+		background-color: transparent;
+	}
+
+	.formula{
+		margin-top: 45px;
+	}
+
+	.product{
+		padding: 0 15px;
+	}
+
+	.product_text{
+		line-height: 1.2;
+		font-size: 26px;
+	}
+
+	.product {
+		margin-top: 115px;
+	}
+
+	.prod_prod {
+		padding-left: 15px;
+	}
+
+	.product .zakaz_btn{
+		margin-right: 0;
+		margin-top: 25px;
+	}
+
+	.how_play{
+		padding: 30px 15px 0 15px;
+	}
+
+	.how_play .section_head span{
+		font-size: 30px;
+		text-align: left;
+	}
+
+	.how_img img{
+		width: auto !important;
+		margin: 0 auto;
+	}
+	.how_play .section_head{
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.owl-dots{
+		display: block !important;
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.owl-dot{
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		border-radius: 30px;
+		background-color: #9faab6;
+		margin: 0 7px;
+
+	}
+
+	.owl-dot.active{
+		background-color: #243b56;
+	}
+
+	.how_abzac p{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.how_abzac{
+		margin-bottom: 30px;
+	}
+
+	.reviews{
+		padding-top: 65px;
+		margin: 0 15px 24px 15px;
+	}
+
+	.revews_head{
+		font-size: 31px;
+		margin-bottom: 20px;
+	}
+
+
+	.reviews_item span{
+		display: inline-block;
+		padding-left: 15px;
+	}
+
+	.reviews_item img{
+		display: inline-block;
+		width: 120px;
+	}
+
+	.reviews_item p{
+		padding-top: 10px;
+		font-size: 15px;
+	}
+
+	.reviews_item{
+		margin-bottom: 28px;
+	}
+
+	.reviews .zakaz_btn{
+		width: auto;
+	}
+
+	.doctor {
+		padding: 20px 15px 0 15px;
+	}
+
+	.doctor .section_head{
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+
+	.doctor .section_head span{
+		font-size: 27px;
+	}
+
+	.vrac_img img{
+		width: 100%;
+	}
+
+	.vrac_img i{
+		font-size: 15px;
+	}
+
+	.doctor_text p{
+		font-size: 19px;
+	}
+
+	.steps span{
+		text-align: left;
+		font-size: 26px;
+	}
+
+	.steps{
+		padding: 0 15px;
+	}
+
+	.step_img img{
+		width: 100%;
+	}
+
+	.steps .step_text span{
+		text-align: center;
+		font-size: 13px;
+	}
+
+	.step_text p {
+		font-size: 12px;
+	}
+
+	footer{
+		padding-top: 20px;
+	}
+
+	footer .snoska{
+		text-align: left;
+		padding-left: 15px;
+		margin-top: 0;
+	}
+
+	.countdown_text {
+		display: block;
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	.countdown__item{
+		padding: 5px 12px;
+	}
+
+	.countdown__item{
+		border: 1px solid #dae1eb;
+		border-radius: 5px;
+	}
+
+	footer .header_list li{
+		margin-bottom: 13px;
+	}
+
+	.countdown{
+		text-align: center;
+		width: 100%;
+	}
+
+	footer .section_head span{
+		text-align: center;
+		font-size: 25px;
+	}
+
+	footer .form__item{
+		margin-bottom: 15px;
+	}
+
+	footer .form__btn{
+		margin-top: 15px;
+	}
+
+	.links a{
+		margin-right: 0;
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.links span{
+		margin-left: 0;
+		display: block;
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 480px)
+    {
+.formula_text {
+    font-size: 14px;
+}
+        
+        .doctor p {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+}
+

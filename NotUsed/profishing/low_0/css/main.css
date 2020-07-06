@@ -1,0 +1,428 @@
+rekv img{display: inline;}
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.woff") format("woff"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaRegular.otf") format("opentype"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold.woff") format("woff"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaBold.otf") format("opentype"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNovaExtraBold";
+    src: url("../fonts/ProximaNovaExtraBold.woff") format("woff"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaExtraBold.otf") format("opentype"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("../fonts/ProximaNovaBlack.eot");
+    src: url("../fonts/ProximaNovaBlack.eot@")format("embedded-opentype"),
+         url("../fonts/ProximaNovaBlack.woff") format("woff"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaBlack.otf") format("opentype"),
+         url("http://e.dynamiteeffect.org/fonts/ProximaNovaBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+*{margin: 0; padding: 0; outline: none; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+html, body{font-family: "ProximaNovaRegular"; background: #ffffff; font-size: 16px; color: #000000;}
+img{border: none; display: block; width: auto; max-width: 100%;}
+div:after{content: ""; display: table; clear: both;}
+a:hover{text-decoration: none !important;}
+a{color: inherit; cursor: pointer;}
+
+
+.main{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.content{
+	max-width: 990px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+/*** section_1 ***/
+	.section_1{
+		height: 792px;
+		background: url("../img/section_1_bg.jpg") top center no-repeat;
+	    background-size: auto 100%;
+	    font-family: "ProximaNovaExtraBold";
+	    color: rgb( 255, 255, 255 );
+	}
+	.title{
+		width: 50%; /* 480px */
+		float: right;
+		padding: 58px 0 0 0;
+	}
+	.title h1{
+		font-family: "ProximaNovaBlack";
+		color: rgb( 249, 232, 17 );
+		text-transform: uppercase;
+		line-height: 89px;
+		font-size: 5.5625em; /* 89px */
+		margin: 0 0 18px 0;
+	}
+	.title h1 span{
+		font-size: 1.35955em; /* 121px */
+		letter-spacing: 3px;
+		display: block;
+	}
+	.title strong{
+		font-size: 2.125em; /* 34px */
+		font-family: "ProximaNovaBlack";
+		font-weight: normal;
+		text-transform: uppercase;
+		display: block;
+		line-height: 44px;
+	}
+	.title strong span{
+		font-size: 1.29412em; /* 44px */
+		font-family: "ProximaNovaExtraBold";
+		display: block;
+	}
+	.title > p{
+		font-size: 1.625em; /* 26px */
+		margin: 16px 0 40px 0;
+		line-height: 31px;
+	}
+	.title > p span{
+		color: #f9e811;
+	}
+	.btn{
+		width: 330px;
+		color: #ffffff;
+		padding: 17px 0;
+		border: none;
+		border-top: 1px solid #54efff;
+		border-bottom: 2px solid #003056;
+		display: block;
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+  		text-shadow: 0px 1px 0px rgb( 0, 48, 86 );
+		font-size: 1.875em; /* 30px */
+		font-family: "ProximaNovaExtraBold";
+		background: #2fbefe;
+        background: -webkit-linear-gradient(top, #2fbefe, #0086d8);
+        background:    -moz-linear-gradient(top, #2fbefe, #0086d8);
+        background:     -ms-linear-gradient(top, #2fbefe, #0086d8);
+        background:      -o-linear-gradient(top, #2fbefe, #0086d8);
+        background:         linear-gradient(to bottom, #2fbefe, #0086d8);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#2fbefe, endColorstr=#0086d8)";
+        -webkit-box-shadow: 0 22px 20px -20px #000000;
+           -moz-box-shadow: 0 22px 20px -20px #000000;
+            -ms-box-shadow: 0 22px 20px -20px #000000;
+             -o-box-shadow: 0 22px 20px -20px #000000;
+                box-shadow: 0 22px 20px -20px #000000;
+	}
+	.btn:hover{
+		background: #0086d8;
+        background: -webkit-linear-gradient(top, #0086d8, #2fbefe);
+        background:    -moz-linear-gradient(top, #0086d8, #2fbefe);
+        background:     -ms-linear-gradient(top, #0086d8, #2fbefe);
+        background:      -o-linear-gradient(top, #0086d8, #2fbefe);
+        background:         linear-gradient(to bottom, #0086d8, #2fbefe);
+        -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#0086d8, endColorstr=#2fbefe)";
+	}
+	.btn > *{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.btn img{
+		margin: 0 0 0 15px;
+	}
+/*** section_2 ***/
+	.section_2,
+	.section_5,
+	.section_9,
+	.section_10{
+		height: 216px;
+		background: url("../img/blue_line_1.png") center center no-repeat;
+	    background-size: auto 100%;
+	    margin: -52px 0 0 0;
+		font-size: 2em; /* 32px */
+		font-family: "ProximaNovaExtraBold";
+		color: rgb( 255, 255, 255 );
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.table{
+		display: table;
+	    width: 100%;
+	    height: 100%;
+	}
+	.table_cell{
+		display: table-cell;
+    	vertical-align: middle;
+	}
+/*** section_3 ***/
+	.section_3{
+		font-family: "ProximaNovaBold";
+		color: rgb( 46, 46, 46 );
+		padding: 58px 0;
+	}
+	.half{
+		float: left;
+		width: 50%;	/* 480px */
+	}
+	.section_3 .half_text{
+		padding: 0 0 0 20px;
+	}
+	.section_3 .half > span{
+		display: block;
+		font-size: 1.875em; /* 30px */
+		font-family: "ProximaNovaExtraBold";
+		text-transform: uppercase;
+		margin: 30px 0 26px 0;
+	}
+	.section_3 .half > span span{
+		color: rgb( 239, 55, 50 );
+	}
+	.section_3 .half p{
+		font-size: 1.25em; /* 20px */
+		line-height: 1.3;
+		margin: 0 0 46px 0;
+	}
+/*** section_4 ***/
+	.section_4{
+		height: 802px;
+		color: rgb( 255, 255, 255 );
+		padding: 325px 0 0 0;
+		background: url("../img/section_4_bg.jpg") top center no-repeat;
+	    background-size: auto 100%;
+	    line-height: 25px;
+	}
+	.section_4 h2{
+		font-size: 1.875em; /* 30px */
+		font-family: "ProximaNovaExtraBold";
+		color: rgb( 239, 55, 50 );
+		text-transform: uppercase;
+		text-align: center;
+		margin: 0 0 33px 0;
+	}
+	.section_4 p{
+		font-size: 1.25em; /* 20px */
+		margin: 0 0 15px 0;
+	}
+	.section_4 span,
+	.section_4 strong{
+		color: #f9e811;
+	}
+	.section_4 strong{
+		font-size: 1.25em; /* 20px */
+		display: block;
+		font-weight: normal;
+		font-family: "ProximaNovaBold";
+	}
+/*** section_5 ***/
+	.section_5{
+		font-size: 1.875em; /* 30px */
+	}
+/*** section_6 ***/
+	.section_6{
+		text-align: center;
+		padding: 58px 0;
+	}
+	.section_6 img{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 2px 0 0;
+		width: 49.4792%; /* 475px */
+	}
+	.last{
+		margin-right: 0px !important;
+	}
+	.description{
+		border-bottom: 1px solid #d9dbd5;
+		padding: 0 0 30px 0;
+    	margin: 43px 0 !important;
+	}
+	.info{
+		text-align: left;
+		margin: 0 0 30px 0;
+	}
+	.info > p{
+		float: left;
+		width: 30%; /* 288px */
+		font-size: 1.875em; /* 30px */
+		font-family: "ProximaNovaExtraBold";
+		color: rgb( 239, 55, 50 );
+		text-transform: uppercase;
+		line-height: 36px;
+	}
+	.info > p span{
+		font-family: "ProximaNovaRegular";
+		color: #000000;
+		display: block;
+	}
+	.info div{
+		float: left;
+		width: 70%; /* 672px */
+		padding: 0 0 0 35px;
+	}
+	.info div p{
+		font-size: 1.125em; /* 18px */
+		line-height: 25px;
+		margin: 0 0 13px 0;
+	}
+	.info div p span{
+		text-transform: uppercase;
+		color: #ef3732;
+		font-family: "ProximaNovaBold";
+	}
+/*** section_7 ***/
+	.section_7{
+		height: 790px;
+		padding: 56px 0;
+		background: url("../img/section_7_bg.jpg") top center no-repeat;
+		background-size: auto 100%;
+		color: #ffffff;
+	}
+	.section_7 .content{
+		height: 100%;
+	}
+	.blue_block{
+		width: 61.1459%; /* 587px */
+		height: 100%;
+		background: #0aa8f1;
+		padding: 55px 25px 0 25px;
+		float: right;
+	}
+	.blue_block p{
+		font-size: 1.875em; /* 30px */
+		font-family: "ProximaNovaExtraBold";
+		color: rgb( 255, 246, 131 );
+		text-transform: uppercase;
+		line-height: 36px;
+	}
+	.blue_block ul{
+		margin: 20px 0 20px 25px;
+	}
+	.blue_block ul li{
+		font-size: 1.4375em; /* 23px */
+		font-family: "ProximaNovaBold";
+		line-height: 26px;
+		margin: 0 0 14px 0;
+	}
+/*** section_8 ***/
+	.section_8{
+		padding: 58px 0;
+		text-align: center;
+	}
+	.section_8 img{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 2px 6px 0;
+		width: 49.4792%; /* 475px */
+	}
+/*** section_9 ***/
+	.section_9{
+		height: 254px;
+		background: url("../img/blue_line_2.png") center center no-repeat;
+	    background-size: auto 100%;
+	    font-size: 1.6875em; /* 27px */
+	    margin: 0;
+	}
+/*** section_10 ***/
+	.section_10{
+		height: 188px;
+		background: url("../img/red_line.png") center center no-repeat;
+	    background-size: auto 100%;
+	    font-size: 3.125em; /* 50px */
+	    margin: -48px 0 0 0;
+	}
+/*** section_11 ***/
+	.section_11{
+		font-size: 1.0625em; /* 17px */
+		line-height: 22px;
+		padding: 20px 0 50px 0;
+		text-align: center;
+	}
+	.icon{
+		display: inline-block;
+		vertical-align: top;
+		width: 26%;
+		margin: 0 3.4%;
+	}
+	.icon img{
+		display: inline-block;
+		margin: 0 0 -3px 0;
+	}
+/*** section_12 ***/
+	.section_12{
+		height: 820px;
+		background: url("../img/section_12_bg.jpg") top center no-repeat;
+	    background-size: auto 100%;
+	    color: rgb( 46, 46, 46 );
+	    padding: 120px 0 0 0;
+	}
+	.forma{
+		background: url("../img/forma_bg.jpg");
+		width: 51.0417%; /* 490px */
+		padding: 50px 25px 60px 25px;
+		text-align: center;
+		-webkit-box-shadow: 0px 0px 25px 0px rgba( 1, 1, 1, .3);
+           -moz-box-shadow: 0px 0px 25px 0px rgba( 1, 1, 1, .3);
+            -ms-box-shadow: 0px 0px 25px 0px rgba( 1, 1, 1, .3);
+             -o-box-shadow: 0px 0px 25px 0px rgba( 1, 1, 1, .3);
+                box-shadow: 0px 0px 25px 0px rgba( 1, 1, 1, .3);
+	}
+	.forma > p{
+		font-size: 1.625em; /* 26px */
+		font-family: "ProximaNovaExtraBold";
+		text-transform: uppercase;
+		line-height: 30px;
+		margin: 0 0 37px 0;
+	}
+	.forma > p span{
+		color: #ef3732;
+		display: block;
+	}
+	.forma > span{
+		font-size: 1.0625em; /* 17px */
+		line-height: 24px;
+		display: block;
+		text-align: left;
+		margin: 0 0 10px 0;
+	}
+	.forma > span strong{
+		font-weight: normal;
+		font-family: "ProximaNovaBold";
+	}
+	.forma form{
+		width: 67.347%; /* 330px */
+		display: inline-block;
+		margin: 33px 0 0 0;
+	}
+	.forma input[type=text]{
+		font-size: 1.25em; /* 20px */
+		font-family: "ProximaNovaRegular";
+		color: rgb( 120, 120, 120 );
+		width: 100%;
+		height: 62px;
+		border: 1px solid #c1c1c1;
+		background: #ffffff;
+		padding: 0 0 0 20px;
+		margin: 0 0 10px 0;
+		-webkit-box-shadow: 3px 3px 7px 0px rgba( 0, 0, 0, .1) inset;
+           -moz-box-shadow: 3px 3px 7px 0px rgba( 0, 0, 0, .1) inset;
+            -ms-box-shadow: 3px 3px 7px 0px rgba( 0, 0, 0, .1) inset;
+             -o-box-shadow: 3px 3px 7px 0px rgba( 0, 0, 0, .1) inset;
+                box-shadow: 3px 3px 7px 0px rgba( 0, 0, 0, .1) inset;
+	}
+	.forma .btn{
+		width: 100%;
+	}

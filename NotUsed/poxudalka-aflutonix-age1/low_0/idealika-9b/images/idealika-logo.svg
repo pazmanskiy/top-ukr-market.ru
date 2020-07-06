@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="487 -114 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ef6fa0;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="idealika_logo" data-name="idealika logo" transform="translate(-12739 -3205)">
+    <circle id="Ellipse_453" data-name="Ellipse 453" class="cls-1" cx="14" cy="14" r="14" transform="translate(13226 3091)"/>
+    <rect id="Rectangle_1804" data-name="Rectangle 1804" class="cls-2" width="7" height="17.5" rx="2" transform="translate(13236.5 3096.25)"/>
+    <rect id="Rectangle_1805" data-name="Rectangle 1805" class="cls-2" width="7" height="17.5" rx="2" transform="translate(13248.75 3101.5) rotate(90)"/>
+  </g>
+</svg>

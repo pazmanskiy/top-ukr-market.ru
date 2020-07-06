@@ -1,0 +1,91 @@
+.popup3 .section8, .popup4 .section8  {background: none;}
+.close,.popup3 .close_modal,
+.popup4 .close_modal{
+background-color: rgba(0, 0, 0, 0.85);
+    border: 2px solid #ccc;
+    height: 38px;
+    line-height: 34px;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 24px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    top: -5px;
+    width: 38px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 50%;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+.close:hover,.popup3 .close_modal:hover,
+.popup4 .close_modal:hover{
+    background-color: rgba(255, 219, 51, 0.85);
+}
+
+
+@media (min-width:1280px){
+.popup3, .popup4{width: 100%;
+max-width:1280px;}
+}
+
+@media screen and (min-width:992px) and (max-width:1279px){
+.popup3, .popup4 {width:950px;}
+.close_modal {margin-right: -40px;margin-top:10px;}
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.85);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 99999;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.popup3, .popup4{
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    visibility: hidden;
+    z-index: 999999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+
+.popup4 .window {
+    padding: 0 27px 27px;
+    right: 0;
+    width: 373px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    border: 1px solid #72bffc;
+    border-top: 40px solid #72bffc;
+}
+

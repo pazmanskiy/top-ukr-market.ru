@@ -1,0 +1,815 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Regemo</title>
+    <link href='css/normalize.css' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700|Ubuntu:400,500&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href='css/style.css' rel='stylesheet' type='text/css'>
+      <link href='css/plyr.css' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=435">
+</head>
+
+<body>
+    <div class="container">
+        <div class="block1">
+            <div class="top-block">
+                <div class="wrapper">
+                    <div class="item item1">
+                        <div class="iimage"><img src="img/icon1.png" alt=""></div>
+                        <div class="itext">100%
+                            <br>натуральный продукт</div>
+                    </div>
+                    <div class="item item2">
+                        <div class="iimage"><img src="img/icon2.png" alt=""></div>
+                        <div class="itext">Нам <span class="white">УЖЕ</span> позвонили 4 672
+                            <br>человека, чтобы сказать <span class="white">СПАСИБО!</span>
+                        </div>
+                    </div>
+                    <div class="button-block">
+                        <button onclick="$('#apply').arcticmodal(); return false;"><span class="red">Получить</span> бесплатную консультацию</button>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="title-block">
+                    <div class="title">Быстрый способ <span class="red">избавиться от геморроя</span> без боли</div>
+                    <div class="subtitle">в домашних условиях за 14 дней</div>
+                </div>
+                <div class="left-block">
+                    <div class="item item1">
+                        <div class="iimage"><img src="img/icon4.png" alt=""></div>
+                        <div class="itext"><span class="green">Останавливает</span> боль
+                            <br>и кровотечение</div>
+                    </div>
+                    <div class="item item2">
+                        <div class="iimage"><img src="img/icon5.png" alt=""></div>
+                        <div class="itext"><span class="green">Способствует</span> рассасыванию узлов</div>
+                    </div>
+                    <div class="item item3">
+                        <div class="iimage"><img src="img/icon6.png" alt=""></div>
+                        <div class="itext"><span class="green">Заживляет</span> трещины</div>
+                    </div>
+                    <div class="item item4">
+                        <div class="iimage"><img src="img/icon7.png" alt=""></div>
+                        <div class="itext">Позволяет <span class="green">забыть</span> о дискомфорте <span class="green">надолго!</span></div>
+                    </div>
+                </div>
+                <div class="central-block">
+                    <div class="product-block"><img src="img/product.png" alt=""></div>
+                    <div class="label"><img src="img/label.png" alt=""></div>
+                </div>
+                <div class="right-block">
+                    <div class="title"><span class="red">ВНИМАНИЕ!</span>
+                        <br>Акция действует только 1 день!</div>
+                    <div class="form-block">
+                        <div class="subtitle">Горящая цена:</div>
+                        <div class="price-block">
+                            <div class="new">1 руб*</div>
+                            <div class="old">Вместо <span class="landing___price__old_value">1800</span> <span class="landing___price__currency">руб.</span></div>
+                        </div>
+                       
+                        <form action="http://leads.ordertosales.ru/crm/api/CreateOrderRaw?flow_id=55856&sibids=" method="post">
+                            <div class="textline">Введите номер телефона
+                                <br>для получения <span class="red">ТОВАРА ПО АКЦИИ:</span></div>
+                            <div class="c-s">
+                                
+                                <div class="inp-line">
+                                    <input type="hidden" name="country_code" value="RU">
+                                </div>
+                            </div>
+                             <div class="inp-line inp-name">
+                                <input type="text" name="name" placeholder="Введите Ф.И.О">
+                            </div>
+                            <div class="inp-line inp-phone">
+                                <input type="text" name="phone" placeholder="+7 (__) ___-__-__">
+                            </div>
+                            <div class="button-line">
+                                <button type="submit">заказать по акции</button>
+                            </div>
+                            <div class="text">* - при заказе полного курса</div>
+                        </form>
+                    </div>
+                </div>
+                <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                <div class="textline">
+                    <div class="text-left">Упаковок по акции осталось: </div>
+                    <div class="left count">23</div>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="wrapper">
+                <div class="left-block">
+                    <div class="limage"><img src="img/image1.png" alt=""></div>
+                    <div class="ltitle">кровотечение</div>
+                    <div class="ltext"> Расширенные сосуды геморроидального узла могут разорваться и открыть сильное, безостановочное кровотечение. <span class="red">5 из 10 человек попадают в реанимацию.</span></div>
+                </div>
+                <div class="central-block">
+                    <div class="item item1">
+                        <div class="iimage"><img src="img/image2.png" alt=""></div>
+                        <div class="itext">выпадение узлов</div>
+                    </div>
+                    <div class="item item2">
+                        <div class="iimage"><img src="img/image3.png" alt=""></div>
+                        <div class="itext">злокачественные образования</div>
+                    </div>
+                    <div class="text-block">
+                        <div class="text">Любое из состояний может стать причиной внезапной смерти. Важно начать борьбу незамедлительно, не дожидаясь утяжеления процесса!</div>
+                    </div>
+                    <div class="item item3">
+                        <div class="iimage"><img src="img/image5.png" alt=""></div>
+                        <div class="itext">анальные трещины</div>
+                    </div>
+                    <div class="item item4">
+                        <div class="iimage"><img src="img/image6.png" alt=""></div>
+                        <div class="itext">недержание кала</div>
+                    </div>
+                </div>
+                <div class="left-block right-block">
+                    <div class="limage"><img src="img/image4.png" alt=""></div>
+                    <div class="ltitle">тромбы</div>
+                    <div class="ltext"><span class="red">Геморрой способен образовать опасные тромбы.</span> Оторвавшись, тромб закупоривает сосуды, вызывая нарушения мозгового кровообращения, легочных сосудов, коронарных артерий.</div>
+                </div>
+            </div>
+        </div>
+        <div class="block3">
+            <div class="wrapper">
+                <div class="title">3 активных компонента Regemo</div>
+                <div class="subtitle">Эффективных даже при 4-й стадии</div>
+                <div class="item item1">
+                    <div class="iimage"><img src="img/item2.png" alt=""></div>
+                    <div class="ititle">Конский каштан</div>
+                    <div class="itext">Способствует устранению воспаления, боли и зуда. <span class="green">Устраняет ощущение "инордного тела" и жжения</span>
+                        <br>в заднем проходе. Заживляет трещины</div>
+                </div>
+                <div class="central-image">
+                    <div class="cimage"><img src="img/image7.png" alt=""></div>
+                    <div class="arrows">
+                        <div class="arrow arrow1"><img src="img/arrow2.png" alt=""></div>
+                        <div class="arrow arrow2"><img src="img/arrow3.png" alt=""></div>
+                        <div class="arrow arrow3"><img src="img/arrow4.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="item item2">
+                    <div class="iimage"><img src="img/item3.png" alt=""></div>
+                    <div class="ititle">Гинко Билоба</div>
+                    <div class="itext">Усиливает циркуляцию крови в сосудах, <span class="green">снимает воспаление,</span> усиливает кровоток, способствует устранению сформировавшихся тромбов.</div>
+                </div>
+                <div class="item item3">
+                    <div class="iimage"><img src="img/item4.png" alt=""></div>
+                    <div class="ititle">Троксирутин</div>
+                    <div class="itext">Снимает отечность и боль, обладает сильным венотонизирующим действием и участвует в <span class="green">рассасывании внешних и внутренних шишек.</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="block4">
+            <div class="wrapper">
+                <div class="title">Почему Regemo <span class="green">- это крем? </span></div>
+                <div class="left-block">
+                    <div class="text-block">
+                        <div class="text-content">
+                            <div class="timage"><img src="img/item5.png" alt=""></div>
+                            <p><span class="bold">Таблетки, капли, суспензии работают очень медленно.</span> Часто, чтобы просто снять воспаление и боль нужно <span class="red">пропить до 4-х курсов!</span></p>
+                            <p><span class="bold">Спреи и гели слишком быстро выветриваются.</span> Они моментально впитываются, не успевая принести результат. </p>
+                            <p><span class="bold">Густые мази имееют слишком "толстую" молекулярную сетку</span> и не проникают в глубокие слои эпидермиса, а значит <span class="red">работают только <br>на 30%</span> из 100. </p>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="btext">
+                            <div class="text text1">Жжение</div>
+                            <div class="text text2">Кровотечение</div>
+                            <div class="text text3">Зуд и боли</div>
+                            <div class="text text4">Выпадение узлов</div>
+                        </div>
+                        <div class="bright">
+                            <div class="bimage"><img src="img/item7.png" alt=""></div>
+                            <div class="bname">Геморройная вена</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-block right-block">
+                    <div class="text-block">
+                        <div class="text-content">
+                            <div class="timage"><img src="img/item6.png" alt=""></div>
+                            <p>Единственно <span class="bold">правильный</span> подход <span class="green">- это крем.</span></p>
+                            <p>Благодаря форме компоненты <span class="green">легко достигают глубоких слоев эпидермиса и слизистой.</span></p>
+                            <p><span class="bold">Задерживаются</span> на нужное количество
+                                <br>времени <span class="green">и работают на 200%.</span></p>
+                            <p><span class="green">Укрепляет слабые стенки сосудов</span>
+                                <br>- главную причину <span class="bold">геморроя!</span></p>
+                        </div>
+                    </div>
+                    <div class="bottom-block">
+                        <div class="bright">
+                            <div class="bimage"><img src="img/item8.png" alt=""></div>
+                            <div class="bname">Здоровая вена</div>
+                        </div>
+                        <div class="btext">
+                            <div class="text text1">Сосуды крепче</div>
+                            <div class="text text2">Боль утихла</div>
+                            <div class="text text3">Узлы перестают портить жизнь</div>
+                            <div class="text text4">Нет ощущения "инородного тела"</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-block">
+                    <div class="product"><img src="img/product2.png" alt=""></div>
+                    <div class="arrow"><img src="img/arrow5.png" alt=""></div>
+                </div>
+                <div class="button-line">
+                    <button onclick="$('#apply').arcticmodal(); return false;">заказать по акции</button>
+                </div>
+            </div>
+        </div>
+        <div class="block5">
+            <div class="wrapper">
+                <div class="right-block">
+                    <div class="rtitle">“Проктологи останутся без работы?”</div>
+                    <div class="rtext">
+                        <p>Хм, не думаю. Зато факт, что обращаться к специалистам будет в разы меньше людей. И это радует. Деликатная проблема требует эффективных и быстрых мер, таких как Regemo. <span class="blue">В незапущенных случаях советую не торопиться с хирургическими методами и справляться самим. Дома.</span></p>
+                        <p><span class="blue">Вовремя начав лечение Regemo, реально добиться стойкой, а в идеале – пожизненной, ремиссии.</span> Я вижу многих своих пациентов всего 2 раза в жизни. На первом приеме они со страхом ждут диагноза, потом получают мою рекомендацию. Второй раз я вижу их спустя время, когда они забегают с шоколадкой сказать "Спасибо, доктор! Я забыл про геморрой".</p>
+                        <p><span class="blue">Если не хотите попасть на стол к проктологу или хирургу - начинайте лечение прямо сейчас!"</span></p>
+                    </div>
+                    <div class="rname">Вячеслав Кононов. К.м.н. проктолог-хирург. Стаж практики 18 лет</div>
+                    <div class="sign"><img src="img/sign.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="block6">
+            <div class="wrapper">
+                <div class="title"><span class="green">Послушайте,</span> что говорят люди!</div>
+                <div class="video-block">
+                    <div class="video video1"><audio controls>
+                                <source src="audio/rew1.mp3" type="audio/mp3">
+                            </audio></div>
+                    <div class="video video2"><audio controls>
+                                <source src="audio/rew2.mp3" type="audio/mp3">
+                            </audio></div>
+                    <div class="video video3"><audio controls>
+                                <source src="audio/rew3.mp3" type="audio/mp3">
+                            </audio></div>
+                </div>
+            </div>
+        </div>
+        <div class="block7">
+            <div class="wrapper">
+                <div class="title">Реальные отзывы в Интернете о Regemo</div>
+                <div class="main-block">
+                    <div class="item">
+                        <div class="ititle">Я В ШОКЕ ОТ РЕЗУЛЬТАТА. Боль ушла, как будто не было!</div>
+                        <div class="ihead">
+                            <div class="himage"><img src="img/img5.png" alt=""></div>
+                            <div class="htext">Опубликовано 16.11.2016 - 14:50
+                                <br>отзыв от <span class="underline">Анастасия Чурова</span></div>
+                            <div class="hstar"><img src="img/stars.png" alt=""></div>
+                        </div>
+                        <div class="itext">До беременности я знать не ведала, что такое геморрой. Для меня это казалось таким далеким от меня, как Луна от Земли. Но со многим нам в жизни приходится знакомиться. Познакомилась и я с геморроем. Первый раз – это было после родов. Потом в течение двенадцати лет проблема дважды повторялась. Последние два раза лечила с помощью Regemo. Вообще курс лечения составляет две недели. Но последний раз мне хватило трех дней применения мази, чтобы все безобразие исчезло. Никаких неприятных ощущений от мази я не испытывала. Она слегка холодит. И, что немаловажно, с первого же применения у меня значительно уменьшился дискомфорт и болезненные ощущения.
+                            <br>Рекомендую ли?
+                            <br>Да. Я рекомендую мазь Regemo. Для меня это была палочка выручалочка. Не пришлось бежать в поликлинику к проктологу. Несколько дней и я себя излечила.</div>
+                    </div>
+                    <div class="item">
+                        <div class="ititle">Трещина и геморрой - Regemo лечит и облегчает боль и спазм.(+ мои советы по лечению).</div>
+                        <div class="ihead">
+                            <div class="himage"><img src="img/img5.png" alt=""></div>
+                            <div class="htext">Опубликовано 16.11.2016 - 14:50
+                                <br>отзыв от <span class="underline">Len4a</span></div>
+                            <div class="hstar"><img src="img/stars.png" alt=""></div>
+                        </div>
+                        <div class="itext">Во-первых хочу сказать спасибо этмоу сайту отзывов и всем кто писал отзывы о этом препарате.
+                            <br>Мои причины:
+                            <br>1. Плохо работающий кишечник.
+                            <br>2. Сидячий образ жизни. (в основном из-за работы)
+                            <br>3.Плохие сосуды.
+                            <br>Ну а из-за последних двух причин кишечник еще хуже работает. Замкнутый круг.
+                            <br>Как я лечился:
+                            <br>Не буду писать о упаковке, о внешнем виде, о показаниях. Все это можно найти в интернете и здесь во многих отзывах.
+                            <br>
+                            <br>Напишу о главном.
+                            <br>Применять лучше после похода в туалет утром или вечером.
+                            <br>Ванночки. Очень хорошо сидеть попой минут 10-20 в отваре ромашки, дубовой коры, соли и соды. И не только при геморрое, но при трещине. Ванночка немного снимает спазм.
+                            <br>Нужно стараться наладить мягкий стул, не натужный. Избегать запоров.
+                            <br>Так не хитро можно очень надолго забыть о проблеме. Например я семь месяцев назад закончил курс и только сейчас решил написать отзыв. Потому что важен не только быстрый, но и долговременный эффект. Абсолютные рекомендации Regemo. 10 из 10</div>
+                    </div>
+                    <div class="textline" style="display: none;"><a>Еще отзывы</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="block8">
+            <div class="wrapper">
+                <div class="title"><span class="red">Что нужно делать,</span> чтобы избавиться от геморроя навсегда</div>
+                <div class="item-block">
+                    <div class="item item1">
+                        <div class="iimage"><img src="img/img1.png" alt=""></div>
+                        <div class="ititle">Шаг 1</div>
+                        <div class="itext">Провести гигиенические процедуры, <span class="green">тщательно вымыв при этом анальную зону.</span></div>
+                    </div>
+                    <div class="arrow"></div>
+                    <div class="item item2">
+                        <div class="iimage"><img src="img/img2.png" alt=""></div>
+                        <div class="ititle">Шаг 2</div>
+                        <div class="itext"><span class="green">Нанести крем на узлы</span>
+                            <br>и рядом с ними.</div>
+                    </div>
+                    <div class="arrow"></div>
+                    <div class="item item3">
+                        <div class="iimage"><img src="img/img3.png" alt=""></div>
+                        <div class="ititle">Шаг 3</div>
+                        <div class="itext">Легкими движениями, не повреждая слизистой и не нарушая целостности узлов, <span class="green">втереть препарат.</span></div>
+                    </div>
+                    <div class="arrow"></div>
+                    <div class="item item4">
+                        <div class="iimage"><img src="img/img4.png" alt=""></div>
+                        <div class="ititle">Шаг 4</div>
+                        <div class="itext">Оставить крем до <span class="green">полного впитывания.</span></div>
+                    </div>
+                </div>
+                <div class="button-line">
+                    <button onclick="$('#apply').arcticmodal(); return false;">заказать по акции</button>
+                </div>
+            </div>
+        </div>
+        <div class="block9">
+            <div class="wrapper">
+                <div class="title"><span class="green">Через 14 дней</span> вы заметите разницу</div>
+                <div class="left-block">
+                    <div class="photo photo1"><img src="img/photo5.png" alt=""></div>
+                    <div class="photo photo2"><img src="img/photo4.png" alt=""></div>
+                    <div class="text">Вам <span class="green">комфортно
+                        <br>сидеть и двигаться</span></div>
+                </div>
+                <div class="middle-block">
+                    <div class="photo photo3"><img src="img/photo1.png" alt=""></div>
+                    <div class="photo photo4"><img src="img/photo2.png" alt=""></div>
+                    <div class="text">Можете позволить
+                        <br>себе <span class="green">ЛЮБУЮ</span> еду</div>
+                </div>
+                <div class="right-block">
+                    <div class="photo photo5"><img src="img/photo3.png" alt=""></div>
+                    <div class="text">Личная жизнь <span class="green">налаживается</span></div>
+                </div>
+                <div class="textline">Попрощайтесь с дискомфортом, запорами, зудом и шишками!</div>
+            </div>
+        </div>
+        <div class="block10">
+            <div class="wrapper">
+                <div class="title">Как мы работаем</div>
+                <div class="item-block">
+                    <div class="item item1">
+                        <div class="iimage"><img src="img/item13.png" alt=""></div>
+                        <div class="itext">Оформите моментальный заказ и <span class="red">получите товар по акционной цене</span></div>
+                    </div>
+                    <div class="item item2">
+                        <div class="iimage"><img src="img/item14.png" alt=""></div>
+                        <div class="itext">Дождитесь звонка консультанта для согласования деталей</div>
+                    </div>
+                    <div class="item item3">
+                        <div class="iimage"><img src="img/item15.png" alt=""></div>
+                        <div class="itext"><span class="red">Ничего не платите</span> до получения товара на почте</div>
+                    </div>
+                </div>
+                <div class="textline">Доставим в любой уголок России и СНГ!</div>
+                <div class="left-block">
+                    <div class="ltitle">Осторожно!</div>
+                    <div class="ltext">В связи с высокой <span class="green">популярностью</span> препарата у жителей России и стран СНГ, в Интернете <span class="green">участились</span> случаи подделок по бросовой цене.
+                        <br>
+                        <br>Будьте внимательны! На упаковке оригинального средства вы найдете <span class="red">знак подлинности.</span> Заказывая препарат на этом сайте вы обезопасите себя от покупки подделки.
+                    </div>
+                    <div class="larrow"><img src="img/arrow6.png" alt=""></div>
+                </div>
+                <div class="right-block">
+                    <div class="product-block"><img src="img/product2.png" alt=""></div>
+                    <div class="label"><img src="img/item16.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="block11">
+            <div class="wrapper">
+                <div class="title-block">
+                    <div class="title">Быстрый способ <span class="red">избавиться от геморроя</span> без боли</div>
+                    <div class="subtitle">в домашних условиях за 14 дней</div>
+                </div>
+                <div class="left-block">
+                    <div class="item item1">
+                        <div class="iimage"><img src="img/icon4.png" alt=""></div>
+                        <div class="itext"><span class="green">Останавливает</span> боль
+                            <br>и кровотечение</div>
+                    </div>
+                    <div class="item item2">
+                        <div class="iimage"><img src="img/icon5.png" alt=""></div>
+                        <div class="itext"><span class="green">Способствует</span> рассасыванию узлов</div>
+                    </div>
+                    <div class="item item3">
+                        <div class="iimage"><img src="img/icon6.png" alt=""></div>
+                        <div class="itext"><span class="green">Заживляет</span> трещины</div>
+                    </div>
+                    <div class="item item4">
+                        <div class="iimage"><img src="img/icon7.png" alt=""></div>
+                        <div class="itext">Позволяет <span class="green">забыть</span> о дискомфорте <span class="green">надолго!</span></div>
+                    </div>
+                </div>
+                <div class="central-block">
+                    <div class="product-block"><img src="img/product.png" alt=""></div>
+                    <div class="label"><img src="img/label.png" alt=""></div>
+                </div>
+                <div class="right-block">
+                    <div class="form-block">
+                        <div class="ftitle">Начните лечение от геморроя <span class="green">ПРЯМО СЕЙЧАС!</span></div>
+                        <form action="http://leads.ordertosales.ru/crm/api/CreateOrderRaw?flow_id=55856&sibids=" method="post">
+                            <div class="textline"><span class="red">Оставьте заявку</span>
+                                <br>и мы свяжемся с Вами в ближайшее время</div>
+                            <div class="c-s">
+                                
+                                <div class="inp-line">
+                                    <input type="hidden" name="country_code" value="RU">
+                                </div>
+                            </div>
+                            <div class="inp-line inp-name">
+                                <input type="text" name="name" placeholder="Введите Ф.И.О">
+                            </div>
+                            <div class="inp-line inp-phone">
+                                <input type="text" name="phone" placeholder="+7 (__) ___-__-__">
+                            </div>
+                            <div class="button-line">
+                                <button type="submit">отправить заявку</button>
+                            </div>
+                            <div class="text">* - при заказе полного курса</div>
+                        </form>
+                    </div>
+                </div>
+                <div class="arrow"><img src="img/arrow.png" alt=""></div>
+                <div class="textline">
+                    <div class="text-left">Упаковок по акции осталось: </div>
+                    <div class="left count">23</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="wrapper">
+                <div class="textline">ООО "ТОРГЛАЙН" ИНН 9705098802, ОГРН 1177746541730<br>  <a href="#" class="confident-link">Политика конфиденциальности</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-conf">
+        <div class="conf-overlay close-conf"></div>
+        <div class="conf-info">
+            <div class="conf-head">Политика конфиденциальности</div>
+            <h5>Защита личных данных</h5>
+            <p>Для защиты ваших личных данных у нас внедрен ряд средств защиты, которые действуют при введении, передаче или работе с вашими личными данными.</p>
+            <h5>Разглашение личных сведений и передача этих сведений третьим лицам</h5>
+            <p>Ваши личные сведения могут быть разглашены нами только в том случае это необходимо для: (а) обеспечения соответствия предписаниям закона или требованиям судебного процесса в нашем отношении ; (б) защиты наших прав или собственности (в) принятия срочных мер по обеспечению личной безопасности наших сотрудников или потребителей предоставляемых им услуг, а также обеспечению общественной безопасности. Личные сведения, полученные в наше распоряжение при регистрации, могут передаваться третьим организациям и лицам, состоящим с нами в партнерских отношениях для улучшения качества оказываемых услуг. Эти сведения не будут использоваться в каких-либо иных целях, кроме перечисленных выше. Адрес электронной почты, предоставленный вами при регистрации может использоваться для отправки вам сообщений или уведомлений об изменениях, связанных с вашей заявкой, а также рассылки сообщений о происходящих в компании событиях и изменениях, важной информации о новых товарах и услугах и т.д. Предусмотрена возможность отказа от подписки на эти почтовые сообщения.</p>
+            <h5>Использование файлов «cookie»</h5>
+            <p>Когда пользователь посещает веб-узел, на его компьютер записывается файл «cookie» (если пользователь разрешает прием таких файлов). Если же пользователь уже посещал данный веб-узел, файл «cookie» считывается с компьютера. Одно из направлений использования файлов «cookie» связано с тем, что с их помощью облегчается сбор статистики посещения. Эти сведения помогают определять, какая информация, отправляемая заказчикам, может представлять для них наибольший интерес. Сбор этих данных осуществляется в обобщенном виде и никогда не соотносится с личными сведениями пользователей.</p>
+            <p>Третьи стороны, включая компании Google, показывают объявления нашей компании на страницах сайтов в Интернете. Третьи стороны, включая компанию Google, используют cookie, чтобы показывать объявления, основанные на предыдущих посещениях пользователем наших вебсайтов и интересах в веб-браузерах. Пользователи могут запретить компаниям Google использовать cookie. Для этого необходимо посетить специальную страницу компании Google по этому адресу: http://www.google.com/privacy/ads/</p>
+            <h5>Изменения в заявлении о соблюдении конфиденциальности</h5>
+            <p>Заявление о соблюдении конфиденциальности предполагается периодически обновлять. При этом будет изменяться дата предыдущего обновления, указанная в начале документа. Сообщения об изменениях в данном заявлении будут размещаться на видном месте наших веб-узлов</p>
+            <p class="s1">Благодарим Вас за проявленный интерес к нашей системе! </p>
+            <div class="close-conf closeconf-but"></div>
+        </div>
+    </div>
+    <div class="hide">
+        <div class="box-modal" id="apply">
+            <div class="close arcticmodal-close">
+                <img src="img/close.png" alt="">
+            </div>
+            <div class="left-block">
+                <div class="ltitle">Быстрый способ <span class="red">избавиться от геморроя</span> без боли</div>
+                <!--<div class="price-block">
+                    <div class="new"><span class="landing___price__main_value">900</span> <span class="landing___price__old_value">1800</span></div>
+                    <div class="old">вместо
+                        <span class="landing___price__old_value">1800</span> <span class="landing___price__currency">руб.</span>
+                    </div>
+                </div>-->
+                <div class="price-block">
+                    <div class="new">1 руб*</div>
+                    <div class="old">Вместо <span class="landing___price__old_value">1800</span> <span class="landing___price__currency">руб.</span></div>
+                </div>
+                <div class="timer">
+                    <div class="timer-text">до конца акции:</div>
+                    <div class="timer-block">
+                        <span class="hours item">00</span>
+                        <div class="delimiter item">:</div>
+                        <span class="mins item">27</span>
+                        <div class="delimiter item">:</div>
+                        <span class="secs item">00</span>
+                    </div>
+                    <div class="bottom-line">
+                        <div class="h-text">часов</div>
+                        <div class="m-text">минут</div>
+                        <div class="s-text">секунд</div>
+                    </div>
+                </div>
+            </div>
+            <div class="central-block">
+                <div class="product-block"><img src="img/product2.png" alt=""></div>
+            </div>
+            <div class="right-block">
+                <div class="form-block">
+                    <div class="ftitle">Начните лечение от геморроя <span class="green">ПРЯМО СЕЙЧАС!</span></div>
+                    <form action="http://leads.ordertosales.ru/crm/api/CreateOrderRaw?flow_id=55856&sibids=" method="post">
+                        <div class="textline"><span class="red">Оставьте заявку</span>
+                            <br>и мы свяжемся с Вами в ближайшее время</div>
+                        <div class="c-s">
+                            
+                            <div class="inp-line">
+                                <input type="hidden" name="country_code" value="RU">
+                            </div>
+                        </div>
+                        <div class="inp-line inp-name">
+                            <input type="text" name="name" placeholder="Введите Ф.И.О">
+                        </div>
+                        <div class="inp-line inp-phone">
+                            <input type="text" name="phone" placeholder="+7 (__) ___-__-__">
+                        </div>
+                        <div class="button-line">
+                            <button type="submit">отправить заявку</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup-mini">
+        <div class="item type1">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                <b>Дмитрий Гл******,</b>
+                <br> сделал заказ.
+                
+                <br> Осталось упаковок по акции <span class="count">21</span> шт.
+            </div>
+        </div>
+        <div class="item type1">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                <b>Виктория Ив*******,</b>
+                <br> сделала заказ.
+                
+                <br> Осталось упаковок по акции <span class="count">21</span> шт.
+            </div>
+        </div>
+        <div class="item type4">
+            <div class="img-block">
+                <img src="img/item23.png" alt="">
+            </div>
+            <div class="text">
+                Кол-во посетителей на сайте:
+                <br>
+                <span class="big"><span class="online">537</span></span>
+            </div>
+        </div>
+        <div class="item type1">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                <b>Роман Кр****,</b>
+                <br> сделал заказ.
+                
+                <br> Осталось упаковок по акции <span class="count">21</span> шт.
+            </div>
+        </div>
+        <div class="item type3">
+            <div class="img-block">
+                <img src="img/item22.png" alt="">
+            </div>
+            <div class="text">
+                Евгения Ал******,
+                <br> сделала заявку
+                <br> на обратный звонок
+            </div>
+        </div>
+        <div class="item type2">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                Осталось упаковок по акции
+                <br>
+                <span class="big"><span class="count">21</span> шт.</span>
+            </div>
+        </div>
+        <div class="item type1">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                <b>Светлана Кра******,</b>
+                <br> сделала заказ.
+                
+                <br> Осталось упаковок по акции <span class="count">21</span> шт.
+            </div>
+        </div>
+        <div class="item type3">
+            <div class="img-block">
+                <img src="img/item22.png" alt="">
+            </div>
+            <div class="text">
+                Марина Мед******,
+                <br> сделала заявку
+                <br> на обратный звонок
+            </div>
+        </div>
+        <div class="item type2">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                Осталось упаковок по акции
+                <br>
+                <span class="big"><span class="count">21</span> шт.</span>
+            </div>
+        </div>
+        <div class="item type1">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                <b>Анастасия Кор*****,</b>
+                <br> сделала заказ.
+                
+                <br> Осталось упаковок по акции <span class="count">21</span> шт.
+            </div>
+        </div>
+        <div class="item type1">
+            <div class="img-block">
+                <img src="img/item21.png" alt="">
+            </div>
+            <div class="text">
+                <b>Александр Пе******,</b>
+                <br> сделал заказ.
+                
+                <br> Осталось упаковок по акции <span class="count">21</span> шт.
+            </div>
+        </div>
+        <div class="item type4">
+            <div class="img-block">
+                <img src="img/item23.png" alt="">
+            </div>
+            <div class="text">
+                Кол-во посетителей на сайте:
+                <br>
+                <span class="big"><span class="online">537</span></span>
+            </div>
+        </div>
+        <div class="item type3">
+            <div class="img-block">
+                <img src="img/item22.png" alt="">
+            </div>
+            <div class="text">
+                Денис Ал******,
+                <br> сделал заявку
+                <br> на обратный звонок
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.tinycarousel.js"></script>
+    <!--[if IE 8]>
+    <script src="js/placeholder.js"></script>
+    <![endif]-->
+    <!--[if IE 9]>
+    <script src="js/placeholder.js"></script>
+    <![endif]-->
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+       <script src="js/plyr.js"></script>
+    <script src="js/script.js"></script>
+    <script type='text/javascript' src='http://www.rocketprofit.ru/getlandingscript.php?site_id=42617&hit_id=401772718'></script>
+     
+
+<!-- RocketProfit counter -->
+<script type='text/javascript' src='http://www.rocketprofit.ru/static/js/counter.js'></script>
+<script type='text/javascript'>
+	var rp_counter = new RocketProfitCounter({"server":"http:\/\/www.rocketprofit.ru\/counter.php","shard_id":"78","user_id":"7438","site_id":"42617","flow_id":"55856","offer_id":"688","site_template_id":"1071","pre_site_template_id":"99999688","source":"","price_quote_type":"2","is_pre_site":0});
+	rp_counter._trackPageView();
+</script>
+<!-- /RocketProfit counter --><!-- RocketProfit form handler -->
+<script type="text/javascript" src="http://www.rocketprofit.ru/static/js/form_handler.js"></script>
+<script>
+	new RocketProfitFormHandler({"api_url":"http:\/\/leads.ordertosales.ru\/crm\/api\/createOrderRichData","thank_you_page_url":"\/thank_you\/","flow_id":"55856","template_id":"1071","metrika_hits":"0","advertiser_api_url":"http:\/\/www.rocketprofit.ru\/advertiser\/api\/countryList"});
+</script>
+<!-- /RocketProfit form handler -->
+<script>
+    $(document).ready(function() {
+        var countryCode = 'RU';
+        // Use 'rejectedRegular' as regular expression to filter input chars
+        var countryParams = {
+            'RU': { 'phoneNumberShouldBe6MoreCharacters': 'Номер телефона должен иметь 6 и более цифр' }, /* Russian Federation */ 
+            'US': { 'phoneNumberShouldBe6MoreCharacters': 'Phone number should be 6 or more digits' }, /* United States */
+            'CA': { 'phoneNumberShouldBe6MoreCharacters': 'Phone number should be 6 or more digits' }, /* Canada */
+            'EU': { 'phoneNumberShouldBe6MoreCharacters': 'Phone number should be 6 or more digits' }, /* Europe */
+            'GB': { 'phoneNumberShouldBe6MoreCharacters': 'Phone number should be 6 or more digits' }, /* United Kingdom */
+            'DE': { 'phoneNumberShouldBe6MoreCharacters': 'Die Telefonnummer sollte mindestens 6 Zeichen lang sein' }, /* Germany */
+            'ES': { 'phoneNumberShouldBe6MoreCharacters': 'El número de teléfono debe ser de al menos 6 dígitos' }, /* Spain */
+            'IT': { 'phoneNumberShouldBe6MoreCharacters': 'Il numero del telefono deve avere 6 e più cifre' }, /* Italy */
+            'KZ': { 'phoneNumberShouldBe6MoreCharacters': 'Телефон нөмірі цифрлардан 6 және одан көп болуы тиіс' }, /* Kazakhstan */
+            'PT': { 'phoneNumberShouldBe6MoreCharacters': 'O número de telefone deve ser pelo menos 6 dígitos' }, /* Portugal */
+            'TR': { 'phoneNumberShouldBe6MoreCharacters': 'Telefon numarası en az 6 basamaklı olmalıdır' }, /* Turkey */
+            'FI': { 'phoneNumberShouldBe6MoreCharacters': 'Puhelinnumero on oltava 6 ja entistä numeroa' }, /* Finland */
+            'BY': { 'phoneNumberShouldBe6MoreCharacters': 'Нумар тэлефона павінен мець 6 і больш лічбаў' }, /* Belarus */
+            'UA': { 'phoneNumberShouldBe6MoreCharacters': 'Номер телефону повинен мати 6 і більше цифр' }, /* Ukraine */
+            'LV': { 'phoneNumberShouldBe6MoreCharacters': 'Tālruņa numurs ir jābūt vismaz 6 cipari' }, /* Latvia */
+            'LT': { 'phoneNumberShouldBe6MoreCharacters': 'Telefono numeris turi būti 6 arba daugiau skaitmenų' }, /* Lithuania */
+            'RO': { 'phoneNumberShouldBe6MoreCharacters': 'Numărul de telefon trebuie să fie de 6 sau mai multe cifre' }, /* Romania */
+            'KG': { 'phoneNumberShouldBe6MoreCharacters': 'Номери жок дегенде 6 орундуу болушу керек' }, /* Kyrgyzstan */
+            'AZ': { 'phoneNumberShouldBe6MoreCharacters': 'Telefon nömrəsi 6 və ya daha çox rəqəm olmalıdır' }, /* Azerbaijan */
+            'FR': { 'phoneNumberShouldBe6MoreCharacters': 'Le numéro de téléphone doit être de 6 chiffres ou plus' }, /* France */
+            'AM': { 'phoneNumberShouldBe6MoreCharacters': 'Հեռախոսահամարը պետք է լինի 6 կամ ավելի թվանշանները' }, /* Armenia */
+            'BG': { 'phoneNumberShouldBe6MoreCharacters': 'Телефонният номер трябва да е 6 или повече цифри' }, /* Bulgaria */
+            'GR': { 'phoneNumberShouldBe6MoreCharacters': 'Ο αριθμός τηλεφώνου πρέπει να είναι 6 ή περισσότερα ψηφία' }, /* Greece */
+            'CZ': { 'phoneNumberShouldBe6MoreCharacters': 'Uvedené telefonní číslo musí být 6 nebo více číslic' }, /* Czech Republic */
+            'HR': { 'phoneNumberShouldBe6MoreCharacters': 'Broj telefona mora biti 6 ili više znamenki' }, /* Croatia */
+            'EE': { 'phoneNumberShouldBe6MoreCharacters': 'Telefoni number peab olema 6 või enam numbrit' }, /* Estonia */
+            'SE': { 'phoneNumberShouldBe6MoreCharacters': 'Telefonnumret måste vara 6 eller fler siffror' }, /* Sweden */
+            'GE': { 'phoneNumberShouldBe6MoreCharacters': 'ტელეფონის ნომერი უნდა იყოს 6 ან მეტი ციფრისგან' }, /* Georgia */
+            'SI': { 'phoneNumberShouldBe6MoreCharacters': 'Telefonska številka mora biti 6 ali več številk' }, /* Slovenia */
+            'SK': { 'phoneNumberShouldBe6MoreCharacters': 'Uvedené telefónne číslo musí byť 6 alebo viac číslic' }, /* Slovakia */
+            'VN': { 'phoneNumberShouldBe6MoreCharacters': 'Số điện thoại phải có ít nhất 6 chữ số' }, /* Vietnam */
+            'TH': { 'phoneNumberShouldBe6MoreCharacters': 'หมายเลขโทรศัพท์ต้องเป็น 6 หรือมากกว่าตัวเลข' }, /* Thailand */
+            'UZ': { 'phoneNumberShouldBe6MoreCharacters': 'telefon raqami 6 yoki undan ko\'p raqam bo\'lishi lozim' } /* Uzbekistan */
+        };
+
+        if (typeof countryParams[countryCode] == 'undefined') {
+            countryCode = 'RU';
+        }
+
+		document.phoneFieldIsValidated = {};
+		var params = countryParams[countryCode];
+		
+		var phoneFieldId = 0;
+		var phoneFieldIdAttributeName = 'data-phone-id';
+		var phoneFieldSelector = 'input[name="phone"],input[type="tel"],input[id="phone"],input[placeholder="Телефон"],input[placeholder="Phone"]';
+
+        $(phoneFieldSelector).each(function() {
+            var self = $(this);
+            var errorCssClass = 'error';
+            
+            ++phoneFieldId;
+            self.attr(phoneFieldIdAttributeName, phoneFieldId);
+            document.phoneFieldIsValidated[phoneFieldId] = false;
+            
+            self.keypress(function(event) {
+                var string = String.fromCharCode(event.which);
+                // @todo think about allowed: [^0-9-+ ()]
+    	        if (params.rejectedRegular && string.match(params.rejectedRegular)) {
+    	            event.preventDefault();
+    	        } else {
+                    self.removeClass(errorCssClass);
+    	        }
+            });
+
+            self.blur(function(event) {
+                var phone = self.val();
+                var hasErrorCssClass = self.hasClass(errorCssClass);
+				var phoneFieldId = self.attr(phoneFieldIdAttributeName);
+				
+				document.phoneFieldIsValidated[phoneFieldId] = true;
+                if (hasErrorCssClass || !phone || phone.length < 6) {
+                    if (!hasErrorCssClass) {
+                        alert(params.phoneNumberShouldBe6MoreCharacters);
+                        self.addClass(errorCssClass).focus();
+                    }
+
+                    document.phoneFieldIsValidated[phoneFieldId] = false;
+                }
+            });
+        });
+        
+       
+		$('input[type=submit],button[type=submit],a.submit,button.submit').each(function() {
+			var self = $(this);
+			var form = self.closest('form');
+			var phoneFields = $(phoneFieldSelector, form);
+			
+			if (phoneFields.length) {
+				self.click(function(event) {
+					var phoneFieldIsValidated = true;
+					
+					phoneFields.each(function() {
+						var phoneFieldId = $(this).attr(phoneFieldIdAttributeName);						
+						if (document.phoneFieldIsValidated[phoneFieldId] != true) {
+							phoneFieldIsValidated = false;	
+						}
+					});
+					
+					if (!phoneFieldIsValidated) {
+						alert(params.phoneNumberShouldBe6MoreCharacters);
+						
+						event.preventDefault();
+						event.stopPropagation();
+					
+						return false;
+					}
+				});
+			}
+		})
+    })
+</script></body>
+
+</html>
+

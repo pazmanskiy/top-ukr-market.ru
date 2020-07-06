@@ -1,0 +1,42 @@
+$(document).ready(function() {
+
+/* Smooth Scroll */
+  $(document).on('click', 'a', function(event){
+      event.preventDefault();
+
+      $('html, body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top
+      }, 500);
+  });
+
+/* Left package */
+  var number_objects; // value in global scope
+  var displayObject = $('.left-pack'); // fetch object only once, better performace
+
+  function loadRandom() {
+    number_objects = 126 + Math.floor(Math.random() * 1);
+  }
+  function decreaseRandom() {
+    // decrease the value by randomly generated value in range 1 - 5
+    number_objects -= Math.floor(Math.random() * 2) + 1;        
+  }
+  function showRandom() {
+    // show / update the value
+    displayObject.text(number_objects);
+  }
+  loadRandom(); // load the value
+  showRandom(); // initial display
+  var interval = setInterval(function () {
+    decreaseRandom();
+    // display (update) it
+    showRandom();
+    if(number_objects <= 5) {
+      // clear interval when number of objects gets to, or below, 0
+      clearInterval(interval);
+      //$(".left-pack").css("background-color","#B90D0D").addClass("alert");
+    }
+  }, 3900);
+
+
+
+});

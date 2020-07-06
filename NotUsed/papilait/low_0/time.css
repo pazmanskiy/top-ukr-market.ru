@@ -1,0 +1,10 @@
+.timer{width:360px;height:220px;overflow:hidden;padding-top:20px;}
+.titlecount{font-size:24px;color:#383838;padding-bottom:30px;padding-left:8px;}
+.timerbox{font-family:'Roboto Condensed', sans-serif;font-size:72px;line-height:100px;height:80px;color:#FFF;width:354px;height:60px;margin:0 auto;}
+.timerbox .countbox-num{width:105px;margin-right:13px;box-sizing:border-box;height:100px;background:transparent url('dash.png') 0 0 no-repeat;display:inline-block;zoom:1;*display:inline;position:relative;}
+.timer .timerbox .countbox-num:first-child{color:#222;background:transparent url('light_dash.png') 0 0 no-repeat;}
+.timerbox .countbox-space{position:relative;float:left;height:100px;padding:0;}
+.timerbox .countbox-space:last-child{padding-right:0;}
+#countbox-days1,#countbox-hours1,#countbox-mins1,#countbox-secs1{float:left;width:40px;height:65px;margin-left:14px;text-align:center;font-weight:bold;z-index:1;}
+#countbox-days2,#countbox-hours2,#countbox-mins2,#countbox-secs2{float:left;width:40px;height:65px;font-weight:bold;text-align:center;z-index:1;}
+#countbox-days-text,#countbox-hours-text,#countbox-mins-text,#countbox-secs-text{font-family:'PT Sans', sans-serif;position:relative;text-align:center;display:block;font-size:18px;font-weight:400;color:#202020;}

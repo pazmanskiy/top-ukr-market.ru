@@ -1,0 +1,383 @@
+/*============ CSS BEGIN ============*/
+
+/* Geniral style */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header,
+nav,
+section,
+article,
+aside,
+footer {
+    display: block;
+}
+
+html,
+body {
+    height: auto;
+    max-height: 100%;
+}
+
+body {
+    background-color: #121e29;
+    font-family: 'SFUIDisplay-Regular', Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 118%;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors style */
+
+.pink {
+    color: #ef1650;
+}
+
+.lpink {
+    color: #f3507b;
+}
+
+.red {
+    color: #ff3125;
+}
+
+.blue {
+    color: #0679a4;
+}
+
+.dblue {
+    color: #152838;
+}
+
+.yellow {
+    color: #fdd020;
+}
+
+.green {
+    color: #b0cd39;
+}
+
+.gray {
+    color: #a7a7a7;
+}
+
+.dgray {
+    color: #3b3b3b;
+}
+
+.black {
+    color: #000000;
+}
+
+.gold {
+    color: #dfc653;
+}
+
+.white {
+    color: #ffffff;
+}
+
+/* Link Style */
+
+a,
+a[href^=tel] {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+a:hover {
+    /*text-decoration: underline;*/
+}
+
+/* Font family style */
+
+.sfr {
+    font-family: 'SFUIDisplay-Regular', sans-serif;
+}
+
+.sfb {
+    font-family: 'SFUIDisplay-Bold', sans-serif;
+}
+
+.sfh {
+    font-family: 'SFUIDisplay-Heavy', sans-serif;
+}
+
+.sfl {
+    font-family: 'SFUIDisplay-Light', sans-serif;
+}
+
+.sft {
+    font-family: 'SFUIDisplay-Thin', sans-serif;
+}
+
+.os300 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* light */
+
+.os400 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* regular */
+
+.os600 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* semi-bold */
+
+.os700 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+/* bold */
+
+.os800 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+/* extra-bold */
+
+.ari {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Text & font style */
+
+.fnorm {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+.alleft {
+    text-align: left;
+}
+
+.alright {
+    text-align: right;
+}
+
+.upp {
+    text-transform: uppercase;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.line-th {
+    text-decoration: line-through;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+
+.lh100 {
+    line-height: 100%;
+}
+
+.lh110 {
+    line-height: 110%;
+}
+
+.lh120 {
+    line-height: 120%;
+}
+
+.lh130 {
+    line-height: 130%;
+}
+
+.lh140 {
+    line-height: 140%;
+}
+
+.lh150 {
+    line-height: 150%;
+}
+
+.lh160 {
+    line-height: 160%;
+}
+
+/* Display style */
+
+.inline-b {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+/* Positon's style */
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.fix {
+    position: fixed;
+}
+
+/* Clear */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    *zoom: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+/*============ FORM ============*/
+
+input,
+select,
+textarea {
+    display: initial;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin: 4px auto!important;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    outline: none;
+    text-indent: 40px;
+    color: #252525;
+    box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+input.name-black {
+    background: #ffffff url('../images/main/name_b.png') no-repeat 14px 50%;
+}
+
+input.phone-black {
+    background: #ffffff url('../images/main/phone_b.png') no-repeat 12px 50%;
+}
+
+/* placeholder style */
+
+::-webkit-input-placeholder {}
+
+:-moz-placeholder {}
+
+::-moz-placeholder {}
+
+:-ms-input-placeholder {}
+
+:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+:focus::-moz-placeholder {
+    color: transparent
+}
+
+:focus:-moz-placeholder {
+    color: transparent
+}
+
+:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+/* Form button & custom button style */
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+}
+
+button {
+    width: 100%;
+    height: 54px;
+    margin-top: 10px!important;
+    border-radius: 6px;
+    background-color: #7e00ff;
+    font-family: 'Open Sans', sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: 0.4s;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #5300a8;
+}
+
+/*============ ANIMATIONS ============*/
+
+/* Button animation */
+
+.button {
+    opacity: 0.88;
+    position: relative;
+    transition: 0.3s ease all 0s;
+    -webkit-transition: 0.3s ease all 0s;
+    -moz-transition: 0.3s ease all 0s;
+    -o-transition: 0.3s ease all 0s;
+    -ms-transition: 0.3s ease all 0s;
+}
+
+.button:hover {
+    background-color: #5300a8;
+}
+
+
+/* END MAIN CSS */

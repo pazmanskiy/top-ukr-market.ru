@@ -1,0 +1,340 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width">
+	<title>Smoke Out</title>
+	<link rel="stylesheet" href="30\css\jquery.bxslider.css">
+	<link rel="stylesheet" href="30\css\main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<link href="30\css\buyer.css" rel="stylesheet">
+	<link href="30\css\pop2.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="30\css\comeback.css">
+</head>
+<body>
+	<div id="order-mod" class="screenLock screenLock2" style="display: none;">
+		  <div class="msg">
+		  <div class="close">X</div>
+		   <h2>Для оформления заказа введите<br> пожалуйста ваше имя и телефон</h2>
+		   <form action="/success.php" method="post" class="reset-styles-form x_order_form x-modal-form" onsubmit="if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+				<input type="hidden" name="action" value="add_order">
+				<div class="blockInputForm grassGo mob-hide" style="z-index:99999; position:relative;">
+					<input style="z-index:99999999; position:relative;" class="input-form phone-form" type="text" name="name" placeholder="Ваше имя">
+				</div>
+				<div class="blockInputForm grassGo" style="z-index:99999; position:relative;">
+					<input style="z-index:99999999; position:relative;" class="input-form phone-form" type="text" name="phone" placeholder="Телефон">
+				</div>
+				<div class="switcher" style="text-align:center;">
+					<div class="ck-item" style="margin:10px auto 10px;max-width:500px;"><input type="checkbox" checked="checked" name="shipp" id="shipp1" value="1"><label style="margin-right:0;padding-right:0;" for="shipp1"><span></span></label></div>
+				</div>
+				<input type="hidden" name="productName" value="Smoke Out">
+                        <input type="hidden" name="price" value="189">
+                        <input type="hidden" name="trackerPrice" value="16.12">
+				<div style="text-align:center;"><button style="display:inline-block !important; width:275px !important;" type="submit" class="footer__btn js_submit btn">Заказать</button></div>
+			</form>
+		</div>
+	</div>
+	<div id="comebacker" class="comeback-overlay">
+		<div class="comeback-wrapper">
+			<div class="comeback-close"></div>
+			<div class="title-text">
+				<strong>Вам ПОДАРОК!</strong>
+				<p>Почему же вы покидаете наш сайт?</p>
+			</div>
+			<form name="comeback" method="post" action="/success.php" onsubmit="if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false;}else if(this.phone.value.match(/[^\d]/g) != null){alert('Номер телефона введен некорректно!');return false;}else return checkedRadio(this);">
+				<input type="hidden" name="action" value="add_order">
+				<div class="switcher">
+					<div class="rd-item"><input type="radio" name="leave" id="leave1" value="1"><label for="leave1"><span></span>Просто стало интересно</label></div>
+					<div class="rd-item"><input type="radio" name="leave" id="leave2" value="2"><label for="leave2"><span></span>Меня что-то не устроило</label></div>
+					<div class="rd-item"><input type="radio" name="leave" id="leave3" value="3"><label for="leave3"><span></span>Я сомневаюсь что мне это поможет</label></div>
+				</div>
+				<div class="comeback-field">
+					<input type="text" name="phone" placeholder="Введите ваш телефон">
+				</div>
+				<div class="comeback-field comeback-field-enter">
+					<input type="submit" value="Отправить ответ">
+				</div>
+				<input type="hidden" name="productName" value="Smoke Out">
+                        <input type="hidden" name="price" value="189">
+                        <input type="hidden" name="trackerPrice" value="16.12">
+			</form>
+		</div>
+	</div>
+	
+	<div>
+		<section id="block-nav" class="block">
+			<div class="wrapper">
+				<h1 class="logo">Smoke Out</h1>
+				<span class="mob-menu"></span>
+				<ul class="nav">
+					<li class="nav-item"><a href="#block2" class="scroll-link">Преимущества</a></li>
+					<li class="nav-item"><a href="#block3" class="scroll-link">Экспертное мнение</a></li>
+					<li class="nav-item"><a href="#block4" class="scroll-link">Состав</a></li>
+					<li class="nav-item"><a href="#block5" class="scroll-link">Отзывы</a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="block1" class="block">
+			<div class="wrapper">
+				<div class="b1-left">
+					<h2 class="b1-title">Бросьте курить сегодня <strong>Навсегда</strong></h2>
+					<div class="price not-mob">
+						<span class="label-span label-old-price">Старая цена</span>
+						<p class="wrapp-price">
+							<strong class="old-price"><span class="js_old_price">378</span><b class="js_curs">грн</b></strong>
+							<strong class="new-price"><span class="js_new_price">189</span><b class="js_curs">грн</b></strong>
+						</p>
+						<span class="label-span label-new-price">Новая цена</span>
+					</div>
+					<a href="#order-form" class="btn btn-header scroll-link not-mob"><span>Заказать</span></a>
+				</div>
+				<div class="product prod1">
+					<img src="30\img\substrate.png" class="substrate">
+					<img src="30\img\prod.png" class="prod-img">
+					<img src="30\img\cigarette.png" class="cigarette">
+				</div>
+				<ul class="list1">
+					<li class="list1-item">
+						<p>Курс от 14 дней</p>
+					</li>
+					<li class="list1-item">
+						<p>Содержит медицинский никотин</p>
+					</li>
+					<li class="list1-item">
+						<p>Без побочных эффектов</p>
+					</li>
+				</ul>
+				<div class="price not-desc">
+					<span class="label-span label-old-price">Старая цена</span>
+					<p class="wrapp-price">
+						<strong class="old-price"><span class="js_old_price">378</span><b class="js_curs">грн</b></strong>
+						<strong class="new-price"><span class="js_new_price">189</span><b class="js_curs">грн</b></strong>
+					</p>
+					<span class="label-span label-new-price">Новая цена</span>
+				</div>
+				<a href="#order-form" class="btn btn-header scroll-link not-desc"><span>Заказать</span></a>
+				<div class="b1-bottom">
+					Новый спрей <span class="green-text">Smoke Out</span>, благодаря своему уникальному полностью натуральному составу, очищает организм от никотина и других токсинов. Натуральные экстракты трав бережно ухаживают за слизистой верхних и нижних дыхательных путей, а также предупреждают никотиновую ломку. Это&nbsp;позволяет быстро и безболезненно избавиться от тяги к курению!
+				</div>
+				<img src="30\img\leaf.png" class="leaf leaf1 parallax" data-speed="70">
+				<img src="30\img\leaf1.png" class="leaf leaf2 parallax" data-speed="70">
+				<img src="30\img\leaf2.png" class="leaf leaf3 parallax" data-speed="70">
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section id="block2" class="block">
+			<div class="wrapper">
+				<h2 class="title-b2"><span class="green-text">Через 2 недели</span> применения <span class="green-text">Smoke Out</span></h2>
+				<ul class="list2">
+					<li class="list2-item">
+						<div class="list2-img">
+							<img src="30\img\list2-img1.png">
+						</div>
+						<p class="list2-text">Исчезнет неприятный запах изо рта</p>
+					</li>
+					<li class="list2-item">
+						<div class="list2-img">
+							<img src="30\img\list2-img2.png">
+						</div>
+						<p class="list2-text">Восстановится работа обонятельных и вкусовых рецепторов</p>
+					</li>
+					<li class="list2-item">
+						<div class="list2-img">
+							<img src="30\img\list2-img3.png">
+						</div>
+						<p class="list2-text">Значительно улучшится состояние кожи и волос</p>
+					</li>
+					<li class="list2-item">
+						<div class="list2-img">
+							<img src="30\img\list2-img4.png">
+						</div>
+						<p class="list2-text">Перестанет мучить утренний кашель</p>
+					</li>
+					<li class="list2-item">
+						<div class="list2-img">
+							<img src="30\img\list2-img5.png">
+						</div>
+						<p class="list2-text">Станут белее зубы и здоровее десны</p>
+					</li>
+					<li class="list2-item">
+						<div class="list2-img">
+							<img src="30\img\list2-img6.png">
+						</div>
+						<p class="list2-text">Не будет преследовать въевшийся запах табака от&nbsp;одежды</p>
+					</li>
+				</ul>
+				<div class="b2-bottom">
+					<h3 class="b2-bottom-title">И все это</h3>
+					<ul class="list3">
+						<li class="list3-item">
+							<img src="30\img\list3-img1.png" class="list3-img">
+							<p class="list3-text">без перепадов настроения</p>
+						</li>
+						<li class="list3-item">
+							<img src="30\img\list3-img2.png" class="list3-img">
+							<p class="list3-text">без повышения аппетита</p>
+						</li>
+						<li class="list3-item">
+							<img src="30\img\list3-img3.png" class="list3-img">
+							<p class="list3-text">без набора веса</p>
+						</li>
+					</ul>
+					<a href="#order-form" class="btn btn-b2 scroll-link"><span>Бросить курить!</span></a>
+				</div>
+				<img src="30\img\leaf3.png" class="leaf leaf4 parallax" data-speed="70">
+				<img src="30\img\leaf4.png" class="leaf leaf5 parallax" data-speed="70">
+				<img src="30\img\leaf5.png" class="leaf leaf6 parallax" data-speed="70">
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section id="block3" class="block">
+			<div class="wrapper">
+				<img src="30\img\doc.png" class="doc">
+				<div class="b3-desc">
+					<h2 class="title-b3">Эксперты о <span class="green-text">Smoke Out</span></h2>
+					<p class="doc-text">Я знаю, насколько тяжело бросать курить. Не имеет значения, курите вы год или 10 лет. В любом случае, это зависимость, избавиться от которой очень трудно. </p>
+					<p class="doc-text">Сегодня есть только одно универсальное средство для борьбы с пагубной привычкой - спрей <span class="green-text">Smoke Out</span>. Его уникальность в том, что он полностью избавляет от зависимости. Быстро и без стресса для организма!
+					</p>
+					<p class="doc-info"><strong>Исаев Даниил Сергеевич,</strong>врач-нарколог</p>
+				</div>
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section id="block4" class="block">
+			<div class="wrapper">
+				<h2 class="title-b4">Натуральный состав</h2>
+				<div class="product prod4">
+					<img src="30\img\substrate.png" class="substrate">
+					<img src="30\img\prod.png" class="prod-img">
+				</div>
+				<ul class="list4">
+					<li class="list4-item">
+						<img src="30\img\list4-img1.png" class="list4-img">
+						<p class="list4-text">
+							<strong>Медицинский никотин –</strong> облегчает «синдром отмены», подавляет тягу к курению
+						</p>
+					</li>
+					<li class="list4-item">
+						<img src="30\img\list4-img2.png" class="list4-img">
+						<p class="list4-text">
+							<strong>Экстракт Зверобоя –</strong> успокаивает и нормализует работу нервной системы
+						</p>
+					</li>
+					<li class="list4-item">
+						<img src="30\img\list4-img3.png" class="list4-img">
+						<p class="list4-text">
+							<strong>Экстракт Готу Кола –</strong> улучшает концентрацию внимания и работоспособность
+						</p>
+					</li>
+					<li class="list4-item">
+						<img src="30\img\list4-img4.png" class="list4-img">
+						<p class="list4-text">
+							<strong>Масла Мяты, Эвкалипта,
+                            Мелисы и Ментола –</strong> устраняют неприятный запах изо рта
+						</p>
+					</li>
+				</ul>
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section id="block5" class="block">
+			<div class="wrapper">
+				<h2 class="title-b5">Спросите тех, кто бросил курить со <span class="green-text">Smoke Out</span></h2>
+				<ul class="reviews bx-review">
+					<li class="reviews-item">
+						<img src="30\img\reviews-img4.png" class="reviews-img">
+						<div class="reviews-desc">
+							<p class="reviews-text">Пробовал бросить курить, наверное, раз пять за 12 лет. Но снова и&nbsp;снова возвращался к сигарете. Потому что тянет, потому что зверею без курения. Думал, что ничего уже не поможет. Оказалось, что все-таки есть средство - <span class="green-text">Smoke Out</span>. Даже не верится, что всего за 2&nbsp;недели избавился от многолетней привычки. И при этом никаких неприятных ощущений.</p>
+							<p class="reviews-name">Антон Корнеев, 32 года</p>
+						</div>
+					</li>
+					<li class="reviews-item">
+						<img src="30\img\reviews-img1.png" class="reviews-img">
+						<div class="reviews-desc">
+							<p class="reviews-text">Конечно, лучше и не начинать курить. Но если вы регулярно делаете это хотя бы месяц, значит, зависимость уже появилась. И чем раньше вы от нее избавитесь, тем лучше. Я перепробовал, кажется, все средства. Но реально помог только спрей <span class="green-text">Smoke Out</span>. Не знаю, как именно он действует, но тяга пропадает моментально. От одной мысли о сигарете сейчас становится плохо.</p>
+							<p class="reviews-name">Кирилл Селезнев, 28 лет</p>
+						</div>
+					</li>
+					<li class="reviews-item">
+						<img src="30\img\reviews-img3.png" class="reviews-img">
+						<div class="reviews-desc">
+							<p class="reviews-text">Всегда считала, что бросить курить легко. Но как только отказывалась от сигарет, сразу же поправлялась и становилась нервной. Поэтому возвращалась к своей привычке снова и снова. Этот замкнутый круг смог разорвать только <span class="green-text">Smoke Out</span>. Облегчение почувствовала уже на 3 день применения, через неделю едва вспомнила о курении. А через две - уже и подумать страшно было о&nbsp;сигаретах.</p>
+							<p class="reviews-name">Елена Смородильникова, 30 лет</p>
+						</div>
+					</li>
+					<li class="reviews-item">
+						<img src="30\img\reviews-img2.png" class="reviews-img">
+						<div class="reviews-desc">
+							<p class="reviews-text">В молодости думал, что в курении нет ничего страшного. Но с&nbsp;возрастом стали видны последствия моей зависимости. Кашель, отдышка, больные зубы, проблемы с сердцем и сосудами. Но избавиться от многолетней привычки не так-то просто. Спасибо врачу, который посоветовал <span class="green-text">Smoke Out</span>! Мне и в голову не приходило, что так легко и быстро можно бросить курить.</p>
+							<p class="reviews-name">Евгений Евтушенко, 49 лет</p>
+						</div>
+					</li>
+				</ul>
+				<div class="cl"></div>
+			</div>
+		</section>
+		<section id="block6" class="block">
+			<div class="wrapper">
+				<div class="b6-center">
+					<h2 class="logo">Smoke Out</h2>
+					<h3 class="slogan"><span class="red-text">Единственное средство,</span> которое избавит от зависимости</h3>
+					<div class="product prod6">
+						<img src="30\img\shtamp.png" class="shtamp">
+						<img src="30\img\substrate.png" class="substrate">
+						<img src="30\img\prod.png" class="prod-img">
+						<img src="30\img\cigarette.png" class="cigarette">
+					</div>
+					<div class="price">
+						<span class="label-span label-old-price">Старая цена</span>
+						<p class="wrapp-price">
+							<strong class="old-price"><span class="js_old_price">378</span><b class="js_curs">грн</b></strong>
+							<strong class="new-price"><span class="js_new_price">189</span><b class="js_curs">грн</b></strong>
+						</p>
+						<span class="label-span label-new-price">Новая цена</span>
+					</div>
+				</div>
+				<div class="b6-right">
+					<div class="timer" id="timer1">
+						<p class="timer__title">До конца акции осталось</p>
+						<div class="timer-block countdownHolder countdown_please" id="countdown"></div>
+					</div>
+					<form action="/success.php" id="order-form" method="post" class="orderformcdn" onsubmit="if(this.name.value !='' && this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+						<input type="hidden" name="action" value="add_order" required="">
+						<input value="" name="name" class="mob-hide" placeholder="Имя" type="text">
+						<input value="" name="phone" id="phone" class="only_number" placeholder="Телефон" type="text" required="">
+						<div class="switcher" style="text-align:center;">
+							<div class="ck-item" style="margin:10px auto 10px;max-width:500px;"><input type="checkbox" checked="checked" name="shipp" id="shipp2" value="1"><label style="color:#ffffff;margin-right:0;padding-right:0;" for="shipp2"><span></span></label></div>
+						</div>
+						<button type="submit" class="btn btn-b14 js_submit"><span>Заказать</span></button>
+						<input type="hidden" name="productName" value="Smoke Out">
+                        <input type="hidden" name="price" value="189">
+                        <input type="hidden" name="trackerPrice" value="16.12">
+					</form>
+				</div>
+				<img src="30\img\leaf6.png" class="leaf leaf7 parallax" data-speed="70">
+				<img src="30\img\leaf7.png" class="leaf leaf8 parallax" data-speed="70">
+				<div class="cl"></div>
+			</div>
+		</section>
+		
+	</div>
+	
+	 <footer>
+            <center>
+                *Акционная цена действует при заказе полного курса. Подробности и условия акции у менеджеров.<br>
+(044)3501947<br>
+Время работы: Пн.-Вс. 09.00-20.00<br>
+© 2017 ТОВ " ОМАКС Дистрибьюшин" Свидетельство: №48050739 от 21.01.2012 г.<br>
+Адрес: Украина, г. Киев, ул. М. Гречка, д. 3
+            </center>
+        </footer>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="30\js\jquery.countdown.js"></script>
+	<script src="30\js\jquery.bxslider.min.js"></script>
+	<script src="30\js\scroolly.min.js"></script>
+	<script src="30\js\main.js"></script>
+	<script type="text/javascript" src="30\js\buyer.js"></script>
+
+</body>
+</html>

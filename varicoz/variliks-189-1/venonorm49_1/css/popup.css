@@ -1,0 +1,205 @@
+/* popup */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+.check_popup div,.check_popup span,.check_popup applet,.check_popup object,.check_popup iframe,.check_popup h1,.check_popup h2,.check_popup h3,.check_popup h4,.check_popup h5,.check_popup h6,.check_popup p,.check_popup blockquote,.check_popup pre,.check_popup a,.check_popup abbr,.check_popup acronym,.check_popup address,.check_popup big,.check_popup cite,.check_popup code,.check_popup del,.check_popup dfn,.check_popup em,.check_popup img,.check_popup ins,.check_popup kbd,.check_popup q,.check_popup s,.check_popup samp,.check_popup small,.check_popup strike,.check_popup strong,.check_popup sub,.check_popup sup,.check_popup tt,.check_popup var,.check_popup b,.check_popup u,.check_popup i,.check_popup center,.check_popup dl,.check_popup dt,.check_popup dd,.check_popup ol,.check_popup ul,.check_popup li,.check_popup fieldset,.check_popup form,.check_popup label,.check_popup legend,.check_popup table,.check_popup caption,.check_popup tbody,.check_popup tfoot,.check_popup thead,.check_popup tr,.check_popup th,.check_popup td,.check_popup article,.check_popup aside,.check_popup canvas,.check_popup details,.check_popup embed,.check_popup figure,.check_popup figcaption,.check_popup footer,.check_popup header,.check_popup hgroup,.check_popup menu,.check_popup nav,.check_popup output,.check_popup ruby,.check_popup section,.check_popup summary,.check_popup time,.check_popup mark,.check_popup audio,.check_popup video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article,.check_popup aside,.check_popup details,.check_popup figcaption,.check_popup figure,.check_popup footer,.check_popup header,.check_popup hgroup,.check_popup menu,.check_popup nav,.check_popup section {display: block; } body {line-height: 1; } ol,.check_popup ul {list-style: none; } blockquote,.check_popup q {quotes: none; } blockquote:before,.check_popup blockquote:after,.check_popup q:before,.check_popup q:after {content: ''; content: none; } table {border-collapse: collapse; border-spacing: 0; }
+
+.check_popup *{
+	box-sizing: border-box;
+}
+.check_popup{
+	background: #fff;
+	width: 100%;
+	font: 18px/25px 'Roboto Condensed', Verdana, Tahoma, Arial, sans-serif;
+
+}
+.check_popup h5,
+.check_popup h4 {
+	font-family: 'Roboto Condensed', Verdana, Tahoma, Arial, sans-serif;
+	font-weight: 700;
+	
+	text-transform: uppercase;
+	margin: 0;
+}
+.check_popup h4{
+	font-size: 17px;
+	line-height: 19px;
+}
+.check_popup h5{
+	font-size: 18px;
+	line-height: 20px;
+}
+.check_popup .check_popup_head{
+	color: #fff;
+	font-size: 32px;
+	line-height: 34px;
+	text-align: center;
+	padding: 13px;
+	background: #00a9a3;
+	text-transform: uppercase;
+}
+.check_popup .check_popup_content{
+	padding: 30px;
+}
+.check_popup .check_submit_pop,
+.check_popup .check_popup_button{
+	display: inline-block;
+	padding: 6px 12px;
+	margin: 10px 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: #1ECAC4;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	color: #fff;
+}
+.check_popup .check_submit_pop:hover,
+.check_popup .check_submit_pop:focus,
+.check_popup .check_submit_pop:active,
+.check_popup .check_popup_button:hover,
+.check_popup .check_popup_button:focus,
+.check_popup .check_popup_button:active{
+	background: #00a9a3;
+}
+.check_popup .check_popup_code_input_wrap{
+	position: relative;
+}
+.check_popup .check_popup_content fieldset{
+	margin: 0;
+	padding: 0;
+}
+.check_popup .check_popup_code{
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	font-size: 20px;
+	font-style: normal;
+	width: 20px;
+	height: 30px;
+	vertical-align: middle;
+	line-height: 30px;
+	text-align: center;
+}
+.check_popup input.check_popup_code_input{
+	border-radius: 0;
+	background: url('../images/dashed.png') no-repeat 24px 22px #fff;
+	padding: 0 5px 0 25px;
+	letter-spacing: 12px;
+	text-align: left;
+	border: 1px solid #00a9a3;
+	height: 30px;
+	line-height: 30px;
+	width: 250px;
+}
+.check_popup .check_popup_valid_title{
+	text-transform: none;
+	font-size: 22px;
+	line-height: 22px;
+}
+.check_popup .check_popup_valid_code{
+	color: #00a9a3;
+}
+.check_popup .check_popup_invalid_code, .check_popup .check_popup_error{
+	color: #ff0000;
+}
+.check_popup .check_popup_form{
+	margin: auto;
+	padding: 30px 0 0;
+}
+.check_popup .check_popup_form:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+.check_popup .check_popup_form p{
+	margin: 10px 0;
+}
+.check_popup .check_popup_form_left{
+	float: left;
+	width: 340px;
+}
+.check_popup .check_popup_form_right{
+	float: right;
+	width: 365px;
+}
+.check_popup .check_popup_check_submit_pop{
+	display: block;
+	width: 100%;
+}
+.check_popup .check_popup_anketa{
+	width: 660px;
+	margin: auto;
+}
+.check_popup .check_popup_anketa:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+.check_popup .check_popup_anketa_left{
+	float: left;
+	width: 310px;
+}
+.check_popup_anketa_left div.row{
+	margin-bottom: 10px;
+}
+.check_popup .check_popup_anketa_left input[type="text"]{
+	border-radius: 0;
+	background: #fff;
+	padding: 0 10px;
+	text-align: left;
+	border: 1px solid #00a9a3;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+}
+.check_popup .check_popup_anketa_right{
+	float: right;
+	width: 310px;
+}
+.check_popup .check_popup_anketa_right .row{
+	margin-bottom: 0;
+}
+.check_popup .check_popup_anketa_right .check_submit_pop{
+	margin:10px 0 0 0;
+}
+.check_popup .check_popup_anketa_right textarea{
+	border-radius: 0;
+	background: #fff;
+	border: 1px solid #00a9a3;
+	width: 100%;
+	padding: 5px;
+	margin: 0;
+	height: 185px;
+	vertical-align: top;
+}
+.check_popup .check_popup_anketa ::-webkit-input-placeholder{
+	color: #373737;
+}
+.check_popup .check_popup_anketa :-moz-placeholder{
+	color: #373737;
+	opacity: 1;
+}
+.check_popup .check_popup_anketa ::-moz-placeholder{
+	color: #373737;
+	opacity: 1;
+}
+.check_popup .check_popup_anketa :-ms-input-placeholder{
+	color: #373737;
+}
+.check_popup .check_popup_anketa_comment{
+	min-height: 180px;
+}
+/* popup */
+/* fancy title */
+.fancybox-wrap.fancybox-opened .fancybox-title{
+	display: none;
+}
+/* fancy title */

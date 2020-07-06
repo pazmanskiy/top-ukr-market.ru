@@ -1,0 +1,64 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,embed, figure, figcaption, footer, header, menu, nav, output, ruby, section,summary, time, mark, audio, video{margin:0;padding:0;border:0;outline:0;}
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, main{display:block;}
+ol, ul{list-style:none;}
+blockquote, q{quotes:none;}
+img{max-width:100%;height:auto;}
+a{text-decoration:underline;}
+a:hover{cursor:pointer;}
+*::-webkit-input-placeholder{color:#333333;opacity:1;}
+*:-moz-placeholder{color:#333333;opacity:1;}
+*::-moz-placeholder{color:#333333;opacity:1;}
+*:-ms-input-placeholder{color:#333333;opacity:1;}
+*{margin:0;padding:0;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+button,input,a{outline:none;}
+a{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.m1-form input.field:focus::-webkit-input-placeholder{opacity:0;}
+.m1-form input.field:focus::-moz-placeholder{opacity:0;}
+.m1-form input.field:focus:-moz-placeholder{opacity:0;}
+.m1-form input.field:focus:-ms-input-placeholder{opacity:0;}
+.m1-form input.field::-webkit-input-placeholder{color:#222;opacity:1;}
+.m1-form input.field:-moz-placeholder{color:#222;opacity:1;}
+.m1-form input.field::-moz-placeholder{color:#222;opacity:1;}
+.m1-form input.field:-ms-input-placeholder{color:#222;opacity:1;}
+.hidden{display:none;}
+.left{float:left;}
+.right{float:right;}
+.center{text-align:center;}
+.center-justified{text-align:justify;-moz-text-align-last:center;text-align-last:center;}
+.clearfix:after, .use li:after{content:'';display:block;clear:both;}
+.clear{clear:both;height:0px;}
+.ul-fix{font-size:0;}
+html{-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:subpixel-antialiased !important;}
+h1,h2,h3,h4,h5,h6{font-family:'Proxima Nova', Arial, Helvetica, sans-serif;font-weight:700;text-transform:uppercase;line-height:1.2em;}
+b,strong{font-weight:700;}
+body{width:100%;min-width:320px;padding:0px;margin:0px auto;font-family:'Proxima Nova', Arial, Helvetica, sans-serif;font-weight:400;font-size:16px;line-height:1.5em;color:#333333;background:#fff;}
+section{width:100%;max-width:1920px;margin:0 auto;padding:40px 0;}
+.wrap{width:960px;padding:0px 10px;margin:0 auto;height:100%;position:relative;}
+.wrap:after{clear:both;content:"";display:table;}
+.m1-form .field{position:relative;display:block;outline:0;border:1px solid #ccd1d7;border-radius:4px;-webkit-border-radius:4px;width:100%;height:60px;line-height:60px;margin:0 auto 10px;padding:0 10px 0 20px;background-color:#fff;text-align:left;font-size:16px;font-family:'Proxima Nova', Arial, Helvetica, sans-serif;font-weight:400;color:#222;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-o-transition:all 0.2s;-ms-transition:all 0.2s;transition:all 0.2s;}
+.m1-form input[name="name"]{background-image:url("../img/input-name.png")/*tpa=http://liquid-laser.com/files/liquid_laser_1/img/input-name.png*/;background-position:243px center;background-repeat:no-repeat;}
+.m1-form input[name="phone"]{background-image:url("../img/input-phone.png")/*tpa=http://liquid-laser.com/files/liquid_laser_1/img/input-phone.png*/;background-position:243px center;background-repeat:no-repeat;}
+.button-m{position:relative;display:block;width:280px;height:72px;line-height:72px;margin:0 auto;border:none;border-radius:36px;-webkit-border-radius:36px;text-align:center;font-family:'Proxima Nova', Arial, Helvetica, sans-serif;font-size:20px;font-weight:700;text-decoration:none;cursor:pointer;color:#fff;background:#7fd8ee;background:-moz-linear-gradient(top, #7fd8ee 1%, #74c2ee 100%);background:-webkit-linear-gradient(top, #7fd8ee 1%,#74c2ee 100%);background:linear-gradient(to bottom, #7fd8ee 1%,#74c2ee 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fd8ee', endColorstr='#74c2ee',GradientType=0 );-webkit-box-shadow:0 3px 0 0 #68b3dc;box-shadow:0 3px 0 0 #68b3dc;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-o-transition:all 0.2s;-ms-transition:all 0.2s;transition:all 0.2s;-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+.button-m:hover{background:#77d5ed;background:-moz-linear-gradient(top, #77d5ed 1%, #6bbded 100%);background:-webkit-linear-gradient(top, #77d5ed 1%,#6bbded 100%);background:linear-gradient(to bottom, #77d5ed 1%,#6bbded 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#77d5ed', endColorstr='#6bbded',GradientType=0 );}
+.button-m:active{top:-1px;}
+.m1-form .button-m{width:100%;}
+.m1-form{width:280px;margin:0 auto;}
+h2.title{margin:0 0 40px 0;text-align:center;text-transform:none;font-size:36px;}
+h2.title>span{color:#cc6d92;}
+h2.title:after{content:'';display:block;background:url("../img/sep.png")/*tpa=http://liquid-laser.com/files/liquid_laser_1/img/sep.png*/ no-repeat 0 0;width:80px;height:7px;margin:7px auto 0;}
+.price{width:280px;margin:0 0 10px 0;text-align:center;}
+.old-cost{float:left;}
+.old-cost p{font-size:30px;line-height:36px;text-decoration:line-through;}
+.old-cost > span, .new-cost > span{font-size:15px;}
+.new-cost{float:right;}
+.new-cost p{font-size:30px;line-height:36px;color:#cc6d92;font-weight:700;}
+.new-cost, .old-cost{width:50%;height:65px;}
+.old-cost p small, .new-cost p small{font-size:.7em;}
+.video-container{position:relative;width:940px;height:560px;margin:0 auto;overflow:hidden;background:#000;border:46px solid #fff;border-radius:20px;-webkit-box-shadow:0 0 50px 0 rgba(0,0,0,.2);box-shadow:0 0 50px 0 rgba(0,0,0,.2);}
+ .video-container iframe, .video-container object, .video-container embed{position:absolute;display:block;width:100%;height:100%;top:0;left:0;}
+.youtube{height:100% !important;}
+@media screen and (max-width:976px){.wrap{width:640px;}
+}
+@media screen and (max-width:659px){.wrap{width:320px;}
+ }

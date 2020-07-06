@@ -1,0 +1,1005 @@
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{position:relative;min-height:1px;padding-right:.9375rem;padding-left:.9375rem}.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{float:left}.col-xs-1{width:8.333333%}.col-xs-2{width:16.666667%}.col-xs-3{width:25%}.col-xs-4{width:33.333333%}.col-xs-5{width:41.666667%}.col-xs-6{width:50%}.col-xs-7{width:58.333333%}.col-xs-8{width:66.666667%}.col-xs-9{width:75%}.col-xs-10{width:83.333333%}.col-xs-11{width:91.666667%}.col-xs-12{width:100%}.col-xs-pull-0{right:auto}.col-xs-pull-1{right:8.333333%}.col-xs-pull-2{right:16.666667%}.col-xs-pull-3{right:25%}.col-xs-pull-4{right:33.333333%}.col-xs-pull-5{right:41.666667%}.col-xs-pull-6{right:50%}.col-xs-pull-7{right:58.333333%}.col-xs-pull-8{right:66.666667%}.col-xs-pull-9{right:75%}.col-xs-pull-10{right:83.333333%}.col-xs-pull-11{right:91.666667%}.col-xs-pull-12{right:100%}.col-xs-push-0{left:auto}.col-xs-push-1{left:8.333333%}.col-xs-push-2{left:16.666667%}.col-xs-push-3{left:25%}.col-xs-push-4{left:33.333333%}.col-xs-push-5{left:41.666667%}.col-xs-push-6{left:50%}.col-xs-push-7{left:58.333333%}.col-xs-push-8{left:66.666667%}.col-xs-push-9{left:75%}.col-xs-push-10{left:83.333333%}.col-xs-push-11{left:91.666667%}.col-xs-push-12{left:100%}.col-xs-offset-0{margin-left:0}.col-xs-offset-1{margin-left:8.333333%}.col-xs-offset-2{margin-left:16.666667%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-4{margin-left:33.333333%}.col-xs-offset-5{margin-left:41.666667%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-7{margin-left:58.333333%}.col-xs-offset-8{margin-left:66.666667%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-10{margin-left:83.333333%}.col-xs-offset-11{margin-left:91.666667%}.col-xs-offset-12{margin-left:100%}
+
+
+
+
+@media (min-width:576px){.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{float:left}.col-sm-1{width:8.333333%}.col-sm-2{width:16.666667%}.col-sm-3{width:25%}.col-sm-4{width:33.333333%}.col-sm-5{width:41.666667%}.col-sm-6{width:50%}.col-sm-7{width:58.333333%}.col-sm-8{width:66.666667%}.col-sm-9{width:75%}.col-sm-10{width:83.333333%}.col-sm-11{width:91.666667%}.col-sm-12{width:100%}.col-sm-pull-0{right:auto}.col-sm-pull-1{right:8.333333%}.col-sm-pull-2{right:16.666667%}.col-sm-pull-3{right:25%}.col-sm-pull-4{right:33.333333%}.col-sm-pull-5{right:41.666667%}.col-sm-pull-6{right:50%}.col-sm-pull-7{right:58.333333%}.col-sm-pull-8{right:66.666667%}.col-sm-pull-9{right:75%}.col-sm-pull-10{right:83.333333%}.col-sm-pull-11{right:91.666667%}.col-sm-pull-12{right:100%}.col-sm-push-0{left:auto}.col-sm-push-1{left:8.333333%}.col-sm-push-2{left:16.666667%}.col-sm-push-3{left:25%}.col-sm-push-4{left:33.333333%}.col-sm-push-5{left:41.666667%}.col-sm-push-6{left:50%}.col-sm-push-7{left:58.333333%}.col-sm-push-8{left:66.666667%}.col-sm-push-9{left:75%}.col-sm-push-10{left:83.333333%}.col-sm-push-11{left:91.666667%}.col-sm-push-12{left:100%}.col-sm-offset-0{margin-left:0}.col-sm-offset-1{margin-left:8.333333%}.col-sm-offset-2{margin-left:16.666667%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-4{margin-left:33.333333%}.col-sm-offset-5{margin-left:41.666667%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-7{margin-left:58.333333%}.col-sm-offset-8{margin-left:66.666667%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-10{margin-left:83.333333%}.col-sm-offset-11{margin-left:91.666667%}
+.col-sm-offset-12{margin-left:100%}}@media (min-width:768px){.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{float:left}.col-md-1{width:8.333333%}.col-md-2{width:16.666667%}.col-md-3{width:25%}.col-md-4{width:33.333333%}.col-md-5{width:41.666667%}.col-md-6{width:50%}.col-md-7{width:58.333333%}.col-md-8{width:66.666667%}.col-md-9{width:75%}.col-md-10{width:83.333333%}.col-md-11{width:91.666667%}.col-md-12{width:100%}.col-md-pull-0{right:auto}.col-md-pull-1{right:8.333333%}.col-md-pull-2{right:16.666667%}.col-md-pull-3{right:25%}.col-md-pull-4{right:33.333333%}.col-md-pull-5{right:41.666667%}.col-md-pull-6{right:50%}.col-md-pull-7{right:58.333333%}.col-md-pull-8{right:66.666667%}.col-md-pull-9{right:75%}.col-md-pull-10{right:83.333333%}.col-md-pull-11{right:91.666667%}.col-md-pull-12{right:100%}.col-md-push-0{left:auto}.col-md-push-1{left:8.333333%}.col-md-push-2{left:16.666667%}.col-md-push-3{left:25%}.col-md-push-4{left:33.333333%}.col-md-push-5{left:41.666667%}.col-md-push-6{left:50%}.col-md-push-7{left:58.333333%}.col-md-push-8{left:66.666667%}.col-md-push-9{left:75%}.col-md-push-10{left:83.333333%}.col-md-push-11{left:91.666667%}.col-md-push-12{left:100%}.col-md-offset-0{margin-left:0}.col-md-offset-1{margin-left:8.333333%}.col-md-offset-2{margin-left:16.666667%}.col-md-offset-3{margin-left:25%}.col-md-offset-4{margin-left:33.333333%}.col-md-offset-5{margin-left:41.666667%}.col-md-offset-6{margin-left:50%}.col-md-offset-7{margin-left:58.333333%}.col-md-offset-8{margin-left:66.666667%}.col-md-offset-9{margin-left:75%}.col-md-offset-10{margin-left:83.333333%}.col-md-offset-11{margin-left:91.666667%}.col-md-offset-12{margin-left:100%}}@media (min-width:992px){.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9{float:left}.col-lg-1{width:8.333333%}.col-lg-2{width:16.666667%}.col-lg-3{width:25%}.col-lg-4{width:33.333333%}.col-lg-5{width:41.666667%}.col-lg-6{width:50%}.col-lg-7{width:58.333333%}.col-lg-8{width:66.666667%}.col-lg-9{width:75%}.col-lg-10{width:83.333333%}.col-lg-11{width:91.666667%}.col-lg-12{width:100%}.col-lg-pull-0{right:auto}.col-lg-pull-1{right:8.333333%}.col-lg-pull-2{right:16.666667%}.col-lg-pull-3{right:25%}.col-lg-pull-4{right:33.333333%}.col-lg-pull-5{right:41.666667%}.col-lg-pull-6{right:50%}.col-lg-pull-7{right:58.333333%}.col-lg-pull-8{right:66.666667%}.col-lg-pull-9{right:75%}.col-lg-pull-10{right:83.333333%}.col-lg-pull-11{right:91.666667%}.col-lg-pull-12{right:100%}.col-lg-push-0{left:auto}.col-lg-push-1{left:8.333333%}.col-lg-push-2{left:16.666667%}.col-lg-push-3{left:25%}.col-lg-push-4{left:33.333333%}.col-lg-push-5{left:41.666667%}.col-lg-push-6{left:50%}.col-lg-push-7{left:58.333333%}.col-lg-push-8{left:66.666667%}.col-lg-push-9{left:75%}.col-lg-push-10{left:83.333333%}.col-lg-push-11{left:91.666667%}.col-lg-push-12{left:100%}.col-lg-offset-0{margin-left:0}.col-lg-offset-1{margin-left:8.333333%}.col-lg-offset-2{margin-left:16.666667%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-4{margin-left:33.333333%}.col-lg-offset-5{margin-left:41.666667%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-7{margin-left:58.333333%}.col-lg-offset-8{margin-left:66.666667%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-10{margin-left:83.333333%}.col-lg-offset-11{margin-left:91.666667%}.col-lg-offset-12{margin-left:100%}}@media (min-width:1200px){.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9{float:left}.col-xl-1{width:8.333333%}.col-xl-2{width:16.666667%}.col-xl-3{width:25%}.col-xl-4{width:33.333333%}.col-xl-5{width:41.666667%}.col-xl-6{width:50%}.col-xl-7{width:58.333333%}.col-xl-8{width:66.666667%}.col-xl-9{width:75%}.col-xl-10{width:83.333333%}.col-xl-11{width:91.666667%}.col-xl-12{width:100%}.col-xl-pull-0{right:auto}.col-xl-pull-1{right:8.333333%}.col-xl-pull-2{right:16.666667%}.col-xl-pull-3{right:25%}.col-xl-pull-4{right:33.333333%}.col-xl-pull-5{right:41.666667%}.col-xl-pull-6{right:50%}.col-xl-pull-7{right:58.333333%}.col-xl-pull-8{right:66.666667%}.col-xl-pull-9{right:75%}.col-xl-pull-10{right:83.333333%}.col-xl-pull-11{right:91.666667%}.col-xl-pull-12{right:100%}.col-xl-push-0{left:auto}.col-xl-push-1{left:8.333333%}.col-xl-push-2{left:16.666667%}.col-xl-push-3{left:25%}.col-xl-push-4{left:33.333333%}.col-xl-push-5{left:41.666667%}.col-xl-push-6{left:50%}.col-xl-push-7{left:58.333333%}.col-xl-push-8{left:66.666667%}.col-xl-push-9{left:75%}.col-xl-push-10{left:83.333333%}.col-xl-push-11{left:91.666667%}.col-xl-push-12{left:100%}.col-xl-offset-0{margin-left:0}.col-xl-offset-1{margin-left:8.333333%}.col-xl-offset-2{margin-left:16.666667%}.col-xl-offset-3{margin-left:25%}.col-xl-offset-4{margin-left:33.333333%}.col-xl-offset-5{margin-left:41.666667%}.col-xl-offset-6{margin-left:50%}.col-xl-offset-7{margin-left:58.333333%}.col-xl-offset-8{margin-left:66.666667%}.col-xl-offset-9{margin-left:75%}.col-xl-offset-10{margin-left:83.333333%}.col-xl-offset-11{margin-left:91.666667%}.col-xl-offset-12{margin-left:100%}}
+
+
+@font-face{
+font-family: BodoniSansRegular;
+src: url(../fonts/Bodoni_Sans/HBodoniSansRegular.otf);
+}
+@font-face{
+font-family: HelveticaNeueCyr-Medium;
+src: url(../fonts/HelveticaNeue/HelveticaNeueCyr-Medium.otf);
+}
+@font-face{
+font-family: HelveticaNeueCyr-Black;
+src: url(../fonts/HelveticaNeue/HelveticaNeueCyr-Black.otf);
+}
+@font-face{
+font-family: HelveticaNeueCyr-Italic;
+src: url(../fonts/HelveticaNeue/HelveticaNeueCyr-Italic.otf);
+}
+@font-face{
+font-family: HelveticaNeueCyr-MediumItaicl;
+src: url(../fonts/HelveticaNeue/HelveticaNeueCyr-MediumItaicl.otf);
+}
+@font-face{
+font-family: HelveticaNeue;
+src: url(../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.otf);
+}
+
+
+body{
+    font-family: HelveticaNeue;
+}
+.container-fluid {
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.containers{
+    max-width: 915px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+ul li{
+    float: left;
+    margin: 3.7% 3.7% 3.5% 0%;
+    line-height: 14px;
+}
+ul li:last-child{
+    margin-right: 0;
+}
+ul li a{
+    color: #232323;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+ul li a:hover, ul li a:focus{
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid
+}
+p{
+    font-size: 16px;
+    line-height: 18px;
+}
+#header{
+    background: url(../img/header.jpg)no-repeat top center;
+    background-size: cover;
+    padding-top: 2.3%;
+    padding-bottom: 2.5%;
+}
+#header h1{
+    font-size: 46px;
+    margin-top: 6%;
+    margin-bottom: 1.5%;
+}
+#header h1 span{
+    font-family: BodoniSansRegular;
+    color: #cea37c;
+    display: block;
+    font-size: 37px;
+    margin-bottom: 1.5%;
+}
+#header .description{
+    font-size: 18.5px;
+    max-width: 660px;
+    line-height: 20px;
+    margin-bottom: 3.5%;
+}
+.price{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 7.5%;
+    letter-spacing: 0.5px;
+}
+.price s{
+    font-size: 36px;
+    font-family: BodoniSansRegular;
+}
+.price b{
+    font-size: 36px;
+    color: #c99d75;
+    font-family: BodoniSansRegular;
+    font-weight: bold;
+}
+#header form{
+    padding-left: 4%;
+}
+input, select{
+    display: block;
+    border: 1px solid #cea37c;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-bottom: 4.4%;
+    background: #fff;
+}
+.btn{
+    background: #211c74;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    padding: 13px 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn:hover, .btn:focus{
+    opacity: 0.8;
+    color: #fff
+}
+#header .containers{
+    background: #fff;
+    padding-bottom: 3%;
+}
+.timer__footering{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+font-family: HelveticaNeueCyr-Italic;
+}
+.timer__numbers{
+    max-width: 330px;
+    display: block;
+    margin: auto;
+}
+.timer__numbers .hours, .timer__numbers .minutes, .timer__numbers .seconds{
+    font-size: 36px;
+    display: inline-block;
+    float: left;
+    margin-right: 3%;
+    color: #211c74;
+    font-family: BodoniSansRegular;
+    font-weight: bold;
+}
+.timer__numbers .text{
+    display: inline-block;
+    float: left;
+    position: absolute;
+    font-size: 13px;
+    margin-top: 4.5%;
+    text-transform: uppercase;
+    font-family: HelveticaNeueCyr-Medium;
+}
+.timer__numbers .blocks{
+    width: 110px;
+    float: left;
+    padding: 0 !important;
+    display: block;
+}
+h2{
+    font-size: 32px;
+}
+#what{
+    padding-top: 2.5%;
+    padding-bottom: 2.6%;
+}
+#what h2{
+    margin-top: 0;
+    margin-bottom: 8.5%;
+}
+.block_numder p{padding-left: 6%;margin-bottom: 6%;line-height: 21px;}
+.block_numder p:last-child{
+    margin-bottom: 0!important
+}
+.block_numder p span{
+    color: #cea37c;
+    font-size: 36px;
+    font-family: BodoniSansRegular;
+    font-weight: bold;
+    margin-top: 0%;
+    display: inline-block;
+    position: absolute;
+    left: -5px;
+}
+#why{
+    background: #f7f7f7;
+    padding-top: 2.7%;
+    padding-bottom: 2.5%;
+}
+#why h2{
+    margin-top: 7%;
+    margin-bottom: 4.5%;
+}
+center p{
+    font-family: HelveticaNeueCyr-MediumItaicl;
+    margin-bottom: 13%;
+}
+center img{}
+center p span{
+    display: block;
+    margin-top: 6%;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 5%;
+}
+#why .img1{
+    float: right;
+}
+#work{
+    background: url(../img/work.png)no-repeat top center;
+    background-size: cover;
+    padding-top: 2.4%;
+    padding-bottom: 2.5%;
+    margin-bottom: 2.5%;
+}
+#work .containers{
+    background: #fff;
+    padding-top: 3.5%;
+}
+#work h2{
+    margin-bottom: 2%;
+}
+#work p{
+    font-size: 18px;
+    margin-bottom: 3%;
+    font-family: HelveticaNeue;
+    max-width: 790px;
+    line-height: 25px;
+}
+#work p b{
+    font-family: HelveticaNeueCyr-Medium;
+    font-size: 24px;
+    letter-spacing: 0.7px;
+    display: block;
+    margin-top: -3px;
+    margin-bottom: 9%;
+}
+#zachem {
+    margin-bottom: 2.5%;
+}
+#zachem img{
+    margin-left: -33px;
+}
+#zachem h2{
+    margin-top: 0;
+    margin-bottom: 9%;
+}
+#zachem .btn{
+    max-width: 200px;
+    margin-top: 6%;
+}
+#zachem .block_numder p {
+    padding-left: 6%;
+    margin-bottom: 8%;
+}
+#sostav{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 2.5%;
+    background: #f7f7f7
+}
+#sostav h2{
+    margin-bottom: 3.6%;
+}
+#sostav p{
+    padding: 0 5px;
+    line-height: 22px;
+    margin-bottom: 11.5%;
+}
+#sostav p span{
+    margin-bottom: 2%;
+}
+#with{
+    padding-bottom: 2.5%;
+}
+#with h2{
+    margin-top: 0;
+    margin-bottom: 8%;
+}
+#kak{
+    background: #fff9f9;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+}
+#kak .row {
+    background: url(../img/arrow.png) center 25% no-repeat;
+    background-size: 54%;
+}
+#kak h2
+{
+    margin-bottom: 3%;
+}
+#kak p{
+    font-size: 18px;
+    margin-top: 5%;
+    line-height: 22px;
+    max-width: 170px;
+}
+#kak .container-fluid{
+    max-width: 945px;
+}
+#kak h4 {
+    margin-top: -3px;
+    font-family: HelveticaNeueCyr-Medium;
+    font-size: 24px;
+    letter-spacing: 0.7px;
+}
+#orders{
+    padding-top: 2.2%;
+    padding-bottom: 2%;
+}
+#orders h2{
+    margin-bottom: 2.5%;
+}
+#orders .price{
+    margin-top: 6%;
+    margin-bottom: 8.5%;
+}
+footer {
+    background: #232323;
+    text-align: center;
+    color: #bbbbbb;
+    padding: 2.3% 0;
+}
+footer a{
+    color: #d2ab88;
+    text-decoration: underline;
+}
+footer a:hover, footer a:focus{
+    color: #d2ab88;
+    text-decoration: none;
+}
+#forms .modal-block{
+    max-width: 550px;
+    width: auto!important;
+    text-align: center;
+    padding: 4.6% 0% 1.5% 0%;
+    box-shadow: none;
+    border: none;
+    margin-top: 0%!important;
+   
+}
+#forms .modal-block img {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+#forms .modal-block p {
+    max-width: 440px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 25px;
+}
+#forms .modal-block form {
+    max-width: 348px;
+    margin: auto;
+    margin-top: 3%;
+}
+#forms .modal-block .icon-close {
+    top: 10px;
+}
+#forms .modal-block .pp{
+    font-size: 16px
+}
+@media (max-width: 1199px) {
+.container-fluid {
+    max-width: 1140px;
+}
+.containers {
+    max-width: 830px;
+    margin: auto;
+}
+#navi .containers{
+    max-width: 930px;
+}
+ul li {
+    margin: 3.7% 3.9% 3.5% 0%;
+}
+#header h1 {
+    margin-top: 6.5%;
+    margin-bottom: 2%;
+}
+#header .description {
+    line-height: 22px;
+    margin-bottom: 3%;
+}
+.price {
+    margin-top: 5.5%;
+    margin-bottom: 8.5%;
+}
+input, select {
+    margin-bottom: 4.7%;
+}
+.timer__numbers .blocks {
+    width: 105px;
+}
+.timer__numbers .text {
+    font-size: 12px;
+    margin-top: 5.5%;
+}
+#header .containers {
+    padding-bottom: 4.8%;
+}
+#header {
+    padding-top: 3.8%;
+    padding-bottom: 3.8%;
+}
+#what h2 {
+    margin-bottom: 8%;
+}
+#what {
+    padding-top: 4%;
+    padding-bottom: 3.4%;
+}
+#why h2 {
+    margin-top: 2%;
+    margin-bottom: 4.5%;
+}
+#why .container-fluid{
+    max-width: 705px;
+}
+#why {
+    padding-bottom: 0.5%;
+}
+#work .containers {
+    padding-top: 5.4%;
+}
+#work p {
+    margin-bottom: 3.5%;
+}
+#work {
+    padding-top: 4%;
+    padding-bottom: 3.5%;
+    margin-bottom: 3%;
+}
+#zachem .container-fluid{
+    max-width: 895px;
+}
+#zachem h2 {
+    margin-bottom: 12%;
+}
+#zachem .btn {
+    margin-top: 4%;
+}
+#sostav {
+    padding-top: 3.5%;
+    margin-bottom: 3%;
+}
+#sostav .containers{
+    max-width: 920px;
+}
+#with h2 {
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+#kak {
+    padding-top: 3.5%;
+    padding-bottom: 1.5%;
+}
+#orders {
+    padding-top: 5.2%;
+    padding-bottom: 2%;
+}
+footer p{
+    margin-bottom: 5px;
+}
+.block_numder p span {
+    left: 10px;
+}
+.block_numder p, #zachem .block_numder p {
+    padding-left: 35px;
+}
+#orders form {
+    max-width: 280px;
+    margin: auto;
+}
+}
+@media (max-width: 991px) {
+#navi .containers {
+    max-width: 723px;
+}
+ul li a {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+}
+ul li {
+    margin: 4.8% 3.6% 3.5% 0%;
+}
+#header .containers {
+    padding-bottom: 1.9%;
+    max-width: 690px;
+}
+#header h1 {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-size: 36px;
+}
+#header h1 span {
+    font-size: 28px;
+}
+#header .description {
+    line-height: 18px;
+    margin-bottom: 3%;
+    font-size: 14px;
+    max-width: 510px;
+}
+.price {
+    margin-top: 4.5%;
+    margin-bottom: 6.5%;
+    font-size: 14px;
+}
+input, select {
+    margin-bottom: 4.3%;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+.btn {
+    font-size: 14px;
+    padding: 11px 0;
+    margin-top: 14px;
+}
+#header form {
+    padding-left: 0;
+    max-width: 285px;
+    margin: auto;
+}
+p {
+    font-size: 13px;
+    line-height: 15px;
+}
+.timer__numbers .text {
+    font-size: 11px;
+    margin-top: 3%;
+}
+.timer__numbers .hours, .timer__numbers .minutes, .timer__numbers .seconds {
+    font-size: 29px;
+    margin-top: -3px;
+}
+.timer__numbers .blocks {
+    width: 85px;
+}
+.timer__numbers {
+    max-width: 260px;
+    display: block;
+    margin: auto;
+}
+#header {
+    padding-top: 3.8%;
+    padding-bottom: 3.8%;
+    background: url(../img/header_md.jpg)no-repeat top center;
+    background-size: cover;
+}
+h2 {
+    font-size: 28px;
+}
+.block_numder p span{
+    font-size: 29px;
+}
+.block_numder p, #zachem .block_numder p {
+    padding-left: 25px;
+}
+#zachem .block_numder p {
+    padding-left: 6%;
+    margin-bottom: 6%;
+}
+#why .container-fluid {
+    max-width: 605px;
+}
+#why {
+    padding-bottom: 1.5%;
+    padding-top: 2%;
+}
+#why center .img{
+    max-width: 108px;
+}
+center p span {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 4%;
+}
+#work .containers {
+    padding-top: 5.4%;
+    max-width: 690px;
+}
+#work p {
+    font-size: 14px;
+    line-height: 21px;
+}
+#work p b {
+    font-size: 18px;
+    margin-top: -5px;
+    margin-bottom: 8%;
+}
+#work {
+    padding-top: 4%;
+    padding-bottom: 4.5%;
+    margin-bottom: 4%;
+    background: url(../img/work_md.png)no-repeat top center;
+    background-size: cover;
+}
+#zachem .container-fluid {
+    max-width: 755px;
+}
+#zachem h2 {
+    margin-bottom: 6%;
+}
+#zachem .btn {
+    max-width: 170px;
+    padding: 12px 0;
+}
+#zachem {
+    margin-bottom: 3.5%;
+}
+#sostav .containers {
+    max-width: 680px;
+}
+#sostav center .img{
+    max-width: 110px;
+}
+#sostav p {
+    line-height: 20px;
+}
+#sostav p span {
+    margin-bottom: 0%;
+    margin-top: 4%;
+}
+#sostav {
+    margin-bottom: 4%;
+}
+#with h2 {
+    margin-top: 0;
+    margin-bottom: 7.5%;
+}
+#kak p {
+    font-size: 14px;
+    margin-top: 7%;
+    line-height: 18px;
+    max-width: 140px;
+}
+#kak h4 {
+    margin-top: 0px;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+#kak {
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+}
+#orders {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+#orders form{
+    max-width: 280px;
+    margin: auto;
+}
+#orders .price {
+    margin-top: 2.5%;
+    margin-bottom: 5.5%;
+}
+.timer__footering {
+    margin-top: 3%;
+}
+footer p {
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+footer a {
+    font-size: 12px;
+}
+#zachem img {
+    margin-left: 0;
+}
+
+}
+@media (max-width: 767px) {
+#header {
+    padding-top: 4.8%;
+    padding-bottom: 5%;
+}
+#header h1 span {
+    margin-bottom: 2.2%;
+}
+#header h1 {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+#kak .row {
+    background: url(../img/arrow_sm.png) center 13% no-repeat;
+    background-size: 40%;
+}
+.price {
+    margin-top: 3%;
+    margin-bottom: 5.5%;
+}
+.timer__footering {
+    margin-top: 4%;
+}
+#header .img{
+    max-width: 210px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+#header .containers {
+    padding-bottom: 6.9%;
+    max-width: 100%;
+}
+#what .container-fluid, #zachem .container-fluid, #with .container-fluid{
+    max-width: 610px;
+}
+#what h2 {
+    margin-bottom: 7%;
+}
+.block_numder p {
+    margin-bottom: 2.8%;
+    line-height: 19px;
+    font-size: 14px;
+}
+#what {
+    padding-top: 5.5%;
+    padding-bottom: 5.5%;
+}
+#why .container-fluid {
+    max-width: 415px;
+}
+#why {
+    padding-bottom: 2.4%;
+    padding-top: 2.8%;
+}
+#why h2 {
+    margin-top: 2%;
+    margin-bottom: 6.5%;
+}
+center p {
+    margin-bottom: 10%;
+    line-height: 18px;
+}
+#work .containers {
+    padding-top: 4%;
+}
+#work h2 {
+    margin-bottom: 2.5%;
+}
+#work p {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 470px;
+}
+#work {
+    padding-top: 5%;
+    padding-bottom: 5.5%;
+    margin-bottom: 5%;
+}
+#zachem h2 {
+    margin-bottom: 6%;
+}
+#zachem {
+    margin-bottom: 5.5%;
+}
+#sostav .containers {
+    max-width: 445px;
+}
+#sostav h2 {
+    margin-bottom: 5.6%;
+}
+#sostav p {
+    padding: 0 12px;
+}
+#sostav {
+    margin-bottom: 5.5%;
+    padding-top: 40px;
+}
+#with .block_numder{
+    max-width: 350px;
+    float: right;
+    display: block;
+    position: relative;
+}
+#with .block_numder p span {
+    left: -5px;
+}
+#with .block_numder p {
+    margin-bottom: 5.6%;
+}
+#kak {
+    padding-top: 6%;
+    padding-bottom: 1.5%;
+}
+#kak .container-fluid {
+    max-width: 595px;
+}
+#kak h2 {
+    margin-bottom: 4.5%;
+}
+#kak .img{
+    max-width: 110px;
+}
+#kak h4 {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+#orders .price {
+    margin-top: 4%;
+    margin-bottom: 6.5%;
+}
+#orders .img{
+    max-width: 215px;
+    margin-top: 6%;
+    margin-left: -10px;
+}
+#orders {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.price s, .price b {
+    font-size: 26px;
+}
+}
+
+@media (max-width: 575px) {
+#header h1 span {
+    margin-bottom: 17px;
+}
+#header h1 {
+    margin-top: 42px;
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+.price {
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+#header .img {
+    max-width: 217px;
+    margin: auto;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+}
+#header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#what h2 {
+    margin-bottom: 27px;
+    margin-top: 30px;
+}
+.block_numder p span {
+    left: 13px;
+}
+.block_numder p, #zachem .block_numder p {
+    padding-left: 35px;
+}
+.block_numder p {
+    margin-bottom: 11px;
+}
+#what {
+    padding-top: 12px;
+    padding-bottom: 39px;
+}
+#why h2 {
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+#why .row .col-12 center{
+    max-width: 160px;
+    margin: auto;
+}
+center p {
+    margin-bottom: 12%;
+}
+#why {
+    padding-bottom: 4.4%;
+    padding-top: 2.8%;
+}
+#work .containers {
+    padding-top: 8%;
+}
+#work p {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 470px;
+    margin-bottom: 7%;
+}
+#work {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+}
+#work p b {
+    margin-bottom: 11%;
+}
+#zachem h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#zachem {
+    margin-bottom: 40px;
+}
+#sostav .row .col-12 center{
+    max-width: 210px;
+    margin: auto;
+}
+#sostav p span {
+    margin-bottom: 0%;
+    margin-top: 8%;
+}
+#sostav p {
+    margin-bottom: 15.5%;
+}
+#with h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#with {
+    padding-bottom: 45px;
+}
+#kak h2 {
+    margin-bottom: 28px;
+}
+#kak .container-fluid {
+    max-width: 325px;
+}
+#kak h4 {
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+#kak {
+    padding-top: 33px;
+    padding-bottom: 1.5%;
+}
+#orders .price {
+    margin-top: 30px;
+    margin-bottom: 6.5%;
+}
+#orders .img {
+    max-width: 215px;
+    margin: auto;
+    margin-top: 6%;
+    display: block;
+}
+#orders {
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+h2 {
+    font-size: 26px;
+}
+#with .block_numder, #zachem .block_numder, #what .block_numder {
+    max-width: 330px;
+    float: none;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.block_numder p:last-child {
+    margin-bottom: 21px!important;
+}
+#kak .row {
+    background: transparent;
+}
+#forms .modal-block {
+    max-width: 90%;
+}
+#forms h3{
+    font-size: 22px;
+    padding: 0 10%;
+}
+#forms .modal-block p {
+    max-width: 240px;
+    margin: auto;
+    font-size: 12px;
+    line-height: 17px;
+}
+#forms .modal-block .pp {
+    font-size: 10px;
+}
+
+}

@@ -1,0 +1,9 @@
+﻿@font-face {
+    font-family: "PFDinDisplayProRegular";
+    src: url("PFDinDisplayProRegular.eot");
+    src: url("PFDinDisplayProRegular-1.eot")format("embedded-opentype"),
+    url("PFDinDisplayProRegular.woff") format("woff"),
+    url("PFDinDisplayProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

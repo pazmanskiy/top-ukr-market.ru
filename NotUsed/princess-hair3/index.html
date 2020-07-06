@@ -1,0 +1,920 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+	<title>Princess Hair</title>
+	<link href="https://fonts.googleapis.com/css?family=Neucha|Roboto:400,400i,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="14\css\jquery.bxslider.min.css">
+	<link rel="stylesheet" href="14\css\twentytwenty.css">
+	<link rel="stylesheet" href="14\css\flipclock.css">
+	<link rel="stylesheet" href="14\css\main.css">
+	<link rel="stylesheet" href="14\css\media.css">
+	<link href="14\css\pop2.css" rel="stylesheet">
+	<style>
+		.js_errorMessage {
+			z-index: 10000;
+		}
+	</style>
+	
+</head>
+<body>
+<div id="order-mod" class="screenLock screenLock2" style="display: none;">
+	<div class="msg">
+		<div class="close">X</div>
+		<h1>Для оформления заказа введите<br> пожалуйста ваше имя и телефон</h1>
+		<form action="/success.php" method="post" class="reset-styles-form x_order_form x-modal-form" onsubmit="if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;"><input type="hidden" name="price" value="149">
+					<input type="hidden" name="trackerPrice" value="9.78">
+					<input type="hidden" name="productName" value="Princess Hair ">
+
+			<input type="hidden" name="action" value="add_order">
+			<div class="blockInputForm grassGo mob-hide" style="z-index:99999; position:relative;">
+				<input style="z-index:99999999; position:relative;" class="input-form phone-form" type="text" name="name" placeholder="Ваше имя">
+			</div>
+			<div class="blockInputForm grassGo" style="z-index:99999; position:relative;">
+				<input style="z-index:99999999; position:relative;" class="input-form phone-form" type="text" name="phone" placeholder="Телефон">
+			</div>
+			<div style="text-align:center;"><button type="submit" style="display:inline-block !important; width:275px !important;" type="submit" class="footer__btn js_submit btn">Заказать</button></div>
+		</form>
+	</div>
+</div>
+<div id="consult-mod" class="screenLock" style="display: none;">
+	<div class="msg">
+		<div class="close">X</div>
+		<h1>Сомневаетесь? Просто оставьте свой номер и мы абсолютно БЕСПЛАТНО  <span style="text-decoration:underline;">проконсультируем Вас</span></h1>
+		<form action="/success.php" method="post" class="reset-styles-form x_order_form x-modal-form" onsubmit="if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;"><input type="hidden" name="price" value="149">
+					<input type="hidden" name="trackerPrice" value="9.78">
+					<input type="hidden" name="productName" value="Princess Hair ">
+			<input type="hidden" name="action" value="add_order">
+			<div class="blockInputForm grassGo" style="z-index:99999; position:relative;">
+				<input style="z-index:99999999; position:relative;" class="input-form phone-form" type="text" name="phone" placeholder="Телефон">
+			</div>
+			<div style="text-align:center;"><button type="submit" style="display:inline-block !important;" type="submit" class="footer__btn js_submit btn">Перезвоните мне</button></div>
+		</form>
+	</div>
+</div>
+	<main class="s__main">
+		<section class="section_1">
+			<div class="wrapper">
+				<div class="woman"><img src="14\img\section_1_woman.png" alt=""></div>
+				<div class="block_1">
+					<div class="sale_wrap">
+						<div class="sale">
+							<span>на первый заказ</span>
+							<span><span><b></b> Скидка</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="block_2">
+					<div class="title">
+						<span class="orange_over">Скажи <span class="red-check">ДА</span></span>
+						<span class="middle">длинным <small>и</small> густым</span>
+						<span class="orange_under">волосам</span>
+					</div>
+					<div class="data">
+						<div class="prod">
+							<img src="14\img\section_1_stamp.png" alt="" class="stamp">
+							<img src="14\img\prod.png" alt="">
+						</div>
+						<div class="offer">
+							<div class="logo"></div>
+							<p>
+								Ускоряет рост волос в <b style="font-size:32px; font-weight:bold;">2</b> раза, делает их густыми и ЗДОРОВЫМИ
+							</p>
+							<div class="price_wrap">
+								<div class="old_price"><span>Цена: <span style="text-decoration:line-through;">300 грн</span></span> <span class="cost js_old_price_curs"></span></div>
+								<div class="price">
+									<div class="js_new_price_curs">49 грн</div>
+								</div>
+								<span class="delivery">+ доставка</span>
+							</div>
+							<button type="submit" class="toform order_button" id="jiggle0">
+						   <span>заказать сейчас</span>
+						  </button>
+						</div>
+					</div>
+				</div>
+				<img src="14\img\leaves_5.png" alt="" class="leaves_1">
+				<img src="14\img\leaves_2.png" alt="" class="leaves_2">
+				<img src="14\img\leaves_3.png" alt="" class="leaves_3">
+				<img src="14\img\leaves_4.png" alt="" class="leaves_4">
+			</div>
+		</section>
+		<section class="section_2">
+			<div class="wrapper">
+				<div class="title">
+					Почему <span class="logo"></span><br> ТАК НЕОБХОДИМ ВАМ?
+				</div>
+				<div class="block_1">
+					<ul class="bxslider_3">
+						<li id="slide_1">
+							<img src="14\img\section_2_before_1.jpg" alt="">
+							<img src="14\img\section_2_after_1.jpg" alt="">
+						</li>
+						<li id="slide_2">
+							<img src="14\img\section_2_before_2.jpg" alt="">
+							<img src="14\img\section_2_after_2.jpg" alt="">
+						</li>
+						<li id="slide_3">
+							<img src="14\img\section_2_before_3.jpg" alt="">
+							<img src="14\img\section_2_after_3.jpg" alt="">
+						</li>
+						<li id="slide_4">
+							<img src="14\img\section_2_before_4.jpg" alt="">
+							<img src="14\img\section_2_after_4.jpg" alt="">
+						</li>
+					</ul>
+				</div>
+				<div class="block_2">
+					<ul>
+						<li><b>Стимулирует</b> рост новых волос</li>
+						<li>Ускоряет рост волос в 2 раза</li>
+						<li>Останавливает выпадение</li>
+						<li><b>Восстанавливает повреждённые волосы</b></li>
+						<li>Предотвращает сухость и ломкость</li>
+						<li><b>Придает блеск и шелковистость</b></li>
+					</ul>
+					<div class="notice">
+						<p>Теперь только густые и роскошные!</p>
+						<img src="14\img\prod_single.png" alt="">
+					</div>
+				</div>
+				<img src="14\img\leaves_4.png" alt="" class="leaves_5">
+			</div>
+		</section>
+		<section class="section_3">
+			<div class="wrapper">
+				<div class="title">
+					<span>Причины</span>
+					<p>выпадения и медленного роста волос</p>
+				</div>
+				<div class="block_1">
+					<ul>
+						<li class="reason_1">
+							<div class="img_wrap">
+								<div class="age-text">18-30 лет</div>
+								<span>
+								<img src="14\img\section_3_item_1.jpg" alt="">
+							</span>
+							</div>
+							<div class="title">
+								Гормональный дисбаланс
+							</div>
+							<p>Половое созревание, <b>роды</b></p>
+						</li>
+						<li class="reason_2">
+							<div class="img_wrap">
+								<div class="age-text">18-30 лет</div>
+								<span>
+								<img src="14\img\section_3_item_2.jpg" alt="">
+							</span>
+							</div>
+							<div class="title">
+								Термовоздействие
+							</div>
+							<p>Ежедневное <b>использование фена, утюжка или плойки</b></p>
+						</li>
+						<li class="reason_3">
+							<div class="img_wrap">
+								<div class="age-text">35-60 лет</div>
+								<span>
+								<img src="14\img\section_3_item_3.jpg" alt="">
+							</span>
+							</div>
+							<div class="title">
+								Лекарства
+							</div>
+							<p>Сильнодействующие <b>препараты (антибиотики, антидепрессанты)</b></p>
+						</li>
+						<li class="reason_4">
+							<div class="img_wrap">
+								<div class="age-text">35-60 лет</div>
+								<span>
+								<img src="14\img\section_3_item_4.jpg" alt="">
+							</span>
+							</div>
+							<div class="title">
+								Недостаток витаминов и микроэлементов
+							</div>
+							<p>
+								Сезонный авитаминоз, <b>неправильное питание, диеты</b>
+							</p>
+						</li>
+						<li class="reason_5">
+							<div class="img_wrap">
+								<div class="age-text">35-60 лет</div>
+								<span>
+								<img src="14\img\section_3_item_5.jpg" alt="">
+							</span>
+							</div>
+							<div class="title">
+								Стресс и хроническая усталость
+							</div>
+							<p><b>Умственные перенапряжения</b>, недосып, переутомления, нервные потрясения</p>
+						</li>
+					</ul>
+					<div class="woman">
+						<img src="14\img\section_3_woman.png" alt="">
+					</div>
+					<img src="14\img\section_3_hairdryer.png" alt="" class="decor_hairdryer">
+					<img src="14\img\section_3_capsule.png" alt="" class="decor_capsule">
+				</div>
+				<img src="14\img\section_3_hair.png" alt="" class="decor_hair">
+			</div>
+		</section>
+		<section class="section_4">
+			<div class="wrapper">
+				<div class="title">
+					<p>Как работает</p>
+					<span class="logo"></span>
+				</div>
+				<div class="block_1">
+					<div class="prod"><img src="14\img\prod.png" alt=""></div>
+				</div>
+				<div class="block_2">
+					<p>
+						Особая формула маски с
+						<b>натуральными природными ингредиентами</b> стимулирует рост волос, укрепляет волосы от корней до кончиков и предотвращает появление седины!
+					</p>
+					<p>
+						Входящие в состав
+						<b>витамины и минералы</b> блокируют избыток гормона дигидротестостерон, влияющий на потерю волос.
+					</p>
+				</div>
+				<div class="block_3">
+					<div class="media_wrap">
+						<span>
+						<img src="14\img\section_4_hair_grow.gif" alt="">
+					</span>
+					</div>
+				</div>
+				<img src="14\img\leaves_5.png" alt="" class="leaves_5">
+				<img src="14\img\leaves_5.png" alt="" class="leaves_6">
+				<img src="14\img\leaves_4.png" alt="" class="leaves_7">
+			</div>
+		</section>
+		<section class="section_5">
+			<div class="wrapper">
+				<div class="title">
+					Эффективный комплекс натуральных компонентов для роста волос
+				</div>
+				<div class="block_1">
+					<ul>
+						<li>
+							<div class="media"><img src="14\img\section_5_item_1.jpg" alt=""></div>
+							<div class="data">
+								<div class="title">Кератин</div>
+								<p>
+									<b>Восстанавливает</b> повреждённую структуру волос, придает блеск и эластичность
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="media"><img src="14\img\section_5_item_4.jpg" alt=""></div>
+							<div class="data">
+								<div class="title">Экстракт алоэ вера</div>
+								<p>
+									<b>Препятствует</b> выпадению и пробуждает «спящие» волосяные луковицы, что способствует росту волос
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="media"><img src="14\img\section_5_item_7.jpg" alt=""></div>
+							<div class="data">
+								<div class="title">Молочная кислота</div>
+								<p><b>Разглаживает</b> чешуйки волоса, придает шелковистость</p>
+							</div>
+						</li>
+						<li>
+							<div class="media"><img src="14\img\section_5_item_3.jpg" alt=""></div>
+							<div class="data">
+								<div class="title">Протеины шелка</div>
+								<p>
+									Улучшают циркуляцию крови, <b>устраняют сухость и ломкость</b>
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="media"><img src="14\img\section_5_item_6.jpg" alt=""></div>
+							<div class="data">
+								<div class="title">Масло кокоса</div>
+								<p>
+									<b>Увлажняет, питает кожу головы</b> и укрепляет структуру волоса
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="media"><img src="14\img\section_5_item_2.jpg" alt=""></div>
+							<div class="data">
+								<div class="title">Био-золото</div>
+								<p>
+									<b>Предотвращает</b> появление седины, восстанавливает естественную защитную функцию
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="prod">
+								<img src="14\img\prod.png" alt="">
+								<div class="prod_item">
+									<img src="14\img\section_5_prod_item.png" alt="">
+								</div>
+							</div>
+							<div class="stamp">
+								<div class="data">
+									<div class="sec_1">
+										100%
+									</div>
+									<div class="sec_2">
+										Натуральный продукт
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<img src="14\img\leaves_4.png" alt="" class="leaves_8">
+				<img src="14\img\leaves_5.png" alt="" class="leaves_9">
+				<img src="14\img\section_5_hair.jpg" alt="" class="decor_hair">
+			</div>
+		</section>
+		<section class="section_6">
+			<div class="wrapper">
+				<div class="title web">
+					<h2>
+						Высокая эффективность <span class="logo"></span> доказана клиническими испытаниями
+					</h2>
+					<p>
+						<b>Эксперты International Academy of Naturopathy and Natural Healing проводили тестирования</b> при участии 2000 человек по всему миру в течении года
+					</p>
+				</div>
+				<div class="title wap">
+					<h2>
+						<b>Почему</b> 98% женщин <b>выбирают</b> <span class="logo"></span>
+					</h2>
+					<p>
+						<b>Результаты роста длинны волос и увеличения общего объема</b> у женщин принимавших участие в исследовании
+					</p>
+				</div>
+				<ul class="result">
+					<li class="title">
+						<div class="title">Результаты тестирования:</div>
+						<span class="green">Princess Hair</span>
+						<span class="red">Другие средства</span>
+					</li>
+					<li>
+						<div class="title">
+							Прекращение выпадения волос и облысения
+						</div>
+						<div class="green_line">
+							<span class="value">100%</span>
+						</div>
+						<div class="red_line">
+							<span class="value">47%</span>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							Активация «спящих» волосяных фолликул и рост новых волос
+						</div>
+						<div class="green_line">
+							<span class="value">98%</span>
+						</div>
+						<div class="red_line">
+							<span class="value">22%</span>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							Восстановление повреждённой структуры волос
+						</div>
+						<div class="green_line">
+							<span class="value">95%</span>
+						</div>
+						<div class="red_line">
+							<span class="value">16%</span>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							Сохранение результата после прекращения использования средства
+						</div>
+						<div class="green_line">
+							<span class="value">90%</span>
+						</div>
+						<div class="red_line">
+							<span class="value">8%</span>
+						</div>
+					</li>
+					<li>
+						<div class="title">
+							Побочные эффекты (аллергия, себорея, экзема, головные боли и др.)
+						</div>
+						<div class="green_line">
+							<span class="value">0%</span>
+						</div>
+						<div class="red_line">
+							<span class="value">86%</span>
+						</div>
+					</li>
+				</ul>
+				<div class="review">
+					<ul class="bxslider">
+						<li class="rev_1">
+							<div class="sec_before">
+								<img src="14\img\section_6_rev_1_before.jpg" alt="">
+								<span>до</span>
+							</div>
+							<div class="sec_after">
+								<img src="14\img\section_6_rev_1_after.jpg" alt="">
+								<span>после</span>
+							</div>
+						</li>
+						<li class="rev_2">
+							<div class="sec_before">
+								<img src="14\img\section_6_rev_2_before.jpg" alt="">
+								<span>до</span>
+							</div>
+							<div class="sec_after">
+								<img src="14\img\section_6_rev_2_after.jpg" alt="">
+								<span>после</span>
+							</div>
+						</li>
+					</ul>
+					<div class="notice"><b>357 000 украинских женщин уже оценили результат Princess Hair</b>, попробуйте и Вы!</div>
+					<img src="14\img\leaves_5.png" alt="" class="leaves_10">
+				</div>
+			</div>
+		</section>
+		<section class="section_7">
+			<div class="wrapper">
+				<div class="title">
+					<div class="block_1">
+						<div class="media_wrap">
+							<img src="14\img\prod.png" alt="">
+							<div class="sale"><span><b></b> Скидка</span></div>
+						</div>
+					</div>
+					<div class="block_2">
+						<div class="title">
+							<span class="middle"><span class="orange_over">Теперь только</span> густые и роскошные <span class="orange_under">волосы</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="data">
+					<div class="block_1">
+						<div class="logo">
+						</div>
+						<ul>
+							<li><b>Ускоряет</b> рост волос в 2 раза</li>
+							<li><b>Предотвращает выпадение</b></li>
+							<li><b>Восстанавливает</b> повреждённые волосы</li>
+							<li><b>Придает блеск</b> и шелковистость</li>
+							<li><b>Устраняет сечение</b> кончиков и спутывание волос</li>
+						</ul>
+					</div>
+					<div class="block_2">
+						<div class="price_wrap">
+							<div class="old_price"><span>Цена:</span> <span class="cost js_old_price_curs">300 грн</span></div>
+							<div class="price js_new_price_curs">49 грн</div>
+							<span class="delivery">+ доставка</span>
+						</div>
+						<form action="/success.php" method="post" class="orderformcdn" onsubmit="if(this.name.value !='' && this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+							<input type="hidden" name="price" value="49">
+					<input type="hidden" name="trackerPrice" value="9.78">
+					<input type="hidden" name="productName" value="Princess Hair ">
+							<input type="hidden" name="action" value="add_order">
+							<div class="title">
+								Оформить заказ
+							</div>
+							<input type="text" name="name" class="mob-hide" placeholder="Ваше имя" required="">
+							<input type="text" name="phone" class="only_number" placeholder="Ваш телефон" required="">
+							<button type="submit" class="js_submit order_button">
+						   <span>заказать сейчас</span>
+						  </button>
+						</form>
+					</div>
+				</div>
+				<img src="14\img\section_7_woman.png" alt="" class="woman">
+			</div>
+		</section>
+		<section class="section_8">
+			<div class="wrapper">
+				<div class="title">
+					Мнение эксперта:
+				</div>
+				<div class="media_wrap">
+					<img src="14\img\section_8_doc.jpg" alt="" class="web">
+					<img src="14\img\section_8_doc_mob.jpg" alt="" class="wap">
+				</div>
+				<div class="signature">
+					<div class="name">Ольга Морозова,</div>
+					<div class="prof">ведущий трихолог Института красоты.</div>
+				</div>
+				<p>
+					<b>Стрессы и ежедневные переутомления, несбалансированное питание, изнуряющие диеты и нехватка витаминов негативно сказываются на организме.</b> Зеркалом этих проблем становятся волосы. Достаточно лишь одного нервного дня и Ваши волосы будут Вас терять, а после недели стресса — оставаться целыми прядями на расчёске.
+				</p>
+				<p>
+					<span>Чтобы избежать облысения и предотвратить выпадение волос, рекомендую использовать маску Princess Hair.</span> Она останавливает выпадение волос, восстанавливает их природную силу и красоту и активирует рост новых волос. Мои клиенты вновь обретают густые и крепкие волосы, благодаря маске Princess Hair.
+				</p>
+			</div>
+		</section>
+		<section class="section_9">
+			<div class="wrapper">
+				<div class="prod">
+					<img src="14\img\prod.png" alt="">
+				</div>
+				<div class="title">
+					ЭТО ВАЖНО!
+				</div>
+				<p>
+					<b>В составе Princess Hair только натуральные природные компоненты</b>, не вызывающие НИКАКИХ побочных эффектов. А это значит, что Princess Hair
+					<b>можно применять при</b>:
+				</p>
+				<ul>
+					<li><b>Перхоти</b></li>
+					<li>Частичном облысении</li>
+					<li><b>Повышенной жирности кожи головы и волос</b></li>
+				</ul>
+			</div>
+		</section>
+		<section class="section_10">
+			<div class="wrapper">
+				<div class="woman">
+					<img src="14\img\section_10_woman.png" alt="" class="web">
+					<img src="14\img\section_10_woman_mob.png" alt="" class="wap">
+				</div>
+				<div class="block_1">
+					<div class="notice">
+						Представьте, как изменится Ваша жизнь, когда волосы станут густыми и красивыми!
+					</div>
+				</div>
+				<div class="block_2">
+					<div class="logo"></div>
+					<ul>
+						<li>Мужчины будут <span>восхищённо оборачиваться</span> вслед.</li>
+						<li>К Вам вернётся уверенность в себе, и <span>исчезнет комплекс</span> неполноценности.</li>
+						<li>Окружающие перестанут думать, что Вы не следите за собой или чем-то болеете.</li>
+						<li>Знакомые и друзья будут делать Вам комплименты, и <span>восхищаться</span> Вашими волосами.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="section_11">
+			<div class="wrapper">
+				<div class="title">
+					<span>Открытие 2018 года</span> на всех глянцевых обложках!
+				</div>
+				<ul>
+					<li><img src="14\img\section_11_item_1.jpg" alt=""></li>
+					<li><img src="14\img\section_11_item_2.jpg" alt=""></li>
+					<li><img src="14\img\section_11_item_3.jpg" alt=""></li>
+					<li><img src="14\img\section_11_item_4.jpg" alt=""></li>
+				</ul>
+				<img src="14\img\section_11_crown.png" alt="" class="decor_crown">
+				<img src="14\img\section_3_hair.png" alt="" class="decor_hair">
+			</div>
+		</section>
+		<section class="section_12">
+			<div class="wrapper">
+				<div class="title">
+					Почему <span class="logo"></span> средство №1 для роста волос?
+				</div>
+				<table>
+					<tbody>
+						<tr>
+							<th>
+								<span class="logo"></span>
+								<p>Средство №1</p>
+							</th>
+							<th>
+								<img src="14\img\prod.png" alt="">
+								<div class="title">Princess Hair</div>
+								<div class="price js_new_price_curs"></div>
+							</th>
+							<th>
+								<img src="14\img\section_12_title_item_1.png" alt="">
+								<div class="title">Лечебная косметика</div>
+								<div class="price">4500 грн
+									<div class="js_curs"></div>
+								</div>
+							</th>
+							<th>
+								<img src="14\img\section_12_title_item_2.png" alt="">
+								<div class="title">Народные рецепты</div>
+								<div class="price">2750 грн
+									<div class="js_curs"></div>
+								</div>
+							</th>
+							<th>
+								<img src="14\img\section_12_title_item_3.png" alt="">
+								<div class="title">Мезотерапия</div>
+								<div class="price">25000 грн
+									<div class="js_curs"></div>
+								</div>
+							</th>
+						</tr>
+						<tr>
+							<td>Эффективность</td>
+							<td class="check"></td>
+							<td class="cross"></td>
+							<td class="cross"></td>
+							<td class="check"></td>
+						</tr>
+						<tr>
+							<td>Быстрый результат</td>
+							<td class="check"></td>
+							<td class="cross"></td>
+							<td class="cross"></td>
+							<td class="check"></td>
+						</tr>
+						<tr>
+							<td>Применение на дому</td>
+							<td class="check"></td>
+							<td class="check"></td>
+							<td class="check"></td>
+							<td class="cross"></td>
+						</tr>
+						<tr>
+							<td>Безболезненность</td>
+							<td class="check"></td>
+							<td class="check"></td>
+							<td class="check"></td>
+							<td class="cross"></td>
+						</tr>
+						<tr>
+							<td>Безопасность</td>
+							<td class="check"></td>
+							<td class="cross"></td>
+							<td class="check"></td>
+							<td class="cross"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+		<section class="section_13">
+			<div class="wrapper">
+				<div class="title">
+					<b>Почему</b> 98% женщин <b>выбирают маску для роста волос <span class="logo"></span> ?</b>
+				</div>
+				<ul class="bxslider_2">
+					<li>
+						<div class="block_1">
+							<div class="before"><img src="14\img\section_13_item_1_bef.jpg" alt=""><span>До</span></div>
+							<div class="prod"><img src="14\img\prod.png" alt=""></div>
+							<div class="after"><img src="14\img\section_13_item_1_aft.jpg" alt=""><span>После</span></div>
+							<div class="name">Оксана, 28 лет</div>
+						</div>
+						<div class="block_2">
+							<p>
+								Я часто провожу эксперименты над волосами: перекрашиваю волосы то в блондинку, то в брюнетку, то в шатенку. Мне нравится быть разной. Ни одно моё утро не проходит без домашней укладки. Ежедневно перед работой я укладываю волосы с помощью брашинга, утюжка или плойки. Хоть я и пользуюсь термозащитой, но она, как оказалось, не помогает. Еще и краска сжигает волосы. И они стали сухими, ломкими и жидкими. Скоро совсем укладывать нечего будет! В очередной раз я пришла на окрашивание к своему парикмахеру и спросила, как мне восстановить волосы. Мой стилист посоветовала мне маску Princess Hair. Я пользуюсь ею 3 раза в неделю. Волосы становятся заметно лучше, стала восстанавливаться густота, растут новые волосы. Буду продолжать пользоваться маской Princess Hair и дальше.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="block_1">
+							<div class="before"><img src="14\img\section_13_item_2_bef.jpg" alt=""><span>До</span></div>
+							<div class="prod"><img src="14\img\prod.png" alt=""></div>
+							<div class="after"><img src="14\img\section_13_item_2_aft.jpg" alt=""><span>После</span></div>
+							<div class="name">Елизавета, 45 лет</div>
+						</div>
+						<div class="block_2">
+							<p>
+								Я столкнулась с неприятной проблемой после климакса – резкое выпадение волос, практически облысение. На работе мне казалось, что за моей спиной стали перешёптываться о том, что я перестала за собой ухаживать, осуждать.
+							</p>
+							<p>Я обратилась в Институт красоты к врачу-трихологу, и он мне порекомендовал использовать маску Princess Hair. Я уже прошла целый курс и просто счастлива!
+								<b>Волосы не только перестали выпадать, но и начали расти на местах облысения.</b> Сейчас у меня густые волосы, благодаря которым мои коллеги делают мне комплименты.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="block_1">
+							<div class="before"><img src="14\img\section_13_item_3_bef.jpg" alt=""><span>До</span></div>
+							<div class="prod"><img src="14\img\prod.png" alt=""></div>
+							<div class="after"><img src="14\img\section_13_item_3_aft.jpg" alt=""><span>После</span></div>
+							<div class="name">Валерия, 30 лет</div>
+						</div>
+						<div class="block_2">
+							<p>
+								До родов у меня были длинные, почти по пояс волосы. А после родов я вынуждена была отрезать волосы под каре, так как не было времени на уход за ними, всё своё время уделяла ребёнку. Моему мужу не нравилась моя причёска, он хотел видеть меня с длинными волосами. Но вновь отрастить волосы у меня не получалось из-за множества причин: изменение гормонального фона после родов, хронический недосып, переживания, неправильное питание. Вскоре я заметила, что муж стал засматриваться на длинноволосых красоток. Это стало последней каплей. Тогда я решила воспользоваться народными рецептами для роста волос – почти все содержимое холодильника побывало на моей голове и ничего не помогло! Позже одна из мамочек на детской площадке мне посоветовала маску Princess Hair. Я начала пользоваться,
+								<b>волосы стали расти с бешеной скоростью</b> – за 3 месяца 15 см! Скоро у меня отрасли волосы, как прежде, только стали они ещё гуще. Я словно Рапунцель. Муж доволен, мне кажется, он заново в меня влюбился.
+							</p>
+						</div>
+					</li>
+					<li>
+						<div class="block_1">
+							<div class="before"><img src="14\img\section_13_item_4_bef.jpg" alt=""><span>До</span></div>
+							<div class="prod"><img src="14\img\prod.png" alt=""></div>
+							<div class="after"><img src="14\img\section_13_item_4_aft.jpg" alt=""><span>После</span></div>
+							<div class="name">Настя, 25 лет</div>
+						</div>
+						<div class="block_2">
+							<p>
+								Шикарных длинных волос у меня никогда не было, наверно генетика такая, у мамы тоже шевелюра не выдающаяся. Но после курса Princess Hair у меня стало расти много новых волос. На голове появилась копна густых и длинных волос. Самое любопытное, что со мной на улице стали знакомиться мужчины и проявлять знаки внимания.
+								<b>Правду говорят, главное достоинство женщины – ухоженные волосы. Они сделали меня женственнее и привлекательнее.</b>
+							</p>
+						</div>
+					</li>
+				</ul>
+				<img src="14\img\section_13_woman.png" alt="" class="woman">
+			</div>
+		</section>
+		<section class="section_14">
+			<div class="wrapper">
+				<div class="title">
+					Как пользоваться <span class="logo"></span>
+				</div>
+				<ul>
+					<li>
+						<div class="media_wrap">
+							<div class="prod">
+								<img src="14\img\prod.png" alt="">
+							</div>
+							<div class="media"><img src="14\img\section_14_item_1.jpg" alt=""></div>
+						</div>
+						<p>
+							Нанесите маску
+							<span>на вымытые влажные волосы, распределите по всей длине</span>, особое внимание уделяя коже головы
+						</p>
+					</li>
+					<li>
+						<div class="media_wrap">
+							<div class="media"><img src="14\img\section_14_item_2.jpg" alt=""></div>
+						</div>
+						<p>
+							Оставьте <span>на 5-7 минут</span> для воздействия
+						</p>
+					</li>
+					<li>
+						<div class="media_wrap">
+							<div class="prod_single">
+								<img src="14\img\prod_single.png" alt="">
+							</div>
+							<div class="media"><img src="14\img\section_14_item_3.jpg" alt=""></div>
+							<img src="14\img\section_14_calendar.png" alt="" class="calendar">
+						</div>
+						<p>
+							Тщательно смойте водой. Рекомендуется использовать <span>2-3 раза в неделю</span>
+						</p>
+					</li>
+				</ul>
+				<div class="order">
+					<div class="order_wrap">
+						<button type="submit" class="order_button toform" id="jiggle1">
+						  <span>заказать сейчас</span>
+						 </button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section_17">
+			<div class="wrapper">
+				<div class="title">Остерегайтесь подделок!</div>
+				<div class="block_1">
+					<p>
+						<b>Сегодня на рынке существует множество подделок маски для роста волос Princess Hair.</b>
+					</p>
+					<p>
+						Такая продукция не только не оправдывает надежды покупателей, не отвечая заявленному мошенниками качеству, но и может быть опасной для здоровья! Входящие в состав подделок токсичные синтетические компоненты способны вызвать аллергическую реакцию.
+					</p>
+					<p>
+						Поэтому мы настоятельно рекомендуем
+						<span>приобретать продукт только на официальном сайте официального дистрибьютора!</span>
+					</p>
+					<div class="prod"><img src="14\img\prod.png" alt=""></div>
+				</div>
+				<div class="block_2">
+					Чтобы не попасться на уловки мошенников, обязательно проверяйте на упаковке
+					<b>QR-код!</b>
+					<div class="gologram">
+						<img src="14\img\gologramma.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section_15">
+			<div class="wrapper">
+				<div class="title">
+					<img src="14\img\section_11_crown.png" alt=""> Как мы работаем
+				</div>
+				<ul>
+					<li>
+						<div class="data">
+							<span class="counter">02</span>
+							<div class="media_wrap">
+								<img src="14\img\section_15_item_2.jpg" alt="">
+							</div>
+						</div>
+						<p>
+							Вам позвонит наш <span>конслуьтант</span>
+						</p>
+					</li>
+					<li>
+						<p>
+							<span>Оформите</span> моментальный <span>заказ</span> и получите скидку
+						</p>
+						<div class="data">
+							<span class="counter">01</span>
+							<div class="media_wrap">
+								<img src="14\img\section_15_item_1.jpg" alt="">
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="data">
+							<span class="counter">03</span>
+							<div class="media_wrap">
+								<img src="14\img\section_15_item_3.jpg" alt="">
+							</div>
+						</div>
+						<p>
+							Оплатите посылку <span>при получении</span> на НОВОЙ ПОЧТЕ
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section_16">
+			<div class="wrapper">
+				<div class="title">
+					<p>357 000 женщин уже оценили потрясающий эффект</p>
+					<span class="logo"></span>
+					<p>попробуйте и Вы!</p>
+				</div>
+				<div class="block_1">
+					<div class="action">
+						<div class="title">
+							Акция действует только на территории Украины
+						</div>
+						<div class="timer_wrap" style="position:relative;">
+							<div class="block_1">
+								До конца акции осталось:
+							</div>
+							<div style="postion-relative;left:-25px;" class="block_2 timer"></div>
+							<div class="block_1 min">мин</div>
+						</div>
+					</div>
+					<div class="sale">
+						<span class="data"><b style="color:#f2051b;">Внимание!</b> Осталось товаров со скидкой :</span>
+						<span class="left"><b>005</b> шт</span>
+					</div>
+					<div class="price_wrap">
+						<div class="block_1">
+							<div class="title">Обычная цена: <span style="text-decoration:line-through;">300 грн</span></div>
+							<div class="old_price js_old_price_curs"></div>
+						</div>
+						<div class="block_2">
+							<div class="title">Цена по скидке: 49 грн</div>
+							<div class="price js_new_price_curs"></div>
+							<span class="delivery">+ доставка</span>
+						</div>
+					</div>
+				</div>
+				<div class="block_2">
+					<div class="prod">
+						<img src="14\img\prod.png" alt="" class="web">
+						<img src="14\img\prod_mob.png" alt="" class="wap">
+					</div>
+					<div class="form">
+						<form action="/success.php" method="post" class="main_form orderformcdn" onsubmit="if(this.name.value !='' && this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;" onsubmit="if(this.name.value !='' && this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+<input type="hidden" name="price" value="149">
+					<input type="hidden" name="trackerPrice" value="9.78">
+					<input type="hidden" name="productName" value="Princess Hair ">
+				
+							<input type="hidden" name="action" value="add_order">
+							<div class="title">
+								Успей заказать по выгодной цене
+							</div>
+							<input type="text" name="name" class="mob-hide" placeholder="Ваше имя">
+							<input type="text" name="phone" class="only_number" placeholder="Ваш телефон">
+							<button type="submit" class="js_submit order_button">
+						   <span>заказать сейчас</span>
+						  </button>
+						</form>
+						<div class="notice">
+							Сегодня у нас уже купили <span style="font-size:22px">254</span> человек 
+						</div>
+					</div>
+				</div>
+			</div>
+			<img src="14\img\section_16_woman.png" alt="" class="woman">
+		</section>
+		<footer>
+			<p class="footer_right__text">
+					*Акционная цена действует при заказе полного курса. Подробности и условия акции у менеджеров.<br>
+					(044)3501947<br>
+					Время работы: Пн.-Вс. 09.00-20.00<br>
+					© 2017 ТОВ " ОМАКС Дистрибьюшин" Свидетельство: №48050739 от 21.01.2012 г.<br>
+					Адрес: Украина, г. Киев, ул. М. Гречка, д. 3
+				</p>
+		</footer>
+	</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="14\js\jquery.twentytwenty.js"></script>
+<script src="14\js\jquery.bxslider.min.js"></script>
+<script src="14\js\flipclock.min.js"></script>
+<script src="14\js\main.js"></script>
+
+
+</body>
+</html>

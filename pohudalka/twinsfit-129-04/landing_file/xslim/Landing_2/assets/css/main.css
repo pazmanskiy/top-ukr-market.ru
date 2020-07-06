@@ -1,0 +1,115 @@
+/*============ CSS BEGIN ============*/
+/* Geniral style */
+* {padding: 0; margin: 0;}
+header, nav, section, article, aside, footer {display: block;}
+html, body {height: auto; max-height: 100%;}
+body {background: #faf9f5; font-size: 22px; font-family: 'PT Sans', sans-serif; color: #221e1f;}
+fieldset {border: none; margin: 0; padding: 0;}
+
+.ptb {font-weight: 700;}
+
+/* Link Style */
+a {text-decoration: none;}
+
+.px10 {font-size: 10px;}
+.px12 {font-size: 12px;}
+.px13 {font-size: 13px;}
+.px14 {font-size: 14px;}
+.px16 {font-size: 16px;}
+.px18 {font-size: 18px;}
+.px20 {font-size: 20px;}
+.px22 {font-size: 22px;}
+.px23 {font-size: 23px;}
+.px24 {font-size: 24px;}
+.px25 {font-size: 25px;}
+.px26 {font-size: 26px;}
+.px30 {font-size: 30px;}
+.px32 {font-size: 32px;}
+.px34 {font-size: 34px;}
+.px35 {font-size: 35px;}
+.px36 {font-size: 36px;}
+.px38 {font-size: 38px;}
+.px40 {font-size: 40px;}
+.px42 {font-size: 42px;}
+.px43 {font-size: 43px;}
+.px44 {font-size: 44px;}
+.px45 {font-size: 45px;}
+.px48 {font-size: 48px;}
+.px50 {font-size: 50px;}
+.px53 {font-size: 53px;}
+.px60 {font-size: 60px;}
+.px74 {font-size: 74px;}
+.px80 {font-size: 80px;}
+.px87 {font-size: 87px;}
+.px132 {font-size: 132px;}
+
+.normal {font-weight: normal;}
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+.center {text-align: center;}
+.alleft {text-align: left;}
+.alright {text-align: right;}
+.upp {text-transform: uppercase;}
+.under {text-decoration: underline;}
+.no-padding {padding: 0;}
+.lh140 {line-height: 140%;}
+.lh120 {line-height: 120%;}
+.vmid {vertical-align: middle;}
+.left {float: left;}
+.right {float: right;}
+
+.abs {position: absolute;}
+.rel {position: relative;}
+/* Flex */
+.flex {display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex;}
+.flex-between {justify-content:space-between;}
+.flex-around {justify-content:space-around;}
+.flex-center {justify-content:center;}
+.flex-left {justify-content: flex-start;}
+.flex-right {justify-content: flex-end;}
+
+.flex-top {align-items:flex-start;}
+.flex-mid {align-items:center;}
+.flex-bot {align-items:flex-end;}
+.flex-wrap {flex-wrap: wrap;}
+
+.flex-column {flex-direction: column;}
+.nopoint {pointer-events: none;-o-pointer-events: none;-webkit-pointer-events: none;}
+
+/* Display style */
+.inline-b {display: inline-block; zoom: 1; *display: inline;}
+/* Clear */
+.clearfix:after {content: ""; display: table; clear: both; *zoom: 1;}
+/* Preloader */
+#preloader {position: absolute; top: 5px; left: 5px;}
+/* To top */
+#to-top {position: fixed; bottom: 15px; right: 15px; display: none; cursor: pointer; color: #bbcf15; font-size: 40px; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.53);}
+
+/*============ FORM ============*/
+main input {
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  margin: 5px auto;
+  border: 1px solid #f7eee8;
+  font-size: 18px;
+  background: #f7eee8; 
+  color: #000; 
+  border-radius: 10px;
+  outline: none;
+  text-indent: 15px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+
+::-webkit-input-placeholder {font-size: 16px; color:#000;}
+::-moz-placeholder          {font-size: 16px; color:#000;}/* Firefox 19+ */
+:-moz-placeholder           {font-size: 16px; color:#000;}/* Firefox 18- */
+:-ms-input-placeholder      {font-size: 16px; color:#000;}
+
+
+

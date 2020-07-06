@@ -1,0 +1,96 @@
+$(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+
+    $('.toform').on('click', function() {
+        $('html,body').animate({
+            scrollTop: $('#order-form').offset().top
+         }, 1000);
+    });
+});
+
+
+
+
+// Order CountDown
+Number.prototype.pad = function(size) {
+    var s = String(this);
+    if(typeof(size) !== "number"){size = 2;}
+ 
+    while (s.length < size) {s = "0" + s;}
+    return s;
+}
+ 
+function countDown(second,endMinute,endHour,endDay,endMonth,endYear) {
+    var now = new Date();
+    second = second || now.getSeconds();
+    second = second + now.getSeconds();
+    endYear =  endYear || now.getFullYear();
+    endMonth = endMonth ? month - 1 : now.getMonth();   //номер месяца начинается с 0
+    endDay = endDay || now.getDate();
+    endHour = endHour || now.getHours() ;
+    endMinute = endMinute || now.getMinutes();
+ 
+    var endDate = new Date(endYear,endMonth,endDay,endHour,endMinute,second);
+    var interval = setInterval(function() { //запускаем таймер с интервалом 1 секунду
+        var time = endDate.getTime() - now.getTime();
+        if (time < 0) {                      //если конечная дата меньше текущей
+            clearInterval(interval);
+        } else {
+            var hours = Math.floor(time / 36e5) % 24;
+            var minutes = Math.floor(time / 6e4) % 60;
+            var seconds = Math.floor(time / 1e3) % 60;
+            var digit='<div class="digits ';
+            var digit2='">';
+            var end='</div>';
+            var delimiter = ':'
+
+            var x1='hours';
+            var x2='minute';
+            var x3='second';
+
+
+
+            var timers = document.getElementsByClassName("time");
+            
+            [].forEach.call(timers, function(timer){
+                timer.innerHTML=digit+x1+digit2+hours.pad(2)+end+digit+x2+digit2+minutes.pad(2)+end+digit+x3+digit2+seconds.pad(2)+end;
+            });
+
+
+            if (!seconds && !minutes && !hours) {
+                clearInterval(interval);
+            }
+        }
+        now.setSeconds(now.getSeconds() + 1); //увеличиваем текущее время на 1 секунду
+    }, 1000);
+}
+countDown(2700); //устанавливаем таймер на прмерно 1 день
+
+
+
+
+
+$(document).ready(function() {
+    $('[name="country"]').on('change', function() {
+        var geoKey = $(this).find('option:selected').val();
+        var data = $jsonData.prices[geoKey];
+        var price = data.price;
+        var oldPrice = data.old_price;
+        var currency = data.currency
+
+        $('.js_new_price').text(price);
+        $('.js_old_price_curs').text(oldPrice);
+        $('.js_curs').text(currency);
+    });
+}); 

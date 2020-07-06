@@ -1,0 +1,495 @@
+.header_middle,
+.header_title {
+    margin-bottom: 20px;
+    font-weight: 700
+}
+
+.formula_img img,
+.how_img img,
+.problem_item img,
+.prod_img img,
+.reviews .reviews_item .col-lg-2 img {
+    width: 100%
+}
+
+.countdown__item,
+.countdown_text,
+.doctor_text span,
+.header_middle,
+.header_title,
+.how_abzac span,
+.price_new,
+.product_text,
+.revews_head,
+.reviews_item span,
+.step_text span {
+    font-weight: 700
+}
+
+body {
+    font-family: PFDinDisplayProRegular!important;
+    height: 5000px
+}
+
+.form__input,
+.header_title {
+    text-align: center;
+    font-family: Roboto, sans-serif
+}
+
+.container {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5)
+}
+
+.mobile {
+    display: none
+}
+
+a:focus,
+a:hover {
+    text-decoration: none!important
+}
+
+footer,
+header {
+    color: #fff;
+    padding-bottom: 10px
+}
+
+.desktop {
+    background: url("bg.png") center top no-repeat
+}
+
+.header_title {
+    font-size: 38px
+}
+
+.price_new {
+    color: #ea0202;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 24px
+}
+
+.snoska {
+    color: #0C5273
+}
+
+.new_price_val {
+    font-size: 60px
+}
+
+.new_price_cur {
+    font-size: 24px
+}
+
+.header_middle {
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 68px;
+    line-height: 1
+}
+
+.price_old {
+    color: #000;
+}
+
+.header_middle span,
+.product_text span,
+.revews_head,
+.section_head span,
+.step_text span {
+    text-transform: uppercase
+}
+
+.header_middle span {
+    display: block;
+    font-size: 100px
+}
+
+.header_list {
+    list-style-type: none;
+    padding-left: 0;
+   margin-bottom: 20px;
+}
+
+.header_list li {
+    font-size: 19px;
+    padding: 2px 0 2px 50px;
+    margin-bottom: 20px;
+    background: url("round.png") left center no-repeat;
+    color: #000;
+}
+
+footer .header_list li {
+    margin-bottom: 11px
+}
+
+.product_img {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    left: 49px;
+    top: 92px;
+}
+
+footer .new_price_val {
+    font-size: 50px
+}
+
+.product {
+    margin-top: 21px
+}
+
+.how_item,
+.how_text {
+    margin-top: 15px
+}
+
+.zakaz_btn,
+.zakaz_btn:focus {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #ea0202;
+    padding: 17px 0;
+    display: block;
+    text-align: center;
+    border-radius: 5px
+}
+
+.zakaz_btn:hover {
+    color: #fff
+}
+
+.section_head {
+    padding: 10px 0 20px;
+    color: #243B56;
+    font-size: 30px;
+    line-height: 1.3
+}
+
+.how_text {
+    color: #243B56;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2
+}
+
+.how_abzac,
+.section_text {
+    font-size: 18px;
+    color: #243B56
+}
+
+.how_abzac {
+    margin-top: 40px
+}
+
+.how_abzac p {
+       margin-bottom: 16px;
+}
+
+.how_play .section_head {
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.how_play,
+.product_text,
+.section_text {
+    margin-bottom: 20px
+}
+
+.product_text {
+    font-size: 26px;
+    color: #243B56;
+    padding-top: 10px
+}
+
+.how_play {
+    padding-top: 20px
+}
+
+.product_text span {
+    font-size: 29px
+}
+
+.product .zakaz_btn {
+    margin-right: 100px
+}
+
+.section_head span {
+    font-size: 30px;
+    font-weight: 700;
+    display: block
+}
+
+.problem_item {
+    text-align: center;
+      font-size: 14px;
+    color: #243b56;
+    margin-bottom: 50px
+}
+
+.formula_img,
+.formula_text {
+    margin-bottom: 20px
+}
+
+.problem_item span {
+    display: block;
+       margin-top: 4px;
+}
+
+.formula_text {
+    color: #243B56;
+    font-size: 18px
+}
+
+.reviews {
+    padding-top: 25px;
+    margin-bottom: 24px
+}
+
+.revews_head {
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.doctor p,
+.doctor_text,
+.reviews_item,
+.step_text,
+.vrac_img i {
+    color: #243B56
+}
+
+.reviews_item {
+    background-color: #FFF;
+    border-radius: 7px;
+    padding: 25px 10px;
+    margin-bottom: 15px
+}
+
+.reviews_item span {
+    font-size: 18px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 10px
+}
+
+.reviews_item p {
+    font-size: 16px;
+    padding-right: 10px
+}
+
+.reviews .zakaz_btn {
+    width: 255px;
+    margin: 0 auto
+}
+
+.doctor {
+    padding-top: 20px
+}
+
+.doctor p {
+    font-size: 17px;
+    margin-bottom: 20px
+}
+
+.vrac_img i {
+    margin-top: 10px;
+    display: block
+}
+
+.doctor .col-lg-8 .doctor_text:nth-child(2),
+.doctor .section_head {
+      margin-top: 8px;
+}
+
+.doctor_text {
+    margin-bottom: 120px
+}
+
+.doctor_text span {
+    font-size: 24px;
+    margin-bottom: 15px;
+    display: block
+}
+
+.doctor_text p {
+    font-size: 17px
+}
+
+.step_item {
+    text-align: center;
+    position: relative
+}
+
+.steps .section_head {
+    text-align: center
+}
+
+.step_text span {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px
+}
+
+.step_text p {
+    font-size: 17px
+}
+
+.steps .col-lg-3:first-child .step_item:after,
+.steps .col-lg-3:nth-child(3) .step_item:after {
+    background: url("tochki1.png") no-repeat;
+    content: '';
+    position: absolute;
+    width: 132px;
+    height: 35px;
+    right: -83px;
+    top: 16px
+}
+
+.steps .col-lg-3:nth-child(2) .step_item:after {
+    background: url("tochki2.png") no-repeat;
+    content: '';
+    position: absolute;
+    width: 132px;
+    height: 35px;
+    right: -79px;
+    bottom: 108px
+}
+
+.form__btn,
+.form__input {
+    width: 100%;
+    text-transform: uppercase
+}
+
+footer {
+    padding-top: 50px
+}
+
+.countdown,
+.countdown__item,
+.countdown_text {
+    display: inline-block
+}
+
+.countdown_text {
+    color: #D31421;
+    font-size: 18px;
+    text-transform: uppercase
+}
+
+.countdown__item {
+    background-color: #FFF;
+    color: #0C5273;
+    font-size: 40px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0 13px;
+    position: relative
+}
+
+.countdown__item:after {
+    content: ':';
+    position: absolute;
+    right: -20px;
+    color: #0C5273;
+    top: 0
+}
+
+.countdown__item:last-child:after {
+    display: none
+}
+
+footer .section_head {
+    color: #2F627F;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 23px;
+    padding-top: 20px
+}
+
+.form {
+    margin-top: 30px
+}
+
+.form__input {
+    font-size: 16px;
+    height: 50px;
+    border: 2px solid #dae1eb;
+    border-radius: 5px
+}
+
+.form__btn {
+    background-color: #EA0202;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 65px;
+    position: relative;
+    bottom: 7px;
+    font-size: 18px
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.links {
+    color: #15224A;
+    font-size: 15px;
+    padding: 0 15px 10px
+}
+
+.links a {
+    color: #15224A;
+    margin-right: 60px;
+    text-decoration: underline
+}
+
+.links span {
+    margin-left: 24px
+}
+
+.formula_text.img {
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 64%;
+}
+
+.formula_img.super {
+width: 35%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.old_price_val, .old_price_cur {
+    text-decoration: line-through;
+}
+
+
+.product_img img {
+    width: 100%;
+}
+
+.prod_prod img {
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .product_img {
+        left: auto;
+        top: auto;
+    }
+}

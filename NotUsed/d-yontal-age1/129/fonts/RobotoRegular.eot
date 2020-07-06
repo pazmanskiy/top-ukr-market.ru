@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Дух Атлая</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+
+	<!-- Bootstrap v3.3.4 Grid Styles -->
+	<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}</style>
+
+	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
+	<style></style>
+
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	
+
+	<!-- Load CSS Start -->
+	
+	
+	
+	<!-- Load CSS End -->
+
+	<!-- Load CSS Compiled without JS -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Yandex.Metrika counter -->
+	
+	<noscript><div><img src="https://mc.yandex.ru/watch/45053339" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+
+	
+
+</head>
+
+<body class="pluginLeave">
+	<header class="header">
+		<div class="topline">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-9 col-lg-8">
+						<div class="logo">
+							<a href="#" class="logo__link">
+								<img src="img/logo.png" alt="" class="logo__img">
+							</a>
+						</div>
+						<ul class="topline__adv">
+							<li class="topline__item topline__item--first"><span class="bold__item">Хит продаж 2016<br></span>без уколов и пластических<br> операций</li>
+							<li class="topline__item topline__item--second"><span class="bold__item">100% </span>эффективность<br> биокомпонентов</li>
+							<li class="topline__item topline__item--third"><span class="bold__item">Скидки</span></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-lg-4">
+						<div id="clock">
+							<p>До конца акции осталось:</p>
+							<ul></ul>
+						</div>
+						<a href="#btn-scroll" class="scroll button button--green">Заказать Дух Алтая</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row header__content">
+				<div class="col-md-12">
+					<h1>Омолодите свой организм без уколов и операций
+						за 1 курс с мараловыми ваннами Дух Алтая!</h1>
+					<h2 class="header__pretext">100% натуральное средство Дух Алтая вернет молодость и красоту вашей коже!</h2>
+					<div class="black__container">
+						<div class="black__item black__item--left">
+							<ul>
+								<li class="black-adv__item"><span>Избавляет от морщин</span> с помощью <br> вытяжки пантов марала</li>
+								<li class="black-adv__item"><span>Стимулирует выработку коллагена </span>благодаря дисмозину и лизину</li>
+								<li class="black-adv__item"><span>Восстанавливает</span> выработку природной гиалуроновой кислоты</li>
+							</ul>
+						</div>
+						<div class="product__container">
+							<img src="img/product.png" alt="" class="product__img">
+						</div>
+						<div class="black__item black__item--right">
+							<h3>Внимание! Акция действует только на<br> территории России и стран СНГ</h3>
+							<ul class="cost__container">
+								<li class="cost__item">Обычная цена<br> <del><span class="displayPrevPrice">1900 руб.</span></del></li>
+								<li class="cost__item">Промо-цена<br> <span class="displayCurrentPrice">950 руб.</span></li>
+							</ul>
+							<form action="" class="orderFormWrapper">
+								<div class="form__item">
+									<label for="country">Выберите страну</label>
+									<select name="country" id="country" class="orderFormWrapperCountry"></select>
+								</div>
+								<div class="form__item">
+									<label for="name">Введите Ваше имя</label>
+									<input type="text" id="name" name="name" placeholder="Валерий">
+								</div>
+								<div class="form__item">
+									<label for="phone">Ваш телефон</label>
+									<input type="text" id="phone" name="phone" placeholder="+7 (916) 123-45-67">
+								</div>
+								<input type="submit" value="Заказать Дух Алтая" class="sbmt__button sbmt__button--green">
+								<div class="protect__info">
+									<p><img src="img/icons/protect.png" alt=""> Ваши данные защищены</p>
+									<p>Сегодня уже купили: <span class="all__buy">364</span> человек</p>
+								</div>
+							<input type="hidden" name="is_rub" value="0"/></form>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<ul class="awwards__container">
+						<li class="awwards__item"><img src="img/awwards/1.png" alt="" class="awwards__img"></li>
+						<li class="awwards__item"><img src="img/awwards/2.png" alt="" class="awwards__img"></li>
+						<li class="awwards__item"><img src="img/awwards/3.png" alt="" class="awwards__img"></li>
+						<li class="awwards__item"><img src="img/awwards/4.png" alt="" class="awwards__img"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="problem">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 container--white">
+					<h2>Морщины уродуют Ваше лицо и старят кожу раньше времени</h2>
+					<div class="col-md-3 problem__item">
+						<img src="img/problems/1.jpg" alt="" class="problem__img">
+						<h3>Потеря сексуальности</h3>
+						<p><b>89%</b> мужчин <b>перестают обращать внимание</b> и
+							<b>хотеть секса</b> с постаревшими ровесницами.</p>
+					</div>
+					<div class="col-md-3 problem__item">
+						<img src="img/problems/2.jpg" alt="" class="problem__img">
+						<h3>Супружеские измены</h3>
+						<p><b>85% измен</b> и разводов происходит из-за <b>потери</b> женщиной <b>былой молодости и привлекательности.</b></p>
+					</div>
+					<div class="col-md-3 problem__item">
+						<img src="img/problems/3.jpg" alt="" class="problem__img">
+						<h3>Психологический дискомфорт</h3>
+						<p><b>Депрессии и неврозы</b>, переживания по поводу <b>уходящей молодости</b> — это знакомо каждой женщине.</p>
+					</div>
+					<div class="col-md-3 problem__item">
+						<img src="img/problems/4.jpg" alt="" class="problem__img">
+						<h3>Одиночество</h3>
+						<p>Преждевременное <b>старение</b> — наиболее частая <b>причина одиночества. 75%</b> женщин <b>после 30 лет</b> не имеют <b>партнера.</b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="why">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 container--black">
+					<h2>Причины преждевременного старения кожи</h2>
+					<div class="col-md-6">
+						<ul>
+							<li class="why__item">Плохая <span>экология</span></li>
+							<li class="why__item">Вредные <span>привычки</span></li>
+							<li class="why__item">Некачественные <span>продукты
+								питания</span></li>
+							<li class="why__item"><span>Депрессии</span> и <span>стрессы</span></li>
+							<li class="why__item">Нарушение <span>гормонального
+								фона</span></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li class="why__item">Нервная работа</li>
+							<li class="why__item">Беременность и роды</li>
+							<li class="why__item">Использование <span>декоративной
+								косметики</span></li>
+							<li class="why__item"><span>Климакс</span></li>
+							<li class="why__item">Отсутствие спорта</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="skin">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Почему стареет ваша кожа?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="skin__item">
+						<img class="skin__img" src="img/skin/1.png" alt="">
+						<p>Замедляется обновление клеток кожи.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="skin__item">
+						<img class="skin__img" src="img/skin/2.png" alt="">
+						<p>Уменьшается выработка гиалуроновой кислоты и коллагена. </p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="skin__item">
+						<img class="skin__img" src="img/skin/3.png" alt="">
+						<p>Кожа теряет упругость и становится дряблой.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row row--margin">
+				<div class="col-md-12">
+					<div class="skin__item">
+						<img class="skin__img skin__img--long" src="img/skin/4.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="effects">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Что будет, если вовремя не остановить процесс<br>старения кожи?</h2>
+					<div class="attention">
+						<p>Геронтологи всего мира бьют тревогу. По данным последних научных исследований, процессы старения кожи ускорились на 80%. Если вовремя не остановить процесс старения кожи, то через 5 лет, вы будете выглядеть на 10 лет старше вашего биологического возраста.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row effect__container">
+				<div class="col-md-4">
+					<div class="effects__item">
+						<img src="img/effect/1.jpg" alt="" class="effect__img">
+						<p>Ей всего лишь 35 лет,
+							а не 50. Просто она не заботилась о себе.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="effects__item">
+						<img src="img/effect/2.jpg" alt="" class="effect__img">
+						<p>Если не ухаживать за кожей, то уже в 40 можно выглядеть вот так.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="effects__item">
+						<img src="img/effect/3.jpg" alt="" class="effect__img">
+						<p>Сегодня каждая может выглядеть в 50 лет молодой, а не как бабушка.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="specialist">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Мнение специалиста:</h2>
+					<div class="specialist__container">
+						<p>Сегодня появилось средство <b>Дух Алтая</b>, которое <b>устраняет морщины</b>, другие признаки <b>старения кожи и организма</b> путем восстановления естественных защитных сил<b> организма.</b><br><br>
+							Основное отличие средства <b>Дух Алтая</b> состоит в том, что оно <b>избавляет от морщин</b> и других признаков <b>старения</b> кожи лица <b>без уколов</b> и дорогостоящих <b>операций</b>.<br>
+							Средство разработано по <b>научной формуле</b>, которая <b>соединяет</b> старинный <b>корейский рецепт</b> и новые <b>биотехнологии</b>.<br><br>
+
+							Как врач <b>рекомендую Дух Алтая</b> всем женщинам, которые хотят продлить молодость кожи естественным путем,<br> не подвергая себя риску пластических операций.</p>
+						<div class="doctor-name">
+							<p>А.Е. Нефедов</p>
+							<p class="specialization">Врач с 20-летним стажем, к. м. н., натуропат</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="good">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Почему Дух Алтая поможет Вам избавиться от<br>
+						морщин и омолодить организм?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="good__container">
+					<div class="col-md-7 good__item">
+						<p>В основе средства <b>Дух Алтая</b> лежит рецепт <b>16 века</b> корейской принцессы <b>Конджу Ким</b>.<br><br>
+
+							Даже в преклонном <b>возрасте</b> она выглядела, как <b>юная девушка</b>, благодаря особому <b>эликсиру молодости</b>.<br><br>
+
+							<b>В наши дни</b> удалось расшифровать рукописи <b>корейской принцессы</b>. В результате <b>исследований</b> независимые ученые доработали <b>состав эликсира</b> до идеальной <b>формулы Дух Алтая</b>.<br><br>
+
+							<b>Западные фармкорпорации</b> устроили охоту на <b>формулу</b> этого средства, чтобы продавать его по <b>завышенной</b> цене.
+							Поэтому в <b>России Дух Алтая</b> изготавливается <b>ограниченной</b> партией и с условием, что средство не будет реализовываться через <b>аптеки.</b><br><br>
+
+							Только <b>на нашем сайте</b> можно <b>приобрести</b> оригинальный <b>Дух Алтая по доступной цене.</b></p>
+					</div>
+					<div class="col-md-5 good__item">
+						<img src="img/good/1.jpg" alt="" class="good__img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="action__form">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Омолодите свой организм без уколов и операций  за 1 курс<br>
+						со средством Дух Алтая, как это уже сделали<br>
+						более 100 000 женщин!</h2>
+					<div class="black__container black__container--second">
+						<div class="black__item black__item--left">
+							<div id="clock">
+								<p>До конца акции осталось:</p>
+								<ul></ul>
+							</div>
+							<div class="clear"></div>
+							<p>Внимание! Акция действует только на территории<br>
+								России и стран СНГ</p>
+							<div class="product__container">
+								<img src="img/product.png" alt="" class="product__img">
+							</div>
+						</div>
+						<div class="black__item black__item--right">
+							<h3>Успейте оформить заказ<br>
+								по выгодной промо-цене</h3>
+							<ul class="cost__container">
+								<li class="cost__item">Обычная цена<br> <del><span class="displayPrevPrice">1900 руб.</span></del></li>
+								<li class="cost__item">Промо-цена<br> <span class="displayCurrentPrice">950 руб.</span></li>
+							</ul>
+							<form action="" class="orderFormWrapper">
+								<div class="form__item">
+									<label for="country">Выберите страну</label>
+									<select name="country" id="country" class="orderFormWrapperCountry"></select>
+								</div>
+								<div class="form__item">
+									<label for="name">Введите Ваше имя</label>
+									<input type="text" id="name" name="name" placeholder="Валерий">
+								</div>
+								<div class="form__item">
+									<label for="phone">Ваш телефон</label>
+									<input type="text" id="phone" name="phone" placeholder="+7 (916) 123-45-67">
+								</div>
+								<input type="submit" value="Заказать Дух Алтая" class="sbmt__button sbmt__button--green">
+								<div class="protect__info">
+									<p><img src="img/icons/protect.png" alt=""> Ваши данные защищены</p>
+									<p>Сегодня уже купили: <span class="all__buy">364</span> человек</p>
+								</div>
+							<input type="hidden" name="is_rub" value="0"/></form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="girls">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Почему Дух Алтая помог омолодить организм<br>
+						более 100 000 женщин?</h2>
+				</div>
+				<div class="col-md-4">
+					<div class="girls__item">
+						<img src="img/girls/1.png" alt="" class="girls__img">
+						<h4>100%<br>натуральный состав</h4>
+						<p>Благодаря 100% натуральным экстрактам и вытяжкам воздействует на кожу безопасно, устраняя морщины и омолаживая организм.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="girls__item">
+						<img src="img/girls/2.png" alt="" class="girls__img">
+						<h4>Формула на основе<br>Алтайских трав</h4>
+						<p>Древние корейские рецепты и экологически чистое сырье алтайского края, позволили создать уникальную формулу, компоненты которой дополняют и усиливают друг друга.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="girls__item">
+						<img src="img/girls/3.png" alt="" class="girls__img">
+						<h4>Двойная<br>эффективность</h4>
+						<p>Дух Алтая не просто избавляет от морщин, а устраняет причину старения кожи и организма, воздействуя на очаги проблемы благодаря эффекту трансдермальности.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="clinic">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Эффективность Дух Алтая доказана клиническими исследованиями</h2>
+					<p class="preheading">Всемирная организация дерматологии в течение 10 месяцев проводила клинические испытания средства Дух Алтая с участием 9500 женщин.</p>
+					<p class="align__img"><img src="img/clinic/results.jpg" alt="" class="clinic__img"></p>
+				</div>
+			</div>
+			<div class="row clinic-bottom">
+				<div class="col-md-8">
+					<p class="base">Исследование Дух Алтая проведено на базе<br>
+						Российского научно-исследовательского института косметологии и дерматологии<br> им. И. Р. Тарасова</p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/clinic/sign.jpg" alt="" class="sign">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="recipe">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Дух Алтая соединяет старинный рецепт<br>
+						Алтайского края и новые биотехнологии</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="recipe__item">
+						<img class="recipe__img" src="img/recipe/1.jpg" alt="">
+						<h4>Вытяжка из пант марала</h4>
+						<p>Интенсивно питает и успокаивает кожу, повышает эластичность, восстанавливает естественный уровень увлажненности кожи</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="recipe__item">
+						<img class="recipe__img" src="img/recipe/2.jpg" alt="">
+						<h4>Экстракт<br> фасоли</h4>
+						<p>Лизин содержится в экстракте фасоли, способствует образованию коллагеновых нитей, предотвращает дряблость и сухость кожи</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="recipe__item">
+						<img class="recipe__img" src="img/recipe/3.jpg" alt="">
+						<h4>Десмозин<br> и кастореум</h4>
+						<p>Создает прочные связи нитей эластина, предотвращает образование морщин, восстанавливает упругость кожи</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="recipe__item">
+						<img class="recipe__img" src="img/recipe/4.jpg" alt="">
+						<h4>Масло семян<br> моркови</h4>
+						<p>Используется для лечения инфекционных, грибковых и вирусных заболеваний кожи, способствует очистке крови и лимфы, выведению токсинов</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="do">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Дух Алтая обеспечивает стойкий эффект, потому что<br>
+						действует снаружи и изнутри</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="do__item">
+						<img src="img/do/1.jpg" alt="" class="do__img">
+						<p class="do-align__img"><img src="img/icons/ok.png" alt="" class="do__arrow"></p>
+						<p class="do__text"><b>Избавляет</b> от морщин без химических <b>процедур, уколов</b> и пластических <b>операций</b></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="do__item">
+						<img src="img/do/2.jpg" alt="" class="do__img">
+						<p class="do-align__img"><img src="img/icons/ok.png" alt="" class="do__arrow"></p>
+						<p class="do__text"><b>Запускает</b> процесс <b>самовосстановления</b> естественных <b>защитных сил организма</b></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="do__item">
+						<img src="img/do/3.jpg" alt="" class="do__img">
+						<p class="do-align__img"><img src="img/icons/ok.png" alt="" class="do__arrow"></p>
+						<p class="do__text"><b>Запускает</b> процесс <b>регенерации клеток</b> эпидермиса и <b>замедляет</b> процесс <b>старения кожи</b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="use">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Как применять Дух Алтая?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="use__item use__item--first">
+						<img src="img/use/1.jpg" alt="" class="use__img">
+						<p><b>Наполните ванну</b> теплой водой (38-40 градусов)</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="use__item">
+						<img src="img/use/2.jpg" alt="" class="use__img">
+						<p><b>Опустите</b> шипучую сферу <b>в ванну</b></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="use__item">
+						<img src="img/use/3.jpg" alt="" class="use__img">
+						<p><b>На 15-20 минут</b> погрузитесь в ванну <b>по шею</b></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="action__form action__form--second">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Омолодите свой организм без уколов и операций  за 1 курс<br>
+						с бомбочками для ванн Дух Алтая, как это уже сделали<br>
+						100 000 женщин!</h2>
+					<div class="black__container black__container--second">
+						<div class="black__item black__item--left">
+							<div id="clock">
+								<p>До конца акции осталось:</p>
+								<ul></ul>
+							</div>
+							<div class="clear"></div>
+							<p>Внимание! Акция действует только на территории<br>
+								России и стран СНГ</p>
+							<div class="product__container">
+								<img src="img/product.png" alt="" class="product__img">
+							</div>
+						</div>
+						<div class="black__item black__item--right">
+							<h3>Успейте оформить заказ<br>
+								по выгодной промо-цене</h3>
+							<ul class="cost__container">
+								<li class="cost__item">Обычная цена<br> <del><span class="displayPrevPrice">1900 руб.</span></del></li>
+								<li class="cost__item">Промо-цена<br> <span class="displayCurrentPrice">950 руб.</span></li>
+							</ul>
+							<form action="" class="orderFormWrapper">
+								<div class="form__item">
+									<label for="country">Выберите страну</label>
+									<select name="country" id="country" class="orderFormWrapperCountry"></select>
+								</div>
+								<div class="form__item">
+									<label for="name">Введите Ваше имя</label>
+									<input type="text" id="name" name="name" placeholder="Валерий">
+								</div>
+								<div class="form__item">
+									<label for="phone">Ваш телефон</label>
+									<input type="text" id="phone" name="phone" placeholder="+7 (916) 123-45-67">
+								</div>
+								<input type="submit" value="Заказать Дух Алтая" class="sbmt__button sbmt__button--green">
+								<div class="protect__info">
+									<p><img src="img/icons/protect.png" alt=""> Ваши данные защищены</p>
+									<p>Сегодня уже купили: <span class="all__buy">364</span> человек</p>
+								</div>
+							<input type="hidden" name="is_rub" value="0"/></form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="faq">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Часто задаваемые вопросы</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="faq_block">
+						<ul class="faq_list">
+							<li>
+								<div class="faq_head bold">
+									<span>Добрый день! Мне 47 лет. У меня уже очень много морщин на лице. Мараловые ванны «Дух Алтая» могут дать реальное омоложение кожи лица?</span>
+								</div>
+								<div class="faq_text">
+									Да, могут. Омоложение кожи  мараловыми пантами позволяет достичь потрясающих результатов. Дело в том, что панты алтайского марала содержат в себе ряд уникальных веществ, которые питают кожу и возвращают ей утраченную молодость. При помощи ванн с содержанием вытяжек маральих пантов, вы сможете вернуть коже молодость без побочных эффектов. Сегодня всё больше людей выбирают омоложение натуральными средствами, так как они хорошо усваиваются нашим организмом и производят комплексное оздоровление. «Дух Алтая» сможет помочь вашей коже вернуть изначальную молодость и упругость. Курс ванн  позволяет за десять сеансов достичь потрясающих результатов: морщины разглаживаются, возвращается упругость, улучшается цвет. Надо отметить, что только регулярное оздоровление ваннами из маральих пантов вернёт коже естественную красоту. Уже после первых сеансов вы заметите явные улучшения, а в конце курса ваша кожа станет снова молодой.    
+									</b>.
+								</div>
+							</li>
+							<li>
+								<div class="faq_head bold">
+									<span>Добрый день! Мне 32 года. Уже начали появляться морщины. Скажите, пожалуйста, быстро ли происходит омоложение кожи мараловыми ваннами «Дух Алтая»?</span>
+								</div>
+								<div class="faq_text">
+									Омоложение кожи мараловыми ваннами требует определённого времени. Натуральные вещества, входящие в состав пантов алтайского марала, действуют на организм человека бережно, но зато не дают побочных эффектов. С их помощью ваша кожа постепенно вернёт себе утраченную молодость. Процедура за процедурой ваша кожа будет возвращать себе молодость, упругость и красоту. Самое главное – это регулярность, с которой вы будете принимать мараловые ванны. Вещества, входящие в состав ванн из маральих пантов, хорошо усваиваются нашим организмом и оказывают на него комплексное оздоравливающее воздействие. Нашей коже просто необходимы те витамины, макро- и микроэлементы, которые содержаться в пантах алтайского марала.<br> Регулярное оздоровление мараловыми ваннами сделают вашу кожу по-настоящему здоровой и привлекательной. Вы также можете ощутить на себе уникальное действие мараловых ванн, пользующихся большой популярностью у людей с самыми разными недугами. Заказывайте омолаживающий курс, который вернёт вашей коже молодость и красоту!
+								</div>
+							</li>
+							<li>
+								<div class="faq_head bold">
+									<span>В каком возрасте можно начинать омоложение организма мараловыми ваннами?</span>
+								</div>
+								<div class="faq_text">
+									Омоложение организма пантами алтайского марала можно начать в том возрасте, когда в этом появляется необходимость. Если вы заметили, что ваша кожа утратила упругость и покрылась морщинами, если вы чувствуете тяжесть от зашлакованности организма, если часто переутомляетесь, то вам самое время задуматься про очищение организма от шлаков и омоложение организма ваннами на основе пантов алтайского марала. Этот способ омоложения выбирают люди по всему миру.
+								</div>
+							</li>
+							<li>
+								<div class="faq_head bold">
+									<span>Насколько эффективно очищение организма бомбочками для ванн «Дух Алтая»?
+</span>
+								</div>
+								<div class="faq_text">
+									Можно сказать, что очищение организма мараловыми ваннами является на сегодняшний день одним из самых безопасных и эффективных. Вы можете заказать курс ванн на основе вытяжек из пантов алтайского марала, который поможет вам избавить организм от шлаков, сбросить лишний вес, снять стресс и почувствовать прилив жизненных сил.
+								</div>
+							</li>
+							<li>
+								<div class="faq_head bold">
+									<span>Почему такая низкая цена?</span>
+								</div>
+								<div class="faq_text" style="">
+									Да, действительно, цена Дух Алтая ниже, чем стоимость одного <b>приема у дерматолога</b>, <b>мезотерапии</b> и <b>фотоомоложения</b> и пластических операций. А таких приемов может быть много. Обратите внимание, что такая <b>доступная цена</b> установлена только для продаж средства <b>в России</b> и <b>СНГ</b>. <b>Дух Алтая</b> — это <b>экономия для кошелька</b> плюс надежный <b>результат</b>.
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="reviews">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Отзывы людей,<br>
+						которые уже использовали Дух Алтая</h2>
+				</div>
+			</div>
+			<div class="row video__container" style="margin-bottom: 15px;">
+				<div class="col-md-4">
+					<div class="video__item">
+						<iframe src="https://player.vimeo.com/video/220283912" width="100%" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="video__item">
+						<iframe src="https://player.vimeo.com/video/220283904" width="100%" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="video__item">
+						<iframe src="https://player.vimeo.com/video/220283771" width="100%" height="260" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="row reviews__audio">
+				<div class="col-md-12">
+					<div class="audio-player__title"><span class="audio-player__title-color">Аркадий Иванович, </span>50 лет</div>
+					<div class="audio-player">
+						<audio id="audio-player" src="audio/1.wav" type="audio/mp3" controls="controls"></audio>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="audio-player__title"> <span class="audio-player__title-color">Татьяна, </span>40 лет</div>
+					<div class="audio-player">
+						<audio id="audio-player2" src="audio/2.wav" type="audio/mp3" controls="controls"></audio>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="carousel">
+						<div class="carousel__item">
+							<ul>
+								<li class="carousel__img">
+									<img src="img/slider/2.png" alt="">
+									<h4>Светлана, <br>
+										50 лет, Астрахань</h4>
+								</li>
+								<li class="carousel__text">Здравствуйте! У меня возраст был очень сильно виден. Все-таки 5 лет до пенсии осталось. И климакс уже начался. А это тоже не лучшим образом на внешности и на всем организме отражается. У меня даже какие-то комплексы начались, депрессии. Как-то перестала себя женщиной чувствовать. С мужем еще 2 года назад развелись. После него другого мужчину себе найти так и не смогла. Все же молоденьких любят. Думала даже уколы ботокса сделать себе. Но знакомая отговорила. Сказала, что у ее подруги все лицо перекосило после этих уколов. Решила поискать средство в интернете. Нашла сайт мараловых ванн Дух Алтая. Эффект превзошел все мои ожидания. Постепенно морщины стали разглаживаться. Даже второй подбородок почти исчез. Стала выглядеть намного моложе. Моя подруга, увидев меня, тоже сразу же заказала эти чудо-ванны. Я буду проходить курс до конца. Напишу потом о результатах.</li>
+							</ul>
+						</div>
+						<div class="carousel__item">
+							<ul>
+								<li class="carousel__img">
+									<img src="img/slider/3.png" alt="">
+									<h4>Алина Игоревна, <br>
+										35 лет, Истра</h4>
+								</li>
+								<li class="carousel__text">Добрый день! Возраст никого не щадит. Мне, конечно, не 50 лет. Но признаки старения уже видны, особенно по лицу. Кожа уже не такая гладкая. По утром какие-то отеки и круги под глазами. Ну, и мимические морщины, как у всех остальных не обошли меня стороной. Мужчины перестали заглядываться, как раньше. Обкалывать лицо уколами не хочу. Опасно, да и рановато еще. Решила попробовать средство на натуральной основе. У меня аллергия на большинство кремов. Очень нежная кожа. Сразу красными пятнами покрываться начинала. Нашла в интернете Дух Алтая. Очень понравилось, что есть эффект восстановления выработки гиалуроновой кислоты. Использовала курсом. Сейчас выгляжу, как в 27 лет. Очень довольна результатом.</li>
+							</ul>
+						</div>
+						<div class="carousel__item">
+							<ul>
+								<li class="carousel__img">
+									<img src="img/slider/1.jpg" alt="">
+									<h4>Людмила, <br>
+										45 лет, Москва</h4>
+								</li>
+								<li class="carousel__text">Добрый день! У меня было много мимических морщин вокруг глаз, на лбу и около носа. С каждым годом они становились все более глубокими. Я очень комплексовала по этому поводу. Никому же не хочется стареть. Да и с мужем отношения испортились. Я знаю, что он завел себе молодую любовницу. Даже разводится предлагал. На пластическую операцию у меня денег нет. Нужно было другими способами избавляться от морщин. Позвонили подруге. Она мне посоветовала сайт Дух Алтая. Я почитала там всю информацию. Очень заинтересовалась. Цена адекватная. Клинические испытания внушают доверие. Заказала. Прошла полный курс. Результат просто потрясающий. Стала выглядеть на 10 лет младше. Муж, когда меня увидел, даже своим глазам не поверил. Решили не разводиться, вернулся ко мне.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="img/diagram.jpg" alt="" class="diagram">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="live">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Представьте, как изменится Ваша жизнь, когда Вы<br>
+						избавитесь от морщин!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-5">
+					<ul class="live__container">
+						<li class="live__item">Вы снова почувствуете себя молодой и желанной</li>
+						<li class="live__item">Ваш муж перестанет засматриваться на молоденьких   девушек и опять обратит на вас внимание</li>
+						<li class="live__item">Вы избавитесь от комплекса неполноценности и постоянных депрессий по поводу уходящей молодости</li>
+						<li class="live__item">Вы перестанете страдать от одиночества и найдете свою вторую половинку</li>
+						<li class="live__item">Вы наконец-то начнете снова нравиться себе и почувствуете себя счастливой</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="workers">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Наши специалисты работают для вас!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="workers__item">
+						<img class="workers__img" src="img/workers/1.jpg" alt="">
+						<h5>Наталья Семенова</h5>
+						<p class="workers__specialization">Директор по качеству</p>
+						<P class="workers__text">“Мы не экономим на качестве, поэтому для производства используются лучшие ингредиенты и технологии”</P>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="workers__item">
+						<img class="workers__img" src="img/workers/2.jpg" alt="">
+						<h5>Елена Зимина</h5>
+						<p class="workers__specialization">Директор колл-центра</p>
+						<P class="workers__text">“Оставьте свой номер, и наши специалисты подробно расскажут вам, как получить заказ и правильно использовать средство”</P>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="workers__item">
+						<img class="workers__img" src="img/workers/3.jpg" alt="">
+						<h5>Алексей Сергеев</h5>
+						<p class="workers__specialization">Руководитель службы доставки</p>
+						<P class="workers__text">“Ваш заказ будет доставлен в сжатые сроки, чтобы вы могли как можно скорее начать использовать наш уникальный продукт”</P>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="money">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>19 000 000 долларов вложено в разработку Дух Алтая</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="money__item">
+						<ul>
+							<li class="heading__item heading__item--big">9</li>
+							<li class="heading__item">лет<br>исследований</li>
+						</ul>
+						<p>Формула создавалась в течение 9 лет исследований с привлечением независимых фармацевтических лабораторий в Корее и Японии.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="money__item">
+						<ul>
+							<li class="heading__item heading__item--big">95%</li>
+							<li class="heading__item heading__item--small"><span>редких</span><br>игридиентов</li>
+						</ul>
+						<p>95% ингредиентов, из которых изготовлен Дух Алтая, импортируются, так как не произрастают в России.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="money__item">
+						<ul>
+							<li class="heading__item heading__item--big">ЕС</li>
+							<li class="heading__item">стандарты</li>
+						</ul>
+						<p>Для производства<br>
+							Дух Алтая создана лаборатория, отвечающая стандартам ЕС в области менеджмента качества.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="money__item money__item--big">
+						<h3>На время проведения промо-акции в России и СНГ<br> установлена специальная цена на Дух Алтая </h3>
+						<h5><span class="displayCurrentPrice">950 руб.</span>вместо <del><span class="displayPrevPrice"> 1900 руб.</span></del></h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="order">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Как оформить заказ и получить Дух Алтая</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="order__item order__item--first">
+						<p class="img__align"><img src="img/order/1.png" alt=""></p>
+						<h5>Заявка</h5>
+						<p class="order__text">Отправляете заявку, и
+							с Вами связывается специалист.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="order__item">
+						<p class="img__align"><img src="img/order/2.png" alt=""></p>
+						<h5>Доставка</h5>
+						<p class="order__text">Заказ доставляется в анонимной упаковке без упоминания средства.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="order__item">
+						<p class="img__align"><img src="img/order/3.png" alt=""></p>
+						<h5>Оплата</h5>
+						<p class="order__text">Вы оплачиваете свой заказ на почте или курьеру.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="order__item">
+						<p class="img__align"><img src="img/order/4.png" alt=""></p>
+						<h5>Применение</h5>
+						<p class="order__text">Вы оплачиваете заказ и получаете счастливую жизнь без морщин</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="logistics">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Мы доставим Ваш заказ в любую точку<br>
+						России, СНГ и Европы!</h2>
+					<div class="map">
+						<p class="img__align"><img class="map__img" src="img/map.png" alt=""></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="time">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Пока Вы тянете время, лицо стареет, все больше
+						покрываясь морщинами</h2>
+					<p><b>Морщины</b> на лице забирают вашу <b>молодость, уверенность</b> в себе, снижают <b>самооценку</b>.<br> <b>Мужчины</b> обращают на вас <b>меньше внимания</b>, отдавая предпочтение <b>молоденьким<br> девушкам</b>. Так стоит ли терять <b>молодость, нервы</b> и <b>время</b>, если проблему можно<br>
+						решить <b>прямо сейчас</b>? Возьмите <b>Дух Алтая</b> и <b>всегда чувствуйте</b><br>
+						себя <b>молодой</b> и <b>уверенной</b> в себе женщиной!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="bottom-wrapper">
+		<section id="btn-scroll" class="bottom-form">
+			<div class="container">
+				<div class="row header__content header__content--bottom">
+					<div class="col-md-12">
+						<h1>Омолодите свой организм без уколов и операций
+							за 1 курс с мараловыми ваннами Дух Алтая!</h1>
+						<h2 class="header__pretext">100% натуральное средство Дух Алтая вернет молодость и красоту вашей коже!</h2>
+						<div class="black__container">
+							<div class="black__item black__item--left">
+								<ul>
+									<li class="black-adv__item"><span>Избавляет от морщин</span> с помощью <br> вытяжки пантов марала</li>
+									<li class="black-adv__item"><span>Стимулирует выработку коллагена </span>благодаря дисмозину и лизину</li>
+									<li class="black-adv__item"><span>Восстанавливает</span> выработку природной гиалуроновой кислоты</li>
+								</ul>
+							</div>
+							<div class="product__container">
+								<img src="img/product.png" alt="" class="product__img">
+							</div>
+							<div class="black__item black__item--right">
+								<h3>Внимание! Акция действует только на<br> территории России и стран СНГ</h3>
+								<ul class="cost__container">
+									<li class="cost__item">Обычная цена<br> <del><span class="displayPrevPrice">1900 руб.</span></del></li>
+									<li class="cost__item">Промо-цена<br> <span class="displayCurrentPrice">950 руб.</span></li>
+								</ul>
+								<form action="" class="orderFormWrapper">
+									<div class="form__item">
+										<label for="country">Выберите страну</label>
+										<select name="country" id="country" class="orderFormWrapperCountry"></select>
+									</div>
+									<div class="form__item">
+										<label for="name">Введите Ваше имя</label>
+										<input type="text" id="name" name="name" placeholder="Валерий">
+									</div>
+									<div class="form__item">
+										<label for="phone">Ваш телефон</label>
+										<input type="text" id="phone" name="phone" placeholder="+7 (916) 123-45-67">
+									</div>
+									<input type="submit" value="Заказать Дух Алтая" class="sbmt__button sbmt__button--green">
+									<div class="protect__info">
+										<p><img src="img/icons/protect.png" alt=""> Ваши данные защищены</p>
+										<p>Сегодня уже купили: <span class="all__buy">364</span> человек</p>
+									</div>
+								<input type="hidden" name="is_rub" value="0"/></form>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<ul class="awwards__container">
+							<li class="awwards__item"><img src="img/awwards/1.png" alt="" class="awwards__img"></li>
+							<li class="awwards__item"><img src="img/awwards/2.png" alt="" class="awwards__img"></li>
+							<li class="awwards__item"><img src="img/awwards/3.png" alt="" class="awwards__img"></li>
+							<li class="awwards__item"><img src="img/awwards/4.png" alt="" class="awwards__img"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="footer__block">
+							<noindex><span>ООО "Лебентон", г. Москва<br />ИНН: 7724376642, ОГРН: 1167746741766</span><br />
+<span>+7 (495) 191-96-95</span></noindex>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-container" class="zoom-anim-dialog ma1leaveBlock" style="display:none">
+		<div class="pop__container">
+			<div class="black__container black__container--second black__container--popup">
+				<div class="black__item black__item--left">
+					<div id="clock">
+						<p>До конца акции осталось:</p>
+						<ul></ul>
+					</div>
+					<div class="clear"></div>
+					<p>Внимание! Акция действует только на территории<br>
+						России и стран СНГ</p>
+					<div class="product__container">
+						<img src="img/product.png" alt="" class="product__img product__img--pop">
+					</div>
+				</div>
+				<div class="black__item black__item--right">
+					<h3>Успейте оформить заказ<br>
+						по выгодной промо-цене</h3>
+					<ul class="cost__container">
+						<li class="cost__item">Обычная цена<br> <del><span class="displayPrevPrice">1900 руб.</span></del></li>
+						<li class="cost__item">Промо-цена<br> <span class="displayCurrentPrice">950 руб.</span></li>
+					</ul>
+					<form action="" class="orderFormWrapper">
+						<div class="form__item">
+							<label for="country">Выберите страну</label>
+							<select name="country" id="country" class="orderFormWrapperCountry"></select>
+						</div>
+						<div class="form__item">
+							<label for="name">Введите Ваше имя</label>
+							<input type="text" id="name" name="name" placeholder="Валерий">
+						</div>
+						<div class="form__item">
+							<label for="phone">Ваш телефон</label>
+							<input type="text" id="phone" name="phone" placeholder="+7 (916) 123-45-67">
+						</div>
+						<input type="submit" value="Заказать Дух Алтая" class="sbmt__button sbmt__button--green">
+						<div class="protect__info">
+							<p><img src="img/icons/protect.png" alt=""> Ваши данные защищены</p>
+							<p>Сегодня уже купили: <span class="all__buy">364</span> человек</p>
+						</div>
+					<input type="hidden" name="is_rub" value="0"/></form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<!--[if lt IE 9]>
+	
+	
+	
+	
+	<![endif]-->
+
+
+	<!-- Load Scripts Start -->
+	
+	<!-- Load Scripts End -->
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+<script src="http://207.154.218.234/js/jquery.inputmask.bundle.js"></script>
+<script src="http://207.154.218.234/js/phone.js?v=1"></script>
+<script type="text/javascript">
+$(document ).ready(function() {
+    var inputMask = new Inputmask("phone");
+    var masksObj = inputMask.aliases.phone.phoneCodes;
+	var countries = {"RU":{"code":"RU","title":"\u0420\u043e\u0441\u0441\u0438\u044f","cost":"950","delivery":"0","old_price":"1900","currency":"\u0440\u0443\u0431.","oldcost":490,"replaced":true,"autoReplace":true,"fake_price":"950","selected":true},"KZ":{"code":"KZ","title":"\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d","cost":"6990","delivery":"0","old_price":"13980","currency":"&#12306;","fake_price":"6990"}};
+	var defaultCost = $('input[name="is_rub"]').eq(0).val();
+
+    // construct
+    function mA1Helper(options){
+		this.options = $.extend({
+			countries: {},
+			init: true,
+			leave: '.ma1leaveBlock',
+			callback: '.ma1callbackBlock',
+			buyers: {
+                buy: '{name} заказал(а) {buy} упаковок на сумму {sum}',
+                remaining: 'Осталось упаковок <span class="blink">{count}</span>',
+                gender: null,
+            },
+			online: 'Уже {online} человек сделали заказ',
+		}, options);
+
+		this.x 		= document.getElementsByClassName("orderFormWrapperCountry");
+		this.order 	= {};
+		this.debug	= function()
+		{
+			if(typeof this.options.debug !== "undefined" && this.options.debug === true){
+				return true;
+			}
+			return false;
+		}
+
+		this.currentPrice = null;
+
+		this.getBuyers = function(sex)
+		{
+			var m = ['Валерий Фе****','Владислав Ко****','Владимир Ма****','Валентин Ди****','Валерий Ще******','Иван Ба*****','Вячеслав Ку****','Михаил Ро*****','Сергей Во*****','Дмитрий Де*****','Вячеслав Шу****','Дима Ав*****','Денис Ми***','Евгений Ма*****','Виталий Ми****','Даниил Те*****','Влад Бу*****','Иван Гр*****','Алексей Ре*****','Владимир Су****','Вадим Тр*****','Вадим Га*****','Евгений Го****','Евгений Ба****','Сергей Жу***','Влад Че*****','Владислав Ни****','Виктор Че*****','Олег Як*****','Дмитрий Гл*****','Василий Кр****','Антон За****','Антон Бе****','Илья Со****','Сергей Ми****','Дмитрий Да****','Владислав Ра****','Дмитрий Вл*****','Иван Ма*****','Павел Пр*****','Никита Ки****','Максим Ша*****','Ярослав Ко****','Илья См*****','Андрей Ле****','Андрей Ни*****','Артём Ре****','Анатолий Ти*****','Ярослав За*****','Василий Гу****'];
+			var w = ['Анна Па*****','Алина Ер*****','Александра Ло****','Елена Бы****','Марина Ел****','Анна Мо****','Ксения Кр*****','Алена Бо****','Виктория Ка****','Маргарита Бе****','Анна Ры*****','Дарья Са*****','Алла Кр*****','Евгения Ко****','Антонина Пе****','Ирина Со****','Алена Во****','Валентина Бу****','Вика Др****','Валерия Ло****','Кристина Со****','Наталья Го*****','Марина Ма*****','Катерина Ля****','Анастасия Ле*****','Екатерина Во*****','Наталья Ло****','Валентина Ля****','Вероника Ан****','Викуся Пр*****','Мария Ша****','Василиса Ма****','Ольга Дм****','Виктория Ни****','Дарья Пе****','Татьяна Ко****','Валентина Ко****','Оля Са******','Лилия Ма*****','Ирина Пе*****','Анна Да*******','Анастасия Во****','Полина Гр****','Мария Ко****','Кристина До****','Юлия Пу****','Татьяна Ла****','Валерия Лу****','Анастасия Шп****','Алёна Ши****'];
+
+            switch (sex){
+                case 1:
+                    return m;
+                case 2:
+                    return w;
+                default:
+                    return m.concat(w);
+            }
+		};
+
+		this.updateCosts = function (cc)
+        {
+            var indexMask = masksObj.map((o) => o.cc).indexOf(cc);
+            $('[name="phone"]').attr('placeholder', masksObj[indexMask].mask);
+
+            this.currentPrice = this.options.countries[cc];
+            this.currentPrice.shortCurrency = (cc == 'KZ' || cc == 'AM') ? this.currentPrice.currency : this.currentPrice.currency.charAt(0).toUpperCase() + '.';
+
+            $('select[name="country"]').val(cc);
+
+            if(typeof this.options.countries[cc].replaced !== "undefined") {
+            	if(this.options.countries[cc].cost < 10) {
+            		this.options.countries[cc].cost = 1;
+            	}
+            	$('input[name="is_rub"]').val(this.options.countries[cc].cost);
+            } else {
+            	$('input[name="is_rub"]').val(defaultCost);
+            }
+
+            $('.new_prise .new_prise_number, .displayCurrentPriceNoCyr').text(this.currentPrice.cost);
+            $('.new_prise .new_prise_currency, .displayCurrentCurrency').html(this.currentPrice.currency);
+            $('.realPrice, .displayCurrentPrice').html(this.currentPrice.cost + ' ' + this.currentPrice.currency);
+            $('.old_price, .displayPrevPrice').html(this.currentPrice.old_price + ' ' + this.currentPrice.currency);
+
+            $('.realPrice, .displayCurrentPriceShortCyr').html(this.currentPrice.cost + ' ' + this.currentPrice.shortCurrency);
+            $('.old_price, .displayPrevPriceShortCyr').html(this.currentPrice.old_price + ' ' + this.currentPrice.shortCurrency);
+
+            $('.displayPrevPriceNoCyr').text(this.currentPrice.old_price);
+            $('.displayPrevPriceShortCyr').html(this.currentPrice.shortCurrency);
+        };
+
+		this.getContainer = function(element,attribute,inner)
+		{
+			if(typeof attribute !== 'object' || !attribute.hasOwnProperty('id') && !attribute.hasOwnProperty('class')){
+				if(this.debug()){
+					console.log('Element has not own id or className');
+				}
+				return false;
+			}
+
+			var createElement = function (element,attribute,inner)
+			{
+				if(typeof(element) === "undefined"){
+					return false;
+				}
+
+				var el = document.createElement(element);
+				if(typeof(attribute) === 'object'){
+					for(var key in attribute){
+						el.setAttribute(key,attribute[key]);
+					}
+				}
+				if(typeof inner !== "undefined"){
+					el.innerHTML = inner;
+				}
+
+				return el;
+			}
+
+			var id = (attribute.hasOwnProperty('id')) ? '#' + attribute.id : '.' + attribute.class;
+
+			if(!$(id).length){
+				$('body').append(createElement(element,attribute,inner));
+			}
+
+			return $(id);
+		};
+
+
+		this.formSubmit = function()
+		{
+		    $(document).on('submit', ".orderFormWrapper", function(e)
+		    {
+		        e.stopPropagation();
+
+		        var _self = this;
+		        $(this).attr('action', 'index.php?success').attr('method', 'POST');
+
+		        if(window.errorMessage === undefined){
+		            var errorMessage = function(msg)
+		            {
+		                alert(msg);
+		                return false;
+		            }
+		        }
+
+		        if($(this).find('[name="name"]').length > 0){
+		            var name = $(this).find('[name="name"]').val();
+
+		            var rename = /^[a-zA-Zа-яА-ЯёЁ ]*$/i;
+
+		            if(name.length == 0)
+		            {
+		                return errorMessage('Вы не заполнили поле "Ф.И.О"');
+		            }
+
+		            if(!rename.test(name))
+		            {
+		                return errorMessage('Неверно заполнено поле "Ф.И.О"');
+		            }
+
+		        }
+
+		        var phone = $(this).find('[name="phone"]').val();
+		        var clear_phone = phone.replace(/[^0-9]/g,'');
+
+		        if(phone.length == 0){
+		            return errorMessage('Вы не заполнили поле "Телефон"');
+		        }
+
+		        if(clear_phone.length < 10){
+		            return errorMessage('Введен слишком короткий номер телефона');
+		        }
+
+		        if(clear_phone.length == 10 && (clear_phone.indexOf('7') === 0 || clear_phone.indexOf('8') === 0)){
+		            return errorMessage('Введен слишком короткий номер телефона');
+		        }
+
+		        if(clear_phone.length > 12 && clear_phone.indexOf('7') !== 0 && clear_phone.indexOf('8') !== 0){
+		            return errorMessage('Введен слишком длинный номер телефона');
+		        }
+
+		        if(clear_phone.length > 12 && clear_phone.indexOf('38') !== 0 && clear_phone.indexOf('37') !== 0){
+		            return errorMessage('Введен слишком длинный номер телефона');
+		        }
+
+		        if(clear_phone.length > 12){
+		            return errorMessage('Введен слишком длинный номер телефона');
+		        }
+
+		        return true;
+		    });
+		};
+
+		this.clicker = function(){
+			var elements = $('[data-click="true"]');
+			for (var i = 0; i < elements.length; i++) {
+				$(elements[i]).on("click", function(){
+					$($(this).data('target')).show();
+
+					$($(this).data('target')).children().first().on('click', function(e){
+						e.stopPropagation();
+					});
+
+					$($(this).data('target')).on('click', function(){
+						$(this).hide();
+					});
+				});
+			}
+		}
+
+		this.toggleClick = function(){
+			var elements = $('[data-toggle="true"]');
+			for (var i = 0; i < elements.length; i++) {
+				$(elements[i]).on("click", function(){
+					$($(this).data('target')).slideToggle();
+				});
+			}
+		}
+
+		if(typeof String.prototype.placeholder === "undefined"){
+			String.prototype.placeholder = function(str){
+				return this.replace(/[\{](\w+)[\}]/g, function(all, key) {
+					return this.order[key] || key;
+				});
+			}
+		}
+
+        if(typeof String.prototype.capitalize === "undefined"){
+	        String.prototype.capitalize = function() {
+	    		return this.charAt(0).toUpperCase() + this.slice(1);
+			}
+		}
+
+		 // start app
+    	if(this.options.init === true){
+    		this.init();
+    	}
+    	else if(this.debug()){
+			console.log(this.options);
+    	}
+
+    	this.initCountries();
+    	this.clicker();
+    	this.toggleClick();
+    }
+
+	mA1Helper.prototype = {
+		init: function(){
+			if(this.debug()){
+				console.log(this.options);
+			}
+			this.checkPlugins();
+			this.formSubmit();
+		},
+
+		checkPlugins: function()
+		{
+			var plugins = document.getElementsByTagName('body')[0].className.toLowerCase().split(" ");
+			for (var i = 0; i < plugins.length; i++) {
+				if(plugins[i].indexOf("plugin") > -1){
+
+					plugin = 'plugin' + plugins[i].replace("plugin", "").capitalize();
+
+					if(typeof this[plugin] === "function"){
+						if(this.debug()){
+							console.log('Init plugin: ' + plugins[i].replace("plugin", "").capitalize());
+						}
+						this[plugin]();
+					}
+					else if(this.debug()){
+						console.warn('Plugin not found: ' + plugins[i].replace("plugin", "").capitalize());
+					}
+				}
+			}
+
+		},
+
+		initCountries: function()
+		{
+			var _self = this;
+			
+			if(Object.keys(this.options.countries).length <= 0)
+			{
+            	if(this.debug()){
+            		console.warn('Country object is empty!');
+            	}
+
+            	return false;
+            }
+
+            for (key in this.options.countries){
+                if(typeof this.options.countries[key].selected !== "undefined"){
+                    this.currentPrice = this.options.countries[key];
+                }
+            }
+
+            if(this.currentPrice === null){
+
+            	this.currentPrice = this.options.countries[Object.keys(this.options.countries)[0]];
+            }
+
+            if(this.x.length < 1)
+            {
+            	if(this.debug()){
+            		console.warn('Cant find form select!');
+            	}
+
+                return false;
+            }
+
+            for (var i = 0; i < this.x.length; i++) {
+            	this.x[i].options.length = 0;
+
+                for (key in this.options.countries){
+                    var option = document.createElement("option");
+                    option.text = this.options.countries[key].title;
+                    option.value = key;
+
+                    if(typeof this.options.countries[key].selected !== "undefined"){
+                        option.setAttribute('selected', true);
+
+                        var indexMask = masksObj.map((o) => o.cc).indexOf(key);
+                        $('[name="phone"]').attr('placeholder', masksObj[indexMask].mask);
+
+	                    if(typeof this.options.countries[key].replaced !== "undefined") {
+	                    	if(this.options.countries[key].cost < 10) {
+	                    		this.options.countries[key].cost = 1;
+	                    	}
+	                    	$('input[name="is_rub"]').val(this.options.countries[key].cost);
+	                    }
+                    }
+
+                    this.x[i].add(option);
+                }
+            }
+
+            $(document).on('change', 'select[name="country"]', function(){
+                _self.updateCosts($(this).val());
+            });
+
+            return this;
+		},
+
+        pluginBuyers: function()
+        {
+        	var template 	= '<div class="show-message"><div class="show-message__item show-message_call"><i class="plugins-sprite plugins-sprite-bucket"></i><p class="show-message__info">' + this.options.buyers.buy + '<br /><span class="package_left">' + this.options.buyers.remaining + '</span></p></div></div>',
+        		onlineTemplate = '<div class="show-message"><div class="show-message__item show-message_online"><i class="plugins-sprite plugins-sprite-online_user"></i><p class="show-message__info">' + this.options.online + '</p></div></div>',
+        		all_pack 	= 60,
+        		max_pack 	= 7,
+        		min_pack 	= 3,
+        		online		= (Math.floor(Math.random() * (500 - 50 + 1)) + 50);
+        		_self 		= this,
+        		buyers 		= this.getBuyers(this.options.buyers.gender)
+        		first		= true;
+
+        		generatePrice = function()
+        		{
+        			var percent = (_self.currentPrice.old_price > 0) ? (_self.currentPrice.cost/_self.currentPrice.old_price)*100 : 0;
+        			return Math.ceil((percent >= 10) ? _self.currentPrice.cost : _self.currentPrice.fake_price/2);
+        		}
+
+				getPack = function() 
+				{
+					var pack = Math.floor(Math.random() * (max_pack - min_pack + 1)) + min_pack;
+					all_pack -= pack;
+					return pack;
+				}
+
+				displayMessage = function(template)
+				{
+					var messageContaiter = _self.getContainer('div', {id: 'widgetPopUpMessages'});
+					messageContaiter.on('click', function(e){
+						$(this).hide();
+					}).html(template).fadeIn(500).delay(6000).fadeOut(500);
+				}
+
+				updateRemaining = function()
+				{
+					$(".remainingPack").text(all_pack);
+				}
+
+				updateRemaining();
+				var intervalID = setInterval(function()
+				{
+					if(first || (Math.floor(Math.random() * (5 - 1 + 1)) + 1) == 2){
+						if(!first){
+							online += Math.floor(Math.random() * (100 - 10 + 1)) + 10;
+						}
+						first = false;
+
+						this.order = {
+							online: online
+						}
+						
+						return this.displayMessage(onlineTemplate.placeholder());
+					}
+
+					this.order = {
+						buy: getPack(),
+						name: buyers[Math.floor(Math.random()*buyers.length)],
+						sum: null,
+						count: all_pack 
+					};
+
+					if(all_pack <= min_pack || all_pack <= order.buy){
+
+		            	if(_self.debug()){
+		            		console.log('Sold all packages');
+		            	}
+						clearInterval(intervalID);
+
+						return false;
+					}
+
+					this.order.sum = this.order.buy*this.generatePrice() + ' ' + _self.currentPrice.currency;
+
+					this.displayMessage(template.placeholder());
+					this.updateRemaining();
+
+				}, 15000);
+
+			return this;
+        },
+
+        pluginCallback: function()
+        {
+			var template   = '<div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div"><div class="phoneJs"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></div></div>',
+				widget      = this.getContainer('div', {class: 'bluePhone'}, template),
+				_self       = this;
+
+			$(widget).on('click', function(e){
+				console.log(1);
+				var container = $(_self.options.callback);
+				if(container.length){
+					container.show();
+
+					$(container).children().first().on('click', function(e){
+						e.stopPropagation();
+					});
+
+					$(container).on('click', function(){
+						$(this).hide();
+					});
+				}
+			});
+
+
+        	return this;
+        },
+
+        pluginLeave: function()
+        {
+        	var leave = false,
+        		_self = this;
+
+			$(window).mouseout(function(e) {
+				if(!leave && e.clientY < 0){
+			    	var container = $(_self.options.leave);
+					if(container.length){
+						container.show();
+						leave = true;
+
+						$(container).children().first().on('click', function(e){
+							e.stopPropagation();
+						});
+
+						$(container).on('click', function(){
+							$(this).hide();
+						});
+
+						setTimeout(function(){
+							leave = false;
+						}, 50000);
+					}
+				}
+			});
+
+			return this;
+        },
+
+        css: function(element, params)
+        {
+        	if($(element).length > 0){
+        		$(element).css(params);
+        	}
+        	else if(this.debug()){
+        		console.warn('Can\'t find element by selector ' + element);
+        	}
+
+        	return this;
+        }
+	};
+		    (new mA1Helper({countries: countries}));
+	});
+</script>
+
+<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>	
+<script>loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all"  );</script>	
+<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>	
+<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>	
+<script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter45053339 = new Ya.Metrika({
+                        id:45053339,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true,
+                        ecommerce:"dataLayer"
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+	</script>	
+<script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-101338578-2', 'auto');
+        ga('send', 'pageview');
+
+	</script>	
+<script src="libs/html5shiv/es5-shim.min.js"></script>	
+<script src="libs/html5shiv/html5shiv.min.js"></script>	
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>	
+<script src="libs/respond/respond.min.js"></script>	
+<script>var scr = {"scripts":[
+		{"src" : "js/libs.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>	
+
+
+
+<style>
+.ma1-helper-modal{
+	display: none;
+	background-color: rgba(0,0,0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+
+.ma1-helper-modal .ma1-modal-block{
+	background-color: rgb(0,0,0);
+	margin: 10%;
+	padding: 50px;
+	overflow-y: scroll;
+	max-height: 70%;
+	color: #fff;
+}
+
+.ma1-helper-modal .ma1-modal-block .ma1-title{
+	color: #fff;
+	font-weight: 600;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+
+.ma1-helper-modal .ma1-modal-block p
+{
+	margin: 5px 0;
+	line-height: 1.42857;
+}
+
+.ma1-app-footer-links{text-align: center;} 
+.show-message,.show-message__info{font-family:sans-serif}.plugins-sprite,.show-message__info,.show-message__inner{display:inline-block;vertical-align:middle}.mouse_moved{position:fixed}.line_top{width:100%;height:10px;top:0;z-index:11}.show-message>div:after,.show-message>div:before{content:'';position:absolute;right:0;top:-15px;width:15px;height:5px;background:red}.blink{color:red!important;animation-name:blinker;animation-duration:1s;animation-timing-function:linear;animation-iteration-count:infinite;-webkit-animation-name:blinker;-webkit-animation-duration:1s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-name:blinker;-moz-animation-duration:1s;-moz-animation-timing-function:linear;-moz-animation-iteration-count:infinite;text-decoration:line-through}.show-message p{margin:0!important}.show-message>div:before{-webkit-transform:rotate(45deg);transform:rotate(45deg)}.show-message>div:after{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.plugins-sprite{background:url(data:image/png;base64,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) no-repeat;width:50px;height:60px;margin-right:5px}.plugins-sprite-bucket{background-position:-5px -5px}.plugins-sprite-callback{background-position:-65px -5px}.plugins-sprite-online_user{background-position:-5px -65px}.show-message__info{width:248px;line-height:normal;color:#fff;margin-bottom:0;font-size:19px}.show-message__info span{font-size:20px;font-family:sans-serif;color:#fff}.show-message__left{font-size:14px}.show-message__left span{font-size:15px}.show-message_call{background-color:#363636}#ouibounce-modal,.show-message__item{background-color:rgba(0,0,0,.9)}.package_left,.package_left span{font-size:15px!important}.show-message__inner{line-height:90px}.show-message__item{cursor:pointer;position:fixed;right:20px;top:120px;width:318px;color:#fff;padding:5px;font-size:14px;line-height:90px;border-radius:10px;z-index:98}.cbh-ph-circle,.cbh-phone{background-color:transparent}.cbh-ph-circle,.cbh-ph-circle-fill{border-radius:100%;position:absolute}.lost_position{display:none!important;opacity:0!important}.block_position{display:block!important;opacity:1!important}.popup-off{display:none!important;opacity:0!important;visibility:hidden!important}@media screen and (max-width:767px){.show-message__info{width:230px}.show-message__item{top:auto;right:10px;bottom:10px;width:300px}}@media screen and (max-width:319px){.show-message__item{width:225px}.show-message__info{width:155px;font-size:15px}.show-message__info span{font-size:17px}.show-message__icon{width:38px!important}.show-message__info br{display:none}}@-webkit-keyframes blinker{0%,100%{opacity:1}50%{opacity:0}}@keyframes blinker{0%,100%{opacity:1}50%{opacity:0}}.cbh-phone{position:fixed;right:10px;bottom:10px;visibility:hidden;width:200px;height:200px;cursor:pointer;z-index:99;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0);-webkit-transition:visibility .5s;transition:visibility .5s}.cbh-phone.cbh-show{visibility:visible}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}.cbh-phone.cbh-static1{opacity:.6}.cbh-phone.cbh-hover1{opacity:1}.cbh-ph-circle{width:160px;height:160px;top:20px;left:20px;border:2px solid rgba(30,30,30,.4);opacity:.1;-webkit-animation:cbh-circle-anim 1.2s infinite ease-in-out;animation:cbh-circle-anim 1.2s infinite ease-in-out;-webkit-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle1{-webkit-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;animation:cbh-circle-anim 1.1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle{-webkit-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;animation:cbh-circle-anim 2.2s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-circle{border-color:#00aff2;opacity:.5}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle{border-color:#75eb50;opacity:.5}.cbh-phone.cbh-green .cbh-ph-circle{opacity:.5}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle{border-color:#ccc;opacity:.5}.cbh-phone.cbh-gray .cbh-ph-circle{border-color:#75eb50;opacity:.5}.cbh-ph-circle-fill{width:100px;height:100px;top:50px;left:50px;background-color:#000;border:2px solid transparent;opacity:.1;-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-webkit-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;opacity:0!important}.cbh-phone.cbh-hover .cbh-ph-circle-fill{background-color:rgba(0,175,242,.5);opacity:.75!important}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-phone.cbh-green .cbh-ph-circle-fill{opacity:.75!important}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle-fill{background-color:rgba(204,204,204,.5);opacity:.75!important}.cbh-phone.cbh-gray .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-ph-img-circle1{width:60px;height:60px;top:70px;left:70px;position:absolute;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarY6xSsNQFEDPi6LiUCsEcXB4kygotupgxqQtRRCs1SHJ1qShSmkSXl7VfoSjWwcXd7/AyVFwUPwC/0Bx6uAQIYODCJ7p3MPlcsGo2HWnYZRhEGvVbjrS9Xw5+8QMUwDQCbPUbrUOAOIkjvjB5ysC4HnTrjsN/sZ8mCoNTIDtbpSFICpA/0KnGsQYMIN+qkHcAaY6addAPAClXu4vQCnI/Q0oKdfzQXwAZs/1fDDmADPIfQUwdXSpAWpJOlJnvVMtq5ZlSbubBJE8HmU6GmRyPw4TlSaqo6MukP8HwGK+2G46cq1qWXvr/DOu58vc3o8QgFh6LFpBOFTn3yqMnd/n4sZ4GQ5vYXpStN0ruNmAheuirVahvAX34y/Axk/96FpPYgAAACBjSFJNAAB6JQAAgIMAAPn/AACA6AAAUggAARVYAAA6lwAAF2/XWh+QAAAB/ElEQVR42uya7W3CMBCG31QM4A1aNggTlG6QbpBMkHYC1AloJ4BOABuEDcgGtBOETnD9c1ERCH/lwxeaV8oPFGP86Hy+DxMREW5Bd7gRjSDSNGn4/RiAOvm8C0ZCRD5PSkQVXSr1nK/xE3mcWimA1ZV3JYBZCIO4giQANoYxMwYS6+xKY4lT5dJPreWZY+uspqSCKPYN27GJVBDXheVSQe494ksiEWTuMXcu1dld9SARxDX1OAJ4lgjy4zDnFsC076A4adEiRwAZg4hOUSpNoCsBPDGM+HqkNGynYBCuILuWj+dgWysGsNe8nwL4GsrW0m2fxZBq9rW0rNcX5MOQ9eZD8JFahcG5g/iKT671alGAYQggpYWvpEPYWrU/HDTOfeRIX0q2SL3QN4tGhZJukVobQyXYWw7WtLDKDIuM+ZSzscyCE9PCy5IttCvnZNaeiGLNHKuz8ZVh/MXTVu/1xQKmIqLEAuJ0fNo3iG5B51oSkeKnsBi/4bG9gYB/lCytU5G9DryFW+3Gm+JLwU7ehbJrwTjq4DJU8bHcVbEV9dXXqqP6uqO5e2/QZRYJpqu2IUAA4B3tXvx8hgKp05QZW6dJqrLTNkB6vrRURLRwPHqtYgkC3cLWQAcDQGGKH13FER/NATzi786+BPDNjm1dMkfjn2pGkBHkf4D8DgBJDuDHx9BN+gAAAABJRU5ErkJggg==);background-color:rgba(30,30,30,.1);background-position:center center;background-repeat:no-repeat;border-radius:100%;border:2px solid transparent;opacity:.7;-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out;animation:cbh-circle-img-anim 1s infinite ease-in-out}.cbh-phone.cbh-active .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;animation:cbh-circle-img-anim 1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;animation:cbh-circle-img-anim 0s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-img-circle1{background-color:#00aff2}.cbh-phone.cbh-green.cbh-hover .cbh-ph-img-circle1:hover{background-color:#75eb50}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-img-circle1{background-color:#ccc}.cbh-phone.cbh-gray .cbh-ph-img-circle1{background-color:#75eb50}@-webkit-keyframes cbh-circle-anim{0%{-webkit-transform:rotate(0) scale(.5) skew(1deg);-webkit-opacity:.1}30%{-webkit-transform:rotate(0) scale(.7) skew(1deg);-webkit-opacity:.5}100%{-webkit-transform:rotate(0) scale(1) skew(1deg);-webkit-opacity:.1}}@keyframes cbh-circle-anim{0%{-webkit-transform:rotate(0) scale(.5) skew(1deg);transform:rotate(0) scale(.5) skew(1deg);opacity:.1}30%{-webkit-transform:rotate(0) scale(.7) skew(1deg);transform:rotate(0) scale(.7) skew(1deg);opacity:.5}100%{-webkit-transform:rotate(0) scale(1) skew(1deg);transform:rotate(0) scale(1) skew(1deg);opacity:.1}}@-webkit-keyframes cbh-circle-fill-anim{0%,100%{-webkit-transform:rotate(0) scale(.7) skew(1deg);opacity:.2}50%{-webkit-transform:rotate(0) scale(1) skew(1deg);opacity:.2}}@keyframes cbh-circle-fill-anim{0%,100%{-webkit-transform:rotate(0) scale(.7) skew(1deg);transform:rotate(0) scale(.7) skew(1deg);opacity:.2}50%{-webkit-transform:rotate(0) scale(1) skew(1deg);transform:rotate(0) scale(1) skew(1deg);opacity:.2}}@keyframes cbh-circle-img-anim{0%,100%,50%{-webkit-transform:rotate(0) scale(1) skew(1deg);transform:rotate(0) scale(1) skew(1deg)}10%,30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg);transform:rotate(-25deg) scale(1) skew(1deg)}20%,40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg);transform:rotate(25deg) scale(1) skew(1deg)}}@-webkit-keyframes cbh-circle-img-anim{0%,100%,50%{-webkit-transform:rotate(0) scale(1) skew(1deg)}10%,30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}20%,40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}}.cbh-phone.cbh-green .cbh-ph-circle{border-color:#00aff2}.cbh-phone.cbh-green .cbh-ph-circle-fill,.cbh-phone.cbh-green .cbh-ph-img-circle1{background-color:#00aff2}@media screen and (max-width:991px){#clbh_phone_div{display:none!important}}
+</style>
+
+<div id="ma1-privacy-policy" class="ma1-helper-modal">
+    <div class="ma1-modal-block">
+        <div class="ma1-title">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</div>
+        <div class="ma1-content">
+            Наш интернет-магазин уважительно относится к правам клиента. Соблюдается строгая конфиденциальность при оформлении заказа. Сведения надёжно сохраняются и защищены от передачи. Согласием на обработку данных клиента исключительно с целью оказания услуг является размещение заказа на сайте. К персональным данным относится личная информация о клиенте: домашний адрес; имя, фамилия, отчество; сведения о рождении; имущественное, семейное положение; личные контакты (телефон, электронная почта) и прочие сведения, которые перечислены в Законе РФ № 152-ФЗ «О персональных данных» от 27 июля 2006 г. Клиент вправе отказаться от обработки персональных данных. Нами в данном случае гарантируется удаление с сайта всех персональных данных в трёхдневный срок в рабочее время. Подобный отказ клиент может оформить простым электронным письмом на адрес, указанный на странице нашего сайта.
+        </div>
+    </div>
+</div>
+
+<div id="ma1-agreement" class="ma1-helper-modal">
+    <div class="ma1-modal-block">
+        <div class="ma1-title">ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ<br><span class="agreement-clean">интернет-магазина</span></div>
+        <div class="ma1-content">
+            <p>Настоящее пользовательское соглашение заключается между Вами – физическим лицом и администрацией интернет ресурса интернет-магазина</p>
+            <p><b>Пользователь</b> – физическое лицо, достигшее совершеннолетия, способное своими действиями приобретать для себя гражданские права и самостоятельно их осуществлять, а также способность своими действиями создавать для себя гражданские обязанности, самостоятельно их выполнять и нести ответственность в случае их невыполнения, принявшее условия настоящего пользовательского соглашения и пользующееся услугами сайта.</p>
+            <p><b>Производитель</b> – лицо, которое в силу своего вида экономической деятельности, на основе предпринимательской деятельности, занимается производством и обслуживанием продукции.</p>
+            <p><b>Администрация</b> – субъект предпринимательской <span class="additional_fields_organization"></span> (ОГРН: <span class="additional_fields_ogrn"></span>, ИНН: <span class="additional_fields_inn"></span>, место регистрации: <span class="additional_fields_address"></span>), являющийся владельцем сайта на основании права частной собственности и осуществляющий организационную, финансовую, техническую поддержку существования и функционирования сайта.</p>
+            <p><b>Стороны</b> – Администрация, Пользователи и Посетители сайта.</p>
+            <p><b>Сайт</b> – интернет ресурс интернет-магазина, имеющий доменное имя, пребывающий под организационным управлением и принадлежащий администрации, на условиях права частной собственности.</p>
+            <p><b>Продукция</b> – товары и услуги, предлагаемые Пользователю Администрацией, исчерпывающий перечень которых размещен на сайте.</p>
+            <p><b>Публичная оферта</b> – адресованное администрацией неопределенному кругу лиц или нескольким конкретным лицам предложение, которое определенно, конкретно и выражает намерение лица, сделавшего предложение, считать себя заключившим данное пользовательское соглашение с адресатом, которым будет принято предложение.</p>
+            <p><b>Акцепт</b> – полное принятие одной из Сторон условий публичной оферты Администрации на заключение данного пользовательского соглашения. Акцептированием публичной оферты происходит в момент начала пользования сайтом (в том числе в ознакомительных целях) и его сервисами (услугами).</p>
+
+            <p class="no-margin"><b>1. Общие положения</b></p>
+            <p class="no-margin">1.1. Настоящее Пользовательское соглашение (далее по тексту – «Соглашение») определяет общие правила посещения, использования сервисов и нормы общего поведения на Сайте Пользователями и регулирует гражданско-правовые взаимоотношения, которые складываются между Пользователями, а так же Пользователями и Администрацией в процессе их взаимодействия.</p>
+            <p class="no-margin">1.2. Настоящее Соглашение может быть изменено по решению Администрации, в одностороннем порядке. Администрация не несет обязательства личного уведомления Пользователей о таких изменениях. Новая редакция Соглашения вступает в силу, с момента публикации на сайте.</p>
+            <p class="no-margin">1.3. Условия Соглашения распространяются как на всех посетителей сайта, без исключений.</p>
+            <p>1.4. Посетитель/Пользователь, начиная пользоваться сервисом интернет-магазина, подтверждает факт того, что ознакомился с положениями настоящего пользовательского соглашения в здравом уме и при ясной памяти, понимает их в полной мере и принимает условия пользования интернет-магазином в полной мере. При несогласии с положениями настоящего Соглашения (частично или в целом), лицо, выразившее такую волю, не имеет право пользоваться информационным полем Сайта.</p>
+
+            <p class="no-margin"><b>2. Регуляция взаимодействия сторон</b></p>
+            <p class="no-margin">2.1. Администрация предоставляет Пользователям информационное поле деятельности интернет-магазина, которое включает в себя, но не ограничивается информацией о: наименовании, виде, качестве продукции, ее стоимости, а так же о порядке размещения заказа, оплаты и доставки продукции пользователю представителями Администрации. Информация предоставляется на бесплатной основе.</p>
+            <p class="no-margin">2.2. Пользователь самостоятельно размещает заказ на продукцию. Администрация может, но не обязуется предоставить услугу краткой консультации рекомендательного характера по задаваемым вопросам. Предоставление такой консультации осуществляется на бесплатной основе.</p>
+            <p class="no-margin">2.3. Для получения услуги указанной в п. 2.2. Пользовательского соглашения, пользователь самостоятельно размещает свой вопрос. При этом необходимо кратко сформулировать свой вопрос, а так же оставить контактные данные – E-mail, контактный номер телефона.</p>
+            <p class="no-margin">2.4. Администрация вправе не реагировать на размещенный запрос пользователя и не предоставлять ответ, в случае, если данный запрос будет нечетко сформулирован, содержать брутальные, оскорбительные имя пользователя, слова и словообороты в адрес Администрации, третьих лиц, а так же по другим причинам, руководствуясь внутренними убеждениями.</p>
+            <p class="no-margin">2.5. Реализация предоставленных сайтом услуг и (или) возможностей не предоставляет Пользователю каких-либо исключительных прав и привилегий.</p>
+            <p class="no-margin">2.4. Стороны настоящего соглашения достигли согласия о том, что Администрация вправе размещать на сайте рекламные блоки, баннеры, объявления в любых его областях, в том числе там, где размещается информация опубликованная Пользователем, без дополнительного согласия Пользователя.</p>
+            <p class="no-margin">2.5. Информация, размещаемая на сайте Администрацией, является результатом интеллектуальной деятельности Администрации и все имущественные и личные неимущественные права на такую информацию, принадлежат Администрации, до тех пор, пока не будет установлено иное. При этом у Пользователя не возникает, каких-либо исключительных прав на результат интеллектуальной деятельности Администрации, выраженной в графической, текстовой, аудио-видео форме, размещаемой Администрацией на сайте.</p>
+            <p class="no-margin">2.6. Администрация не несет обязательств по защите нарушенных прав Пользователя, в контексте урегулирования возникших на этой почве споров, в том числе, в судебном порядке.</p>
+            <p class="no-margin">2.7. Нарушение Пользователем авторских прав, принадлежащих Администрации и (или) другим лицам, влечет для нарушителя ответственность, предусмотренную положениями действующего законодательства Российской Федерации.</p>
+            <p class="no-margin">2.8. В случае выявления нарушения авторских прав Пользователем, путем незаконного размещения не принадлежащих Пользователю материалов, Администрация изымает из свободного доступа такие материалы, по первому требованию законного правообладателя.</p>
+            <p class="no-margin">2.9. Пользователю запрещается размещать на сайте информацию, которая прямо, или косвенно содержит в себе общепринятые признаки порнографии, оскорбляющую, ущемляющую, наносящую ущерб чьему-либо достоинству, содержащую призывы к насилию, бесчинству и другим действиям, влекущим нарушения норм действующего законодательства, определенной территориальной юрисдикции, содержащую вредоносное программное обеспечение и (или) другую информацию, которая может принести вред третьим лицам.</p>
+            <p class="no-margin">2.10. В случае нарушения условий п. 2.9. настоящего Соглашения и невыполнения требований Администрации, в том числе по изъятию такой информацию из публичного доступа, Пользователи сайта несут ответственность предусмотренную положениями настоящего Соглашения и(или) действующего законодательства Российской Федерации. Администрация в таком случае, имеет право убрать упомянутую в п. 2.9. информацию самостоятельно.</p>
+            <p class="no-margin">2.11. Администрация не несет ответственности за результаты посещения Пользователем сторонних (внешних) ресурсов, ссылки на которые могут быть размещены на сайте. Под результатами понимается любой результат вне зависимости от его характера, а так же тот, от наступления которого Пользователь понес какие-либо материальные убытки, моральный ущерб и другие негативные проявления.</p>
+            <p>2.12. Продукция, предлагаемая Администрацией Пользователям, распространяется дистанционно в рамках требований, установленных действующим законодательством Российской Федерации, сертифицирована и соответствует требованиям, которые определены законодательством в сфере защиты прав потребителей.</p>
+
+            <p class="no-margin"><b>3. Порядок использования услуг Пользователем</b></p>
+            <p class="no-margin">3.1. Пользователь имеет право свободно пользоваться услугами и предложениями, изложенными на сайте в полной мере, кроме тех случаев, когда такое использование является незаконным, нарушает права, свободы и интересы Администрации и (или) других Пользователей сайта.</p>
+            <p class="no-margin"><b>3.2. Порядок размещения заказа</b></p>
+            <p class="no-margin">3.2.1. Пользователь самостоятельно посещает информационное поле сайта, выбирает продукт и размещает заказ.</p>
+            <p class="no-margin">3.2.2. В случае необходимости, Администрация предоставляет Пользователю консультационно – информационное обслуживание по подбору продукции, в порядке, предусмотренном этим Пользовательским соглашением.</p>
+            <p class="no-margin">3.2.3.  Пользователь выбирает ту продукцию, которая размещена на сайте, и Администрация не несет ответственности за последствия, в случае размещения Пользователем заказа на сторонних ресурсах. Данный пункт имеет юридическую силу и в тех случаях, когда сторонние ресурсы копируют, дублируют информацию, размещенную на сайте, включая фирменное наименование, логотип, дизайн, стиль изложения информации на сайте.</p>
+            <p class="no-margin">3.2.4. Оформление заказа происходит путем заполнения формы заявки. Поля, отмеченные символом «*», обязательны к заполнению. В конце формы необходимо нажать кнопку «Заказать».</p>
+            <p class="no-margin">3.2.5. Стороны достигли согласия, что на указанный номер телефона (адрес электронной почты) Пользователя, Администрация отправляет краткое информационное сообщение с деталями заказа и/или другой необходимой информацией. Пользователь, начиная пользоваться сервисом интернет-магазина, принимает это условие в полной мере и гарантирует, что не будет иметь каких-либо претензий относительно изложенного.</p>
+            <p class="no-margin">3.2.6. После осуществления описанных выше операций, заказу Пользователя присваивается индивидуальный номер, и заказ считается размещенным, о чем выдается соответствующее уведомление. В течение некоторого времени, Администрация связывается с Пользователем, указанным в п 3.2.5. способ, для подтверждения заказа.</p>
+            <p class="no-margin"><b>3.3. Порядок оплаты продукции</b></p>
+            <p class="no-margin">3.3.1. Продукция оплачивается в формате 100% предоплаты или на иных условиях, достигнутых Сторонами при размещении Пользователем заказа и (или) на других этапах взаимодействия Сторон.</p>
+            <p class="no-margin">3.3.4. Доставка продукции осуществляется, лишь после достижения условий, изложенных в п. 3.3.1. Пользовательского соглашения.</p>
+            <p class="no-margin"><b>3.4. Порядок доставки продукции</b></p>
+            <p class="no-margin">3.4.1 Доставка продукции Пользователю осуществляется собственными силами и транспортом  Администрации, либо транспортной компанией.</p>
+            <p class="no-margin">3.4.2. Условия доставки продукции индивидуальны для каждого взятого в отдельности случая.</p>
+            <p class="no-margin">3.4.3. Порядок и срок доставки продукции Пользователю определяется в процессе размещения заказа Пользователем.</p>
+            <p class="no-margin">3.4.4. Стороны достигли согласия, что доставка продукции Пользователю осуществляется в порядке, предусмотренном Пользовательским соглашением. Самовывоз продукции Пользователем со склада возможен, при условии дополнительного согласования порядка самовывоза с Администрацией.</p>
+            <p class="no-margin">3.4.5. В случае осуществления поставки продукции на условиях постоплаты, Продукция передается курьером Пользователю, лишь после оплаты Пользователем курьеру полной стоимости продукции.</p>
+            <p class="no-margin"><b>3.5. Порядок возврата продукции</b></p>
+            <p class="no-margin">3.5.1. Пользователь вправе отказаться от продукции в любое время до его передачи, а после передачи товара - в течение 7 дней, кроме тех случаев, когда данное право Пользователя ограничено нормами действующего законодательства Российской Федерации.</p>
+            <p class="no-margin">3.5.2. Возврат продукции надлежащего качества возможен в случае, если сохранены его товарный вид, потребительские свойства, а также документ, подтверждающий факт и условия покупки указанной продукции.</p>
+            <p class="no-margin">3.5.3. Пользователь не вправе отказаться от продукции надлежащего качества, имеющего индивидуально-определенные свойства, если указанная продукция может быть использована исключительно приобретающим его Пользователем.</p>
+            <p>3.5.4. При отказе Пользователя от продукции, производитель продукции должен возвратить ему сумму, уплаченную Пользователем в соответствии с договором, за исключением расходов на доставку от Пользователя возвращенной продукции, не позднее чем через 10 дней с даты предъявления Пользователем соответствующего требования производителю.</p>
+
+            <p class="no-margin"><b>4. Обязанности и ответственность сторон</b></p>
+            <p class="no-margin">4.1. В случае использования результатов интеллектуальной собственности Администрации - материалов сайта, в любых целях, Пользователь обязан предварительно, перед размещением таких материалов, получить на это разрешение администрации. При наличии разрешения Администрации, Пользователь обязан отобразить полное название и доменное имя источника в следующем формате: интернет-магазин. Гиперссылка должна являться активной и прямой, при нажатии на которую осуществляется переход на конкретную страницу сайта, с которой заимствован материал.</p>
+            <p class="no-margin">4.2. По аналогии с инструкциями, изложенными в п. 4.1. настоящего Соглашения, Пользователь обязуется действовать, в случае использования результатов интеллектуальной собственности, что принадлежать третьим лицам. Способ и порядок осуществления уточняется в процессе переговоров с правообладателем материалов.</p>
+            <p class="no-margin">4.3. Администрация не несет ответственности за действия Пользователя, которые повлекли нарушение прав третьих лиц, кроме случаев определенных действующим законодательством Российской Федерации.</p>
+            <p class="no-margin">4.4. Администрация не несет ответственности за содержание информации, размещенной пользователями.</p>
+            <p class="no-margin">4.5. Администрация не несет ответственности за содержание отзывов пользователей сайта. Отзывы пользователей сайта являются субъективными мнениями их авторов, никоим образом не претендующими на объективность. Они могут не совпадать с общественным мнением и не соответствовать действительности.</p>
+            <p class="no-margin">4.6. Решение о выдаче/не выдаче персональных данных, принимается Администрацией, лишь на основании запроса, посланного лицом Администрации, в установленном нормами действующего законодательства порядке.</p>
+            <p class="no-margin">4.7. Администрация вправе не реагировать на запросы, обращения и письма, что не содержат реквизитов обращающегося (ФИО, контактные данные).</p>
+            <p class="no-margin">4.8.  Администрация не несет ответственности за регистрационные данные, что были указаны пользователем при взаимодействии с информационным полем сайта.</p>
+            <p class="no-margin">4.9. Администрация имеет право, без объяснения причин ограничить, блокировать доступ Пользователя (в т.ч. незарегистрированного) на сайт, с частичным, или полным удалением информации, что была размещена Пользователем на сайте.</p>
+            <p>4.10. Администрация обязуется рассмотреть претензию, оформленную в порядке предусмотренном разделом 4 соглашения, в течении 30 (тридцати) календарных дней с даты ее получения.</p>
+
+            <p class="no-margin"><b>5. Порядок урегулирования споров</b></p>
+            <p class="no-margin">5.1. В случае выявления на Сайте размещенной информации, содержащей в себе результаты интеллектуальной собственности, принадлежащие третьим лицам, правообладатель обязан:</p>
+            <p class="no-margin">5.1.1. Составить претензию с указанием фактических и нормативных оснований, которые дают возможность Администрации изъять информацию из публичного доступа.</p>
+            <p class="no-margin">5.1.2. Прикрепить к претензии доказательства оригинальности результата интеллектуальной собственности (оригинальный экземпляр, другие документы, подтверждающие правообладание на объект авторского права).</p>
+            <p class="no-margin">5.1.3. Отправить пакет документов, упомянутых в положениях п.п. 5.1.1., 5.1.2. настоящего Соглашения, на электронный почтовый ящик администрации: poddergka.magazina@gmail.com</p>
+            <p class="no-margin">5.2. Претензии Пользователей по качеству обслуживания, продукции, а так же другие замечания, следует отправлять на электронный почтовый ящик администрации: poddergka.magazina@gmail.com</p>
+            <p class="no-margin">5.3. В случае описанном п. 3.2.3. Пользовательского соглашения, рекламации, претензии, замечания направляются руководству соответствующих ресурсов. Администрация вправе не реагировать на такие обращения.</p>
+            <p>5.4. Администрация не обязана содействовать поиску указанных в п. 3.2.3. лиц, а так же иных третьих лиц, действиями которых были нарушены права, свободы и интересы Пользователей.</p>
+
+            <p class="no-margin"><b>6. Прочие условия</b></p>
+            <p class="no-margin">6.1. Все возможные ситуации, споры, вытекающие из взаимоотношений Пользователей, Пользователей и третьих лиц, Пользователей и администрации, не урегулированные этим соглашением, решаются в порядке, определенном нормами действующего законодательства Российской Федерации.</p>
+            <p class="no-margin">6.2. Стороны по настоящему соглашению осознают объем прав и обязанностей, порожденных взаимоотношениями лиц, упомянутых этим соглашением, и в полной мере отдают отчет своим действиям, понимая юридическую природу последствий таких действий, в полной мере.</p>
+            <p class="no-margin">6.3. Бездействие со стороны Администрации в случае нарушения кем-либо из Пользователей положений Соглашения, не лишает Администрацию права предпринять позднее соответствующие действия в защиту своих интересов и защиту охраняемых законом прав.</p>
+            <p class="no-margin">6.4. По всем вопросам, кроме тех, которые зафиксированы в Разделе 5 Пользовательского соглашения, Пользователи могут обращаться к Администрации, путем направления соответствующих обращений.</p>
+            <p class="no-margin">6.5. Контактные данные администрации:</p>
+            <p class="no-margin">poddergka.magazina@gmail.com  - заказ товаров и связь с менеджерами;</p>
+            <p>poddergka.magazina@gmail.com - вопросы сотрудничества, рекламы, оптовых заказов.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44661928 = new Ya.Metrika({
+                    id:44661928,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/44661928" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+
+
+
+
+<!-- vk counter -->
+<!-- //vk counter -->
+
+

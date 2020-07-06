@@ -1,0 +1,22 @@
+.mouse_moved {
+    display: block !important;
+    z-index: 999;
+}
+@media screen and (max-width: 1000px){
+.delivery img {
+    position: relative!important;
+    display: block;
+    width: 460px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+.care__certificate {
+    position: relative;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.delivery img {
+    top: -30px;
+    left: 0;
+}
+}

@@ -1,0 +1,1611 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Фумара-Ян</title>    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width" name="viewport"/>
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="landing_file/nicoprost/Landing_5/files/smoking_lock_1/css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="landing_file/nicoprost/Landing_5/files/smoking_lock_1/css/plyr.min.css" />
+    <link type="text/css" rel="stylesheet" href="landing_file/nicoprost/Landing_5/files/smoking_lock_1/css/tkmtimer.min.css" />
+    <link type="text/css" rel="stylesheet" href="landing_file/nicoprost/Landing_5/files/smoking_lock_1/css/style.css" />
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+    <!-- JS -->
+ <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/js/plyr.min.js"></script>
+    <script type="text/javascript" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/js/script.js"></script>
+ 
+
+    <!-- OG -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Фумара-Ян" />
+    <meta property="og:site_name" content="Фумара-Ян" />
+    <meta property="og:description" content="Фумара-Ян" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="landing_file/nicoprost/Landing_5/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="landing_file/nicoprost/Landing_5/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="landing_file/nicoprost/Landing_5/img/favicon-16x16.png">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript">
+        var urlImg = '/landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/';
+    </script>
+</head>
+<body>
+<link type="text/css" rel="stylesheet"  href="css/l_all.css@v=3">
+<script type="text/javascript" src="js/jquery-ui-1.11.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.latest.js"></script>
+<script type="text/javascript" src="js/l_widgets.js"></script>
+<script type="text/javascript" src="js/l_functions.js@v=10"></script>
+
+<script src="inputmask_4_x/jquery.inputmask.bundle.min.js"></script>
+
+
+    <script src="inputmask_4_x/inputmask/phone-codes/phone.simple.js@v=3"></script>
+
+
+
+
+    <script type="text/javascript" src="js/localization/rus.js@v=4"></script>
+
+
+<style>
+    .pl_next_order_page{ display: none; }
+</style>
+<a href="@next_order_page=1" class="pl_next_order_page replace_ignoring">Следующая страничка</a>
+
+<script>
+    $(function(){
+
+        var current_page = 'landing';
+        var traps_started = false;
+        var startT = function ()
+        {
+            if (!traps_started)
+            {
+                traps_started = true;
+
+                $("body").append($('<script />').attr({
+                    src: 'http://'+document.domain+'/noload.js?page=landing',
+                    type: 'text/javascript'
+                }));
+
+                var done = false
+                $(document).scroll(function () {
+                    if (!done) {
+                        done = true;
+                        $('body').lpFunctions('sendAddInfo', {
+                            scroll: 1,
+                            page: 'landing'
+                        });
+                    }
+                });
+                function work() {
+                    $('body').lpFunctions('sendAddInfo', {
+                        time: 1,
+                        page: 'landing'
+                    });
+                }
+                setTimeout(work, 3000);
+            }
+        }
+        var l_traps_started = false;
+        var startInFrameT = function(e)
+        {
+            if (!l_traps_started)
+            {
+                l_traps_started = true;
+                $('body').lpFunctions('sendAddStat', startT);
+            }
+            $(this).off(e);
+        }
+        if(current_page == 'spacer')
+        {
+            startT();
+        }
+        else
+        {
+            
+                startT();
+
+                    }
+    });
+</script>
+
+
+
+
+<script>
+    (function(a,b,c,d,e,f,g) {
+        a['iDMPObject'] = {
+            DMPData: true
+        };
+        a[e] = function(k, v) {
+            if (k === 'match') {
+                k = 'autoMatch';
+                v = true;
+            }
+            a['iDMPObject'][k] = v;
+        };
+        f = b.createElement(c);
+        f.id = 'iDMPFrame';
+        f.src = d;
+        f.style.width = 0;
+        f.style.height = 0;
+        f.style.border = 'none';
+        f.addEventListener("load", function() {
+            if ((typeof window.iDMPObject.autoMatch === 'undefined') || (window.iDMPObject.autoMatch === true)) {
+                var frame = document.getElementById('iDMPFrame');
+                frame = frame.contentWindow || frame;
+                frame.postMessage(JSON.stringify(window.iDMPObject), "*");
+            }
+            window.iDMPData = Object.assign({}, window.iDMPObject);
+            window[e] = function() {
+                if (arguments[0] === 'match') {
+                    window.iDMPData.autoMatch = true;
+                    var frame = document.getElementById('iDMPFrame');
+                    frame = frame.contentWindow || frame;
+                    frame.postMessage(JSON.stringify(window.iDMPData), "*");
+                }
+                window.iDMPData[arguments[0]] = arguments[1];
+            };
+        });
+        document.body.appendChild(f);
+        window.addEventListener("message", function(event) {
+            if (event.data === 'DMPClientDataReady') {
+                document.dispatchEvent(new CustomEvent('DMPClientDataReady', {
+                    bubbles: true,
+                    detail: {},
+                }));
+            }
+        });
+    })(window, document, 'iframe', '//pixel.metrics0.com/frame.html', 'idmps');
+
+    idmps('clientId', 'eewmw1jvoghxr6eewnp1jvogmtik');
+    idmps('accuracy', 2);
+    idmps('autoMatch', false);
+</script>
+
+ <header>
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-6">
+                <div class="header-logo"></div>
+            </div>
+            <div class="col-lg-5 col-md-5 hidden-sm hidden-xs">
+                <div class="blocks-header">
+                    <div class="block-header block-header--1">
+                        Хит-продаж 2017 без химии и<br class="hidden-lg hidden-sm hidden-xs">
+                        синдрома отмены
+                    </div>
+                    <div class="block-header block-header--2">
+                        100% эффективность
+                    </div>
+                    <div class="block-header block-header--3">
+                        0% скидка только сегодня
+                    </div>
+                </div>
+            </div>
+            <div class="top-timer timer col-lg-3 col-md-3 hidden-sm hidden-xs">
+               
+                
+                
+                
+                
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-6 text-right header-call">
+                <a class="btn call-form btn-danger btn-header call-me-button-head hidden-xs" href="#lastpack">ЗАКАЗАТЬ ЗВОНОК</a>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="section1">
+    <div class="wrapper">
+        <h1>Фумара-Ян — 100% гарантия<br class="hidden-sm hidden-xs">
+        отказа от курения на всю жизнь!</h1>
+        <h2>Фумара-Ян за  курс избавит от тяги к табаку навсегда!</h2>
+        <div class="section1-left">
+            <div class="do">
+                <p>Способствует выработке <b>природного дофамина</b>, что избавляет <b>курильщика</b> от никотиновой <b>зависимости</b></p>
+            </div>
+            <div class="do">
+                <p><b>Вызывает</b> стойкое <b>безразличие к табаку</b> благодаря уникальным сапонинам</p>
+            </div>
+            <div class="do">
+                <p><b>Запускает</b> процесс <b>регенерации поврежденных клеток</b> с помощью экстрактов лекарственных трав</p>
+            </div>
+            <div class="do">
+                <p><b>Не вызывает привыкания</b> и <b>побочных эффектов</b> за счет исключительно <b>натурального состава</b></p>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="row medali-row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal1.png"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal2.png"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal3.png"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal4.png"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section1-center">
+                                        <span class="product-block ">
+                                            <span class="plashka2">
+                                                 при заказе<br>
+                                                 <b>25 июня</b><br/>
+                                                 одна упаковка<br/>
+                                                 <b>ЗА <font class="plashka2-t">129 грн*</font></b>
+                                            </span>
+                                        </span>
+            <div class="product-big_sale">0<font style="font-size:75%">%</font></div>
+        </div>
+        <div class="section1-right">
+            <div class="section1-right-wrap">
+                <div class="form1-mobile">
+                    <div class="row">
+                        <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
+                            <div class="form-timer timer hidden-xs">
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="usp">
+                    <b>Успейте оформить заказ по выгодной промо-цене .</b> Внимание! Акция действует только на территории Украины.
+                </div>
+                <div class="price-old--top">
+                    <p class="price-text--top">Только сегодня</p>
+                    <p class="price-x--top"><span class="x_price_previous"><span class="price_land_s4"><font class="pl_product_old_price">25 июня</font></span> <span class="currency-small--top"><span class="price_land_curr"> </span></span></span></p>
+                </div>
+                <div class="price-new--top">
+                    <p class="price-text--top--big">Цена:</p>
+                    <p class="price-x--top"><span class="x_price_current"><span class="price_land_s1"><font class="pl_product_price">129</font></span> <span class="price_land_curr">грн.</span></span></p>
+                </div>
+                <div class="form-top">
+                    <div class="form-main">
+                        <form action="/success.php" method="post" class="orderformcdn">
+<input type="hidden" name="price" value="129">
+<input type="hidden" name="offerId" value="1226">
+                            <div class="form-gray-bg">
+                                                                   
+                                                                <div class="form-group row">
+                                    <label class="col-md-4 col-sm-5 col-form-label" for="inputName1">Введите Ваше имя</label>
+                                    <div class="col-md-8 col-sm-7">
+                                        <input class="form-control name-form" id="inputName1" name="name" placeholder="Петров Петр Петрович" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-4 col-sm-5 col-form-label" for="inputPhone1">Введите Ваш телефон</label>
+                                    <div class="col-md-8 col-sm-7">
+                                        <input class="form-control phone-form" id="inputPhone1" name="phone" placeholder="+380" type="tel">
+                                    </div>
+                                </div>
+ 
+ 
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-6 col-xs-6 attention-form">Внимание! Осталось товаров со скидкой:</label>
+                                <div class="col-sm-5 col-xs-5">
+                                    <div class="form-check">
+                                        <label class="form-check-label quantity-form"><span class="lastpack"><font class="p_limit_left_text">60</font></span> штук</label>
+                                    </div>
+                                </div>
+                            </div><span class="presentgel2f"></span> 
+                            <div class="form-group row">
+                                <div class="col-sm-7">
+                                    <button class="btn btn-danger btn-lg" type="submit" onclick="$(this).closest('form').submit();return false;">ЗАКАЗАТЬ Фумара-Ян</button>
+                                </div>
+                            </div>   <span class="presentgelprimf">*при покупке курса</span>
+                            <input type="hidden" name="order[specifications]" value="" />
+        <input type="hidden" name="order[is_one_rub]"  value="1">  <input type="hidden" name="order[discount]" value="">
+        <style>
+    .pl_field_address_info{
+        opacity: 0;
+    }
+</style>
+
+<input type="checkbox" name="order[address_info]" class="pl_field_address_info">
+<input type="hidden" name="order[advHash]" class="advHash">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-lg hidden-md hidden-xs">
+                <div class="col-sm-12 margin-10">
+                    <p class="protection text-center">Ваши данные под защитой <img alt="защита данных" class="security-sm" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></p>
+                </div>
+            </div>
+            <div class="hidden-xs hidden-sm margin-10">
+                <div class="col-lg-7 col-md-7">
+                    <p class="protection text-right">Ваши данные под защитой</p>
+                </div>
+                <div class="col-lg-4 col-md-4 text-right"><img alt="защита данных" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<main id="main">
+    <section class="section2">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 danger-wrap pred">
+                    <h2>Вы думаете, что курение безобидная привычка?<br class="hidden-sm hidden-xs">
+                    Проверьте, есть ли у Вас эти симптомы:</h2>
+                    <ul class="col-md-6 col-sm-12 col-xs-12 symptoms">
+                        <li class="symptoms_text"><b>Боль</b> и <b>чувство скованности в легких</b></li>
+                        <li class="symptoms_text"><b>Одышка</b> при быстрой ходьбе</li>
+                        <li class="symptoms_text">Образование <b>мокроты в горле</b></li>
+                        <li class="symptoms_text sy320">Слабость <b>при курении</b></li>
+                        <li class="symptoms_text sy320"><b>Кашель</b></li>
+                        <li class="symptoms_text"><b>Головная боль</b> и <b>головокружения</b></li>
+                    </ul>
+                    <ul class="col-md-6 col-sm-12 col-xs-12 symptoms">
+                        <li class="symptoms_text sy320"><b>Желто-коричневые зубы</b></li>
+                        <li class="symptoms_text"><b>Злость</b> при <b>отказе от сигарет</b></li>
+                        <li class="symptoms_text sy320"><b>Расстройство желудка</b></li>
+                        <li class="symptoms_text sy320">Повышенное <b>давление</b></li>
+                        <li class="symptoms_text">Общее <b>плохое самочувствие</b></li>
+                        <li class="symptoms_text sy320"><b>Тошнота</b></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center pred">
+                    Если Вы заметили у себя хотя бы <b>2</b> из этих <b>симптомов, в 98% случаев</b>, возможно,<br class="hidden-sm hidden-xs">
+                    в Вашем <b>организме</b> происходят <b>разрушительные процессы</b>, вызванные <b>курением</b>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3 white">
+        <div class="wrapper">
+            <h2>Как возникает никотиновая зависимость?</h2>
+            <div class="row">
+                <div class="col-lg-5 col-md-5 hidden-sm hidden-xs"><img alt="" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/head.png"></div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                    <div class="addiction">
+                        <b>Никотин воздействует</b> на <b>нейроны</b> головного мозга, <b>искусственно повышая</b> уровень <b>дофамина</b> — гормона удовольствия, <b>вызывая эйфорию.</b>
+                    </div>
+                    <div class="addiction">
+                        При постоянном <b>курении</b> мозг <b>производит все меньше</b> и меньше природного <b>дофамина, вызывая никотиновую зависимость.</b>
+                    </div>
+                    <div class="addiction">
+                        Человеку приходится <b>увеличивать дозу никотина.</b> С каждым разом он <b>выкуривает</b> все <b>больше.</b> У него возникает <b>зависимость от табака</b>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1>Курение вызывает страшные заболевания, которые в 95% случаев приводят к мучительной смерти или инвалидности!</h1>
+                    <div class="sub_title text-center">
+                        Каждый 5 секунд в мире умирает 1 курильщик
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <div class="whileur text-center">
+                        Пока вы это читаете, от сигарет умирает <span class="counter counter-analog2" data-direction="up" data-format="99" data-interval="5000" data-stop="99">04</span> людей
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left">
+                    <img alt="" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic1.jpg">
+                    <h3 class="text-left">Гниющие зубы</h3>
+                    <p class="text-left">Зловонный <b>запах изо рта</b>, <b>гниющие зубы</b> желто-коричневого цвета, <b>землистый цвет лица, кашель</b> — это лишь внешние проявления <b>пагубной привычки</b></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left">
+                    <img alt="" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic2.jpg">
+                    <h3 class="text-left">Страшные болезни</h3>
+                    <p class="text-left"><b>Рак</b> жизненно важных органов, <b>инсульт, инфаркт, импотенция</b> у мужчин, <b>бесплодие</b> и <b>мертворождение</b> у женщин — вот, что может Вам грозить, если Вы не <b>бросите курить</b></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left">
+                    <img alt="" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic3.jpg">
+                    <h3 class="text-left">Инвалидность</h3>
+                    <p class="text-left"><b>Инвалидность, паралич, гангрена</b> и <b>ампутация</b>, жизнь без надежды на будущее, <b>мучительная смерть</b> — плачевный исход <b>никотиновой зависимости</b></p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left">
+                    <img alt="" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic4.jpg">
+                    <h3 class="text-left">Дети курильщиков</h3>
+                    <p class="text-left">Бронхиальная <b>астма</b>, повышенный риск заболеть <b>раком легких, пониженный иммунитет, отсталость в развитии</b> — возможная участь <b>детей курильщиков</b></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="leed">
+                        <h2>А вы хотите стать частью этой ужасающей статистики?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1 class="italic bold">«Быстро избавиться от табачной зависимости без ломки<br class="hidden-sm hidden-xs">
+                    и желания закурить вновь — это реально»</h1>
+                    <p class="text-center italic">Семен Исаакович Смолеевский — врач с 20-летним стажем, к. м. н., натуропат</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-7 col-sm-12 col-xs-12">
+                    <p class="expert">Ситуация во всем мире просто <b>катастрофическая</b>. Каждые <b>5 секунд</b> в мире умирает <b>1 курильщик</b>. Я с уверенностью могу сказать, что справиться с <b>табачной зависимостью</b> самостоятельно практически невозможно. Но сейчас быстро <b>избавиться</b> от <b>тяги к сигаретам</b> без ломки и <b>желания закурить</b> вновь вполне реально.</p>
+                    <p class="expert">На сегодняшний день есть <b>уникальное</b> средство, которое <b>отличается</b> от всех существующих до этого средств. Это совместная разработка <b></b> и <b>немецких ученых</b> — средство <b>Фумара-Ян</b>, которое избавляет от <b>никотиновой зависимости без ломки, побочных эффектов</b> и <b>вреда для здоровья</b>.</p>
+                    <p class="expert"><b>Прием</b> средства <b>Фумара-Ян гарантирует</b> избавление <b>от табачной зависимости</b> всего <b>за  курс</b>.</p>
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12"><img alt="Врач-натуропат" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/vrach.png"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1>Почему Фумара-Ян поможет Вам легко избавиться<br class="hidden-sm hidden-xs">
+                    от табачной зависимости?</h1><img alt="" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic5.jpg">
+                    <p><b>Табачная зависимость</b> сопровождает человечество с древнейших времен. Правительства разных стран пытались <b>бороться с тягой к табаку</b>, называя ее «бесовской пагубой».</p>
+                    <p>Никотиновую зависимость <b>успешно лечил</b> немецкий врач-изобретатель Самюэль Томас фон Зоммеринг по старинному <b>немецкому рецепту</b>.</p>
+                    <p><b> ученым</b> удалось расшифровать его записи. В результате долгих <b>исследований</b> и <b>клинических испытаний</b> в закрытой <b>лаборатории</b> ученые доработали состав до идеальной <b>формулы</b> и добавили несколько <b>уникальных компонентов</b>.</p>
+                    <p>С помощью этой <b>формулы</b> человек может без <b>физической</b> и <b>психологической</b> ломки навсегда <b>отказаться от табака</b>.</p>
+                    <p><b>В  Фумара-Ян</b>  был произведен <b>ограниченной</b> партией в условиях <b>особой секретности</b>, чтобы западные <b>фармацевтические корпорации</b> не смогли узнать <b>формулу</b> и продавать средство по <b>завышенной цене</b>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="wrapper">
+            <h2>Избавьтесь от никотиновой зависимости раз и навсегда<br class="hidden-sm hidden-xs">
+            без химии и желания закурить вновь!</h2>
+            <div class="order-wrapper">
+                <div class="usp2">
+                    <b>Успейте оформить заказ по выгодной промо-цене .</b> Внимание! Акция действует только на территории Украины.
+                </div>
+                <div class="section1-center">
+                                        <span class="product-block product-block-big">
+                                            <span class="plashka2">
+                                                 при заказе<br>
+                                                 <b>25 июня</b><br/>
+                                                 одна упаковка<br/>
+                                                 <b>ЗА <font class="plashka2-t">129 грн*</font></b>
+                                            </span>
+                                        </span>
+                    <div class="product-big_sale2">0<font style="font-size:75%">%</font></div>
+                </div>
+                <div class="section1-left">
+                    <div class="form-timer timer hidden-xs">
+                        
+
+                
+                    </div>
+                    <div class="form-white-bg-2">
+                        <div class="price-old--top">
+                            <p class="price-text--top">Только сегодня</p>
+                            <p class="price-x--top"><span class="x_price_previous"><span class="price_land_s4"><font class="pl_product_old_price">25 июня</font></span> <span class="currency-small--top"><span class="price_land_curr"> </span></span></span></p>
+                        </div>
+                        <div class="price-new--top">
+                            <p class="price-text--top--big">Промо цена</p>
+                            <p class="price-x--top"><span class="x_price_current"><span class="price_land_s1"><font class="pl_product_price">129</font></span> <span class="price_land_curr">грн.</span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section1-right">
+                    <div class="section1-right-wrap">
+                        <div class="form-top">
+                            <div class="form-main">
+                                <form action="/success.php" method="post" class="orderformcdn">
+<input type="hidden" name="price" value="129">
+<input type="hidden" name="offerId" value="1226">
+                                    <div class="form-gray-bg">
+                                                                           
+                                                                                <div class="form-group row">
+                                            <label class="col-md-4 col-sm-5 col-form-label" for="inputName2">Введите Ваше имя</label>
+                                            <div class="col-md-8 col-sm-7">
+                                                <input class="form-control name-form" id="inputName2" name="name" placeholder="Петров Петр Петрович" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-4 col-sm-5 col-form-label" for="inputPhone2">Введите Ваш телефон</label>
+                                            <div class="col-md-8 col-sm-7">
+                                                <input class="form-control phone-form" id="inputPhone2" name="phone" placeholder="+380" type="tel">
+                                            </div>
+                                        </div>
+ 
+ 
+                                    </div>
+                                    <div class="form-white-bg">
+                                        <div class="form-group row">
+                                            <label class="col-sm-6 col-xs-6 attention-form">Внимание! Осталось товаров со скидкой:</label>
+                                            <div class="col-sm-5 col-xs-5">
+                                                <div class="form-check">
+                                                    <label class="form-check-label quantity-form"><span class="lastpack"><font class="p_limit_left_text">60</font></span> штук</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="presentgel2"></span> 
+                                        <div class="form-group row">
+                                            <div class="col-sm-7">
+                                                <button class="btn btn-danger btn-lg" type="submit" onclick="$(this).closest('form').submit();return false;">ЗАКАЗАТЬ Фумара-Ян</button>
+                                            </div>
+                                        </div> <span class="presentgelprim">*при покупке  курса</span>
+                                    </div>      <input type="hidden" name="order[specifications]" value="" />
+        <input type="hidden" name="order[is_one_rub]"  value="1">  <input type="hidden" name="order[discount]" value="">
+        <style>
+    .pl_field_address_info{
+        opacity: 0;
+    }
+</style>
+
+<input type="checkbox" name="order[address_info]" class="pl_field_address_info">
+<input type="hidden" name="order[advHash]" class="advHash">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-lg hidden-md hidden-xs">
+                <div class="col-sm-12 margin-10">
+                    <p class="protection text-center">Ваши данные под защитой <img alt="защита данных" class="security-sm" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></p>
+                </div>
+            </div>
+            <div class="row margin-10">
+                <div class="hidden-xs hidden-sm col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <p class="protection text-right">Ваши данные под защитой</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-5 text-right"><img alt="защита данных" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section7">
+        <div class="wrapper">
+            <h1>Как Фумара-Ян помог 700 000 людей легко бросить курить?</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                    <h3>100% натуральный состав</h3><img alt="" class="text-center" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic6.jpg">
+                    <p class="text-left">Благодаря <b>100% натуральным</b> экстрактам <b>воздействует</b> на организм без <b>химических</b> препаратов и <b>побочных эффектов</b>, снимая <b>тягу к табаку</b>. Не требует <b>рецепта врача</b>.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                    <h3>Швейцарская формула</h3><img alt="" class="text-center" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic7.jpg">
+                    <p class="text-left"><b>Европейские ученые</b> тщательно отобрали <b>редкие компоненты</b>, которые в определенной консистенции <b>действуют синергически</b>, дополняя и <b>усиливая</b> действие друг друга.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                    <h3>Легко устраняет зависимость</h3><img alt="" class="text-center" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic8.jpg">
+                    <p class="text-left"><b>Фумара-Ян</b> не просто вызывает <b>безразличие к табаку</b>, а устраняет основную причину <b>никотиновой зависимости</b> — <b>восстанавливает</b> выработку собственного <b>дофамина</b> навсегда за <b> курс</b>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="result">
+        <div class="wrapper">
+            <h1>Эффективность средства Фумара-Ян доказана<br class="hidden-md hidden-sm hidden-xs">
+            клиническими исследованиями</h1>
+            <div class="test-inform">
+                <p class="inform">Всемирная организация <b>по борьбе с курением</b> в течение <b>8</b> месяцев проводила ряд <b>клинических испытаний</b> и фундаментальных <b>исследований</b> средства <b>Фумара-Ян</b>. В исследованиях приняли участие <b>9500</b> добровольцев.<br>
+                <br>
+                В результате исследований выяснилось:</p>
+            </div>
+            <div class="row hidden-xs hidden-sm" style="padding-top:35px">
+                <div class="col-lg-3 col-lg-offset-3 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 text-right graph1">
+                            <div class="graph2"><img alt="" class="text-right" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pin1.jpg"></div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 text-left">
+                            <div class="graph">
+                                Фумара-Ян
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 hidden-xs text-center">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 text-right graph1">
+                            <div class="graph2"><img alt="" class="text-right" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pin2.jpg"></div>
+                        </div>
+                        <div class="col-lg-10 col-md-10 col-sm-9 col-xs-9 text-left">
+                            <div class="graph">
+                                ДРУГОЕ СРЕДСТВО
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding-top:20px">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center margin-20"><img alt="" class="hidden-sm hidden-xs" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/graph1.png"> <img alt="" class="hidden-lg hidden-md hidden-xs" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/graph1-480.png"> <img alt="" class="hidden-lg hidden-md hidden-sm" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/graph1-mob.png"></div>
+            </div>
+            <div class="row test-inform1">
+                <div class="col-lg-9 col-md-7 col-sm-12 col-xs-12 text-left">
+                    <div class="test-inform" style="padding-top:35px">
+                        <p class="inform">Исследование средства проверено на базе <br class="hidden-md hidden-sm hidden-xs">
+                        научно-исследовательского центра наркологии им. Е. М. Ерофеева</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-12 col-xs-12 text-right"><img alt="" class="text-right" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/stamp.png"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section8">
+        <div class="wrapper">
+            <h1>Научная формула Фумара-Ян соединяет старинный<br class="hidden-md hidden-sm hidden-xs">
+            немецкий рецепт и новые биотехнологии</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+                    <div class="text-left prem">
+                        <img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/comp1.png">
+                        <h3 class="text-left">Уникальные сапонины</h3>
+                        <p>                     
+                        <b>Исключают</b> вероятность появления <b>депрессии</b> и <b>желания закурить</b>, возникающих вследствие отказа от табака, улучшают энергетический обмен <b>в головном мозге</b>
+                        </p>
+                    </div>
+                    <div class="text-left prem">
+                        <img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/comp2.png">
+                        <h3 class="text-left">Комплекс витаминов</h3>
+                        <p>Оказывает двойное действие <b>на организм курильщика: очищает легкие</b> и <b>активизирует</b> защитные <b>силы организма</b>, возвращая его в <b>здоровое состояние</b></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-xs-12 text-center">
+                    <div class="text-right prem">
+                        <img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/comp3.png">
+                        <h3 class="text-right">Экстракт лекарственных растений</h3>
+                        <p>Вызывает <b>безраличие к сигаретам</b> и отбивает <b>желание закурить</b>, быстро избавляя от <b>никотиновой зависимости</b> на уровне подсознания</p>
+                    </div>
+                    <div class="text-right prem">
+                        <img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/comp4.png">
+                        <h3 class="text-right">Экстракт фенхеля</h3>
+                        <p>Быстро <b>выводит токсины</b> из<br class="hidden-md hidden-sm hidden-xs">
+                        организма и запускает процесс<br class="hidden-md hidden-sm hidden-xs">
+                        <b>регенерации поврежденных никотином</b> клеток</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="order">
+        <div class="wrapper">
+            <h2>Избавьтесь от никотиновой зависимости раз и навсегда<br class="hidden-sm hidden-xs">
+            без химии и желания закурить вновь!</h2>
+            <div class="order-wrapper">
+                <div class="usp2">
+                    <b>Успейте оформить заказ по выгодной промо-цене за 129 грнль.</b> Внимание! Акция действует только на территории Украины.
+                </div>
+                <div class="section1-center">
+                                        <span class="product-block product-block-big">
+                                            <span class="plashka2">
+                                                 при заказе<br>
+                                                 <b>25 июня</b><br/>
+                                                 одна упаковка<br/>
+                                                 <b>ЗА <font class="plashka2-t">129 грн*</font></b>
+                                            </span>
+                                        </span>
+                    <div class="product-big_sale2"> 0<font style="font-size:75%">%</font></div>
+                </div>
+                <div class="section1-left">
+                    <div class="form-timer timer hidden-xs">
+                        
+
+                
+                    </div>
+                    <div class="form-white-bg-2">
+                        <div class="price-old--top">
+                            <p class="price-text--top">Только сегодня</p>
+                            <p class="price-x--top"><span class="x_price_previous"><span class="price_land_s4"><font class="pl_product_old_price">25 июня</font></span> <span class="currency-small--top"><span class="price_land_curr"> </span></span></span></p>
+                        </div>
+                        <div class="price-new--top">
+                            <p class="price-text--top--big">Промо цена</p>
+                            <p class="price-x--top"><span class="x_price_current"><span class="price_land_s1"><font class="pl_product_price">129</font></span> <span class="price_land_curr">грн.</span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section1-right">
+                    <div class="section1-right-wrap">
+                        <div class="form-top">
+                            <div class="form-main">
+                                <form action="/success.php" method="post" class="orderformcdn">
+<input type="hidden" name="price" value="129">
+<input type="hidden" name="offerId" value="1226">
+                                    <div class="form-gray-bg">
+                                                              
+                                                                                <div class="form-group row">
+                                            <label class="col-md-4 col-sm-5 col-form-label" for="inputName3">Введите Ваше имя</label>
+                                            <div class="col-md-8 col-sm-7">
+                                                <input class="form-control name-form" id="inputName3" name="name" placeholder="Петров Петр Петрович" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-4 col-sm-5 col-form-label" for="inputPhone3">Введите Ваш телефон</label>
+                                            <div class="col-md-8 col-sm-7">
+                                                <input class="form-control phone-form" id="inputPhone3" name="phone" placeholder="+380" type="tel">
+                                            </div>
+                                        </div>
+ 
+                                    </div>
+                                    <div class="form-white-bg">
+                                        <div class="form-group row">
+                                            <label class="col-sm-6 col-xs-6 attention-form">Внимание! Осталось товаров со скидкой:</label>
+                                            <div class="col-sm-5 col-xs-5">
+                                                <div class="form-check">
+                                                    <label class="form-check-label quantity-form"><span class="lastpack"><font class="p_limit_left_text">60</font></span> штук</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <span class="presentgel2"></span> 
+                                        <div class="form-group row">
+                                            <div class="col-sm-7">
+                                                <button class="btn btn-danger btn-lg" type="submit" onclick="$(this).closest('form').submit();return false;">ЗАКАЗАТЬ Фумара-Ян</button>
+                                            </div>                                          
+                                        </div>
+                                        <span class="presentgelprim">*при покупке  курса</span>
+                                    </div>      <input type="hidden" name="order[specifications]" value="" />
+        <input type="hidden" name="order[is_one_rub]"  value="1">  <input type="hidden" name="order[discount]" value="">
+        <style>
+    .pl_field_address_info{
+        opacity: 0;
+    }
+</style>
+
+<input type="checkbox" name="order[address_info]" class="pl_field_address_info">
+<input type="hidden" name="order[advHash]" class="advHash">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-lg hidden-md hidden-xs">
+                <div class="col-sm-12 margin-10">
+                    <p class="protection text-center">Ваши данные под защитой <img alt="защита данных" class="security-sm" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></p>
+                </div>
+            </div>
+            <div class="row margin-10">
+                <div class="hidden-xs hidden-sm col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7">
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                            <p class="protection text-right">Ваши данные под защитой</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-5 text-right"><img alt="защита данных" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section12">
+        <div class="wrapper">
+            <h1>Часто задаваемые вопросы наших клиентов</h1>
+            <ul class='faq-list'>
+                <li>
+                    <i aria-hidden="true" class="fa fa-chevron-right hidden-xs"></i>
+                    <div class="faq-q bold">
+                        <span>У меня стаж курения 25 лет. Бросить сам не могу, но очень хочу. Поможет ли мне Фумара-Ян?</span>
+                    </div>
+                    <div class="faq-a">
+                        Да, средство <b>Фумара-Ян помогает</b>, независимо от <b>стажа курения</b>. Его основное действие <b>заключается</b> в том, что он <b>устраняет основную причину никотиновой зависимости — восстанавливает</b> выработку организмом <b>природного дофамина</b>, полностью <b>снимая тягу к табаку</b>.
+                    </div>
+                </li>
+                <li>
+                    <i aria-hidden="true" class="fa fa-chevron-right hidden-xs"></i>
+                    <div class="faq-q bold">
+                        <span>У меня аллергия на большинство химических средств. Можно ли мне принимать Фумара-Ян?</span>
+                    </div>
+                    <div class="faq-a">
+                        Да. <b>Фумара-Ян</b> можно <b>принимать при аллергии</b>. В состав средства входят исключительно <b>натуральные компоненты</b>. Все они прошли <b>клинические испытания</b>. В результате испытаний удалось выяснить, что <b>Фумара-Ян</b> избавляет <b>от табачной зависимости</b> без химического воздействия на организм и <b>побочных эффектов. Фумара-Ян не рекомендуется</b> принимать только при индивидуальной <b>непереносимости</b> компонентов.
+                    </div>
+                </li>
+                <li>
+                    <i aria-hidden="true" class="fa fa-chevron-right lg-fa2 hidden-xs"></i>
+                    <div class="faq-q bold">
+                        <span>Мой муж принимает Фумара-Ян 1 неделю. Бросил курить в первый же день. Скажите, пожалуйста, не появится ли у него тяга к табаку после окончания курса?</span>
+                    </div>
+                    <div class="faq-a">
+                        Нет. <b>Тяга к табаку</b> у него не должна появится, так как средство <b>Фумара-Ян не вызывает привыкания и синдрома отмены</b> за счет исключительно <b>натурального состава. Фумара-Ян</b> прошел <b>клинические испытания</b>. Ни у одного из участников по окончании <b>курсового приема</b> не появилась <b>тяга к никотину</b>.
+                    </div>
+                </li>
+                <li>
+                    <i aria-hidden="true" class="fa fa-chevron-right hidden-xs"></i>
+                    <div class="faq-q bold">
+                        <span>Скажите, пожалуйста, обязательно ли проходить полный курс средства Фумара-Ян?</span>
+                    </div>
+                    <div class="faq-a">
+                        <b>Фумара-Ян начинает помогать</b>, конечно, с первых же дней <b>использования</b>. Чтобы получить <b>максимальный эффект</b> и закрепить его, необходимо пройти <b>полный курс средства Фумара-Ян</b>.
+                    </div>
+                </li>
+                <li>
+                    <i aria-hidden="true" class="fa fa-chevron-right hidden-xs"></i>
+                    <div class="faq-q bold">
+                        <span>Есть ли у Фумара-Ян побочные эффекты?</span>
+                    </div>
+                    <div class="faq-a">
+                        Нет. <b>Фумара-Ян</b> создан из <b>природных компонентов</b>, поэтому любые <b>побочные эффекты</b> при его приеме просто <b>исключены. Принимать</b> его можно абсолютно всем. Средство <b>не рекомендуется</b> принимать только при индивидуальной <b>непереносимости компонентов</b>.
+                    </div>
+                </li>
+                <li>
+                    <i aria-hidden="true" class="fa fa-chevron-right hidden-xs"></i>
+                    <div class="faq-q bold">
+                        <span>Почему такая низкая цена?</span>
+                    </div>
+                    <div class="faq-a">
+                        Да, действительно, цена средства <b>Фумара-Ян</b> ниже, чем стоимость одного <b>приема у нарколога</b>, различных видов <b>кодирования</b> и <b>химических средств</b>. А таких приемов может быть много. Обратите внимание, что такая <b>доступная цена</b> установлена только для продаж средства <b></b>  <b>. Фумара-Ян</b> — это <b>экономия для кошелька</b> плюс надежный <b>результат</b>.
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section13">
+        <div class="wrapper">
+            <h1>Отзывы клиентов</h1>
+            <div class="video-reviews" style="display:none;">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="video-reviews-item">
+                            <!-- <video class="video-js vjs-default-skin vjs-big-play-centered" controls="" poster="/landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/feed1.png" preload="auto" style="max-width: 100%; max-height: 100%;"><source src="http://staticfiles-land.com/smoking_lock/media/feed1.mp4" type='video/mp4'></video> -->
+                            <video src="../www.youtube.com/watch@v=Q-jP9PbYmRU" controls="controls" width="100%" height="100%"  />                                              
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="video-reviews-item">
+                            <!-- <video class="video-js vjs-default-skin vjs-big-play-centered" controls="" poster="/landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/feed2.png" preload="auto" style="max-width: 100%; max-height: 100%;"><source src="http://staticfiles-land.com/smoking_lock/media/feed2.mp4" type='video/mp4'></video> -->
+                            <video src="../https@www.youtube.com/embed/u7LrS4tgGaw@rel=0&showinfo=0&controls=0" controls="controls" width="100%" height="100%"  />                   
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="video-reviews-item">
+                            <!-- <video class="video-js vjs-default-skin vjs-big-play-centered" controls="" poster="/landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/feed3.png" preload="auto" style="max-width: 100%; max-height: 100%;"><source src="http://staticfiles-land.com/smoking_lock/media/feed3.mp4" type='video/mp4'></video> -->
+                            <video src="../https@www.youtube.com/embed/c4euZW0Ika4@rel=0&showinfo=0&controls=0" controls="controls" width="100%" height="100%"  />                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear" style="display:none;">
+                <br>
+                <br>
+            </div>
+            <div class="progression-playlist-height responsive-wrapper responsive-audio" style="display:none;">
+                Николай Сергеевич, 
+                <audio class="progression-single progression-skin progression-fancy progression-audio-player" id="a-otz-1" controls="controls" preload="none">
+                    <source src="landing_file/nicoprost/Landing_5/audio/1.wav" type="audio/mp3">
+                </audio><br>
+                Алексей Николаевич, 
+                <audio class="progression-single progression-skin progression-fancy progression-audio-player" id="a-otz-2" controls="controls" preload="none">
+                    <source src="landing_file/nicoprost/Landing_5/audio/2.wav" type="audio/mp3">
+                </audio><br>
+                Ирина Михайловна, 
+                <audio class="progression-single progression-skin progression-fancy progression-audio-player" id="a-otz-3" controls="controls" preload="none">
+                    <source src="landing_file/nicoprost/Landing_5/audio/3.wav" type="audio/mp3">
+                </audio>
+
+            </div>
+            <div class="row text-reviews">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="text-reviews-items owl-carousel">
+                        <div class="text-reviews-item">
+                            <div class="text-reviews-photo"><img alt="Фумара-Ян" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/review1.png"></div>
+                            <div class="text-reviews-text">
+                                <div class="text-reviews-body">
+                                    Добрый день! У меня стаж курения более 20 лет. Сначала, конечно, мне это нравилось. Курил немного за компанию. Потом стал курить постоянно. Выкуривал в основном по пачке в день, как большинство курильщиков. До 30 лет вроде бы чувствовал себя нормально. Так, иногда была одышка, кашлял периодически. Но потом кашлять стал чаще и чаще, просто ужас. Одышка усилилась. Когда много курил, подташнивало. Пытался бросить несколько раз. Больше чем на 3 дня, меня не хватало. После 40 еще и давление, когда покурю, стало повышаться. Понял, что нужно какое-то средство, чтобы бросить курить. В интернете случайно наткнулся на Фумара-Ян. Внимательно изучил всю информацию, заказал. Принимаю уже две недели. Столько же не курю, никакой ломки у меня нет. Рекомендую всем, кто хочет бросить курить.
+                                </div>
+                                <div class="text-reviews-title bold">
+                                    Сергей, 43 года, <font class="pl_spacer_geo_detect"></font>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-reviews-item">
+                            <div class="text-reviews-photo"><img alt="Фумара-Ян" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/review2.png"></div>
+                            <div class="text-reviews-text">
+                                <div class="text-reviews-body">
+                                    Здравствуйте! Я курил с 18 лет. О здоровье в таком возрасте, конечно, никто не думал. Первый раз захотел бросить, когда женился. Мы хотели с женой ребенка завести. Бросить курить так и не получилось. Очень мучило чувство вины перед женой. Где-то около 30 лет появилась одышка, и при вздохе воздуха не хватало. После 35 еще начались проблемы с потенцией. Пробовал опять бросать, продержался две недели. Все время ссорились из-за того, что я раздражался по пустякам. Жена даже сказала, что лучше бы я курил. Я опять сорвался. Потом жена мне показала ссылку в интернете на сайт препарата Фумара-Ян. Я сначала без особого доверия отнесся, но посмотрел. Заинтересовало то, что отличается от всех других средств. Купили. Я прошел полный курс по инструкции. С начала приема не курю, ни разу не сорвался и даже не хотелось. Чувствую себя прекрасно, занялся спортом. Никакого синдрома отмены после окончания курса не было.
+                                </div>
+                                <div class="text-reviews-title bold">
+                                    Андрей, 39 лет, 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-reviews-item">
+                            <div class="text-reviews-photo"><img alt="Фумара-Ян" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/review3.png"></div>
+                            <div class="text-reviews-text">
+                                <div class="text-reviews-body">
+                                    Добрый день! У меня был стаж курения 15 лет. Начала курить в студенческие годы. Меня это особо не напрягало, даже нравилось. Думала, что, когда захочу, брошу. В 25 лет я вышла замуж. Бросила, только когда забеременела, и то с огромными усилиями. Закурила сразу, как только можно стало. Очень себя ругала себя за это, но продолжала курить. Два года назад решили с мужем завести второго ребенка, но никак не получалось. Врач мне сказал, что надо бросить курить перед тем, как заводить ребенка. Я пробовала, продержалась 3 недели только на силе воле, потом сорвалась. Очень переживала. Решили с мужем поискать средство на натуральной основе. Нашла в интернете средство Фумара-Ян. Мне очень важно, что без химии и побочных эффектов, не вызывает привыкания. Заказали. Я начала его пить неделю назад, курить не хочется. Настроение даже улучшилось. Чувствую себя отлично. Буду проходить курс до конца. Потом напишу о результатах.
+                                </div>
+                                <div class="text-reviews-title bold">
+                                    Елена, 35 лет, 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-11 col-lg-offset-1 col-md-12">
+                    <p class="otz">Опрос удовлетворенности клиентов, сентябрь 2018 г., 2340 человек”: 89% - отлично, 6% - хорошо, 3% - удовлетворительно, 2% - неудовлетворительно</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center">
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-3 col-xs-3 text-right graph1">
+                            <div class="graph2"><img alt="" class="text-right" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pin3.jpg"></div>
+                        </div>
+                        <div class="col-lg-9 col-md-10 col-sm-9 col-xs-9 text-left">
+                            <div class="graph">
+                                Отлично - 89%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-3 col-xs-3 text-right graph1">
+                            <div class="graph2"><img alt="" class="text-right" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pin4.jpg"></div>
+                        </div>
+                        <div class="col-lg-9 col-md-10 col-sm-9 col-xs-9 text-left">
+                            <div class="graph">
+                                Хорошо - 6%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-3 col-xs-3 text-right graph1">
+                            <div class="graph2"><img alt="" class="text-right" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pin5.jpg"></div>
+                        </div>
+                        <div class="col-lg-9 col-md-10 col-sm-9 col-xs-9 text-left">
+                            <div class="graph">
+                                Удовлетворительно - 3%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-1 col-md-2 col-sm-3 col-xs-3 text-right graph1">
+                            <div class="graph2"><img alt="" class="text-right" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pin6.jpg"></div>
+                        </div>
+                        <div class="col-lg-9 col-md-10 col-sm-9 col-xs-9 text-left">
+                            <div class="graph">
+                                Неудовлетворительно - 2%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12 text-center"><img alt="" class="text-right margin-10" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/diagram.png"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section14">
+        <div class="wrapper">
+            <h1>Что произойдет, когда Вы бросите курить?</h1><img alt="" class="img-responsive" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/pic12.jpg">
+            <ul class="col-lg-12 col-md-12 col-sm-12 col-xs-12 life2">
+                <li>Вы <b>сэкономите кучу денег</b> — до <b>5 000 грн</b> в месяц</li>
+                <li>Вы <b>перестанете раздражаться</b> по каждому поводу из-за того, что <b>сигарет</b> не оказалось под рукой</li>
+                <li>От Вас не будет постоянно <b>вонять сигаретами</b></li>
+                <li>Ваши <b>дети</b> перестанут <b>вдыхать</b> токсичный <b>сигаретный дым</b> и не станут <b>курильщиками</b> в будущем</li>
+                <li>Вы сможете <b>глубоко вздохнуть</b> без изматывающего <b>кашля</b> и <b>одышки</b></li>
+                <li>Вам больше не грозит риск <b>преждевременной смерти от инфаркта</b> и <b>инсульта</b></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </section>
+    <section class="section15">
+        <div class="wrapper">
+            <h1>Наши специалисты работают для вас!</h1>
+            <div class="row">
+                <div class="team col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                        <img alt="" class="text-center img-rounded" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/team1.jpg">
+                        <div class="text-left">
+                            <span>Наталья Селезнева</span><br>
+                            Директор по качеству<br>
+                            <br>
+                            “Мы не экономим на качестве, поэтому для производства используются лучшие ингредиенты и технологии”
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                        <img alt="" class="text-center img-rounded" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/team2.jpg">
+                        <div class="text-left">
+                            <span>Марина Зимина</span><br>
+                            Директор колл-центра<br>
+                            <br>
+                            “Оставьте свой номер, и наши специалисты подробно расскажут вам, как получить заказ и правильно использовать средство”
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                        <img alt="" class="text-center img-rounded" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/team3.jpg">
+                        <div class="text-left">
+                            <span>Алексей Усольцев</span><br>
+                            Руководитель службы доставки<br>
+                            <br>
+                            “Ваш заказ будет доставлен в сжатые сроки, чтобы вы могли как можно скорее начать использовать наш уникальный продукт”
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="innovations">
+        <div class="wrapper">
+            <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12 text-center">
+                <h2>19 000 000 долларов вложено в создание Фумара-Ян</h2>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-left">
+                <p>1. <b>Формула Фумара-Ян</b> создавалась в течение <b>7 лет исследований</b> с привлечением <b>независимых</b> фармацевтических <b>лабораторий</b>  <b></b> и <b>Германии</b>.</p>
+                <p>2. Для производства средства создана <b>лаборатория</b>, отвечающая <b>стандартам ЕС</b> в области менеджмента качества.</p>
+                <p>3. <b>Экстрагирование</b> активных веществ в жидкий <b>раствор</b> является крайне <b>трудоемкой</b> и затратной <b>технологией</b>, но она позволяет на <b>100%</b> сохранить <b>эффективность</b> всех <b>ингредиентов</b>.</p>
+                <h3 class="text-center margin-10">На время проведения промо-акции установлена <br>специальная цена на продукт <span class="price_land_s1"><font class="pl_product_price">129</font></span> <span class="price_land_curr">грн.</span> только  <span class="price_land_s2"><font class="pl_product_old_price">25 июня</font></span> <span class="price_land_curr"></span></h3>
+            </div>
+        </div>
+    </section>
+    <section class="section16 white">
+        <div class="wrapper">
+            <h1>Как оформить и получить заказ</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <img alt="" class="text-center" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/icon1.png"><br>
+                    <span>Заявка</span><br>
+                    <p class="text-left">Отправляете заявку с сайта. С Вами связывается специалист.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <img alt="" class="text-center" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/icon2.png"><br>
+                    <span>Доставка</span><br>
+                    <p class="text-left">Заказ доставляется в анонимной упаковке без упоминания средства.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <img alt="" class="text-center" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/icon3.png"><br>
+                    <span>Оплата</span><br>
+                    <p class="text-left">Вы оплачиваете свой заказ на почте или курьеру.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+                    <img alt="" class="text-center" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/icon4.png"><br>
+                    <span>Применение</span><br>
+                    <p class="text-left">Вы отныне равнодушны к табаку. Ваша жизнь налаживается.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="section11" style="display:none">
+        <div class="wrapper">
+            <div class="row">
+                <div class="use col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+                    <h2>ОСТЕРЕГАЙТЕСЬ ПОДДЕЛОК!</h2>
+                    <p>С ростом <b>популярности</b> средства <b>Фумара-Ян</b> на  рынке, участились <b>случаи подделок</b> по бросовой цене. В настоящей упаковке обязательно должна быть <b>инструкция</b> на средство <b>Фумара-Ян</b> на бумаге хорошего качества и сертификат соответствия.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/box1.png"></div>
+                <div class="col-lg-6 col-md-6 col-sm-7">
+                    <p class="fake_text">Средство продается в <b>оригинальной упаковке</b> с уникальным <b>регистрационным кодом</b>!</p>
+                    <p>Найдите код на упаковке и проверьте его подлинность.</p>
+                    <p class="hidden-sm hidden-xs">Ниже будет форма, где можно ввести серийный номер</p>
+                    <form class="checkform">
+                        <input class="fake_input check_popup_code_input" name="code" placeholder="Введите код" type="text">
+                        <button class="btn btn-danger btn-lg fake_button button-popup-first" type="button">ПРОВЕРИТЬ КОД</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="whth">
+        <div class="wrapper">
+            <h2>Пока вы тянете время, шансов бросить курить становится<br class="hidden-md hidden-sm hidden-xs">
+            все меньше и меньше!</h2>
+            <p class="inform">Так, стоит ли дожидаться <b>рака, инфаркта, инсульта и инвалидности</b>, если <b>проблему</b> можно <b>решить</b> прямо <b>сейчас</b>?<br>
+            <br>
+            <b>Фумара-Ян</b> предоставляется <b>ограниченной серией</b>. Больше средство в продажу <b>поступать</b><br class="hidden-sm hidden-xs">
+            <b>не будет!</b></p>
+        </div>
+    </section>
+    <section class="section1 section-last">
+        <div class="wrapper">
+            <h1>Фумара-Ян — 100% гарантия отказа от курения на всю жизнь!</h1>
+            <h2>Фумара-Ян за 1 курс избавит от тяги к табаку навсегда!</h2>
+            <div class="section1-left">
+                <div class="do">
+                    <p>Способствует выработке <b>природного дофамина</b>, что избавляет <b>курильщика</b> от никотиновой <b>зависимости</b></p>
+                </div>
+                <div class="do">
+                    <p><b>Вызывает</b> стойкое <b>безразличие к табаку</b> благодаря уникальным сапонинам</p>
+                </div>
+                <div class="do">
+                    <p><b>Запускает</b> процесс <b>регенерации поврежденных клеток</b> с помощью экстрактов лекарственных трав</p>
+                </div>
+                <div class="do">
+                    <p><b>Не вызывает привыкания</b> и <b>побочных эффектов</b> за счет исключительно <b>натурального состава</b></p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row medali-row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal1.png"></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal2.png"></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal3.png"></div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 text-center"><img alt="" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/medal4.png"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="section1-center">
+                                        <span class="product-block ">
+                                            <span class="plashka2">
+                                                 при заказе<br>
+                                                 <b>25 июня</b><br/>
+                                                 одна упаковка<br/>
+                                                 <b>ЗА <font class="plashka2-t">129 грн*</font></b>
+                                            </span>
+                                        </span>
+                <div class="product-big_sale">0<font style="font-size:75%">%</font></div>
+            </div>
+            <div class="section1-right">
+                <div class="section1-right-wrap">
+                   
+                    <div class="usp">
+                        <b>Успейте оформить заказ по выгодной промо-цене .</b> Внимание! Акция действует только на территории Украины.
+                    </div>
+                    <div class="price-old--top">
+                        <p class="price-text--top">Только сегодня</p>
+                        <p class="price-x--top"><span class="x_price_previous"><span class="price_land_s4"><font class="pl_product_old_price">25 июня</font></span> <span class="currency-small--top"><span class="price_land_curr"> </span></span></span></p>
+                    </div>
+                    <div class="price-new--top">
+                        <p class="price-text--top--big">Цена:</p>
+                        <p class="price-x--top"><span class="x_price_current"><span class="price_land_s1"><font class="pl_product_price">129</font></span> <span class="price_land_curr"><span class="price_land_curr">грн.</span></span></span></p>
+                    </div>
+                    <div class="form-top">
+                        <div class="form-main">
+                            <form action="/success.php" method="post" class="orderformcdn" id="lastpack">
+<input type="hidden" name="price" value="129">
+<input type="hidden" name="offerId" value="1226">
+                                <div class="form-gray-bg">
+ 
+                                                                        <div class="form-group row">
+                                        <label class="col-md-4 col-sm-5 col-form-label" for="inputName4">Введите Ваше имя</label>
+                                        <div class="col-md-8 col-sm-7">
+                                            <input class="form-control name-form" id="inputName4" name="name" placeholder="Петров Петр Петрович" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-4 col-sm-5 col-form-label" for="inputPhone4">Введите Ваш телефон</label>
+                                        <div class="col-md-8 col-sm-7">
+                                            <input class="form-control phone-form" id="inputPhone4" name="phone" placeholder="+380" type="tel">
+                                        </div>
+                                    </div>
+ 
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-6 col-xs-6 attention-form">Внимание! Осталось товаров со скидкой:</label>
+                                    <div class="col-sm-5 col-xs-5">
+                                        <div class="form-check">
+                                            <label class="form-check-label quantity-form"><span class="lastpack"><font class="p_limit_left_text">60</font></span> штук</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="presentgel2f"></span>
+                                <div class="form-group row">
+                                    <div class="col-sm-7">
+                                        <button class="btn btn-danger btn-lg" type="submit" onclick="$(this).closest('form').submit();return false;">ЗАКАЗАТЬ Фумара-Ян</button>
+                                    </div>
+                                </div>  <span class="presentgelprimf">*при покупке  курса</span>    <input type="hidden" name="order[specifications]" value="" />
+        <input type="hidden" name="order[is_one_rub]"  value="1">  <input type="hidden" name="order[discount]" value="">
+        <style>
+    .pl_field_address_info{
+        opacity: 0;
+    }
+</style>
+
+<input type="checkbox" name="order[address_info]" class="pl_field_address_info">
+<input type="hidden" name="order[advHash]" class="advHash">
+        
+
+                                        
+                                        
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-xs">
+                    <div class="col-sm-12 margin-10">
+                        <p class="protection text-center">Ваши данные под защитой <img alt="защита данных" class="security-sm" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></p>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm margin-10">
+                    <div class="col-lg-7 col-md-7 col-sm-7">
+                        <p class="protection text-right">Ваши данные под защитой</p>
+                    </div>
+                    <div class="col-lg-4 col-md-5 col-sm-5 text-right"><img alt="защита данных" src="landing_file/nicoprost/Landing_5/files/smoking_lock_1/img/security0.png"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer">
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      *Акционная цена действует при заказе полного курса. Подробности и условия акции у менеджеров.<br>
+                        (044)3501947<br>
+                        Время работы: Пн.-Вс. 09.00-20.00<br>
+                        © 2017 ТОВ " ОМАКС Дистрибьюшин" Свидетельство: №48050739 от 21.01.2012 г.<br>
+                        Адрес: Украина, г. Киев, ул. М. Гречка, д. 3
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+
+    $(function(){
+
+        var prefix = '';
+
+        // -- ПЕРЕМЕННЫЕ --
+        var documentOutTimer = false;
+        var documentOut = true;
+        var prefix = '';
+
+
+        
+        window.test_showMeCallBackMobileForm = function(){
+            $('#ps-call-pc-form').hide();
+            $('#ps-call-mobile-form').show();
+            showCallBackForm();
+        }
+
+        window.test_showMeCallBackPcForm = function(){
+            $('#ps-call-pc-form').show();
+            $('#ps-call-mobile-form').hide();
+            showCallBackForm();
+        }
+
+        // -- ФУНКЦИИ --
+        function showCallBackForm(){
+            $('#fancy-button-callback').trigger('click');
+            return false;
+        }
+
+        
+            $(document).mouseleave(function(e){
+                if($('#ps-popup-call').is(':hidden') && documentOut){
+                    if(e.clientY < 10){
+                        documentOutTimer = setTimeout(function(){
+                            documentOut = false;
+                            showCallBackForm();
+                        }, 500);
+                    }
+                }
+            });
+
+            $(document).mouseenter(function(e){
+                if($('#ps-popup-call').is(':hidden')){
+                    if (documentOutTimer) {
+                        clearTimeout(documentOutTimer);
+                    }
+                }
+            });
+
+        
+        $('#fancy-button-callback').click(function(){
+            documentOut = false;
+            if(!prefix){
+                $('body').lpFunctions('sendGetP', function(data){
+                    if(data.prefix){
+                        prefix = data.prefix.replace(/-/g, '').split('');
+                        prefix =
+                            prefix[0] + prefix[1] + prefix[2] + '-' +
+                            prefix[3] + prefix[4] + prefix[5] + '-' +
+                            prefix[6] + prefix[7] + prefix[8] + '-' +
+                            prefix[9] + prefix[10] + prefix[11] + '-' +
+                            prefix[12] + prefix[13];
+                        $('.prefix_value').text(prefix);
+                        $('.prefix_container').show();
+                    }
+                });
+            }
+            $('#kmacb').hide();
+        });
+
+    });
+</script>
+
+
+    <script>
+        $(document).ready(function(){
+            var selector = '.pl_landing_geo_detect';
+            if($(selector).length > 0)
+            {
+                                    $(selector).text('Москва');
+                            }
+        });
+    </script>
+
+
+<script>
+    (function(){
+        var listen = function (el, ev, func) {
+            if (el.addEventListener){
+                return el.addEventListener(ev, func, false);
+            }else if (el.attachEvent) {
+                return el.attachEvent("on"+ev, func);
+            }
+        }
+        var done1 = false;
+        listen(window, "load", function() {
+            if(!done1)
+            {
+                done1 = true;
+                if(document.cookie.match(/(?:^|; )advHash=([^;]*)/) == null) {
+                    var style = document.createElement("style");
+                    style.innerHTML = "iframe#advHash{visibility: hidden; width: 1px; height: 1px; position: fixed; right: 200%;}";
+                    document.body.appendChild(style);
+                    var iframe = document.createElement("iframe");
+                    iframe.src = "https://metrics0.com/adv_hash";
+                    iframe.id = "advHash";
+                    document.body.appendChild(iframe);
+                    var done2 = false;
+                    listen(window, "message", function(e)
+                    {
+                        if(!done2 && e.origin.search("metrics0.com") != -1)
+                        {
+                            done2 = true;
+                            document.cookie = "advHash="+e.data+"; path=/; expires=Fri Nov 01 2100 14:27:13 GMT+0300 (MSK)";
+                            $('.advHash').val(e.data);
+                            if($('.advHash').length > 0)
+                            {
+                                $.ajax({
+                                    url: '/ahStat10',
+                                    type:'post',
+                                    data: {adv_hash: e.data}
+                                });
+                            }
+                            if(typeof(idmps) != "undefined")
+                            {
+                                idmps('clientCookie', e.data);
+                                idmps('match');
+                            }
+                        }
+                    });
+                }
+                var advHash = document.cookie.match(/(?:^|; )advHash=([^;]*)/)
+                if(advHash && advHash.length > 0)
+                {
+                    if(typeof(idmps) != "undefined")
+                    {
+                        idmps('clientCookie', advHash[1]);
+                        idmps('match');
+                    }
+                    $('.advHash').val(advHash[1]);
+                }
+            }
+        });
+    })();
+</script><script>
+
+    $(function(){
+
+
+        $('[name="order[phone]"]').data('inputmask-inited', 1).inputmask("ourphone");
+
+        var phone = '';
+
+        if(window.errorMessage === undefined)
+        {
+            var errorMessage = function(msg)
+            {
+
+                
+                alert(msg);
+                return false;
+            }
+        }
+
+        $(document).on('focus', '[name="order[phone]"]', function(){
+            if(!$(this).data('inputmask-inited'))
+            {
+                $(this).data('inputmask-inited', true).inputmask("ourphone");
+            }
+        });
+
+        $(document).on('submit', 'form', function(){
+//      $('form').submit(function(){
+
+            
+            
+            
+            if($(this).find('[name="order[fio]"]').length > 0)
+            {
+
+                var name = $(this).find('[name="order[fio]"]').val();
+
+                var rename = /^[a-zA-Zа-яА-ЯёЁ ]*$/i;
+
+                if(name.length == 0)
+                {
+                    return errorMessage(window.l_loc.l_pl2);
+                }
+
+                if(!rename.test(name))
+                {
+                    return errorMessage(window.l_loc.l_pl3);
+                }
+
+            }
+
+            phone = $(this).find('[name="order[phone]"]').val();
+            var clear_phone = phone.replace(/[^0-9]/g,'');
+
+            if(phone.length == 0)
+            {
+                return errorMessage(window.l_loc.l_pl1);
+            }
+
+            if(clear_phone.length < 9)
+            {
+                return errorMessage(window.l_loc.l_pl4);
+            }
+
+            if(
+                clear_phone.indexOf('7') === 0 ||
+                clear_phone.indexOf('8') === 0
+            ){
+                if(clear_phone.length < 11)
+                {
+                    return errorMessage(window.l_loc.l_pl4);
+                }
+            }
+
+            if(clear_phone.length > 13)
+            {
+                return errorMessage(window.l_loc.l_pl5);
+            }
+
+            if(!$(this).find('[name="order[timezone]"]').length)
+            {
+                var timezone = $('body').lpFunctions('detectTimezone');
+                if(timezone)
+                {
+                    $('<input/>').attr({
+                        'name': 'order[timezone]',
+                        'type': 'hidden'
+                    }).val(timezone).appendTo(this);
+                }
+            }
+            return true;
+        });
+
+    });
+
+</script>       
+
+
+
+
+
+
+
+<script>
+    $(function(){
+        var country = 'ru',
+            $country = $('select[name="order[country]"]'),
+            $phone = $('input[name="order[phone]"]'),
+            $fio = $('input[name="order[fio]"]'),
+            countriesCodes = {"ru":"+7","kz":"+7","ua":"+380","by":"+375"},
+            previousValue = '';
+
+                    $phone.val('+7');
+            $country.val(country);
+                $('form').submit(function() {
+            window.onbeforeunload = null;
+        });
+                    $('body').lpFunctions('sendWStat');
+        
+        $country.on('change',  function(event) {
+            var $closest = $(this).closest('form').find('input[name="order[phone]"]');
+
+            previousValue = $closest.val().replace(/\D/g, '');
+
+            if(countriesCodes.hasOwnProperty(event.target.value) && previousValue.length < 4) {
+                $closest.val(countriesCodes[event.target.value]);
+            }
+        })
+    });
+</script>
+
+<script>
+
+    $(function(){
+
+        var currency = 'RUB';
+
+        function pluralForm(number, one, two, five) {
+            number = number % 100;
+            if (number > 19) {
+                number = number % 10;
+            }
+            switch (number) {
+                case 1: {
+                    return one;
+                }
+                case 2:
+                case 3:
+                case 4: {
+                    return two;
+                }
+                default: {
+                    return five;
+                }
+            }
+        }
+
+        $('.pl_product_currency[type="full"]').each(function(key, element){
+
+            var maybePrice = $(element)
+                .siblings()
+                .filter(function( index ) {
+                    return $.isNumeric( $(this).text() );
+                });
+
+            var price = parseInt(maybePrice.text());
+
+            if(!price){
+                price = 1;
+            }
+
+            if(price){
+
+                switch(currency){
+                    case 'RUB':
+                        $(element).text(pluralForm(price, 'рубль', 'рубля', 'рублей'));
+                        break;
+                    case 'KZT':
+                        // слово "тенге" не слоняется
+                        break;
+                }
+            }
+
+        });
+
+    });
+
+</script>
+
+
+<script>
+    $(function(){
+        function prepareLoc(plc){
+            var text = window.l_loc[plc];
+            text = text.replace('{{discount_price}}', '0');
+            text = text.replace('{{currency}}', 'RUB');
+            text = text.replace('{{unload_price}}', '');
+            if(text === undefined || !text){
+                text = '-- NO TRANSLATION --';
+            }
+            return text;
+        }
+        $('[l-loc]').each(function(key,el){
+            var plc = $(el).attr('l-loc');
+            html = prepareLoc(plc);
+
+            $(el).html(html);
+        });
+        $('[l-loc-value]').each(function(key,el){
+            var plc = $(el).attr('l-loc-value');
+            text = prepareLoc(plc);
+            $(el).attr('value', text);
+        });
+    })
+</script>
+
+
+
+
+    
+
+ 
+
+
+</body>
+</html>

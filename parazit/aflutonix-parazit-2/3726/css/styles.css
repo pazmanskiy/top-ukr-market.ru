@@ -1,0 +1,605 @@
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .hide-content-md {display: none}
+    .b-content, .inner-modal{
+        width: 768px;
+    }
+    .order__block {
+        width: 100%;
+        height: auto;
+        font-size: 0px;
+    }
+    .careful .b-content {
+        min-height: 124px;
+        background: #f4f5df;
+        border-radius: 15px;
+        padding-bottom: 40px;
+    }
+    .top_header__teaser {
+        left: 34%;
+    }
+    .b-wrapper.top_header, .b-wrapper.header, .b-wrapper.bottom_header {
+        background-position: 70% top;
+    }
+    .b-wrapper.about {
+        overflow: hidden;
+        background-size: 2500px;
+    }
+    .b-wrapper.description {
+        background-position: 65% top;
+    }
+    .bottom_header__icons {
+        display: none;
+    }
+    .bottom_header__tube {
+       /* left: 14px;*/
+        bottom: -34px;
+    }
+    .header .b-content {
+        margin-left: 44%;
+        width: 50%;
+    }
+    .header__slogan {
+        font-size: 20px;
+    }
+    .header__slogan > span:last-of-type {
+        font-size: 25px;
+    }
+    .header__effects__item {
+        font-size: 16px;
+    }
+    .description__caption {
+        margin-top: 54px;
+    }
+    .description__text {
+        font-size: 17px;
+        line-height: 24px;
+        width: 430px;
+    }
+    .b-wrapper.certified {
+        background: #5dc517;
+    }
+    .certified__list__item {
+        margin: 20px 10px !important;
+    }
+    .reviews__list__item {
+        width: 225px;
+    }
+    .reviews__list__item__text {
+        /*font-size: 13px;*/
+    }
+    .opinion__doctor_photo {
+        right: 0;
+    }
+    .opinion__text {
+        margin-right: 290px;
+    }
+    .opinion__by__name {
+        width: 32%;
+    }
+    .about__tube {
+/*        bottom: 75px;
+        left: 50%;
+        height: 370px;*/
+    }
+    .about__harm {
+        width: 440px;
+        float: none;
+    }
+    .about__use__instruction {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .about__use__instruction__item:not(:last-of-type) {
+        margin-bottom: 40px;
+    }
+    .about__use__instruction__item:after {
+        background-size: 80% !important;
+    }
+    .about__use {
+        float: none;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .about__use__caption {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .order__how__instruction__step:not(:last-of-type):after {
+        display: none;
+    }
+    .order__block-left {
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+    .info__where_buy__text, .info__delivery__text, .info__where_buy__caption, .info__delivery__caption{
+        text-align: center;
+    }
+    .info__where_buy, .info__delivery{
+        width: 90%;
+        float: none;
+        margin: 0 auto;
+    }
+    .info__where_buy {
+        padding-bottom: 30px;
+    }
+    .careful__box {
+        display: none;
+    }
+    .order__block-right {
+        margin-left: 0;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 15px 15px;
+        margin-top: 22px;
+    }
+    .order__block__form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer .left_block {
+        margin-right: 44px;
+    }
+    .order__how .step_2 {
+        margin-right: 0px;
+    }
+    .order__how .step_2:after {
+        -webkit-transform: rotate(145deg);
+                transform: rotate(145deg);
+        left: 30px;
+        top: 226px;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    .b-wrapper.top_header, .b-wrapper.header, .b-wrapper.bottom_header {
+        background-position: 66% top;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .product {
+        display: inline-block;
+        position: relative;
+        width: 35%;
+        vertical-align: top;
+    }
+    .product__img {
+        display: block;
+        margin: 0 auto;
+        min-width: 100%;
+        height: 197px;
+        background: url(../images/5-banok-bg.png) no-repeat;
+        background-size: contain;
+    }
+    .header__title, .header__slogan{
+        text-align: center;
+    }
+    .header__slogan {
+        margin-bottom: 40px;
+    }
+    .header__effects {
+        display: inline-block;
+        width: 65%;
+        vertical-align: top;
+    }
+    .b-content, .inner-modal{
+        width: 100%;
+        max-width: 490px;
+    }
+    .b-wrapper.about {
+    }
+    .b-wrapper.top_header, .b-wrapper.header, .b-wrapper.bottom_header {
+        background-position: 80% top;
+    }
+    .header .b-content {
+        width: 100%;
+        font-size: 0;
+        display: block;
+        padding-top: 20px;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: 5px;
+        max-width: 100%;
+    }
+    .header__effects__item {
+        font-size: 14px;
+    }
+    .bottom_header__tube {
+        display: none;
+    }
+    .top_header__teaser {
+        left: -10%;
+    }
+    .description {
+        background: #f4f5df !important;
+    }
+    .description__text {
+        width: 84%;
+        margin: 0 auto;
+    }
+    .description__caption {
+        width: 100%     ;
+        margin-bottom: 20px;
+        margin-top: 70px;
+        text-align: center;
+        font-size: 32px;
+    }
+    .consist .b-content {
+        padding-top: 0 !important;
+    }
+    .consist__list__item {
+        margin: 15px 10px 20px!important;
+    }
+    .consist__list__item__caption {
+        margin-bottom: 0;
+        height: auto;
+    }
+    .consist__list__item__text {
+        margin-top: -10px;
+    }
+    .consist__list__item {
+        padding-top: 140px;
+    }
+    .certified__caption {
+        width: 100%;
+        font-size: 28px;
+    }
+    .reviews__list__item {
+        width: 90%;
+    }
+    .reviews__list__item{
+        margin-bottom: 15px;
+    }
+    .reviews__list__item:nth-last-child(1){
+        margin-bottom: 0;
+    }
+    .reviews__list__item:not(:last-of-type) {
+        margin-right: 0;
+    }
+    .opinion {
+        overflow: hidden;
+    }
+    .opinion__text {
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 135px;
+        margin-bottom: 10px;
+    }
+    .opinion__by__sign {
+        position: relative;
+        /* left: -23px; */
+        top: 20px;
+        width: 140px;
+        background-size: contain;
+    }
+    .opinion__doctor_photo {
+        right: -160px;
+        bottom: -140px;
+        background-size: 75%;
+    }
+    .about__use__instruction__item {
+        font-size: 17px;
+    }
+    .about__use__instruction__item:not(:last-of-type) {
+        margin-bottom: 20px;
+    }
+    .about__harm__caption, .about__use__caption {
+        margin-bottom: 20px;
+    }
+    .about__harm {
+        /*width: 280px;*/
+    }
+    .about__harm__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .about__tube {
+        bottom: 79px;
+        left: 45%;
+        background-size: contain;
+        width: 320px;
+    }
+    .order__how__instruction__step:not(:last-of-type) {
+        margin-right: 0;
+    }
+    .order__block {
+        background: #ffd40f;
+        height: auto;
+    }
+    .order__block__teaser {
+        width: 100%;
+        margin-left: 0;
+    }
+    .order__block__sale {
+        top: -30px;
+        left: 54px;
+    }
+    .order__block__tube {
+        height: 200px;
+        top: 65px;
+        left: 10px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+    .dn480 {
+        display: none;
+    }
+    .footer .left_block, .footer .centr_block{
+        float: none;
+        width: 53%;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer .left_block {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .product {
+        display: inline-block;
+        position: relative;
+        width: 38%;
+        margin-left: -3%;
+        vertical-align: top;
+    }
+}
+@media screen and (max-width: 490px) {
+    .product {
+        min-width: 170px;
+    }
+    .product, .header__effects {
+        display: block;
+        margin: 0 auto;
+    }
+    .product__img {
+        max-height: 180px;
+        max-width: 200px;
+    }
+    .b-wrapper.header {
+        background: rgba(68,130,14,1);
+        background: radial-gradient(ellipse at center, rgba(68,130,14,1) 0%, rgba(0,0,0,1) 84%, rgba(0,0,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44820e', endColorstr='#000000', GradientType=1 );
+    }
+    .header__effects {
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    .header .b-content {
+        height: auto;
+    }
+    .header__title, .header__slogan {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+    .b-content, .inner-modal{
+        width: 100%;
+        min-width: 320px;
+    }
+    .top_header .b-content {
+        height: 166px;}
+    .bottom_header__description {
+        width: 100%;
+    }
+    .bottom_header .b-content {
+        height: 90px;
+    }
+    .description__teaser {
+        width: 100%;
+        height: auto;
+        background: #5dc517;
+        border-radius: 0 0 15px 15px;
+    }
+    .description__teaser__button {
+        float: none;
+        display: block;
+        width: 160px;
+        text-align: center;
+        margin: 14px auto;
+    }
+    .description__caption {
+        margin-top: 110px;
+    }
+    .top_header__teaser__sale {
+        /*display: none;*/
+    }
+    .top_header__teaser {
+        width: 90%;
+        margin: 0 auto;
+        left: 0;
+    }
+    .top_header__teaser__prices {
+        float: none;
+        margin: 0 auto;
+    }
+    .certified__caption {
+        margin-bottom: 20px;
+    }
+    .opinion__text {
+        margin: 0 0 10px;
+        width: 100%;
+    }
+    .description__caption, .reviews__caption, .opinion__caption {
+        font-size: 29px;
+    }
+    .review__caption {
+        font-size: 29px;
+        color: #479811;
+    }
+    .opinion__by__name {
+        width: 45%;
+    }
+    .opinion__doctor_photo {
+        display: none;
+    }
+    .info__where_buy__caption, .info__delivery__caption, .careful__caption{
+        margin-bottom: 16px;
+    }
+    .bottom_header__description, .description__text, .opinion__text, .about__harm__text, .about__use__instruction__item, .info__where_buy__text, .info__delivery__text, .careful__text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .careful__content {
+        padding: 15px 0;
+    }
+    .careful__caption {
+        width: 100%;
+        top: 4px;
+    }
+    .about {
+        background: rgb(71, 152, 17) !important;
+    }
+    .about__harm {
+        text-align: center;
+    }
+    .about__harm__caption, .about__use__caption {
+        text-align: center;
+    }
+    .about__tube{
+        display: none;
+    }
+    .footer .left_block {
+        display: none;
+    }
+    .order__block__form {
+        width: 96%;
+    }
+    .order__block__sale {
+        left: -12px;
+        top: -22px;
+        width: 145px;
+        background-size: contain;
+        padding: 50px 30px 0;
+    }
+    .order__block__sale__amount {
+        font-size: 28px;
+    }
+    .order__block__sale__text {
+        font-size: 18px;
+    }
+    .order__block__form__button {
+        font-size: 20px;
+    }
+}
+
+.course {
+  font-size: 14px;
+  color: #000000;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.x_star {
+  position: relative;
+}
+
+.x_star::after {
+  content: '*';
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  right: -13px;
+  top: -5px;
+}
+
+
+/* new */
+
+/* .about__tube {
+    background-size: contain;
+    width: 320px;
+    left: 320px;
+    bottom: -138px;
+}
+ */
+
+@media screen and (max-width: 1000px) {
+    .about__tube {
+        /*left: calc(50% + 40px);*/
+        
+    }
+}
+@media screen and (max-width: 767px) {
+    .about__tube {
+        left: calc(50% + 30px);
+        max-width: 230px;
+    }
+    .carousel-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.reviews-top-slider-wrap {padding-top: 100px;}
+#reviews-top-slider .carousel-item > div { padding-top: 20px;padding-bottom: 20px; position: relative; top: -6px;}
+#reviews-top-slider .carousel-item h3 { font-weight: bold; font-size: 16px; color: #fff;}
+#reviews-top-slider .carousel-item p {margin-bottom: 0;}
+#reviews-top-slider .carousel-item p a {font-size: 16px; color: #fff;}
+.carousel-indicators { margin-top: 20px; margin-bottom: 20px; position: relative }
+.carousel-indicators li {width: 15px !important; height: 15px; background-color:#13592f; border-radius: 10px; border: solid 1px  #13592f }
+.carousel-indicators .active {background-color:#fff;border: solid 1px  #13592f }
+.prod {border: solid #f4f5df}
+.prod .item-prod {padding: 20px; padding-top: 30px}
+.prod .item-prod.prod-green {
+    background-color: #54be0c;
+    color: #fff !important;
+}
+.prod .item-prod.prod-yelow {
+    background-color: #fff300;
+}
+.prod .item-prod.prod-blue {
+    background-color: #00335d;
+    color: #fff !important;
+}
+.pt30 {padding-top: 30px}
+.pb30 {padding-bottom: 30px}
+.item-prod-button {padding-top:20px; padding-bottom: 20px}
+.item-prod-image {padding:20px}
+.background-style {background-color: #f4f5df; padding: 40px 20px}
+body {overflow-x: hidden;}
+.carousel-inner {
+    min-height: 520px;
+}
+.close2 {
+    position: absolute;
+    float: right;
+    right: 15px;
+    top: 15px;
+}
+.modal-content {
+    padding: 40px;
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-title {
+    width: 100%;
+}

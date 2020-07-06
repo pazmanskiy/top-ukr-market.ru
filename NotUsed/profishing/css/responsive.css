@@ -1,0 +1,376 @@
+@media only screen and (max-width: 1006px){
+    
+    html, body {font-size: 14px;}
+
+	/*** section_3 ***/
+    	.section_3 .half > span {
+		    font-size: 2em;
+		}
+		.section_3 .half p {
+		    font-size: 1.4em;
+		    margin: 0 0 30px 0;
+		}
+	/*** section_4 ***/
+		.section_4 h2 {
+		    font-size: 2.2em;
+		}
+		.section_4 p {
+		    font-size: 1.4em;
+		}
+	/*** section_6 ***/
+		.info div p {
+		    font-size: 1.3em;
+		}
+	/*** section_11 ***/
+		.section_11 {
+		    font-size: 1.2em;
+		}
+	/*** section_12 ***/
+		.section_12{
+		    background-position: 54% 0;
+		}
+		.forma > span {
+		    font-size: 1.3em;
+		}
+		.forma form {
+		    width: 84%;
+		}
+
+}
+
+@media only screen and (max-width: 899px){
+	
+	/*** section_1 ***/
+		.section_1 {
+		    height: auto;
+		    padding: 0px 0 110px 0;
+		    background-position: 47% 0;
+		}
+		.title h1 {
+		    font-size: 4.9em;
+		    line-height: 75px;
+		}
+		.title strong {
+		    font-size: 1.9em;
+		    line-height: 38px;
+		}
+		.title > p {
+		    line-height: 28px;
+		    font-size: 1.6em;
+		}
+		.btn {
+		    padding: 14px 0;
+		}
+	/*** section_3 ***/
+		.section_3 .half > span {
+		    margin: -7px 0 26px 0;
+		}
+	/*** section_4 ***/
+		.section_4 {
+		    height: 700px;
+		    padding: 210px 0 0 0;
+		}
+	/*** section_6 ***/
+		.info > p {
+		    font-size: 1.8em;
+		}
+	/*** section_7 ***/
+		.section_7 {
+		    height: auto;
+		}
+		.blue_block p {
+		    font-size: 1.7em;
+		    line-height: 30px;
+		}
+		.blue_block ul li {
+		    font-size: 1.4em;
+		    line-height: 21px;
+		}
+	/*** section_12 ***/
+		.section_12 {
+		    padding: 100px 0 60px 0;
+		    height: auto;
+		}
+		.forma {
+		    padding: 35px 20px 45px 20px;
+		    margin: 0 0 20px 0;
+		}
+		.forma > p {
+		    line-height: 28px;
+		}
+		.forma input[type=text] {
+		    height: 55px;
+		}
+
+}
+
+@media only screen and (max-width: 799px){
+    
+	/*** section_1 ***/
+		.section_1 {
+		    padding: 0px 0 90px 0;
+		    background-position: 45% 0;
+		}
+		.title {
+		    width: 50%;
+		    padding: 30px 0 0 0;
+		}
+    	.title h1 {
+		    font-size: 4em;
+		    line-height: 60px;
+		}
+		.title strong {
+		    font-size: 1.7em;
+		    line-height: 30px;
+		}
+		.title > p {
+		    line-height: 25px;
+		    font-size: 1.5em;
+		}
+		.btn {
+		    width: 290px;
+		}
+	/*** section_3 ***/
+		.section_3 .half > span {
+		    margin: -6px 0 15px 0;
+		    font-size: 1.8em;
+		}
+		.section_3 .half p {
+		    margin: 0 0 25px 0;
+		    line-height: 1.1;
+		}
+	/*** section_4 ***/
+		.section_4 {
+		    padding: 90px 0;
+		    height: auto;
+		}
+	/*** section_6 ***/
+		.info > p {
+		    line-height: 25px;
+		}
+		.info > p span {
+		    font-size: 0.8em;
+		}
+		.info div p {
+		    line-height: 20px;
+		}
+	/*** section_7 ***/
+		.section_7 {
+		    background-position: 41% 0;
+		}
+		.blue_block {
+		    width: 70%;
+		    padding: 15px 15px 0 15px;
+		}
+		.blue_block p {
+		    line-height: 26px;
+		}
+		.blue_block ul li {
+		    font-size: 1.3em;
+		    line-height: 20px;
+		}
+	/*** section_9 ***/
+		.section_9 {
+		    font-size: 1.6em;
+		}
+	/*** section_10 ***/
+		.section_10 {
+		    font-size: 2.7em;
+		}
+	/*** section_12 ***/
+		.section_12 {
+		    background-position: 63% 0;
+		}
+		.forma form {
+		    margin: 25px 0 0 0;
+		    width: 100%;
+		}
+		.forma > p {
+		    margin: 0 0 25px 0;
+		}
+
+}
+
+@media only screen and (max-width: 639px){
+    
+	/*** section_1 ***/
+		.section_1 {
+		    background-position: 52% 0;
+		}
+		.title {
+		    width: 58%;
+		}
+		.title h1 {
+		    font-size: 3.3em;
+		    line-height: 50px;
+		}
+		.title h1 span {
+		    letter-spacing: 2px;
+		}
+		.title strong {
+		    font-size: 1.4em;
+		    line-height: 26px;
+		}
+		.title > p {
+		    line-height: 23px;
+		    font-size: 1.3em;
+		}
+		.btn {
+		    width: 100%;
+		}
+	/*** section_3 ***/
+		.half {
+		    float: none;
+		    width: auto;
+		    text-align: center;
+		}
+		.half img{
+			display: inline-block;
+		}
+		.section_3 .half_text {
+		    padding: 30px 0 0 0;
+		    text-align: left;
+		}
+	/*** section_5 ***/
+		.section_5 {
+		    font-size: 1.5em;
+		}
+	/*** section_6 ***/
+		.section_6 img {
+		    margin: 0;
+		}
+		.info > p,
+		.info div{
+		    float: none;
+		    width: auto;
+		}
+		.info div {
+		    padding: 20px 0 0 0;
+		}
+	/*** section_7 ***/
+		.section_7 {
+		    background-position: 40% 0%;
+		}
+		.blue_block {
+		    width: 75%;
+		}
+		.blue_block p {
+		    line-height: 20px;
+		    font-size: 1.3em;
+		}
+		.blue_block ul li {
+		    line-height: 20px;
+		    margin: 0 0 10px 0;
+		}
+	/*** section_8 ***/
+		.section_8 img {
+		    margin: 0 0 3px 0;
+		}
+	/*** section_9 ***/
+		.section_9 {
+		    font-size: 1.3em;
+		}
+	/*** section_10 ***/
+		.section_10 {
+		    font-size: 2.3em;
+		}
+	/*** section_11 ***/
+		.section_11 {
+		    font-size: 1.15em;
+		    line-height: 20px;
+		}
+		.icon {
+		    width: 30%;
+		    margin: 0 1%;
+		}
+	/*** section_12 ***/
+		.section_12 {
+		    background-position: 68% 0;
+		    padding: 175px 0 20px 0;
+		}
+		.forma {
+		    width: 70%;
+		}
+		.forma > p {
+		    line-height: 25px;
+		    font-size: 1.55em;
+		    margin: 0 0 15px 0;
+		}
+		.forma > span {
+		    font-size: 1.18em;
+		}
+
+}
+
+@media only screen and (max-width: 479px){
+	
+	/*** section_1 ***/
+		.title {
+		    width: auto;
+		    text-align: right;
+		}
+		.title strong {
+		    font-size: 1.3em;
+		    width: 80%;
+		    display: inline-block;
+		}
+		.title > p {
+		    line-height: 20px;
+		    font-size: 1.2em;
+		    width: 80%;
+		    display: inline-block;
+		}
+		.btn {
+		    padding: 8px 0;
+		    width: 80%;
+    		display: inline-block;
+		}
+	/*** section_2 ***/
+		.section_2{
+		    font-size: 1.7em;
+		}
+	/*** section_3 ***/
+		.section_3 {
+		    padding: 30px 0;
+		}
+	/*** section_4 ***/
+		.section_4 {
+		    padding: 70px 0;
+		    line-height: 20px;
+		}
+		.section_4 p {
+		    font-size: 1.25em;
+		}
+	/*** section_5 ***/
+		.section_5 {
+		    font-size: 1.3em;
+		}
+	/*** section_6 ***/
+		.section_6 img {
+		    margin: 0 0 4px 0;
+		    width: auto;
+		}
+	/*** section_7 ***/
+		.section_7 {
+		    background-position: 100% 0%;
+    		padding: 40px 0 80px 0;
+		}
+		.blue_block {
+		    width: auto;
+		}
+	/*** section_8 ***/
+		.section_8 img {
+		    margin: 0 0 3px 0;
+		    width: auto;
+		}
+	/*** section_11 ***/
+		.icon {
+		    width: auto;
+		    margin: 0 0 30px 0;
+		}
+	/*** section_12 ***/
+		.forma {
+		    width: auto;
+		}
+
+}

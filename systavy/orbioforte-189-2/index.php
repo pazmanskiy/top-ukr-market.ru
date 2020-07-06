@@ -1,0 +1,660 @@
+ <!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Thu Nov 29 2018 09:38:05 GMT+0000 (UTC)  -->
+<html data-wf-page="5bfe7cc2865baf7f268443ff" data-wf-site="5bfe7cc2865baf08118443fe">
+<head>
+  <meta charset="utf-8">
+  <title>Orbioforte - здоровые суставы в любом возрасте!</title>
+  <meta content="Не ставьте точку на активном образе жизни." name="description">
+  <meta content="Orbioforte - здоровые суставы в любом возрасте!" property="og:title">
+  <meta content="Не ставьте точку на активном образе жизни." property="og:description">
+  <meta content="summary" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/styles.min.css" rel="stylesheet" type="text/css">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/sustavitin-medical.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/5be9659ff904b3bca79cb02a_Group-51.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/5be965a3dc46208b8bd0cb62_Group-52.png" rel="apple-touch-icon">
+
+<!-- order position start -->
+<script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+  function numbOffersChange(n){
+    setTimeout(
+      function(){
+        var numbDecrOffers = Math.floor(Math.random() * 3 + 1);
+        var currentNumbOffers = parseInt($($(".count")[0]).text());
+        var currentNumbPeoples = parseInt($($(".count-people")[0]).text());
+
+        var randTime = (Math.floor(Math.random() * 30 + 30) * 1000);
+
+        if(currentNumbOffers > numbDecrOffers){
+          $(".count").html(currentNumbOffers - numbDecrOffers);
+          $(".count-people").html(currentNumbPeoples + numbDecrOffers);
+        }
+
+        numbOffersChange(randTime);
+
+      } 
+
+      , n);
+    
+  }
+  $(function(){numbOffersChange(5000)});
+</script>
+
+<!-- order position end   -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+
+   ym(58810207, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/58810207" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --> 
+</head>
+<body class="body">
+  <div class="sec-wrapper">
+    <div class="header">
+      <div class="container">
+        <div class="header-grid">
+          <div id="w-node-41038319c1d2-268443ff" class="heading-wrapper">
+            <h1 class="heading-2">Здоровые суставы <span class="text-span">в любом возрасте!</span></h1>
+            <h2 class="heading">Не ставьте точку на активном образе жизни.</h2>
+          </div>
+          <div id="w-node-c82bf4b58b38-268443ff" class="form-wrapper">
+            <div class="form-block w-form">
+              <form method="post" action="/success.php" id="email-form" name="email-form" data-name="Email Form"  >
+                <div class="div-block">
+                  <div class="text-block">оформите заказ</div>
+                  <div>пока действует акция!</div>
+                </div>
+				<input type="hidden" name="price" value="189">
+				<input type="hidden" name="offerId" value="4453">
+                <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="name" placeholder="Введите Ваше имя" id="name">
+                <input type="tel" class="text-field w-input" maxlength="256" name="phone" data-name="phone" placeholder="Введите Ваш телефон" id="phone" required="">
+               
+                
+
+                <input type="submit" value="ЗАКАЗАТЬ СЕЙЧАС" class="submit-button w-button">
+              </form>
+
+            </div>
+            <div class="text-block-2">* при заказе комплексной программы</div>
+
+            <!-- timer insert start -->
+            <div id="timer-header-form" class="timer">
+                <div class="div-block-11">
+                  <div class="text-block-7"><span class="text-span-2 hours">00</span></div>
+                  <div class="text-block-8">ЧАСОВ</div>
+                </div>
+                <div class="div-block-11">
+                  <div class="text-block-7"><span class="text-span-2 mins">00</span></div>
+                  <div class="text-block-8">МИНУТ</div>
+                </div>
+                <div class="div-block-11">
+                  <div class="text-block-7 secs">00</div>
+                  <div class="text-block-8">СЕКУНД</div>
+                </div>
+            </div>
+            <!-- timer insert end   -->
+
+            <div class="div-block-2">
+              <div class="text-block-3">Осталось упаковок по акции:</div>
+              <div data-w-id="7e311f7b-025e-00f2-d122-6a326849e86a" class="text-block-4 coun">34</div>
+            </div>
+          </div>
+          <div id="w-node-1dbf980ec3d5-268443ff" class="hero-pic-wrapper"><img src="images/product.png" alt="" class="hero-pic">
+            <div data-w-id="07f69e5b-8801-b5fc-3a2d-9c05622706fa" class="price-wrapper">
+              <div class="div-block-15">
+                <div>По льготной цене</div>
+              </div>
+              <div class="div-block-16">
+                <div>189 ГРН*</div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-b837b55f5a8c-268443ff" class="hero-pic-wrapper2"><img src="images/123.png" alt="" class="hero-pic2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section sec2">
+      <div class="container">
+        <div class="grid">
+          <div id="w-node-0e9ebfc906bd-268443ff" data-w-id="6711a5c1-6eb7-0aee-697e-0e9ebfc906bd" class="card">
+            <div class="icon-wrapper"><img src="images/Group.svg" alt="" class="icon"></div>
+            <div>СНИМЕТ<br>БОЛЬ</div>
+          </div>
+          <div id="w-node-0b81cfe10fdd-268443ff" class="card">
+            <div class="icon-wrapper"><img src="images/Group-1.svg" alt="" class="icon"></div>
+            <div>ВОССТАНОВИТ ХРЯЩЕВУЮ ТКАНЬ</div>
+          </div>
+          <div id="w-node-6fcab692ded0-268443ff" class="card">
+            <div class="icon-wrapper"><img src="images/Group-3.svg" alt="" class="icon"></div>
+            <div>ВЫВЕДЕТ<br>СОЛИ</div>
+          </div>
+          <div id="w-node-7ba06267160d-268443ff" class="card">
+            <div class="icon-wrapper"><img src="images/Group-2.svg" alt="" class="icon"></div>
+            <div>ОСТАНОВИТ ВОСПАЛИТЕЛЬНЫЕ ПРОЦЕССЫ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section sec3">
+      <div class="container">
+        <div class="row">
+          <div id="w-node-8922bec90da0-268443ff" class="div-block-4">
+            <h3 class="heading-3">По статистике: <span class="text-span-2">50% украинцев</span> после 40 лет страдает болезнями суставов</h3>
+            <div class="div-block-5"><img src="images/Group-4.svg" width="96" alt="" class="image">
+              <div>что может привести к неминуемым проблемам, в том числе и инвалидности.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section sec4">
+      <div class="container">
+        <div class="row-2">
+          <div id="w-node-8c224f21fc1a-268443ff" class="div-block-6">
+            <h3 class="heading-3"><span class="text-span-2">Orbioforte</span></h3>
+            <div>Orbioforte – средство для профилактики болезней и лечения суставов, в основе которого гидролизат коллагена. Уничтожает орто-соли, укрепляет и тонизирует хрящевую ткань, повышает её эластичность, улучшает кровоток</div>
+            <div class="button-wrapper"><a href="#w-node-254daef6fc8f-268443ff" class="button w-button">ЗАКАЗАТЬ Orbioforte</a></div>
+          </div><img src="images/flour_PNG13.png" srcset="images/flour_PNG13.png 500w, images/flour_PNG13.png 570w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, 46vw" id="w-node-84e7e74b959b-268443ff" alt="" class="image-3"></div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="heading-wrapper-2">
+          <h3 class="heading-3">Состав </h3>
+        </div>
+        <div class="grid">
+          <div id="w-node-ff70ac557c76-268443ff" class="card">
+            <div class="icon-wrapper"><img src="images/flour_PNG13.png" alt="" class="icon"></div>
+            <div>Гидролизат коллагена</div>
+            <div class="text-block-5">Уничтожает орто-соли, укрепляет и тонизирует хрящевую ткань, повышает её эластичность, улучшает кровоток.</div>
+          </div>
+          <div id="w-node-c298eb762cf4-268443ff" class="card">
+            <div class="icon-wrapper"><img src="images/dizayn-bez-nazvaniya-17.jpg" alt="" class="icon"></div>
+            <div>Гиалуроновая кислота</div>
+            <div class="text-block-5"> Подавляет дегенерацию хряща и освобождение протеогликанов из внеклеточного матрикса хрящевой ткани, защищает поверхность суставного хряща, нормализует свойства и состав синовиальной жидкости, снижает восприятие боли.</div>
+          </div>
+          <div id="w-node-7d31f3f04b66-268443ff" class="card">
+            <div class="icon-wrapper"><img src="images/2-devils.jpg" alt="" class="icon"></div>
+            <div>Экстракт из корней мартинии душистой </div>
+            <div class="text-block-5">Избавляет от боли в суставах, питает соединительную ткань, способствует образованию защитной пленки на воспаленных тканях.</div>
+          </div>
+          <div id="w-node-0f363c225b92-268443ff" class="card">
+            <div class="icon-wrapper"><img src="images/гранат.jpg" alt="" class="icon"></div>
+            <div>Экстракт граната</div>
+            <div class="text-block-5">Уничтожает отложения орто-солей, размягчает их и разлагает на выводимые элементы.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section sec4">
+      <div class="container">
+        <div class="heading-wrapper-2">
+          <h3 class="heading-3">Orbioforte применяют при:</h3>
+        </div>
+        <div class="grid2">
+          <div id="w-node-19ce26b1f5d5-268443ff" class="div-block-8"><img src="images/torn-knee-ligament-injury-treatment-surgery.jpg" alt="" class="image-4">
+            <div>УШИБАХ, РАСТЯЖЕНИЯХ, ВЫВИХАХ, ГЕМАТОМАХ</div>
+          </div>
+          <div id="w-node-09fe54a9066c-268443ff" class="div-block-8"><img src="images/boli-v-spine.jpg" alt="" class="image-4">
+            <div>АРТРИТАХ, АРТРОЗАХ</div>
+          </div>
+          <div id="w-node-245110faad8e-268443ff" class="div-block-8"><img src="images/1365659323_sportivnaya-travma-kolena.jpg" alt="" class="image-4">
+            <div>ЛЮБЫХ БОЛЯХ СУСТАВОВ</div>
+          </div>
+          <div id="w-node-f667a524373e-268443ff" class="div-block-8"><img src="images/systavu_27_02.jpg" alt="" class="image-4">
+            <div>МЫШЕЧНЫХ СПАЗМАХ</div>
+          </div>
+          <div id="w-node-49b8cea7671c-268443ff" class="div-block-8"><img src="images/2131483-4rezkaya-i-kolyuschaya-bol-pod-rebrami-veroyatnost-vozniknovenie-pechenochnoy-koliki.jpg" alt="" class="image-4">
+            <div>ВОЗРАСТНЫХ ИЗМЕНЕНИЯХ, ОСЛАБЛЕНИЯХ ТОНУСА МЫШЦ</div>
+          </div>
+          <div id="w-node-feb9ead454c1-268443ff" class="div-block-8"><img src="images/bolit-spina-posle-rodov.jpg" alt="" class="image-4">
+            <div>ОСТЕОХОНДРОЗАХ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section dec5">
+      <div class="container">
+        <div class="row-3">
+          <div id="w-node-4f58a1b65929-268443ff" class="div-block-6">
+            <h3 class="heading-3">Что говорят о Orbioforte эксперты?</h3>
+            <div>Orbioforte – это фармацевтический прорыв и абсолютная инновация в лечении и профилактике болезней суставов. Пациенты использовавшие Orbioforte всего через несколько дней отмечали практически полное устранение болевых ощущений, снятие воспалений и опухлостей. Эти вещества безопасны и эффективны.  Прохождение 1 курса, возвращает суставам подвижность,устраняет боль и неприятные ощущения. Orbioforte не имеет побочных действий и показывает эффективность, постепенно накапливая и закрепляя эффект. Ни одного негативного отзыва со стороны моих пациентов, все возвращаются с благодарностями.<br><br><strong><em>Козаченко Михаил Валерьевич<br>Врач-кардиолог-ревматолог, высшей категории.</em></strong></div>
+          </div>
+          <div id="w-node-0498c4f12aab-268443ff" class="div-block-12"><img src="images/doctor__pic.png" alt="" class="image-5"></div>
+        </div>
+      </div>
+    </div>
+    <!--div class="section sec4">
+      <!--div class="container">
+        <div class="heading-wrapper-2">
+          <h3 class="heading-3">Cпособ применения</h3>
+        </div>
+        <!--div class="grid2 grid2-2">
+          <div id="w-node-1232d1ac3d4c-268443ff" class="div-block-13"><img src="images/нанесение.jpg" alt="" class="image-6">
+            <div class="div-block-14">
+              <div class="text-block-9">1</div>
+              <div>Нанесите крем на чистую поверхность больного участка. Аккуратными движениями разотрите до полного впитывания.</div>
+            </div>
+          </div>
+          <div id="w-node-d0647d63163d-268443ff" class="div-block-13"><img src="images/edit_calendar_ssk_47433454.jpg" alt="" class="image-6">
+            <div class="div-block-14">
+              <div class="text-block-9">2</div>
+              <div>Применять 2-3 раза в день в течение месяца.</div>
+            </div>
+          </div>
+          <div id="w-node-8165840e74cc-268443ff" class="div-block-13"><img src="images/418569-PD8Q98-837.jpg" alt="" class="image-6">
+            <div class="div-block-14">
+              <div class="text-block-9">3</div>
+              <div>Для предотвращения болезни рекомендуется периодическое применение Orbioforteа.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div-->
+    <div class="section">
+      <div class="container">
+        <div class="heading-wrapper-2">
+          <h3 class="heading-3">Отзывы</h3>
+        </div>
+        <div class="grid2 grid2-2">
+          <div id="w-node-333e96659aad-268443ff" class="card"><img src="images/Mask-Group-1.jpg" alt="" class="ava">
+            <div>Людмила Ивановна, 52 года</div>
+            <div class="text-block-5">У меня была подагра, пальцы прямо ломило от болей. Лечилась травками, но ничего не помогало. Надо было что-то решать со здоровьем в срочном порядке! Дочка помогла, купила мне «Orbioforte». Он очень помог, причем, после первого применения. Чувствую себя здоровой.</div>
+          </div>
+          <div id="w-node-d983f812db9a-268443ff" class="card"><img src="images/Mask-Group.jpg" alt="" class="ava">
+            <div>Руслан Владимирович, 65 лет</div>
+            <div class="text-block-5">С годами из-за тяжелой работы состояние здоровья стало ухудшаться, стали болеть сильно запястья рук, колени, плечи.  Друг посоветовал «Orbioforte». Сначала я скептически отнесся к «Orbioforte», подумал, что очередной развод, но был приятно удивлен, когда боли полностью исчезли. Теперь использую и для профилактики.</div>
+          </div>
+          <div id="w-node-18d393307b96-268443ff" class="card"><img src="images/Mask-Group-2.jpg" alt="" class="ava">
+            <div>Надежда Петровна, 49 лет</div>
+            <div class="text-block-5">Всегда вела активный образ жизни, но с возрастом из-за семейных забот прекратила это делать. В итоге набрала вес, стали сильно болеть колени. Когда решила хотябы делать зарядку, и бегать по утрам, все стало только хуже. Моим спасением оказался «Orbioforte», я вновь почувствовала себя молодой.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header">
+      <div class="container">
+        <div class="header-grid">
+          <div id="w-node-254daef6fc8f-268443ff" class="heading-wrapper">
+            <h1 class="heading-2">Здоровые суставы <span class="text-span">в любом возрасте!</span></h1>
+            <h2 class="heading">Не ставьте точку на активном образе жизни.</h2>
+          </div>
+          <div id="w-node-254daef6fc96-268443ff" class="form-wrapper">
+            <div class="form-block w-form">
+              <form id="email-form" name="email-form" data-name="Email Form" action="/success.php" method="post">
+                <div class="div-block">
+                  <div class="text-block">оформите заказ</div>
+                  <div>пока действует акция!</div>
+                </div>
+				<input type="hidden" name="price" value="189">
+				<input type="hidden" name="offerId" value="4453">
+
+
+                <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name 3" placeholder="Введите Ваше имя" id="name-3">
+                <input type="tel" class="text-field w-input" maxlength="256" name="phone" data-name="Phone 3" placeholder="Введите Ваш телефон" id="phone-3" required="">
+                
+                
+                
+                <input type="submit" value="ЗАКАЗАТЬ СЕЙЧАС" class="submit-button w-button">
+              </form>
+
+            </div>
+            <div class="text-block-2">* при заказе комплексной программы</div>
+
+            <!-- timer insert start -->
+            <div id="timer-footer-form" class="timer">
+                <div class="div-block-11">
+                  <div class="text-block-7"><span class="text-span-2 hours">00</span></div>
+                  <div class="text-block-8">ЧАСОВ</div>
+                </div>
+                <div class="div-block-11">
+                  <div class="text-block-7"><span class="text-span-2 mins">00</span></div>
+                  <div class="text-block-8">МИНУТ</div>
+                </div>
+                <div class="div-block-11">
+                  <div class="text-block-7 secs">00</div>
+                  <div class="text-block-8">СЕКУНД</div>
+                </div>
+            </div>
+            <!-- timer insert end   -->
+
+            <div class="div-block-2">
+              <div class="text-block-3">Осталось упаковок по акции:</div>
+              <div class="text-block-4 coun">34</div>
+            </div>
+          </div>
+          <div id="w-node-254daef6fcae-268443ff" class="hero-pic-wrapper"><img src="images/product.png" alt="" class="hero-pic">
+            <div class="price-wrapper">
+              <div class="div-block-15">
+                <div>только сегодня</div>
+              </div>
+              <div class="div-block-16">
+                <div>189 ГРН*</div>
+              </div>
+            </div>
+          </div>
+          <div id="w-node-254daef6fcb7-268443ff" class="hero-pic-wrapper2"><img src="images/123.png" alt="" class="hero-pic2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- popup insert start -->
+  <div class="puWrapp hidden" id="puForm">
+		<div class="container puForm">
+			<div class="formBigBlock">
+        <div class="puClose"></div>
+        <img class="packForm" src="images/product.png" width="298px" alt="">
+				<div class="product-big_sale1 salee">При заказе программы <br>
+          <script type="text/javascript">
+            var daysBefore = 0;
+              var d = new Date(new Date() - 24*3600*1000*daysBefore);
+              var mnth=new Array("01","02","03","04","05","06","07","08","09","10","11","12");
+              var month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря");
+              document.write(d.getDate()+ " " + month[d.getMonth()]);
+          </script>
+        </div>
+				<div class="formBigHeader">
+          Успейте заказать Orbioforte по акции 
+          всего за <span class="price_land_s1">189</span><span class="price_land_curr">грн.</span>*
+        </div>
+				<form class="formBig" action="/success.php" method="post">
+					<div class="formBigTop flex">
+						<div class="formBigTopLeft">
+							<div class="formBigTimer">
+								<div class="topTimerHeader">До окончания акции </div>
+                <!-- timer insert start -->
+                <div id="tkmTimer" class="timer">
+                    <div class="div-block-11">
+                      <div class="text-block-7"><span class="text-span-2 hours">00</span></div>
+                      <div class="text-block-8">ЧАСОВ</div>
+                    </div>
+                    <div class="div-block-11">
+                      <div class="text-block-7"><span class="text-span-2 mins">00</span></div>
+                      <div class="text-block-8">МИНУТ</div>
+                    </div>
+                    <div class="div-block-11">
+                      <div class="text-block-7 secs">00</div>
+                      <div class="text-block-8">СЕКУНД</div>
+                    </div>
+                </div>
+                <!-- timer insert end   -->
+						  </div>
+							<div class="formBigPrice formPrice flex">
+								<!-- <div class="oldPrice">
+									<div class="title">Старая цена:</div>
+									<div class="digit">
+										<span class="priceDigit"><span class="price_land_s4">294</span></span><span class="priceCurr">&nbsp;<span
+											 class="price_land_curr">руб.</span></span>
+									</div>
+								</div> -->
+								<div class="newPrice cred">
+									<div class="title">Промо цена:</div>									<div class="digit">
+										<span class="priceDigit">
+                      <span class="price_land_s1">189</span> <span class="price_land_curr">грн.</span>*
+                    </span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="formBigTopRigth">
+							<div class="formBigAtention cred"><span class="bigText">Внимание!</span> Акция действует только на территории Украины</div>
+							<div class="formBigInput formInput">
+								<input type="hidden" name="price" value="189">
+								<input type="hidden" name="offerId" value="4453">
+								<div class="inputBlock flex">
+									<label for="n05">Введите Ваше имя</label>
+									<input id="n05" type="text" name="name" value="" placeholder="Валерия">
+								</div>
+								<div class="inputBlock flex">
+									<label for="p05">Введите Ваш телефон</label>
+									<input id="p05" type="tel" name="phone" value="" placeholder="+38 (099) 123-45-67">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="formBigBottom flex">
+						<div class="formBigBottomLeft">
+							<div class="attentionCountBlock flex">
+								<div class="attentionCount cred"><span class="bigText">Внимание!</span> Акционное предложение <br>ограничено.
+									Осталось <br>товаров со скидкой:</div>
+								<div class="lastpackBlock"><span class="lastpack count">34</span> <br>штук</div>
+							</div>
+						</div>
+						<div class="formBigBottomRigth">
+							<div class="redarr"></div>
+							<div class="formBigButton formButton">
+								<button class="btn" type="submit" name="button">Заказать Orbioforte</button>
+								<br>
+								<p style="font-size: 14px;margin-top: 5px;color:#000;">* при заказе программы</p>
+							</div>
+							<div class="formFooter">Уже купили сегодня: <span class="count-people cred">266</span> <span class="cred">человек</span></div>
+						</div>
+					</div>
+				</form>
+				<div class="secData">Ваши данные <br>под защитой</div>
+			</div>
+		</div>
+  </div>
+
+  <!-- <script>
+    	var flag = 0;
+
+      function addEvent(obj, evt, fn) {
+        if (obj.addEventListener) {
+          obj.addEventListener(evt, fn, false);
+        } else if (obj.attachEvent) {
+          obj.attachEvent("on" + evt, fn);
+        }
+      }
+
+      addEvent(window, "load", function (e) {
+        addEvent(window, "mouseout", function (e) {
+          e = e ? e : window.event;
+          var from = e.relatedTarget || e.toElement;
+          if (!from || from.nodeName == "HTML") {
+            // stop your drag event here
+            // for now we can just use an alert
+            if (flag == 0) {
+              document.getElementsByClassName('hidden')[0].style.display = "block";
+              flag = 1;
+            }
+          }
+        });
+      });
+
+      //close
+      const button = document.querySelector('.puClose');
+
+      button.addEventListener('click', event => {
+        document.getElementsByClassName('hidden')[0].style.display = "none";
+      });
+  </script> -->
+    <script>
+        $(function() {
+        $('#puForm').css({height : $(document).height() + "px"});
+            // $('a.order-btn').click(function() {
+            //     $(this).closest('form').submit();
+            //     return false;
+            // });
+            $('.puClose').click(function(){
+            $('#puForm').fadeOut(300);
+            })
+        var flag = true;
+        $(window).mouseout(function(e){
+        if(e.pageY - $(window).scrollTop() < 1 && flag == true){
+            $('#puForm').fadeIn(300);
+            flag = false;
+        }
+        }) 
+            });
+    </script>
+
+  <!-- popup insert end   -->
+
+  <script src="jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+
+  <script src="js/timer.js" type="text/javascript"></script>
+  <script>GetCount();</script>
+  <!-- <script type="text/javascript">initializeClock("timer-header-form", getDayEnd());</script>
+  <script type="text/javascript">initializeClock("w-node-cf7010010803-268443ff", getDayEnd());</script>
+  <script type="text/javascript">initializeClock("timer-footer-form", getDayEnd());</script>
+  <script type="text/javascript">initializeClock("tkmTimer", getDayEnd());</script> -->
+
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+<!-- Facebook Pixel Code -->
+<!-- End Facebook Pixel Code --> 
+
+<!--Для формы-->
+
+<script>!window.jQuery && document.write('<script src="jquery-latest.js"><\/script>');</script>
+<script type="text/javascript" src="www/includes/masked.js"></script> 
+<!--script type="text/javascript">
+$(document).ready(function(){
+  let thankyoupage = "";
+
+	$(document).find('input[name="phone"]').mask("+38(111) 111-11-11");
+	var hash = getCookie('hash');
+
+});
+
+$(document).find('input[name="name"]').change(function(){
+	$(this).val($(this).val().trim());
+});
+function getCookie(name) {
+  var cookie = " " + document.cookie;
+  var search = " " + name + "=";
+  var setStr = null;
+  var offset = 0;
+  var end = 0;
+  if (cookie.length > 0) {
+	offset = cookie.indexOf(search);
+	if (offset != -1) {
+	  offset += search.length;
+	  end = cookie.indexOf(";", offset)
+	  if (end == -1) {
+		end = cookie.length;
+	  }
+	  setStr = unescape(cookie.substring(offset, end));
+	}
+  }
+  return(setStr);
+}
+</script>
+<Для формы>
+
+
+<script>
+  function getCookie(name) {
+        var cookie = " " + document.cookie;
+        var search = " " + name + "=";
+        var setStr = null;
+        var offset = 0; 
+        var end = 0;
+        if (cookie.length > 0) {  
+            offset = cookie.indexOf(search);
+            if (offset != -1) { 
+                offset += search.length;
+                end = cookie.indexOf(";", offset)  
+                if (end == -1) {
+                    end = cookie.length;  
+                }
+                setStr = unescape(cookie.substring(offset, end));
+            } 
+        } 
+        return(setStr); 
+    };
+window.addEventListener("load", function(){
+    var date = new Date();
+    var start = date.getTime();
+    
+    var info={
+        hash : getCookie("hash"),
+        l_stay : 0,
+        l_scrolling : 0,
+        l_time_spent : 0,
+        width : screen.width,
+        height : screen.height,
+        l_load_time : window.performance.timing.domContentLoadedEventEnd - window.performance.timing.responseStart,
+        l_connect_time : window.performance.timing.responseStart - window.performance.timing.navigationStart
+    }
+
+    $.ajax({
+          url : '/www/send.php',
+          type : "POST",
+          dataType: 'json',
+          data: info
+    });
+   
+    $(window).scroll(function(){
+        var height = $(document).height() - $(window).height();
+        var scrollHeight = $(window).scrollTop();
+        var result = parseInt((scrollHeight*100)/height);
+        if(info.l_scrolling<result){
+            info.l_scrolling=result;
+        }
+    });
+  
+    $(window).on('beforeunload', function(){
+        info.l_time_spent=Math.round((new Date().getTime()-start)/1000);
+        $.ajax({
+            url : '/www/send.php',
+            type : "POST",
+            dataType: 'json',
+            data: info
+        });
+    });
+    
+    setTimeout(function(){
+        info.l_stay=1;
+    
+    },15000);
+    
+}, false);
+
+
+</script-->
+  <img src="https://m.mixadvert.com/retargeting/?id=3606" alt="" />
+  <script type="text/javascript" id="adpartner_init">
+    var adexQ = adexQ || [];
+    !function(e){var t=e.createElement("script");t.type="text/javascript",t.async=!0,t.src="//a4p.adpartner.pro/tracker/script?id=408";var r=e.getElementById("adpartner_init");r.parentNode.insertBefore(t,r)}(window.document);
+  </script>
+  <script type="text/javascript">
+    yottos_ac = 'FBA82D09-8EF7-486C-B51C-E1D361731FED';
+    yottos_remarketing_offer_id = '2';
+    yottos_remarketing_time = 30;
+  </script>
+  <script type="text/javascript" src="https://cdn.yottos.com/getmyad/_t.js"></script>
+  <?php
+  if($_REQUEST['t8']=='Facebook'){
+      ?>
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $('form').attr('action',"<?=$_REQUEST['t5']?>");
+              $('form').append('<input name="pxl" type="hidden" value="<?=$_REQUEST['t9']?>">');
+          })
+      </script>
+  <?php } ?>
+</body>
+</html>

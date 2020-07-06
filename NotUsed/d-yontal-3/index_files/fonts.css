@@ -1,0 +1,54 @@
+﻿@font-face {
+  font-family: 'SFUIDisplay-Regular';
+  src: url('../index_files/SFUIDisplay-Regular.eot');
+  src: url('../index_files/SFUIDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('SFUIDisplay-Regular.woff') format('woff'),
+    url('../index_files/SFUIDisplay-Regular.ttf')  format('truetype'),
+    url('../index_files/SFUIDisplay-Regular.svg#SFUIDisplay-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Bold';
+  src: url('../index_files/SFUIDisplay-Bold.eot');
+  src: url('../index_files/SFUIDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('SFUIDisplay-Bold.woff') format('woff'),
+    url('../index_files/SFUIDisplay-Bold.ttf')  format('truetype'),
+    url('../index_files/SFUIDisplay-Bold.svg#SFUIDisplay-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Heavy';
+  src: url('../index_files/SFUIDisplay-Heavy.eot');
+  src: url('../index_files/SFUIDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('SFUIDisplay-Heavy.woff') format('woff'),
+    url('../index_files/SFUIDisplay-Heavy.ttf')  format('truetype'),
+    url('../index_files/SFUIDisplay-Heavy.svg#SFUIDisplay-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Light';
+  src: url('../index_files/SFUIDisplay-Light.eot');
+  src: url('../index_files/SFUIDisplay-Light.eot?#iefix') format('embedded-opentype'),
+    url('SFUIDisplay-Light.woff') format('woff'),
+    url('../index_files/SFUIDisplay-Light.ttf')  format('truetype'),
+    url('../index_files/SFUIDisplay-Light.svg#SFUIDisplay-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFUIDisplay-Thin';
+  src: url('../index_files/SFUIDisplay-Thin.eot');
+  src: url('../index_files/SFUIDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+    url('SFUIDisplay-Thin.woff') format('woff'),
+    url('../index_files/SFUIDisplay-Thin.ttf')  format('truetype'),
+    url('../index_files/SFUIDisplay-Thin.svg#SFUIDisplay-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

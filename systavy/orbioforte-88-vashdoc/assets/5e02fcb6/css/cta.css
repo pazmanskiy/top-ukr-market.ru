@@ -1,0 +1,32 @@
+.cta-button .cta-button-wrapper 
+{
+    text-align: center;
+}
+.cta-button .cta-button-link
+{
+    display: inline-block;
+    background: #d32f2f;
+    line-height: 50px;
+    padding: 0 25px;
+    color: #ffffff;
+    border-radius: 2.5px;
+    border: 0;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: none;
+}
+
+.cta-button .cta-button-link:hover
+{
+    background: #b71c1c;
+    color: #fff;
+}
+.cta-button .cta-button-link:active
+{
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.cta-button 
+{
+    margin: 25px 0;
+    font-family: 'Roboto', sans-serif !important;
+}

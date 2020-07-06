@@ -1,0 +1,41 @@
+/* Code tidied up by ScrapBook */
+body { position: absolute; top: 73px; left: 0px; right: 0px; }
+.fixedtop * { margin: 0px; padding: 0px; outline: medium none; box-sizing: border-box; }
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.fixedtop { font-family: "Roboto",sans-serif ! important; width: 100%; height: 73px; background-color: rgb(255, 252, 39); box-shadow: 11.4px -23.4px 8.5px 1.5px rgba(38, 38, 38, 0.17); position: fixed; top: 0px; left: 0px; right: 0px; z-index: 9999; }
+.fixedtop__wrap { max-width: 1100px; width: 100%; padding: 0px; margin: 0px auto; }
+.fixedtop__img { display: block; float: left; padding-top: 15px; }
+.fixedtop__cap { float: left; font-size: 22.3px; font-weight: bold; line-height: 1.4; color: rgb(218, 32, 55); padding-top: 8px; margin-left: 35px; }
+.fixedtop__text { display: block; font-size: 16px; font-weight: bold; line-height: 1.5; color: rgb(40, 40, 40); }
+.fixedtop__cap_sm { display: none; }
+.fixedtop__btn { border: 0px none; display: block; margin-top: 10px; padding: 12px 32px; float: right; font-size: 16px; font-weight: bold; line-height: 1.5; color: rgb(255, 255, 255); background-color: rgb(254, 0, 30); background-image: linear-gradient(to top, rgb(210, 38, 60) 0%, rgb(254, 0, 30) 100%); cursor: pointer; transition: all 0.5s linear 0s; }
+.fixedtop__btn span { line-height: 1.5; font-size: 16px; font-weight: bold; }
+.fixedtop__btn:hover, .fixedtop__btn:focus { background-image: none; border-radius: 20px; }
+.fixedtop__text span { color: rgb(0, 0, 0); font-size: 16px; font-weight: bold; line-height: 1.5; }
+@media screen and (max-width: 1119px) {
+  body { top: 63px; }
+  .fixedtop { height: 63px; }
+  .fixedtop__wrap { max-width: 90%; width: 100%; }
+  .fixedtop__img { width: 135px; padding-top: 20px; }
+  .fixedtop__cap { padding-top: 11px; margin-left: 10px; font-size: 16px; }
+  .fixedtop__text { font-size: 12px; }
+  .fixedtop__btn { margin-top: 7px; }
+}
+@media screen and (max-width: 920px) {
+  body { top: 88px; }
+  .fixedtop { height: 88px; }
+  .fixedtop__wrap { max-width: 480px; width: 100%; }
+  .fixedtop__img { display: none; }
+  .fixedtop__cap { float: none; }
+  .fixedtop__btn { float: none; margin: 10px auto 0px; }
+}
+@media screen and (max-width: 479px) {
+  .fixedtop { text-align: center; height: 90px; }
+  .fixedtop__wrap { max-width: 320px; width: 100%; }
+  .fixedtop__text { display: none; }
+  .fixedtop__btn { margin-top: 0px; }
+}
+@media screen and (max-width: 319px) {
+  body { top: 0px; }
+}
